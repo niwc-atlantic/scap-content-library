@@ -1,0 +1,108 @@
+Release notes for: Q2 2024 Release
+
+	Product: U_MS_Edge
+		-[Feature]: Add rule SV-260467 for updated manual, U_MS_Edge_V1R8_STIG_Manual-xccdf.xml, Issue #1125
+		-[Feature]: Add rule SV-260466 for updated manual, U_MS_Edge_V1R8_STIG_Manual-xccdf.xml, Issue #1124
+		-[Feature]: Add rule SV-260465 for updated manual, U_MS_Edge_V1R8_STIG_Manual-xccdf.xml, Issue #1123
+
+	Product: U_MS_Office_365_ProPlus
+		-[Feature]: Update rule SV-223365 for updated manual, U_MS_Office_365_ProPlus_V2R12_STIG_Manual-xccdf.xml, Issue #1149
+
+	Product: U_MS_SQL_Server_2016_Database
+		-[Feature]: Update rule SV-213913 for updated manual, U_MS_SQL_Server_2016_Database_V2R9_STIG_Manual-xccdf.xml, Issue #1153
+
+	Product: U_MS_SQL_Server_2016_Instance
+		-[Feature]: Update rule SV-259739 for updated manual, U_MS_SQL_Server_2016_Instance_V2R12_STIG_Manual-xccdf.xml, Issue #1159
+		-[Feature]: Update rule SV-213974 for updated manual, U_MS_SQL_Server_2016_Instance_V2R12_STIG_Manual-xccdf.xml, Issue #1157
+		-[Feature]: Update rule SV-213973 for updated manual, U_MS_SQL_Server_2016_Instance_V2R12_STIG_Manual-xccdf.xml, Issue #1156
+		-[Feature]: Update rule SV-213964 for updated manual, U_MS_SQL_Server_2016_Instance_V2R12_STIG_Manual-xccdf.xml, Issue #1155
+		-[Feature]: Update rule SV-213929 for updated manual, U_MS_SQL_Server_2016_Instance_V2R12_STIG_Manual-xccdf.xml, Issue #1154
+
+	Product: U_MS_Windows_10
+		-[Feature]: Update rule SV-220701 for updated manual, U_MS_Windows_10_V2R9_STIG_Manual-xccdf.xml, Issue #1160
+		-[Feature]: Automate rule SV-220952r890444, Passwords for enabled local Administrator accounts must be changed at least every 60 days., Issue #432
+		-[Feature]: Automate rule SV-220946r890441, Windows 10 must use multifactor authentication for local and network access to privileged and non-privileged accounts., Issue #431
+		-[Feature]: Automate rule SV-220928r569187, Anonymous SID/Name translation must not be allowed., Issue #430
+		-[Feature]: Automate rule SV-220805r569187, Windows 10 must be configured to prioritize ECC Curves with longer key lengths first., Issue #422
+		-[Feature]: Automate rule SV-220765r569187, The system must be configured to audit Object Access - Removable Storage failures., Issue #417
+		-[Feature]: Automate rule SV-220736r569187, The system must notify the user when a Bluetooth device attempts to connect., Issue #414
+		-[Feature]: Automate rule SV-220724r569187, A host-based firewall must be installed and enabled on the system., Issue #411
+		-[Feature]: Automate rule SV-220717r851965, Permissions for system files and directories must conform to minimum requirements., Issue #409
+		-[Feature]: Automate rule SV-220707r793194, The Windows 10 system must use an anti-virus program., Issue #438
+		-[Feature]: Add rule SV-257593 for updated manual, U_MS_Windows_10_V2R8_STIG_Manual-xccdf.xml, Issue #855
+
+	Product: U_MS_Windows_11
+		-[Feature]: Update rule SV-253476 for updated manual, U_MS_Windows_11_V1R5_STIG_Manual-xccdf.xml, Issue #857
+		-[Feature]: Automate rule SV-253431r877392, Default permissions for the HKEY_LOCAL_MACHINE registry hive must be maintained., Issue #342
+		-[Feature]: Automate rule SV-253425r829359, Windows 11 must be configured to prevent users from receiving suggestions for third-party or additional applications., Issue #341
+		-[Feature]: Automate rule SV-253363r829173, Windows 11 must be configured to prioritize ECC Curves with longer key lengths first., Issue #336
+		-[Feature]: Automate rule SV-253281r828927, Windows 11 must have a host-based firewall installed and enabled., Issue #511
+		-[Feature]: Automate rule SV-253274r840169, Permissions for system files and directories must conform to minimum requirements., Issue #324
+		-[Feature]: Automate rule SV-253273r828903, Accounts must be configured to require password expiration., Issue #323
+		-[Feature]: Automate rule SV-253268r828888, Unused accounts must be disabled or removed from the system after 35 days of inactivity., Issue #348
+
+	Product: U_MS_Windows_Server_2016
+		-[Feature]: Update rule SV-224847 for updated manual, U_MS_Windows_Server_2016_V2R8_STIG_Manual-xccdf.xml, Issue #1199
+		-[Feature]: Update rule SV-224843 for updated manual, U_MS_Windows_Server_2016_V2R8_STIG_Manual-xccdf.xml, Issue #1198
+		-[Feature]: Automate rule SV-224846r852299, A host-based firewall must be installed and enabled on the system., Issue #447
+		-[Feature]: Automate rule SV-224839r857235, Passwords must be configured to expire., Issue #444
+		-[Feature]: Automate rule SV-224838r857232, Windows Server 2016 accounts must require passwords., Issue #443
+
+	Product: U_MS_Windows_Server_2019
+		-[Feature]: Update rule SV-205728 for updated manual, U_MS_Windows_Server_2019_V2R9_STIG_Manual-xccdf.xml, Issue #1204
+		-[Feature]: Update rule SV-205727 for updated manual, U_MS_Windows_Server_2019_V2R9_STIG_Manual-xccdf.xml, Issue #1203
+		-[Feature]: Update rule SV-205657 for updated manual, U_MS_Windows_Server_2019_V2R7_STIG_Manual-xccdf.xml, Issue #668
+		-[Feature]: Automate rule SV-236001r641821, The Windows Explorer Preview pane must be disabled for Windows Server 2019., Issue #403
+		-[Feature]: Automate rule SV-214936r852535 Windows 2019 must have a host-based firewall installed and enabled., Issue #512
+		-[Feature]: Automate rule SV-205853r569188, Windows Server 2019 FTP servers must be configured to prevent anonymous logons., Issue #395
+		-[Feature]: Automate rule SV-205850r569245, Windows Server 2019 must use an anti-virus program., Issue #393
+		-[Feature]: Automate rule SV-205700r857294, Windows Server 2019 accounts must require passwords., Issue #1152
+		-[Feature]: Automate rule SV-205658r857297, Windows Server 2019 passwords must be configured to expire., Issue #404
+
+	Product: U_MS_Windows_Server_2022
+		-[Feature]: Update rule SV-254266 for updated manual, U_MS_Windows_Server_2022_V1R5_STIG_Manual-xccdf.xml, Issue #1210
+		-[Feature]: Update rule SV-254262 for updated manual, U_MS_Windows_Server_2022_V1R5_STIG_Manual-xccdf.xml, Issue #1209
+		-[Feature]: Update rule SV-254242 for updated manual, U_MS_Windows_Server_2022_V1R5_STIG_Manual-xccdf.xml, Issue #1207
+		-[Feature]: Update rule SV-254239 for updated manual, U_MS_Windows_Server_2022_V1R3_STIG_Manual-xccdf.xml, Issue #665
+		-[Feature]: Automate rule SV-254310r848746, Windows Server 2022 must be configured to audit Logon/Logoff - Group Membership successes., Issue #369
+		-[Feature]: Automate rule SV-254306r848734, Windows Server 2022 must be configured to audit Detailed Tracking - Plug and Play Events successes., Issue #368
+		-[Feature]: Automate rule SV-254265r848611, Windows Server 2022 must have a host-based firewall installed and enabled., Issue #361
+		-[Feature]: Automate rule SV-254258r848590, Windows Server 2022 passwords must be configured to expire., Issue #357
+		-[Feature]: Automate rule SV-254257r848587, Windows Server 2022 accounts must require passwords., Issue #356
+		-[Feature]: Automate rule SV-254239r848533, Windows Server 2022 passwords for the built-in Administrator account must be changed at least every 60 days., Issue #358
+
+	Product: U_RHEL_7
+		-[Feature]: Update rule SV-255928 for updated manual, U_RHEL_7_STIG_V3R12_Manual-xccdf.xml, Issue #641
+		-[Feature]: Update rule SV-204583 for updated manual, U_RHEL_7_V3R14_STIG_Manual-xccdf.xml, Issue #1079
+		-[Feature]: Update rule SV-204582 for updated manual, U_RHEL_7_V3R14_STIG_Manual-xccdf.xml, Issue #1078
+		-[Feature]: Update rule SV-204581 for updated manual, U_RHEL_7_V3R14_STIG_Manual-xccdf.xml, Issue #1077
+		-[Feature]: Update rule SV-204454 for updated manual, U_RHEL_7_V3R14_STIG_Manual-xccdf.xml, Issue #1076
+		-[Feature]: Automate rule SV-255928r902706, The Red Hat Enterprise Linux operating system must be configured to prevent overwriting of custom authentication configuration settings by the authconfig utility., Issue #619
+		-[Feature]: Automate rule SV-255925r880749, The Red Hat Enterprise Linux operating system SSH server must be configured to use only FIPS-validated key exchange algorithms., Issue #617
+		-[Feature]: Automate rule SV-251702r809220, The Red Hat Enterprise Linux operating system must not have accounts configured with blank or null passwords., Issue #615
+		-[Feature]: Automate rule SV-233307r603301, The Red Hat Enterprise Linux operating system SSH daemon must prevent remote hosts from connecting to the proxy display., Issue #613
+		-[Feature]: Automate rule SV-204604r603261, The Red Hat Enterprise Linux operating system must enable an application firewall, if available., Issue #609
+		-[Feature]: Automate rule SV-204427r880842 - The Red Hat Enterprise Linux operating system must be configured to lock accounts for a minimum of 15 minutes after three unsuccessful logon attempts within a 15-minute timeframe., Issue #1150
+		-[Feature]: Automate rule 228563r744119 - operating system must be configured so that all world-writable directories are owned by root, sys, bin, or an application user., Issue #1119
+		-[Feature]: Automate rule 204626r603261 - operating system must be configured so that the Network File System (NFS) is configured to use RPCSEC_GSS., Issue #1118
+		-[Feature]: Automate rule 204513r877389 - System must notify the System Administrator (SA) and Information System Security Officer ISSO, when allocated audit record storage volume reaches 75% of the repository maximum audit record storage capacity., Issue #1117
+		-[Feature]: Automate rule 204492r603261 - operating system must disable Kernel core dumps unless needed., Issue #1116
+		-[Feature]: Automate rule 204468r603828 - system must be configured so that all local interactive user home directories have mode 0750 or less permissive., Issue #1115
+		-[Feature]: Automate rule 204456r603261 - operating system must be configured so that the x86 Ctrl-Alt-Delete key sequence is disabled in the Graphical User Interface., Issue #1114
+		-[Feature]: Automate rule 204428r880845 - operating system must lock the associated account after three unsuccessful root logon attempts are made within a 15-minute period., Issue #1113
+		-[Feature]: Automate rule 204395r603261 - The Red Hat Enterprise Linux operating system must display the Standard Mandatory DoD Notice and Consent Banner before granting local or remote access to the system via a command line, Issue #1112
+		-[Feature]: Automate rule 204394r603261-  The Red Hat Enterprise Linux operating system must display the approved Standard Mandatory DoD Notice and Consent Banner, Issue #1111
+
+	Product: U_RHEL_8
+		-[Feature]: Update rule SV-257258 for updated manual, U_RHEL_8_V1R13_STIG_Manual-xccdf.xml, Issue #1074
+		-[Feature]: Update rule SV-230504 for updated manual, U_RHEL_8_V1R13_STIG_Manual-xccdf.xml, Issue #1072
+		-[Feature]: Update rule SV-230493 for updated manual, U_RHEL_8_V1R13_STIG_Manual-xccdf.xml, Issue #1071
+		-[Feature]: Update rule SV-230376 for updated manual, U_RHEL_8_V1R13_STIG_Manual-xccdf.xml, Issue #1070
+		-[Feature]: Update rule SV-230372 for updated manual, U_RHEL_8_V1R13_STIG_Manual-xccdf.xml, Issue #1069
+		-[Feature]: Automate rule SV-251716r858737, RHEL 8 systems, version 8.4 and above, must ensure the password complexity module is configured for three retries or less., Issue #254
+		-[Feature]: Automate rule SV-245540r754730, The RHEL 8 operating system must implement the Endpoint Security for Linux Threat Prevention tool., Issue #241
+		-[Feature]: Automate rule SV-230316r627750, For RHEL 8 systems using Domain Name Servers (DNS) resolution, at least two name servers must be configured., Issue #272
+		-[Bug]: SRG-OS-000259-GPOS-00100, SV-251708r810012 does not check /lib64, /usr/lib64, Issue #626
+		-[Bug]:  SRG-OS-000259-GPOS-00100, SV-251708r810012 def description does not appear to match test desc. , Issue #627
+		-[Bug]:  SRG-OS-000259-GPOS-00100, SV-251707r809345 -- does not check /usr/lib64, /lib64, Issue #625
+		-[Bug]:  Update rules 230252 and 255924 to allow quotes around config values.

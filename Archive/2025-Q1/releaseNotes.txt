@@ -1,0 +1,51 @@
+Release notes for: Q1 2025 Release
+
+	Product: U_Adobe_Acrobat_Reader_DC_Continuous
+		-[Feature]: Update content for DISA Q1 2025 updates, Issue #1553
+
+	Product: U_Cisco_IOS-XE_Router_NDM
+		-[Feature]: Update content for DISA Q1 2025 updates, Issue #1553
+
+	Product: U_Cisco_IOS-XE_Router_RTR
+		-[Feature]: Update content for DISA Q1 2025 updates, Issue #1553
+
+	Product: U_MS_DotNet_Framework_4-0
+		-[Feature]: Update content for DISA Q1 2025 updates, Issue #1553
+
+	Product: U_MS_IIS_10-0_Site
+		-[Feature]: Update content for DISA Q1 2025 updates, Issue #1553
+		-[Feature]: Update IIS benchmark release information, Issue #1536
+		-[Bug]: Updated comment text for obj:281 for clarification, Issue #1530
+		-[Bug]: 218748 - Single Site Bindings reports failure for lack of binding on port 80 even if port 80 not in use, Issue #1535
+
+	Product: U_MS_SQL_Server_2016_Instance
+		-[Feature]: Update rule SV-213966 for updated manual, U_MS_SQL_Server_2016_Instance_V3R3_STIG_Manual-xccdf.xml, Issue #1534
+		-[Feature]: Update content for DISA Q1 2025 updates, Issue #1553
+
+	Product: U_MS_Windows_10
+		-[Feature]: Update content for DISA Q1 2025 updates, Issue #1553
+
+	Product: U_MS_Windows_11
+		-[Feature]: Update content for DISA Q1 2025 updates, Issue #1553
+
+	Product: U_MS_Windows_Server_2016
+		-[Feature]: Update content for DISA Q1 2025 updates, Issue #1553
+		-[Bug]: Applicability Not Implemented as expected for rule SV-224923r857253 and cmdlet test should be utilized instead of registry tests, Issue #1528
+
+	Product: U_MS_Windows_Server_2019
+		-[Feature]: Update content for DISA Q1 2025 updates, Issue #1553
+		-[Feature]: Automate rule SV-205864r902431, Windows Server 2019 virtualization-based security must be enabled with the platform security level configured to Secure Boot or Secure Boot with DMA Protection., Issue #399
+
+	Product: U_MS_Windows_Server_2022
+		-[Feature]: Update content for DISA Q1 2025 updates, Issue #1553
+		-[Feature]: Automate rule SV-254343, Windows Server 2022 virtualization-based security must be enabled with the platform security level configured to Secure Boot or Secure Boot with DMA Protection., Issue #372
+
+	Product: U_RHEL_7
+		-[Feature]: Update rule SV-204475 for updated manual, U_RHEL_7_STIG_V3R12_Manual-xccdf.xml, Issue #637
+
+	Product: U_RHEL_8
+		-[Feature]: Update rule SV-230316 for updated manual, U_RHEL_8_V2R2_STIG_Manual-xccdf.xml, Issue #1533
+		-[Feature]: Update rule SV-230252 for updated manual, U_RHEL_8_V2R2_STIG_Manual-xccdf.xml, Issue #1532
+		-[Feature]: Update rule SV-230251 for updated manual, U_RHEL_8_V2R2_STIG_Manual-xccdf.xml, Issue #1531
+		-[Feature]: Update content for DISA Q1 2025 updates, Issue #1553
+		-[Bug]: V-230339 - False negative caused by failure to distinguish between RHEL 8.1 and RHEL 8.10, Issue #1529

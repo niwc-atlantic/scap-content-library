@@ -1,0 +1,129 @@
+Release notes for: Q4 2024 Release
+
+	Product: U_Cisco_IOS-XE_Router_NDM
+		-[Feature]: Update content for DISA's Q4 Release, Issue #1526
+
+	Product: U_Cisco_IOS-XE_Router_RTR
+		-[Feature]: Update content for DISA's Q4 Release, Issue #1526
+
+	Product: U_Google_Chrome
+		-[Feature]: Update content for DISA's Q4 Release, Issue #1526
+		-[Feature]: Add rule SV-221593 for updated manual, U_Google_Chrome_V2R10_STIG_Manual-xccdf.xml, Issue #1442
+		-[Feature]: Add rule SV-221592 for updated manual, U_Google_Chrome_V2R10_STIG_Manual-xccdf.xml, Issue #1441
+
+	Product: U_MS_Edge
+		-[Feature]: Update rule SV-235719 for updated manual, U_MS_Edge_V2R2_STIG_Manual-xccdf.xml, Issue #1443
+		-[Feature]: Update content for DISA's Q4 Release, Issue #1526
+		-[Feature]: Add rule SV-266981 for updated manual, U_MS_Edge_V2R2_STIG_Manual-xccdf.xml, Issue #1444
+
+	Product: U_MS_IIS_10-0_Server
+		-[Feature]: Update rule SV-241789 for updated manual, U_MS_IIS_10-0_Server_V3R2_STIG_Manual-xccdf.xml, Issue #1485
+		-[Feature]: Update rule SV-241788 for updated manual, U_MS_IIS_10-0_Server_V3R2_STIG_Manual-xccdf.xml, Issue #1484
+		-[Feature]: Update rule SV-218825 for updated manual, U_MS_IIS_10-0_Server_V3R2_STIG_Manual-xccdf.xml, Issue #1483
+		-[Feature]: Update rule SV-218819 for updated manual, U_MS_IIS_10-0_Server_V3R2_STIG_Manual-xccdf.xml, Issue #1482
+		-[Feature]: Update rule SV-218814 for updated manual, U_MS_IIS_10-0_Server_V3R2_STIG_Manual-xccdf.xml, Issue #1481
+		-[Feature]: Update rule SV-218810 for updated manual, U_MS_IIS_10-0_Server_V3R2_STIG_Manual-xccdf.xml, Issue #1480
+		-[Feature]: Update rule SV-218807 for updated manual, U_MS_IIS_10-0_Server_V3R2_STIG_Manual-xccdf.xml, Issue #1479
+		-[Feature]: Update rule SV-218805 for updated manual, U_MS_IIS_10-0_Server_V3R2_STIG_Manual-xccdf.xml, Issue #1478
+		-[Feature]: Update rule SV-218804 for updated manual, U_MS_IIS_10-0_Server_V3R2_STIG_Manual-xccdf.xml, Issue #1477
+		-[Feature]: Update rule SV-218790 for updated manual, U_MS_IIS_10-0_Server_V3R2_STIG_Manual-xccdf.xml, Issue #1475
+		-[Feature]: Update rule SV-218786 for updated manual, U_MS_IIS_10-0_Server_V3R2_STIG_Manual-xccdf.xml, Issue #1474
+		-[Feature]: Update content for DISA's Q4 Release, Issue #1526
+		-[Feature]: Remove rule SV-218800 for updated manual, U_MS_IIS_10-0_Server_V3R2_STIG_Manual-xccdf.xml, Issue #1476
+		-[Feature]: Remove rule SV-218785 for updated manual, U_MS_IIS_10-0_Server_V3R2_STIG_Manual-xccdf.xml, Issue #1473
+		-[Feature]: Automate rule SV-268325, U_MS_IIS_10-0_Server_V3R2_STIG_Manual-xccdf.xml, Issue #1486
+
+	Product: U_MS_IIS_10-0_Site
+		-[Feature]: Update rule SV-218781 for updated manual, U_MS_IIS_10-0_Site_V2R10_STIG_Manual-xccdf.xml, Issue #1503
+		-[Feature]: Update rule SV-218779 for updated manual, U_MS_IIS_10-0_Site_V2R10_STIG_Manual-xccdf.xml, Issue #1502
+		-[Feature]: Update rule SV-218775 for updated manual, U_MS_IIS_10-0_Site_V2R10_STIG_Manual-xccdf.xml, Issue #1501
+		-[Feature]: Update rule SV-218772 for updated manual, U_MS_IIS_10-0_Site_V2R10_STIG_Manual-xccdf.xml, Issue #1500
+		-[Feature]: Update rule SV-218768 for updated manual, U_MS_IIS_10-0_Site_V2R10_STIG_Manual-xccdf.xml, Issue #1499
+		-[Feature]: Update rule SV-218760 for updated manual, U_MS_IIS_10-0_Site_V2R10_STIG_Manual-xccdf.xml, Issue #1498
+		-[Feature]: Update rule SV-218752 for updated manual, U_MS_IIS_10-0_Site_V2R10_STIG_Manual-xccdf.xml, Issue #1497
+		-[Feature]: Update rule SV-218751 for updated manual, U_MS_IIS_10-0_Site_V2R10_STIG_Manual-xccdf.xml, Issue #1496
+		-[Feature]: Update rule SV-218749 for updated manual, U_MS_IIS_10-0_Site_V2R10_STIG_Manual-xccdf.xml, Issue #1495
+		-[Feature]: Update rule SV-218743 for updated manual, U_MS_IIS_10-0_Site_V2R10_STIG_Manual-xccdf.xml, Issue #1494
+		-[Feature]: Update rule SV-218742 for updated manual, U_MS_IIS_10-0_Site_V2R10_STIG_Manual-xccdf.xml, Issue #1493
+		-[Feature]: Update rule SV-218741 for updated manual, U_MS_IIS_10-0_Site_V2R10_STIG_Manual-xccdf.xml, Issue #1492
+		-[Feature]: Update rule SV-218739 for updated manual, U_MS_IIS_10-0_Site_V2R10_STIG_Manual-xccdf.xml, Issue #1491
+		-[Feature]: Update rule SV-218738 for updated manual, U_MS_IIS_10-0_Site_V2R10_STIG_Manual-xccdf.xml, Issue #1490
+		-[Feature]: Update rule SV-218737 for updated manual, U_MS_IIS_10-0_Site_V2R10_STIG_Manual-xccdf.xml, Issue #1489
+		-[Feature]: Update rule SV-218736 for updated manual, U_MS_IIS_10-0_Site_V2R10_STIG_Manual-xccdf.xml, Issue #1488
+		-[Feature]: Update rule SV-218735 for updated manual, U_MS_IIS_10-0_Site_V2R10_STIG_Manual-xccdf.xml, Issue #1487
+		-[Feature]: Update content for DISA's Q4 Release, Issue #1526
+
+	Product: U_MS_SQL_Server_2016_Database
+		-[Feature]: Update rule SV-213901 for updated manual, U_MS_SQL_Server_2016_Database_V3R2_STIG_Manual-xccdf.xml, Issue #1505
+		-[Feature]: Update rule SV-213900 for updated manual, U_MS_SQL_Server_2016_Database_V3R2_STIG_Manual-xccdf.xml, Issue #1504
+		-[Feature]: Update content for DISA's Q4 Release, Issue #1526
+
+	Product: U_MS_SQL_Server_2016_Instance
+		-[Feature]: Update rule SV-214012 for updated manual, U_MS_SQL_Server_2016_Instance_V3R2_STIG_Manual-xccdf.xml, Issue #1513
+		-[Feature]: Update rule SV-213966 for updated manual, U_MS_SQL_Server_2016_Instance_V3R2_STIG_Manual-xccdf.xml, Issue #1510
+		-[Feature]: Update rule SV-213964 for updated manual, U_MS_SQL_Server_2016_Instance_V3R2_STIG_Manual-xccdf.xml, Issue #1509
+		-[Feature]: Update rule SV-213960 for updated manual, U_MS_SQL_Server_2016_Instance_V3R2_STIG_Manual-xccdf.xml, Issue #1508
+		-[Feature]: Update rule SV-213930 for updated manual, U_MS_SQL_Server_2016_Instance_V3R2_STIG_Manual-xccdf.xml, Issue #1507
+		-[Feature]: Update content for DISA's Q4 Release, Issue #1526
+
+	Product: U_MS_Windows_10
+		-[Feature]: Update rule SV-220952 for updated manual, U_MS_Windows_10_V3R2_STIG_Manual-xccdf.xml, Issue #1448
+		-[Feature]: Update rule SV-220811 for updated manual, U_MS_Windows_10_V3R2_STIG_Manual-xccdf.xml, Issue #1446
+		-[Feature]: Update rule SV-220707 for updated manual, U_MS_Windows_10_V3R2_STIG_Manual-xccdf.xml, Issue #1445
+		-[Feature]: Update content for DISA's Q4 Release, Issue #1526
+		-[Feature]: Remove rule SV-220861 for updated manual, U_MS_Windows_10_V3R2_STIG_Manual-xccdf.xml, Issue #1447
+		-[Feature]: Automate rule SV-220698r857181, Windows 10 domain-joined systems must have a Trusted Platform Module (TPM) enabled and ready for use., Issue #408
+		-[Feature]: Add rule SV-268319 for updated manual, U_MS_Windows_10_V3R2_STIG_Manual-xccdf.xml, Issue #1450
+		-[Feature]: Add rule SV-268315 for updated manual, U_MS_Windows_10_V3R2_STIG_Manual-xccdf.xml, Issue #1449
+
+	Product: U_MS_Windows_11
+		-[Feature]: Update rule SV-253476 for updated manual, U_MS_Windows_11_V2R2_STIG_Manual-xccdf.xml, Issue #1452
+		-[Feature]: Update rule SV-253476 for updated manual, U_MS_Windows_11_V2R1_STIG_Manual-xccdf.xml, Issue #1408
+		-[Feature]: Update rule SV-253323 for updated manual, U_MS_Windows_11_V2R1_STIG_Manual-xccdf.xml, Issue #1407
+		-[Feature]: Update rule SV-253274 for updated manual, U_MS_Windows_11_V2R2_STIG_Manual-xccdf.xml, Issue #1451
+		-[Feature]: Update content for DISA's Q4 Release, Issue #1526
+		-[Feature]: Automate rule SV-253324r829056, The system must be configured to audit Object Access - Removable Storage successes., Issue #334
+		-[Feature]: Automate rule SV-253323r829053, The system must be configured to audit Object Access - Removable Storage failures., Issue #332
+		-[Feature]: Automate rule SV-253257r877465, Secure Boot must be enabled on Windows 11 systems., Issue #333
+		-[Feature]: Automate rule SV-253255, Windows 11 domain-joined systems must have a Trusted Platform Module (TPM) enabled., Issue #322
+		-[Feature]: Add rule SV-268318 for updated manual, U_MS_Windows_11_V2R2_STIG_Manual-xccdf.xml, Issue #1454
+		-[Feature]: Add rule SV-268317 for updated manual, U_MS_Windows_11_V2R2_STIG_Manual-xccdf.xml, Issue #1453
+		-[Bug]: Rule SV-253273, Accounts must be configured to require password expiration only for enabled accounts, Issue #1435
+
+	Product: U_MS_Windows_Server_2016
+		-[Feature]: Update rule SV-224823 for updated manual, U_MS_Windows_Server_2016_V2R9_STIG_Manual-xccdf.xml, Issue #1455
+		-[Feature]: Update content for DISA's Q4 Release, Issue #1526
+		-[Feature]: Automate rule SV-224899r569186, Windows Server 2016 must be configured to audit Object Access - Removable Storage failures., Issue #459
+		-[Feature]: Automate rule SV-224898r569186, Windows Server 2016 must be configured to audit Object Access - Removable Storage successes., Issue #458
+		-[Feature]: Automate rule SV-224827, Windows Server 2016 domain-joined systems must have a Trusted Platform Module (TPM) enabled and ready for use., Issue #472
+
+	Product: U_MS_Windows_Server_2019
+		-[Feature]: Update rule SV-205736 for updated manual, U_MS_Windows_Server_2019_V3R2_STIG_Manual-xccdf.xml, Issue #1457
+		-[Feature]: Update rule SV-205707 for updated manual, U_MS_Windows_Server_2019_V3R1_STIG_Manual-xccdf.xml, Issue #1411
+		-[Feature]: Update rule SV-205657 for updated manual, U_MS_Windows_Server_2019_V3R2_STIG_Manual-xccdf.xml, Issue #1456
+		-[Feature]: Remove rule SV-236001 for updated manual, U_MS_Windows_Server_2019_V3R2_STIG_Manual-xccdf.xml, Issue #1458
+		-[Feature]: Automate rule SV-205848, Windows Server 2019 domain-joined systems must have a Trusted Platform Module (TPM) enabled and ready for use., Issue #1439
+
+	Product: U_MS_Windows_Server_2022
+		-[Feature]: Update rule SV-254239 for updated manual, U_MS_Windows_Server_2022_V2R2_STIG_Manual-xccdf.xml, Issue #1459
+		-[Feature]: Update content for DISA's Q4 Release, Issue #1526
+		-[Feature]: Automate rule SV-254318r848770, Windows Server 2022 must be configured to audit Object Access - Removable Storage failures., Issue #371
+		-[Feature]: Automate rule SV-254317r848767, Windows Server 2022 must be configured to audit Object Access - Removable Storage successes., Issue #370
+		-[Feature]: Automate Rule SV-254246, Windows Server 2022 domain-joined systems must have a Trusted Platform Module (TPM) enabled and ready for use., Issue #1440
+
+	Product: U_RHEL_7
+		-[Feature]: Update content for DISA's Q4 Release, Issue #1526
+
+	Product: U_RHEL_8
+		-[Feature]: Update rule SV-244548 for updated manual, U_RHEL_8_V2R1_STIG_Manual-xccdf.xml, Issue #1469
+		-[Feature]: Update rule SV-244547 for updated manual, U_RHEL_8_V2R1_STIG_Manual-xccdf.xml, Issue #1468
+		-[Feature]: Update rule SV-244527 for updated manual, U_RHEL_8_V2R1_STIG_Manual-xccdf.xml, Issue #1466
+		-[Feature]: Update rule SV-230524 for updated manual, U_RHEL_8_V2R1_STIG_Manual-xccdf.xml, Issue #1465
+		-[Feature]: Update rule SV-230379 for updated manual, U_RHEL_8_V2R1_STIG_Manual-xccdf.xml, Issue #1463
+		-[Feature]: Update rule SV-230262 for updated manual, U_RHEL_8_V2R1_STIG_Manual-xccdf.xml, Issue #1460
+		-[Feature]: Update content for DISA's Q4 Release, Issue #1526
+		-[Feature]: Remove rule SV-251717 for updated manual, U_RHEL_8_V2R1_STIG_Manual-xccdf.xml, Issue #1471
+		-[Feature]: Remove rule SV-245540 for updated manual, U_RHEL_8_V2R1_STIG_Manual-xccdf.xml, Issue #1470
+		-[Feature]: Remove rule SV-244537 for updated manual, U_RHEL_8_V2R1_STIG_Manual-xccdf.xml, Issue #1467
+		-[Feature]: Remove rule SV-230353 for updated manual, U_RHEL_8_V2R1_STIG_Manual-xccdf.xml, Issue #1462
+		-[Bug]: OVAL for Rule V-230321 modified with an additional filter to exclude non-interactive accounts. Issue #1438

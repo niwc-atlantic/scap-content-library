@@ -1,0 +1,104 @@
+Release notes for: May 2023 Release
+	Product: U_MS_IIS_10-0_Server
+		-[Feature]: Update IIS 10.0 Server SCAP content based on V2R9 April 2023 STIG release from DISA, Issue #508
+		-[Bug]: xccdf_navy.navwar.niwcatlantic.scc_group_V-218827 is missing from "I - Mission Critical Classified, Issue #490
+		-[Bug]: Update title for test 62 in IIS 10 Server , Issue #481
+		-[Bug]: Update rule SV-218821r879810 from IIS 10 Server content, Issue #561
+		-[Bug]: Update IIS 10 Server SV-218819r879806 to manual check, Issue #482
+		-[Bug]: Need to update IIS 10 Server SV-218827r879887 to manual check, Issue #483
+		-[Bug]: IIS 10 Server SV-241788r879655 needs to be changed to manual check, Issue #545
+		-[Bug]: IIS 10 Server SV-218827r879887 needs to be changed to manual check, Issue #544
+		-[Bug]: IIS 10 Server SV-218819r879806 needs to be changed to manual check, Issue #543
+		-[Bug]: IIS 10 Server SV-218815r879730 needs to be changed to manual check, Issue #542
+		-[Bug]: IIS 10 Server SV-218805r879638 needs to be changed to manual check, Issue #541
+		-[Bug]: IIS 10 Server SV-218804r879638 needs to be changed to manual check, Issue #540
+		-[Bug]: IIS 10 Server SV-218795r879587 needs to be changed to manual check, Issue #491
+
+	Product: U_MS_IIS_10-0_Site
+		-[Feature]: Update rule SV-218781, Issue #605
+		-[Feature]: Update rule SV-218771, Issue #604
+		-[Feature]: Update rule SV-218769, Issue #603
+		-[Feature]: Update rule SV-218763, Issue #602
+		-[Feature]: Update rule SV-218761, Issue #601
+		-[Feature]: Update rule SV-218760, Issue #600
+		-[Feature]: Update rule SV-218759, Issue #599
+		-[Feature]: Update rule SV-218757, Issue #598
+		-[Feature]: Update rule SV-218755, Issue #597
+		-[Feature]: Update rule SV-218754, Issue #596
+		-[Feature]: Update rule SV-218753, Issue #595
+		-[Feature]: Update rule SV-218746, Issue #594
+		-[Feature]: Update rule SV-218743, Issue #593
+		-[Feature]: Update rule SV-218742, Issue #592
+		-[Feature]: Update rule SV-218741, Issue #591
+		-[Feature]: Update rule SV-218739, Issue #606
+		-[Feature]: Update IIS 10.0 Site SCAP content based V2R8 April 2023 STIG release from DISA, Issue #507
+		-[Bug]: IIS 10 Site V-218771 needs to be changed to manual check, Issue #590
+		-[Bug]: IIS 10 Site SV-218777r879887 needs to be changed to manual check, Issue #569
+		-[Bug]: IIS 10 Site SV-218775r879887 needs to be changed to manual check, Issue #568
+		-[Bug]: IIS 10 Site SV-218772r879887 needs to be changed to manual check, Issue #567
+		-[Bug]: IIS 10 Site SV-218771r879887 needs to be changed to manual check, Issue #566
+		-[Bug]: IIS 10 Site SV-218770r850593 needs to be changed to manual check, Issue #535
+		-[Bug]: IIS 10 Site SV-218770r850593 needs to be changed to manual check, Issue #489
+		-[Bug]: IIS 10 Site SV-218768r863024 needs to be changed to manual check., Issue #488
+		-[Bug]: IIS 10 Site SV-218762r879673 needs to be changed to manual check, Issue #565
+		-[Bug]: IIS 10 Site SV-218758r903121 needs to be changed to manual check, Issue #564
+		-[Bug]: IIS 10 Site SV-218756r879650 needs to be changed to manual check. , Issue #563
+		-[Bug]: IIS 10 Site SV-218752r879643 needs to be changed to manual check, Issue #562
+		-[Bug]: IIS 10 Site SV-218751r558649 needs to be changed to manual check, Issue #548
+		-[Bug]: IIS 10 Site SV-218749r850584 needs to be changed to manual check, Issue #534
+		-[Bug]: IIS 10 Site SV-218749r850584 needs to be changed to manual check, Issue #487
+		-[Bug]: IIS 10 Site SV-218748r802889 needs to be changed to manual check, Issue #486
+		-[Bug]: IIS 10 Site SV-218738r558649 needs to be changed to manual check, Issue #533
+		-[Bug]: IIS 10 Site SV-218738r558649 needs to be changed to manual check, Issue #485
+		-[Bug]: IIS 10 Site SV-218737r558649 needs to be changed to manual check, Issue #532
+		-[Bug]: IIS 10 Site SV-218737r558649 needs to be changed to manual check, Issue #484
+		-[Bug]: IIS 10 Site SV-218736r558649 needs to be changed to manual check, Issue #547
+		-[Bug]: IIS 10 Site SV-218735r558649 needs to be changed to manual check, Issue #546
+		-[Bug]:  IIS 10 Site SV-218778r879887 needs to be changed to manual check, Issue #570
+		-Update U_MS_IIS_10-0_Site_V2R8_STIG_SCAP_1-3_Benchmark.xml, Issue #559
+
+	Product: U_MS_IIS_8-5_Server
+		-[Feature]: Update IIS 8.5 Server SCAP content based on V2R6 April 2023 STIG release from DISA, Issue #514
+		-[Feature]: Automate rule V-214434, Update to be a manual check, Issue #556
+		-[Feature]: Automate rule V-214410, Update to be a manual check, Issue #549
+		-[Bug]: IIS 8.5 Server SV-214436r879810 needs to be updated to match STIG, Issue #572
+		-[Bug]: IIS 8.5 Server SV-214430r879730 needs to be changed to manual check, Issue #537
+		-[Bug]: IIS 8.5 Server SV-214427r879692 needs to be removed to match STIG updates, Issue #571
+		-[Bug]: IIS 8.5 Server SV-214420r879638 needs to be changed to manual check, Issue #539
+		-[Bug]: IIS 8.5 Server SV-214419r879638 needs to be changed to manual check, Issue #538
+
+	Product: U_MS_IIS_8-5_Site
+		-[Feature]: Update IIS 8.5 Site SCAP content based on V2R8 April 2023 STIG release from DISA, Issue #515
+		-[Feature]: Automate rule V-214482, Update to be a manual check, Issue #550
+		-[Feature]: Automate rule V-214480, Update to be a manual check, Issue #551
+		-[Feature]: Automate rule V-214460, Update to be a manual check, Issue #552
+		-[Feature]: Automate rule V-214459, Update to be a manual check, Issue #553
+		-[Feature]: Automate rule V-214447, Update to be a manual check, Issue #554
+		-[Feature]: Automate rule V-214446, Update to be a manual check, Issue #555
+		-[Bug]: IIS 8.5 Site V-214491 needs to be changed to manual check , Issue #589
+		-[Bug]: IIS 8.5 Site V-214490 needs to be changed to manual check, Issue #588
+		-[Bug]: IIS 8.5 Site V-214489 needs to be changed to manual check, Issue #587
+		-[Bug]: IIS 8.5 Site V-214488 needs to be changed to manual check, Issue #586
+		-[Bug]: IIS 8.5 Site V-214485 needs to be changed to manual check, Issue #585
+		-[Bug]: IIS 8.5 Site V-214484 needs to be changed to manual check, Issue #584
+		-[Bug]: IIS 8.5 Site V-214474 needs to be changed to manual check, Issue #583
+		-[Bug]: IIS 8.5 Site V-214462 needs to be changed to manual check, Issue #582
+		-[Bug]: IIS 8.5 Site V-214445 needs to be changed to manual check, Issue #581
+		-[Bug]: IIS 8.5 Site V-214444 needs to be changed to manual check, Issue #580
+		-[Bug]: IIS 8.5 Site SV-214483r879812 needs to be changed to manual check, Issue #536
+		-[Bug]: IIS 8.5 Site SV-214473r879655 needs to be updated to match STIG, Issue #575
+		-[Bug]: IIS 8.5 Site SV-214469r879650 needs to be changed to manual check, Issue #574
+		-[Bug]: IIS 8.5 Site SV-214468r879650 needs to be updated to match STIG, Issue #573
+
+	Product: U_MS_Office_365_ProPlus
+		-[Feature]: Update Office 365 SCAP content based on V2R9 April 2023 STIG release from DISA, Issue #506
+		-[Bug]: Update all ntuser tests in Office 365 content to correctly fail if no configuration is found per user, Issue #478
+		-[Bug]: Update Office 365 Ntuser checks to only exclude disabled accounts, Issue #480
+		-[Bug]: Fix several discrepencies between STIG Manual and SCAP benchmark OVAL defintions definitions fields, Issue #578
+		-[Bug]: Fix O365 V-223356 to allow for minenckey to be set to 168 or above, Issue #621
+		-[Bug]: Fix O365 V-223343 description to match STIG and update check existence text, Issue #622
+		-[Bug]: Ensure that Office 365 rules that have a "if the value does not exist, this is not a finding" are allowed to pass if no value is found, Issue #558
+		-[BUG]: Fix typo in STIG Manual text of SV-223333r904327_rule, Issue #513
+
+	Product: U_MS_OneDrive
+		-[Bug]: Update OneDrive ntuser checks to only exclude disabled accounts, Issue #479
