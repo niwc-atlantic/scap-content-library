@@ -52,7 +52,20 @@ This is the repository of Security Content Automation Protocol (SCAP) benchmarks
 | 1/27/2025	| Solaris 11 SPARC STIG SCAP Benchmark	 | 3.2	 | 3.2.9
 | 1/27/2025	| Solaris 11 X86 STIG SCAP Benchmark	 | 3.2	 | 3.2.9
 
+  # Consolidated Bundle and Repository Stats
+  
+  [Consolidated_Bundle_03-13-2025.zip](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/Consolidated_Bundle_03-13-2025.zip)
+  
+  [niwc-content-repository-stats_03-13-2025](https://github.com/niwc-atlantic/scap-content-library/blob/796d6cc534b0cdf3f132922ea5d245e3b24a749f/Current/niwc-content-repository-stats_03-13-2025.pdf)
 
+  # Sunset SCAP Content
+
+Below are SCAP Content Benchmarks from DISA STIG's that DISA has marked as "Sunset" and not currently included with the SCAP Compliance Checker, or part of the the Consolidated Bundle.
+
+| Date    | Title        |  Benchmark Version |
+| -------- | ----------- | -------- |
+| 1/27/2025	| [Canonical Ubuntu 16.04 STIG SCAP Benchmark - Sunset](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Archive/2023-July/U_CAN_Ubuntu_16-04_LTS_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV3.zip) | 2.3.3
+  
 
 
 
