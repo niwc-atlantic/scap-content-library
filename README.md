@@ -65,6 +65,7 @@ Below are older SCAP Content Benchmarks from DISA STIG's that DISA has marked as
 | Date    | Title        |  Benchmark Version |
 | -------- | ----------- | -------- |
 | 8/04/2023	| [Canonical Ubuntu 16.04 STIG SCAP Benchmark - Sunset](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Archive/2023-July/U_CAN_Ubuntu_16-04_LTS_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV3.zip) | 2.3.3
+| 8/04/2023 |  [Red Hat Enterprise Linux 6 STIG SCAP Benchmark - Sunset](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Archive/2023-July/U_RHEL_6_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV3.zip) | 2.2.3
 | 8/04/2023  | [Solaris 10 SPARC STIG SCAP Benchmark - Sunset](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Archive/2023-July/U_SOL_10_SPARC_V2R4_STIG_SCAP_1-3_Benchmark-enhancedV3.zip) | 2.4.3
 | 8/04/2023  | [Solaris 10 X86 STIG SCAP Benchmark - Sunset](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Archive/2023-July/U_SOL_10_X86_V2R4_STIG_SCAP_1-3_Benchmark-enhancedV3.zip) | 2.4.4
   
