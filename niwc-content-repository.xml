@@ -1,0 +1,927 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<content-repository style="0.1">
+  <repository-id>niwc-stig-repo</repository-id>
+  <repository-publisher>NIWC</repository-publisher>
+  <last-updated>2025-03-27T09:29:48</last-updated>
+  <license>Open</license>
+  <contents>
+    <scap-content>
+      <content-id>U_Adobe_Acrobat_Reader_DC_Continuous_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV4.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Adobe_Acrobat_Reader_DC_Continuous_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV4.zip</location>
+      <checksum style="SHA512">ba7ec407aa5f6a49a416175cebe57bec7c15c4173ef3982afd57f7fa3f2bc3ff1427b98db7dc4fc34c5c7dc519eb248ba2bc5bb3287c9b4f9a9509b053eeccea</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_Adobe_Acrobat_Reader_DC_Continuous_Track_STIG</benchmark-id>
+          <title>Adobe Acrobat Reader DC Continuous Track STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.3.4</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2021-06-22</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/a:adobe:acrobat_reader_dc:::~~continuous~windows~~</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_CAN_Ubuntu_18-04_V2R12_STIG_SCAP_1-3_Benchmark-enhancedV7.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_CAN_Ubuntu_18-04_V2R12_STIG_SCAP_1-3_Benchmark-enhancedV7.zip</location>
+      <checksum style="SHA512">29d80906ab05ab54acb8495890bd5817c27eff546061d8ef895bd1c7471595038a0b0e27cc0ef4ccffa0da0e1e7b2ac8e7fb54ac43a82467b7fcac09ddedfc1f</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_CAN_Ubuntu_18-04_STIG</benchmark-id>
+          <title>Canonical Ubuntu 18.04 LTS STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.12.7</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-05-30</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:canonical:ubuntu_linux:18.04</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_CAN_Ubuntu_20-04_LTS_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV9.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_CAN_Ubuntu_20-04_LTS_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV9.zip</location>
+      <checksum style="SHA512">e448396431bd898895b0c2fb0090546214e6b696de953e10486efd3562987b4ae533bdeb8c8e67935676715f7d5b73ace0aec6fae6c68be254cb6f9ff94d612d</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_Canonical_Ubuntu_20-04_LTS_STIG</benchmark-id>
+          <title>Canonical Ubuntu 20.04 LTS STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.2.9</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-08-22</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:canonical:ubuntu_linux:20.04</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_CAN_Ubuntu_22-04_LTS_V2R1_STIG_SCAP_1-3_Benchmark-enhancedV1.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_CAN_Ubuntu_22-04_LTS_V2R1_STIG_SCAP_1-3_Benchmark-enhancedV1.zip</location>
+      <checksum style="SHA512">b527ddcee9b395150445d2ba9fa9f22cd87a113f5b009755fb2b8f79e7fb0ec64ff1012fc67c02c0eb8e1efb31556099bf40f0da5a2ec6ae6bfca6e788953027</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_CAN_Ubuntu_22-04_LTS_STIG</benchmark-id>
+          <title>Canonical Ubuntu 22.04 LTS STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.1.1</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-11-25</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:canonical:ubuntu_linux:22.04::~~lts~~~</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_Cisco_IOS-XE_Router_NDM_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV9.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Cisco_IOS-XE_Router_NDM_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV9.zip</location>
+      <checksum style="SHA512">b0b075b030d4208e0c0677545e7d593ad218d40bb3f8735a4c5c77dc001e69ed617feaded1e7eceb33f27dab4bf93ab7ba22ae726029b517a9d52efccdd6d972</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_Cisco_IOS-XE_Router_NDM_STIG</benchmark-id>
+          <title>Cisco IOS XE Router NDM STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>3.2.9</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-08-22</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:cisco:ios_xe:-</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_Cisco_IOS-XE_Router_RTR_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV9.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Cisco_IOS-XE_Router_RTR_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV9.zip</location>
+      <checksum style="SHA512">2008b2c14ed10175f0e0b87762b4fcc0f1c7d54bd7c389537e1d807c0c175df36233e177ddc937aa790686ff6a35376f4096d014b5248aa191b755569cc6cae4</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_Cisco_IOS-XE_Router_RTR_STIG</benchmark-id>
+          <title>Cisco IOS XE Router RTR STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>3.2.9</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-08-22</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:cisco:ios_xe:-</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_Google_Chrome_V2R10_STIG_SCAP_1-3_Benchmark-enhancedV8.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Google_Chrome_V2R10_STIG_SCAP_1-3_Benchmark-enhancedV8.zip</location>
+      <checksum style="SHA512">b4e70572673af5b78421dbba2a5b1c67d8d6fa2e8b66b2db862b9a315107b8759a7110d7753289df0f0bf70b272686718383841692603838ae0b58c0d2b50038</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_Google_Chrome_Current_Windows</benchmark-id>
+          <title>Google Chrome Current Windows STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.10.8</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-08-22</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/a:google:chrome</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MOZ_Firefox_Linux_V6R4_STIG_SCAP_1-3_Benchmark-enhancedV4.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MOZ_Firefox_Linux_V6R4_STIG_SCAP_1-3_Benchmark-enhancedV4.zip</location>
+      <checksum style="SHA512">1db42b2c3ddf8b2f7545a97cde749ef9ac2ed755c032f04b1bfbad42feeff71f676cd011ef01d60173973ccfcf872869eb5e5abf39afc7d13dae12c721f1fff1</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_MOZ_Firefox_Linux</benchmark-id>
+          <title>Mozilla Firefox for Linux STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>6.4.4</version>
+          <style>SCAP_1.2</style>
+          <status>accepted</status>
+          <status-date>2023-06-05</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/a:mozilla:firefox:::~~~linux~~</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MOZ_Firefox_Windows_V6R5_STIG_SCAP_1-3_Benchmark-enhancedV5.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MOZ_Firefox_Windows_V6R5_STIG_SCAP_1-3_Benchmark-enhancedV5.zip</location>
+      <checksum style="SHA512">6fcb10d58210e3c28584a8b229c2499588d71e7d14aada80a493eaf1e9a190c16e8080d53a6ab9567e59bf149202e9466192107b89896555659376be8a8ff821</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_MOZ_Firefox_Windows</benchmark-id>
+          <title>Mozilla Firefox for Windows STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>6.5.5</version>
+          <style>SCAP_1.2</style>
+          <status>accepted</status>
+          <status-date>2023-06-05</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/a:mozilla:firefox:::~~~windows~~</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_Defender_Antivirus_V2R5_STIG_SCAP_1-3_Benchmark-enhancedV6.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Defender_Antivirus_V2R5_STIG_SCAP_1-3_Benchmark-enhancedV6.zip</location>
+      <checksum style="SHA512">12fd9c21887efa64e66ade9af4a3370bdf410e8d8a60b71a676433a9c1c8c615ec08d409651781cd05f2ad86f9d80082f8228d525a14c4b67150c157d07d3329</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_MS_Defender_Antivirus</benchmark-id>
+          <title>Microsoft Defender Antivirus STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.5.6</version>
+          <style>SCAP_1.2</style>
+          <status>accepted</status>
+          <status-date>2022-04-08</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/a:microsoft:windows_defender:-</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_DotNet_Framework_4-0_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV6.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_DotNet_Framework_4-0_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV6.zip</location>
+      <checksum style="SHA512">a0ff5ee783050d18f64566a52ad6e609a225d67db6f46611a83c717c756ddc6a44045fa060a108b01db5ced27ce7d042db5fc9eea984ab40701470bc9e8a9627</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_MS_Dot_Net_Framework</benchmark-id>
+          <title>Microsoft DotNet Framework 4.0 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.2.6</version>
+          <style>SCAP_1.2</style>
+          <status>accepted</status>
+          <status-date>2020-12-11</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/a:microsoft:.net_framework:4.0</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_Edge_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV7.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Edge_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV7.zip</location>
+      <checksum style="SHA512">961d307cc4c8261bf5b86b644e3de033abca2f8bdcf6e8822359be853f2bc3bd68c5c40b78a1020d0ccbc2713121c2ae78a4ccd22eab29f032b1ebe15c7c2ff5</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_MS_Edge_STIG</benchmark-id>
+          <title>Microsoft Edge STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.2.7</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-09-13</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/a:microsoft:edge</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_IE11_V2R6_STIG_SCAP_1-3_Benchmark-enhancedV8.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_IE11_V2R6_STIG_SCAP_1-3_Benchmark-enhancedV8.zip</location>
+      <checksum style="SHA512">189faa1c63baf15344372eda64fad83a98548895206b2f0ef088924c122e35411bd35c8d0180cdff7edbb48fce8e0ffacbca7f27aef4bb3c98ae0332611eb0b8</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_IE_11_STIG</benchmark-id>
+          <title>Microsoft Internet Explorer 11 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.6.8</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2023-12-01</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/a:microsoft:internet_explorer:11</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_IIS_10-0_Server_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV9.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_IIS_10-0_Server_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV9.zip</location>
+      <checksum style="SHA512">1c09baf34be56597d2998c583dcd2a77b611b2a4d7a4df51c855ef6c6cdc76fcb0234dc816ffef2d3597e487acc6a9eaa98cc1ebce2087bf6c310cb59e0fb9fd</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_navy.navwar.niwcatlantic.scc_benchmark_IIS_10-0_Server_STIG</benchmark-id>
+          <title>Microsoft IIS 10.0 Server STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>3.2.9</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-10-24</status-date>
+          <creator>NIWC</creator>
+          <publisher>NIWC</publisher>
+          <contributor>NIWC</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/a:microsoft:iis:10.0</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_IIS_10-0_Site_V2R10_STIG_SCAP_1-3_Benchmark-enhancedV10.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_IIS_10-0_Site_V2R10_STIG_SCAP_1-3_Benchmark-enhancedV10.zip</location>
+      <checksum style="SHA512">d3489a27fdde6f8abb5e1f9ea23adda3fca28ebec7b31a8a41249726a73496ae3b8cb46de4168e1ee28a3d59783f38e6512d661edc26d02cd18a1f6d79893a8c</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_navy.navwar.niwcatlantic.scc_benchmark_IIS_10-0_Site_STIG</benchmark-id>
+          <title>Microsoft IIS 10.0 Site STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.10.10</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2025-01-24</status-date>
+          <creator>NIWC</creator>
+          <publisher>NIWC</publisher>
+          <contributor>NIWC</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/a:microsoft:iis:10.0</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_IIS_8-5_Server_V2R7_STIG_SCAP_1-3_Benchmark-enhancedV5.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_IIS_8-5_Server_V2R7_STIG_SCAP_1-3_Benchmark-enhancedV5.zip</location>
+      <checksum style="SHA512">5f700dafd4dd2fbc375df65f62ec2637fa2ec8c52c19c674b7f71f220336374841e6bfeb1f9b382c80cea8154f02004a42e5e50f0cc6e1dde904738ffcf385e2</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_navy.navwar.niwcatlantic.scc_benchmark_IIS_8-5_Server_STIG</benchmark-id>
+          <title>Microsoft IIS 8.5 Server STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.7.5</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2023-10-23</status-date>
+          <creator>NIWC</creator>
+          <publisher>NIWC</publisher>
+          <contributor>NIWC</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/a:microsoft:iis:8.5</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_IIS_8-5_Site_V2R9_STIG_SCAP_1-3_Benchmark-enhancedV5.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_IIS_8-5_Site_V2R9_STIG_SCAP_1-3_Benchmark-enhancedV5.zip</location>
+      <checksum style="SHA512">21ca0727dfa0d35e21641973944ca633e9dc69bdd67be28c7e7fc65bc71949af4d1d1b403277336530dfb653cff8dfe68770e5cff8665d4b0a19fb4a16613028</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_navy.navwar.niwcatlantic.scc_benchmark_IIS_8-5_Site_STIG</benchmark-id>
+          <title>Microsoft IIS 8.5 Site STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.9.5</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2023-10-23</status-date>
+          <creator>NIWC</creator>
+          <publisher>NIWC</publisher>
+          <contributor>NIWC</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/a:microsoft:iis:8.5</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_Office_365_ProPlus_V3R3_STIG_SCAP_1-3_Benchmark-enhancedV2.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Office_365_ProPlus_V3R3_STIG_SCAP_1-3_Benchmark-enhancedV2.zip</location>
+      <checksum style="SHA512">43aaa8c4cb51beec00714c61851c6aabfefd049f24fa86b20652724d8db45e153d6f6245e39a543406d255ad3fe79a0a2c79f6b4e095c71bbc1c9f2b3ea4d64b</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_MS_Office_365_ProPlus_STIG</benchmark-id>
+          <title>Microsoft Office 365 ProPlus STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>3.3.2</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-11-25</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/a:microsoft:office_365:-::~~proplus~~~</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_OneDrive_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV4.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_OneDrive_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV4.zip</location>
+      <checksum style="SHA512">a442a5aeb527b8d9189a58da06ea225ed834205a6de3e64980f082374ea788361be111c5de542ad72c1ccdc5e1f83041f33d09c9df6c14453e4af4540158b299</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_navy.navwar.niwcatlantic.scc_benchmark_Microsoft_OneDrive_STIG</benchmark-id>
+          <title>Microsoft OneDrive STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.3.4</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2023-05-23</status-date>
+          <creator>NIWC</creator>
+          <publisher>NIWC</publisher>
+          <contributor>NIWC</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/a:microsoft:onedrive:-</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_SQL_Server_2016_Database_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV4.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_SQL_Server_2016_Database_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV4.zip</location>
+      <checksum style="SHA512">f4dfdccd242ef91672ca47e439603ca028319fc03ca4c1eee7595aad14c703227dc15ecc197c004e38bfa13777e537a8b60403dfd036c4173cda8a4605d0f9a0</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_navy.navwar.niwcatlantic.scc_benchmark_MS_SQL_Server_2016_Database_STIG</benchmark-id>
+          <title>MS SQL Server 2016 Database STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>3.2.4</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-10-25</status-date>
+          <creator>NIWC</creator>
+          <publisher>NIWC</publisher>
+          <contributor>NIWC</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/a:microsoft:sqlserver:2016</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_SQL_Server_2016_Instance_V3R3_STIG_SCAP_1-3_Benchmark-enhancedV5.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_SQL_Server_2016_Instance_V3R3_STIG_SCAP_1-3_Benchmark-enhancedV5.zip</location>
+      <checksum style="SHA512">4ddafb1c26b9cef08eeb16845a5eab80dd236c9e1723ed07a008668b5e9dcf64a2854bbc96d26e659580b8e6443b42d2c67bc4a4e5256aec10db6dafc03e4d82</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_navy.navwar.niwcatlantic.scc_benchmark_MS_SQL_Server_2016_Instance_STIG</benchmark-id>
+          <title>MS SQL Server 2016 Instance STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>3.3.5</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2025-01-16</status-date>
+          <creator>NIWC</creator>
+          <publisher>NIWC</publisher>
+          <contributor>NIWC</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/a:microsoft:sqlserver:2016</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_Windows_10_V3R3_STIG_SCAP_1-3_Benchmark-enhancedV9.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_10_V3R3_STIG_SCAP_1-3_Benchmark-enhancedV9.zip</location>
+      <checksum style="SHA512">e029ea6c22ca26b4d261d1d9c66440494c473ada7252ce99349b701f390febe5be7f6a1e343618099a6e50225bc732c78009548a54fb53662067e62a3bd854b6</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_MS_Windows_10_STIG</benchmark-id>
+          <title>Microsoft Windows 10 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>3.3.9</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-11-25</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:microsoft:windows_10</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_Windows_11_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV9.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_11_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV9.zip</location>
+      <checksum style="SHA512">4882ccb27cdf7c2df22a7272ff6dc5d4ae305a915a2aea4d4fa2979e6d4381dfeb9348d87b09d7163d0d111006edb1e72bcfaacd6e383e349739b78974427379</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_Microsoft_Windows_11_STIG</benchmark-id>
+          <title>Microsoft Windows 11 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.3.9</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-09-12</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:microsoft:windows_11</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_Windows_2012_and_2012_R2_DC_V3R6_STIG_SCAP_1-3_Benchmark-enhancedV5.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_2012_and_2012_R2_DC_V3R6_STIG_SCAP_1-3_Benchmark-enhancedV5.zip</location>
+      <checksum style="SHA512">ca7925cd1aea31c5379927f947533d47217c71871a89425476b7400456e565eb694e1fc61f369a92378ce5622c9cc40f34c071f14dc1fcb347afa8fafeb10fcb</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_Windows_2012_DC_STIG</benchmark-id>
+          <title>Microsoft Windows Server 2012/2012 R2 Domain Controller STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>3.6.5</version>
+          <style>SCAP_1.2</style>
+          <status>accepted</status>
+          <status-date>2023-08-21</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:microsoft:windows_server_2012:-</platform-id>
+        </platform>
+        <platform>
+          <platform-id style="cpe">cpe:/o:microsoft:windows_server_2012:r2</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_Windows_2012_and_2012_R2_MS_V3R6_STIG_SCAP_1-3_Benchmark-enhancedV5.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_2012_and_2012_R2_MS_V3R6_STIG_SCAP_1-3_Benchmark-enhancedV5.zip</location>
+      <checksum style="SHA512">7e6fc4ab4a0d70b4b72ad147162f6247f35222f7121544c1718faa49ea7247be85ecbf76ede9812036b327d811e3f5f13d0162fbd72c1a0dfff9fe9d5a61ebd4</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_Windows_2012_MS_STIG</benchmark-id>
+          <title>Microsoft Windows Server 2012/2012 R2 Member Server STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>3.6.5</version>
+          <style>SCAP_1.2</style>
+          <status>accepted</status>
+          <status-date>2023-08-21</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:microsoft:windows_server_2012:-</platform-id>
+        </platform>
+        <platform>
+          <platform-id style="cpe">cpe:/o:microsoft:windows_server_2012:r2</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_Windows_Defender_Firewall_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV5.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_Defender_Firewall_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV5.zip</location>
+      <checksum style="SHA512">e372ecff93909ba77f703a510ba19bf577959128ab57888015e7c3a113f72b345c2a6ae73dbd4dbe63e701f478ab4df91595086328a302c2cc0583e35f3c9569</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_Windows_Firewall_with_Advanced_Security</benchmark-id>
+          <title>Microsoft Windows Defender Firewall with Advanced Security STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.3.5</version>
+          <style>SCAP_1.2</style>
+          <status>accepted</status>
+          <status-date>2023-08-23</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/a:microsoft:windows_firewall:-</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_Windows_Server_2016_V2R8_STIG_SCAP_1-3_Benchmark-enhancedV10.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_Server_2016_V2R8_STIG_SCAP_1-3_Benchmark-enhancedV10.zip</location>
+      <checksum style="SHA512">d7814326e62efba89eb4e47b5af3e546759f9dc9c17309bdebad1174d86146805c7d4108fcdcced906f31510ce4d7a07cbb6299e064dc2f907fbcead8f1bd29b</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_Windows_Server_2016_STIG</benchmark-id>
+          <title>Microsoft Windows Server 2016 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.8.10</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-08-27</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:microsoft:windows_server_2016:-</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_Windows_Server_2019_V3R3_STIG_SCAP_1-3_Benchmark-enhancedV10.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_Server_2019_V3R3_STIG_SCAP_1-3_Benchmark-enhancedV10.zip</location>
+      <checksum style="SHA512">f2ad0e87438e47fe72fcf8a3c1638920b4c09ca5fab663f649b2c658ebacf63290964bef15de284f037ccc06898cb1241c6c0c77af30a1f694caedb7a7073a14</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_Windows_Server_2019_STIG</benchmark-id>
+          <title>Microsoft Windows Server 2019 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>3.3.10</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-09-16</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:microsoft:windows_server_2019:-</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_MS_Windows_Server_2022_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV10.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_Server_2022_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV10.zip</location>
+      <checksum style="SHA512">566dbb313ae97af104a2fd2ab186558117acfeb5b7185195df4609bba96f308d9348b5da4f7bc9c3a261dffc47d94704317c35d0819ec6a35da05b4c680f8da5</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_MS_Windows_Server_2022_STIG</benchmark-id>
+          <title>Microsoft Windows Server 2022 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.3.10</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-11-25</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:microsoft:windows_server_2022:-</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_Oracle_Linux_7_V3R1_STIG_SCAP_1-3_Benchmark-enhancedV7.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Oracle_Linux_7_V3R1_STIG_SCAP_1-3_Benchmark-enhancedV7.zip</location>
+      <checksum style="SHA512">7298bd183c27ac78e51ba310c047908db9d64432280462e0e688e2df2103e011acf784ac5ceea10c7278a834782ef77dee98009dc08411441ab0d133b26ca6f9</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_Oracle_Linux_7_STIG</benchmark-id>
+          <title>Oracle Linux 7 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>3.1.7</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-08-26</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:oracle:linux:7</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_Oracle_Linux_8_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV10.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Oracle_Linux_8_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV10.zip</location>
+      <checksum style="SHA512">c6e68fcefb8f86f74827efde3f8e1655269ef02f2526d86d29b30eb9e55e7d2a0b84075c276b7b1d55f0b55e0f2ea2a165e692973b1694ee9c30626eff4fdd1d</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_Oracle_Linux_8_STIG</benchmark-id>
+          <title>Oracle Linux 8 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.3.10</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-12-03</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:oracle:linux:8</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_RHEL_7_V3R15_STIG_SCAP_1-3_Benchmark-enhancedV10.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_RHEL_7_V3R15_STIG_SCAP_1-3_Benchmark-enhancedV10.zip</location>
+      <checksum style="SHA512">696732f0dc10a30470618aad54f33dc93f12d86b90ac6e8020927240656cff18fca4d1e5b184916fcd399ffd905b6e661515a6d39bdf9a63f387b8b33ccd89e2</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_RHEL_7_STIG</benchmark-id>
+          <title>Red Hat Enterprise Linux 7 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>3.15.10</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-05-30</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:redhat:enterprise_linux:7</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_RHEL_8_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV13.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_RHEL_8_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV13.zip</location>
+      <checksum style="SHA512">3d6c4ea8c5d223b89e5f9ddcc603b5515bc750e9c6efd257dae04e813d05e27c73511c77cb5baa2ee31e2ab9af990883362869b77c8f6a175a1ebe11f2bf1450</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_RHEL_8_STIG</benchmark-id>
+          <title>Red Hat Enterprise Linux 8 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.2.13</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-11-25</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:redhat:enterprise_linux:8</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_RHEL_9_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV4.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_RHEL_9_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV4.zip</location>
+      <checksum style="SHA512">9cdc13ca8d347340e25b86723b5cf96c6d4f7055d66b595a046c0b1ee844765346a5da5c8d0c807c6c675ae6474c735135976f9635f0015ca716a35decccc6c2</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_RHEL_9_STIG</benchmark-id>
+          <title>Red Hat Enterprise Linux 9 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.3.4</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-12-04</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:redhat:enterprise_linux:9.0</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_SLES_12_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV8.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_SLES_12_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV8.zip</location>
+      <checksum style="SHA512">9eecab40f910d3db503a2e697caa9d6e8e7e879523f5eb5f72e7c8e11f98c5270090d6a46d415b552289c575ec0db50c5c004f280756ebf54b2b04ef99591fdf</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_SLES_12_STIG</benchmark-id>
+          <title>SLES 12 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>3.2.8</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-11-25</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:suse:suse_enterprise_linux_server:12</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_SLES_15_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV10.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_SLES_15_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV10.zip</location>
+      <checksum style="SHA512">421446b63cef82a49f948a4223822e1267d9e69afa7b71593122ba5f8d7ce6755cf25a67b65f8bc467b3738346f51e973ccec8c5e3f2e205956eb05841912c98</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_SLES_15_STIG</benchmark-id>
+          <title>SUSE Linux Enterprise Server 15 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>2.3.10</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-11-25</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:suse:suse_enterprise_linux_server:15</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_SOL_11_SPARC_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV9.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_SOL_11_SPARC_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV9.zip</location>
+      <checksum style="SHA512">8190cb64c21deb19e8fd8a50e7c6baee56a545a81d0b2c459eb2321e8396d91ab7b8ddfd00ffeda23545d7625357f0407e5ded2d1edcf13fbdb84c0fe38e4917</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_Solaris_11_SPARC_STIG</benchmark-id>
+          <title>Solaris 11 SPARC STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>3.2.9</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-08-27</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:sun:sunos:5.11:-:~~~~sparc~</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+    <scap-content>
+      <content-id>U_SOL_11_X86_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV9.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_SOL_11_X86_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV9.zip</location>
+      <checksum style="SHA512">0a49e630d25fe0084a5b89479e102846f79121574121495c01ba1453dbb0fd966a9211f48079d202ea715ddc60024b84f57096496db4d7dba7c512d62f49d618</checksum>
+      <benchmarks>
+        <benchmark>
+          <benchmark-id>xccdf_mil.disa.stig_benchmark_Solaris_11_X86_STIG</benchmark-id>
+          <title>Solaris 11 X86 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+          <version>3.2.9</version>
+          <style>SCAP_1.3</style>
+          <status>accepted</status>
+          <status-date>2024-08-28</status-date>
+          <creator>DISA</creator>
+          <publisher>DISA+NIWC</publisher>
+          <contributor>DISA</contributor>
+          <source>STIG.DOD.MIL</source>
+        </benchmark>
+      </benchmarks>
+      <platforms>
+        <platform>
+          <platform-id style="cpe">cpe:/o:sun:sunos:5.11:-:~~~~x86~</platform-id>
+        </platform>
+      </platforms>
+    </scap-content>
+  </contents>
+</content-repository>
