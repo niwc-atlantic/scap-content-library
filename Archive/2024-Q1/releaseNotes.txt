@@ -1,0 +1,143 @@
+Release notes for: Q1 2024 Release
+
+	Product: U_Cisco_IOS-XE_Router_NDM
+		-[Bug]: Update schematron-version to 1.3, Issue #869
+		-Update content for DISA's Q1 manual and benchmark release, Issue #1106
+
+	Product: U_Cisco_IOS-XE_Router_RTR
+		-[Bug]: Update schematron-version to 1.3, Issue #869
+		-Update content for DISA's Q1 manual and benchmark release, Issue #1106
+
+	Product: U_Google_Chrome
+		-[Feature]: Update rule SV-241787 for updated manual, U_Google_Chrome_V2R9_STIG_Manual-xccdf.xml, Issue #1046
+		-[Feature]: Update rule SV-221596 for updated manual, U_Google_Chrome_V2R9_STIG_Manual-xccdf.xml, Issue #1045
+		-[Feature]: Update rule SV-221584 for updated manual, U_Google_Chrome_V2R9_STIG_Manual-xccdf.xml, Issue #1044
+		-[Feature]: Update rule SV-221565 for updated manual, U_Google_Chrome_V2R9_STIG_Manual-xccdf.xml, Issue #1043
+		-[Bug]: Update schematron-version to 1.3, Issue #869
+		-Update content for DISA's Q1 manual and benchmark release, Issue #1106
+
+	Product: U_MS_DotNet_Framework_4-0
+		-[Bug]: Update schematron-version to 1.3, Issue #869
+		-Update content for DISA's Q1 manual and benchmark release, Issue #1106
+
+	Product: U_MS_IE11
+		-[Bug]: Update schematron-version to 1.3, Issue #869
+		-Update content for DISA's Q1 manual and benchmark release, Issue #1106
+
+	Product: U_MS_IIS_10-0_Server
+		-[Feature]: Update rule SV-218825 for updated manual, U_MS_IIS_10-0_Server_V2R10_STIG_Manual-xccdf.xml, Issue #837
+		-[Feature]: Update check for V-218825 to report 'not applicable' if sharepoint is installed, Issue #822
+		-[Feature]: Update check for V-218825 to report 'not applicable' if exchange is installed, Issue #824
+		-[Feature]: Update check for V-218825 to report 'not applicable' if WSUS is installed, Issue #823
+		-[Feature]: Update check for V-218825 to report 'not applicable' if ASP.NET Framework is not installed, Issue #821
+		-[Feature]: Update check for V-218818 to report 'not applicable' if Print Services role and the Internet Printing role are not installed, Issue #1085
+		-[Feature]: Update check for V-218812 to report 'not applicable' if Web Management Service is not installed or Enable remote connections is not selected, Issue #1084
+		-[Feature]: IIS 10 Server SV-241788 needs to be added back into content. , Issue #1012
+		-[Feature]: IIS 10 Server SV-218827 needs to be added back into content. , Issue #1007
+		-[Feature]: IIS 10 Server SV-218819 needs to be added back into content. , Issue #1006
+		-[Feature]: IIS 10 Server SV-218815 needs to be added back into content. , Issue #1011
+		-[Feature]: IIS 10 Server SV-218805 needs to be added back into content. , Issue #1010
+		-[Feature]: IIS 10 Server SV-218804 needs to be added back into content., Issue #1009
+		-[Feature]:  IIS 10 Server SV-218795 needs to be added back into content. , Issue #1008
+		-[Bug]: V-218825 .NET Authorization Rules test oval:navy.navwar.niwcatlantic.scc.ms.iis.10.0.server:tst:421 fails to report failure., Issue #1004
+		-[Bug]: V-218825 .NET Authorization Rules test oval:navy.navwar.niwcatlantic.scc.ms.iis.10.0.server:tst:420 fails to report failure., Issue #1094
+		-[Bug]: V-218812 needs to be removed from content for Q1 release , Issue #1102
+		-[Bug]: Update schematron-version to 1.3, Issue #869
+		-[Bug]: RESEARCH - Review V-218818 to make sure test is complete, Issue #1086
+		-Update content for DISA's Q1 manual and benchmark release, Issue #1106
+
+	Product: U_MS_IIS_10-0_Site
+		-[Feature]: IIS 10 Site SV-218778  needs to be added back into content. , Issue #1030
+		-[Feature]: IIS 10 Site SV-218777 needs to be added back into content. , Issue #1029
+		-[Feature]: IIS 10 Site SV-218775  needs to be added back into content. , Issue #1028
+		-[Feature]: IIS 10 Site SV-218772 needs to be added back into content. , Issue #1027
+		-[Feature]: IIS 10 Site SV-218771 needs to be added back into content. , Issue #1026
+		-[Feature]: IIS 10 Site SV-218770 needs to be added back into content. , Issue #1025
+		-[Feature]: IIS 10 Site SV-218768  needs to be added back into content. , Issue #1019
+		-[Feature]: IIS 10 Site SV-218762  needs to be added back into content. , Issue #1024
+		-[Feature]: IIS 10 Site SV-218758 needs to be added back into content. , Issue #1023
+		-[Feature]: IIS 10 Site SV-218756  needs to be added back into content. , Issue #1022
+		-[Feature]: IIS 10 Site SV-218752 needs to be added back into content. , Issue #1021
+		-[Feature]: IIS 10 Site SV-218751  needs to be added back into content. , Issue #1020
+		-[Feature]: IIS 10 Site SV-218749 needs to be added back into content. , Issue #1018
+		-[Feature]: IIS 10 Site SV-218748 needs to be added back into content. , Issue #1017
+		-[Feature]: IIS 10 Site SV-218738 needs to be added back into content. , Issue #1016
+		-[Feature]: IIS 10 Site SV-218737 needs to be added back into content. , Issue #1015
+		-[Feature]: IIS 10 Site SV-218736 needs to be added back into content. , Issue #1014
+		-[Feature]: IIS 10 Site SV-218735 needs to be added back into content. , Issue #1013
+		-[Feature]: Add platform exception - V-218775, Issue #1091
+		-[Feature]: Add Platform Exception - V-218778, Issue #1042
+		-[Feature]: Add Platform Exception - V-218775, Issue #1090
+		-[Feature]: Add Platform Exception - V-218772, Issue #1041
+		-[Feature]: Add Platform Exception - V-218771, Issue #1040
+		-[Feature]: Add Platform Exception - V-218768, Issue #1039
+		-[Feature]: Add Platform Exception - V-218762, Issue #1038
+		-[Feature]: Add Platform Exception - V-218761, Issue #1037
+		-[Feature]: Add Platform Exception - V-218758, Issue #1036
+		-[Feature]: Add Platform Exception - V-218756, Issue #1035
+		-[Feature]: Add Platform Exception - V-218749, Issue #1034
+		-[Feature]: Add Platform Exception - V-218748, Issue #1033
+		-[Feature]: Add Platform Exception - V-218737 , Issue #1032
+		-[Feature]: Add Platform Exception - SV-218777, Issue #1092
+		-[Feature]:  Add Platform Exception - V-218738, Issue #1104
+		-[Bug]: Update schematron-version to 1.3, Issue #869
+		-Update content for DISA's Q1 manual and benchmark release, Issue #1106
+
+	Product: U_MS_Windows_Server_2016
+		-[Feature]: Update Windows Server 2016, 2019, 2022 to apply platform specifications to manual rules (making Domain Controller manual rules be N/A on Member Server etc..), Issue #560
+		-[Bug]: Update schematron-version to 1.3, Issue #869
+		-Update content for DISA's Q1 manual and benchmark release, Issue #1106
+
+	Product: U_MS_Windows_Server_2019
+		-[Feature]: Update Windows Server 2016, 2019, 2022 to apply platform specifications to manual rules (making Domain Controller manual rules be N/A on Member Server etc..), Issue #560
+		-[Feature]: Automate rule SV-205924r569188, Windows Server 2019 must preserve zone information when saving attachments., Issue #672
+		-[Bug]: Update schematron-version to 1.3, Issue #869
+		-Update content for DISA's Q1 manual and benchmark release, Issue #1106
+
+	Product: U_MS_Windows_Server_2022
+		-[Feature]: Update rule SV-254356 for updated manual, U_MS_Windows_Server_2022_V1R3_STIG_Manual-xccdf.xml, Issue #666
+		-[Feature]: Update Windows Server 2016, 2019, 2022 to apply platform specifications to manual rules (making Domain Controller manual rules be N/A on Member Server etc..), Issue #560
+		-[Feature]: Automate rule SV-254356r894354, Windows Server 2022 Telemetry must be configured to Security or Basic., Issue #628
+		-[Feature]: Add rule SV-254356 for updated manual, U_MS_Windows_Server_2022_V1R3_STIG_Manual-xccdf.xml, Issue #667
+		-[Bug]: Update schematron-version to 1.3, Issue #869
+		-Update content for DISA's Q1 manual and benchmark release, Issue #1106
+
+	Product: U_RHEL_7
+		-[Feature]: Update rule SV-250313 for updated manual, U_RHEL_7_V3R14_STIG_Manual-xccdf.xml, Issue #1081
+		-[Feature]: Update rule SV-214800 for updated manual, U_RHEL_7_V3R14_STIG_Manual-xccdf.xml, Issue #1080
+		-[Feature]: Update rule SV-204453 for updated manual, U_RHEL_7_V3R14_STIG_Manual-xccdf.xml, Issue #1075
+		-[Bug]: Update schematron-version to 1.3, Issue #869
+		-Update content for DISA's Q1 manual and benchmark release, Issue #1106
+
+	Product: U_RHEL_8
+		-[Feature]: Automate rule SV-251714r810410, RHEL 8 systems below version 8.4 must ensure the password complexity module in the system-auth file is configured for three retries or less., Issue #252
+		-[Feature]: Automate rule SV-251713r810407, RHEL 8 must ensure the password complexity module is enabled in the system-auth file., Issue #251
+		-[Feature]: Automate rule SV-251712r854083, The RHEL 8 operating system must not be configured to bypass password requirements for privilege escalation., Issue #250
+		-[Feature]: Automate rule SV-251709r810014, RHEL 8 library directories must be group-owned by root or a system account., Issue #247
+		-[Feature]: Automate rule SV-245540r754730, The RHEL 8 operating system must implement the Endpoint Security for Linux Threat Prevention tool., Issue #241
+		-[Feature]: Automate rule SV-244547r854076, RHEL 8 must have the USBGuard installed., Issue #238
+		-[Feature]: Automate rule SV-244537r743860, RHEL 8 must have the tmux package installed., Issue #233
+		-[Feature]: Automate rule SV-244529r743836, RHEL 8 must use a separate file system for /var/tmp., Issue #227
+		-[Feature]: Automate rule SV-230530r646883, The x86 Ctrl-Alt-Delete key sequence in RHEL 8 must be disabled if a graphical user interface is installed., Issue #312
+		-[Feature]: Automate rule SV-230482r877390, RHEL 8 must authenticate the remote logging server for off-loading audit logs., Issue #307
+		-[Feature]: Automate rule SV-230475r880722, RHEL 8 must use cryptographic mechanisms to protect the integrity of audit tools., Issue #303
+		-[Feature]: Automate rule SV-230470r744006, RHEL 8 must enable Linux audit logging for the USBGuard daemon., Issue #301
+		-[Feature]: Automate rule SV-230339r743975, RHEL 8 must ensure account lockouts persist., Issue #286
+		-[Feature]: Automate rule SV-230338r627750, RHEL 8 must ensure account lockouts persist., Issue #285
+		-[Feature]: Automate rule SV-230329r877377, Unattended or automatic logon via the RHEL 8 graphical user interface must not be allowed., Issue #284
+		-[Feature]: Automate rule SV-230321r627750, All RHEL 8 local interactive user home directories must have mode 0750 or less permissive., Issue #276
+		-[Feature]: Automate rule SV-230319r743961, All RHEL 8 world-writable directories must be group-owned by root, sys, bin, or an application group., Issue #275
+		-[Feature]: Automate rule SV-230318r743960, All RHEL 8 world-writable directories must be owned by root, sys, bin, or an application user., Issue #274
+		-[Feature]: Automate rule SV-230276r854031, RHEL 8 must implement non-executable data to protect its memory from unauthorized code execution., Issue #264
+		-[Feature]: Automate rule SV-230261r627750, RHEL 8 library files must be owned by root., Issue #259
+		-[Feature]: Automate rule SV-230260r792867, RHEL 8 library files must have mode 755 or less permissive., Issue #258
+		-[Feature]: Automate rule SV-230243r792857, A sticky bit must be set on all RHEL 8 public directories to prevent unauthorized and unintended information transferred via shared system resources., Issue #224
+		-[Feature]: Automate rule SV-230226r743916, RHEL 8 must display the Standard Mandatory DoD Notice and Consent Banner before granting local or remote access to the system via a graphical user logon., Issue #277
+		-[Feature]: Add platform-specification for usbguard package installed and running, Issue #1101
+		-[Feature]: Add platform-specification for the use of the Gnome desktop, Issue #1095
+		-[Feature]: Add platform-specification for OS Version 8.4 or later., Issue #1099
+		-[Feature]: Add platform-specification for OS Version 8.2 or later., Issue #1097
+		-[Feature]: Add platform-specification for OS Version 8.0 or 8.1, Issue #1096
+		-[Feature]: Add platform-specification for OS Version 8.0 - 8.3, Issue #1098
+		-[Bug]: Update schematron-version to 1.3, Issue #869
+		-Update content for DISA's Q1 manual and benchmark release, Issue #1106

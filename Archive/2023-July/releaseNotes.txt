@@ -1,0 +1,151 @@
+Release notes for: July 2023 Release
+
+	Product: U_Adobe_Acrobat_Reader_DC_Continuous
+		-[Feature]: Automate rule SV-213193r400876, Adobe Reader DC must enable FIPS mode., Issue #475
+		-[Feature]: Automate rule SV-213191r400378, Adobe Reader DC must disable periodical uploading of Adobe certificates., Issue #474
+		-[Feature]: Automate rule SV-213190r400378, Adobe Reader DC must disable periodical uploading of European certificates., Issue #473
+		-[Bug]: Fix an issue where Platform Specification elements were not being included, Issue #673
+
+	Product: U_MS_OneDrive
+		-[Feature]: Update rule SV-230564 for updated manual, U_MS_OneDrive_V2R3_STIG_Manual-xccdf.xml, Issue #664
+		-[Feature]: Update rule SV-230562 for updated manual, U_MS_OneDrive_V2R3_STIG_Manual-xccdf.xml, Issue #663
+		-[Feature]: Update rule SV-215538 for updated manual, U_MS_OneDrive_V2R3_STIG_Manual-xccdf.xml, Issue #662
+		-[Feature]: Update rule SV-215537 for updated manual, U_MS_OneDrive_V2R3_STIG_Manual-xccdf.xml, Issue #661
+		-[Feature]: Update rule SV-215536 for updated manual, U_MS_OneDrive_V2R3_STIG_Manual-xccdf.xml, Issue #660
+		-[Feature]: Update rule SV-215535 for updated manual, U_MS_OneDrive_V2R3_STIG_Manual-xccdf.xml, Issue #659
+		-[Feature]: Update rule SV-215534 for updated manual, U_MS_OneDrive_V2R3_STIG_Manual-xccdf.xml, Issue #658
+		-[Feature]: Update rule SV-215533 for updated manual, U_MS_OneDrive_V2R3_STIG_Manual-xccdf.xml, Issue #657
+		-[Feature]: Update rule SV-215532 for updated manual, U_MS_OneDrive_V2R3_STIG_Manual-xccdf.xml, Issue #656
+		-[Feature]: Update rule SV-215531 for updated manual, U_MS_OneDrive_V2R3_STIG_Manual-xccdf.xml, Issue #655
+		-[Feature]: Update rule SV-215530 for updated manual, U_MS_OneDrive_V2R3_STIG_Manual-xccdf.xml, Issue #654
+		-[Feature]: Update rule SV-215529 for updated manual, U_MS_OneDrive_V2R3_STIG_Manual-xccdf.xml, Issue #653
+
+	Product: U_MS_Windows_10
+		-[Feature]: Update rule SV-220861 revision ID., Issue #629
+		-[Feature]: Automate rule SV-220954r569187, Toast notifications to the lock screen must be turned off., Issue #433
+		-[Feature]: Automate rule SV-220922r569187, The Windows dialog box title for the legal banner must be configured., Issue #429
+		-[Feature]: Automate rule SV-220921r569187, The required legal notice must be configured to display before console logon., Issue #428
+		-[Feature]: Automate rule SV-220872r569187, Windows 10 should be configured to prevent users from receiving suggestions for third-party or additional applications. , Issue #427
+		-[Feature]: Automate rule SV-220861r569305, The Windows Explorer Preview pane must be disabled for Windows 10. , Issue #425
+		-[Feature]: Automate rule SV-220793r819667, Windows 10 must cover or disable the built-in or attached camera when not in use., Issue #421
+		-[Feature]: Automate rule SV-220766r569187, The system must be configured to audit Object Access - Removable Storage successes., Issue #418
+		-[Feature]: Automate rule SV-220756r569187, The system must be configured to audit Logon/Logoff - Group Membership successes., Issue #416
+		-[Feature]: Automate rule SV-220753r851973, The system must be configured to audit Detailed Tracking - PNP Activity successes., Issue #415
+		-[Feature]: Automate rule SV-220700r569187, Secure Boot must be enabled on Windows 10 systems., Issue #419
+		-[Feature]: Automate rule SV-220699r569187, Windows 10 systems must have Unified Extensible Firmware Interface (UEFI) firmware and be configured to run in UEFI mode, not Legacy BIOS., Issue #412
+		-[Bug]: Fix an issue where Platform Specification elements were not being included, Issue #673
+
+	Product: U_MS_Windows_11
+		-[Feature]: Automate rule SV-253478r829518, Zone information must be preserved when saving attachments., Issue #346
+		-[Feature]: Automate rule SV-253477r829515, Toast notifications to the lock screen must be turned off., Issue #345
+		-[Feature]: Automate rule SV-253452r829440, Anonymous SID/Name translation must not be allowed., Issue #344
+		-[Feature]: Automate rule SV-253445r840186, The required legal notice must be configured to display before console logon., Issue #343
+		-[Feature]: Automate rule SV-253392r829260, Enhanced diagnostic data must be limited to the minimum required to support Windows Analytics., Issue #340
+		-[Feature]: Automate rule SV-253371r829197, Virtualization-based protection of code integrity must be enabled., Issue #339
+		-[Feature]: Automate rule SV-253370r829194, Credential Guard must be running on Windows 11 domain-joined systems., Issue #338
+		-[Feature]: Automate rule SV-253369r829191, Virtualization-based Security must be enabled on Windows 11 with the platform security level configured to Secure Boot or Secure Boot with DMA Protection., Issue #337
+		-[Feature]: Automate rule SV-253324r829056, The system must be configured to audit Object Access - Removable Storage successes., Issue #334
+		-[Feature]: Automate rule SV-253323r829053, The system must be configured to audit Object Access - Removable Storage failures., Issue #332
+		-[Feature]: Automate rule SV-253314r829026, The system must be configured to audit Logon/Logoff - Group Membership successes., Issue #331
+		-[Feature]: Automate rule SV-253311r829017, The system must be configured to audit Detailed Tracking - PNP Activity successes., Issue #330
+		-[Feature]: Automate rule SV-253296r877038, The Windows 11 time service must synchronize with an appropriate DoD time source., Issue #329
+		-[Feature]: Automate rule SV-253280r828924, Software certificate installation files must be removed from Windows 11., Issue #326
+		-[Feature]: Automate rule SV-253276r828912, Simple Network Management Protocol (SNMP) must not be installed on the system., Issue #325
+		-[Feature]: Automate rule SV-253264r828876, The Windows 11 system must use an antivirus program., Issue #347
+		-[Feature]: Automate rule SV-253257r877465, Secure Boot must be enabled on Windows 11 systems., Issue #333
+		-[Feature]: Automate rule SV-253256r877465, Windows 11 systems must have Unified Extensible Firmware Interface (UEFI) firmware and be configured to run in UEFI mode, not Legacy BIOS., Issue #327
+		-[Feature]: Automate rule SV-253255r877465, Windows 11 domain-joined systems must have a Trusted Platform Module (TPM) enabled., Issue #322
+		-[Bug]: Fix an issue where Platform Specification elements were not being included, Issue #673
+
+	Product: U_MS_Windows_Server_2016
+		-[Feature]: Automate rule SV-236000r641817, The Windows Explorer Preview pane must be disabled for Windows Server 2016., Issue #471
+		-[Feature]: Automate rule SV-225044r569186, Anonymous SID/Name translation must not be allowed., Issue #469
+		-[Feature]: Automate rule SV-225037r569186, The Windows dialog box title for the legal banner must be configured with the appropriate text., Issue #468
+		-[Feature]: Automate rule SV-225036r569186, The required legal notice must be configured to display before console logon., Issue #467
+		-[Feature]: Automate rule SV-224923r857253, Windows Server 2016 virtualization-based security must be enabled with the platform security level configured to Secure Boot or Secure Boot with DMA Protection., Issue #460
+		-[Feature]: Automate rule SV-224899r569186, Windows Server 2016 must be configured to audit Object Access - Removable Storage failures., Issue #459
+		-[Feature]: Automate rule SV-224898r569186, Windows Server 2016 must be configured to audit Object Access - Removable Storage successes., Issue #458
+		-[Feature]: Automate rule SV-224891r569186, Windows Server 2016 must be configured to audit Logon/Logoff - Group Membership successes., Issue #457
+		-[Feature]: Automate rule SV-224887r569186, Windows Server 2016 must be configured to audit Detailed Tracking - Plug and Play Events successes., Issue #456
+		-[Feature]: Automate rule SV-224865r569186, Windows 2016 systems must have Unified Extensible Firmware Interface (UEFI) firmware and be configured to run in UEFI mode, not Legacy BIOS., Issue #455
+		-[Feature]: Automate rule SV-224864r569186, Secure Boot must be enabled on Windows Server 2016 systems., Issue #454
+		-[Feature]: Automate rule SV-224861r569186, FTP servers must be configured to prevent access to the system drive., Issue #451
+		-[Feature]: Automate rule SV-224860r569186, FTP servers must be configured to prevent anonymous logons., Issue #450
+		-[Feature]: Automate rule SV-224849r857243, Windows Server 2016 must automatically remove or disable emergency accounts after the crisis is resolved or within 72 hours., Issue #449
+		-[Feature]: Automate rule SV-224848r857240, Windows Server 2016 must automatically remove or disable temporary user accounts after 72 hours., Issue #448
+		-[Feature]: Automate rule SV-224842r569186, Software certificate installation files must be removed from Windows Server 2016., Issue #446
+		-[Feature]: Automate rule SV-224827r902425, Windows Server 2016 domain-joined systems must have a Trusted Platform Module (TPM) enabled and ready for use., Issue #472
+		-[Feature]: Automate rule SV-224824r857226, Manually managed application account passwords must be changed at least annually or when a system administrator with knowledge of the password leaves the organization., Issue #463
+		-[Bug]: Fix an issue where Platform Specification elements were not being included, Issue #673
+
+	Product: U_MS_Windows_Server_2019
+		-[Feature]: Update rule SV-205843 for updated manual, U_MS_Windows_Server_2019_V2R7_STIG_Manual-xccdf.xml, Issue #669
+		-[Feature]: Update Windows 2019 SCAP content from SCAP 1.2 to SCAP 1.3 to allow more automation, Issue #501
+		-[Feature]: Automate rule SV-205913r569188, Windows Server 2019 must not allow anonymous SID/Name translation., Issue #402
+		-[Feature]: Automate rule SV-205907r857344, Windows Server 2019 must be running Credential Guard on domain-joined member servers., Issue #401
+		-[Feature]: Automate rule SV-205857r569188, Windows Server 2019 must have Secure Boot enabled., Issue #398
+		-[Feature]: Automate rule SV-205856r569188, Windows Server 2019 systems must have Unified Extensible Firmware Interface (UEFI) firmware and be configured to run in UEFI mode, not Legacy BIOS., Issue #397
+		-[Feature]: Automate rule SV-205852r569188, Windows Server 2019 must have software certificate installation files removed., Issue #394
+		-[Feature]: Automate rule SV-205841r569188, Windows Server 2019 must be configured to audit Object Access - Removable Storage failures., Issue #392
+		-[Feature]: Automate rule SV-205840r569188, Windows Server 2019 must be configured to audit Object Access - Removable Storage successes., Issue #391
+		-[Feature]: Automate rule SV-205839r569188, Windows Server 2019 must be configured to audit Detailed Tracking - Plug and Play Events successes., Issue #390
+		-[Feature]: Automate rule SV-205834r569188, Windows Server 2019 must be configured to audit Logon/Logoff - Group Membership successes., Issue #389
+		-[Feature]: Automate rule SV-205710r857303, Windows Server 2019 must automatically remove or disable emergency accounts after the crisis is resolved or within 72 hours., Issue #381
+		-[Feature]: Automate rule SV-205632r569188, Windows Server 2019 title for legal banner dialog box must be configured with the appropriate text., Issue #388
+		-[Feature]: Automate rule SV-205631r569188, Windows Server 2019 required legal notice must be configured to display before console logon., Issue #387
+		-[Bug]: Fix an issue where Platform Specification elements were not being included, Issue #673
+
+	Product: U_MS_Windows_Server_2022
+		-[Feature]: Automate rule SV-254465r849211, Windows Server 2022 must not allow anonymous SID/Name translation., Issue #379
+		-[Feature]: Automate rule SV-254458r849190, Windows Server 2022 title for legal banner dialog box must be configured with the appropriate text., Issue #378
+		-[Feature]: Automate rule SV-254457r849187, Windows Server 2022 required legal notice must be configured to display before console logon., Issue #377
+		-[Feature]: Automate rule SV-254318r848770, Windows Server 2022 must be configured to audit Object Access - Removable Storage failures., Issue #371
+		-[Feature]: Automate rule SV-254317r848767, Windows Server 2022 must be configured to audit Object Access - Removable Storage successes., Issue #370
+		-[Feature]: Automate rule SV-254284r848668, Windows Server 2022 must have Secure Boot enabled., Issue #367
+		-[Feature]: Automate rule SV-254283r848665, Windows Server 2022 systems must have Unified Extensible Firmware Interface (UEFI) firmware and be configured to run in UEFI mode, not Legacy BIOS., Issue #366
+		-[Feature]: Automate rule SV-254279r848653, Windows Server 2022 FTP servers must be configured to prevent anonymous logons., Issue #363
+		-[Feature]: Automate rule SV-254268r848620, Windows Server 2022 must automatically remove or disable emergency accounts after the crisis is resolved or within 72 hours., Issue #362
+		-[Feature]: Automate rule SV-254261r848599, Windows Server 2022 must have software certificate installation files removed., Issue #360
+		-[Feature]: Automate rule SV-254248r848560, Windows Server 2022 must use an antivirus program., Issue #351
+		-[Bug]: Fix an issue where Platform Specification elements were not being included, Issue #673
+
+	Product: U_RHEL_7
+		-[Feature]: Update rule SV-204586 for updated manual, U_RHEL_7_STIG_V3R12_Manual-xccdf.xml, Issue #640
+		-[Feature]: Automate rule SV-256970r902696, The Red Hat Enterprise Linux operating system must be configured to allow sending email notifications of configuration changes and adverse events to designated personnel., Issue #620
+		-[Feature]: Automate rule SV-255926r880779, The Red Hat Enterprise Linux operating system must have the screen package installed., Issue #618
+		-[Feature]: Automate rule SV-251704r854012, The Red Hat Enterprise Linux operating system must not be configured to bypass password requirements for privilege escalation., Issue #616
+		-[Feature]: Automate rule SV-250313r877392, The Red Hat Enterprise Linux operating system must not allow privileged accounts to utilize SSH., Issue #614
+		-[Feature]: Automate rule SV-228564r606407, The Red Hat Enterprise Linux operating system must protect audit information from unauthorized read, modification, or deletion., Issue #612
+		-[Feature]: Automate rule SV-214800r854323, The Red Hat Enterprise Linux operating system must implement the Endpoint Security for Linux Threat Prevention tool., Issue #611
+		-[Feature]: Automate rule SV-204586r861071, The Red Hat Enterprise Linux operating system must be configured so that all networked systems use SSH for confidentiality and integrity of transmitted and received information as well as information during preparation for transmission., Issue #608
+		-[Feature]: Automate rule SV-204580r603261. The Red Hat Enterprise Linux operating system must display the Standard Mandatory DoD Notice and Consent Banner immediately prior to, or as part of, remote access logon prompts., Issue #633
+		-[Bug]: Fix an issue where Platform Specification elements were not being included, Issue #673
+
+	Product: U_RHEL_8
+		-[Feature]: Update rule SV-255924 for updated manual, U_RHEL_8_V1R11_STIG_Manual-xccdf.xml, Issue #650
+		-[Feature]: Update rule SV-244549 for updated manual, U_RHEL_8_V1R11_STIG_Manual-xccdf.xml, Issue #649
+		-[Feature]: Update rule SV-244525 for updated manual, U_RHEL_8_V1R11_STIG_Manual-xccdf.xml, Issue #648
+		-[Feature]: Update rule SV-230252 for updated manual, U_RHEL_8_V1R11_STIG_Manual-xccdf.xml, Issue #644
+		-[Feature]: Update rule SV-230251 for updated manual, U_RHEL_8_V1R11_STIG_Manual-xccdf.xml, Issue #643
+		-[Feature]: Automate rule SV-255924r880733, RHEL 8 SSH server must be configured to use only FIPS-validated key exchange algorithms., Issue #257
+		-[Feature]: Automate rule SV-251717r858745, RHEL 8 must be configured in the system-auth file to prohibit password reuse for a minimum of five generations., Issue #255
+		-[Feature]: Automate rule SV-251708r810012, RHEL 8 library directories must be owned by root., Issue #246
+		-[Feature]: Automate rule SV-251707r809345, RHEL 8 library directories must have mode 755 or less permissive., Issue #244
+		-[Feature]: Automate rule SV-244549r854078, All RHEL 8 networked systems must have SSH installed., Issue #240
+		-[Feature]: Automate rule SV-244544r854073, A firewall must be active on RHEL 8., Issue #671
+		-[Feature]: Automate rule SV-244542r818838, RHEL 8 audit records must contain information to establish what type of events occurred, the source of events, where events occurred, and the outcome of events., Issue #670
+		-[Feature]: Automate rule SV-244527r743830, RHEL 8 must have the packages required to use the hardware random number generator entropy gatherer service., Issue #225
+		-[Feature]: Automate rule SV-244526r877394, The RHEL 8 SSH daemon must be configured to use system-wide crypto policies., Issue #321
+		-[Feature]: Automate rule SV-244525r858699, The RHEL 8 SSH daemon must be configured with a timeout interval., Issue #320
+		-[Feature]: Automate rule SV-244524r809331, The RHEL 8 pam_unix.so module must be configured in the system-auth file to use a FIPS 140-2 approved cryptographic hashing algorithm for system authentication., Issue #319
+		-[Feature]: Automate rule SV-244523r743818, RHEL 8 operating systems must require authentication upon booting into emergency mode., Issue #318
+		-[Feature]: Automate rule SV-230525r854066, A firewall must be able to protect against or limit the effects of Denial of Service (DoS) attacks by ensuring RHEL 8 can implement rate-limiting measures on impacted network interfaces., Issue #311
+		-[Feature]: Automate rule SV-230505r854048, A firewall must be installed on RHEL 8., Issue #309
+		-[Feature]: Automate rule SV-230470r744006, RHEL 8 must enable Linux audit logging for the USBGuard daemon., Issue #301
+		-[Feature]: Automate rule SV-230389r627750, The RHEL 8 Information System Security Officer (ISSO) and System Administrator (SA) (at a minimum) must have mail aliases to be notified of an audit processing failure., Issue #299
+		-[Feature]: Automate rule SV-230381r858726, RHEL 8 must display the date and time of the last successful account logon upon logon., Issue #295
+		-[Feature]: Automate rule SV-230262r627750, RHEL 8 library files must be group-owned by root or a system account., Issue #260
+		-[Feature]: Automate rule SV-230252r877394, The RHEL 8 operating system must implement DoD-approved encryption to protect the confidentiality of SSH server connections., Issue #239
+		-[Feature]: Automate rule SV-230227r627750, RHEL 8 must display the Standard Mandatory DoD Notice and Consent Banner before granting local or remote access to the system via a command line user logon., Issue #287
+		-[Feature]: Automate rule SV-230225r858694, RHEL 8 must display the Standard Mandatory DoD Notice and Consent Banner before granting local or remote access to the system via a ssh logon., Issue #270
+		-[Bug]: Fix an issue where Platform Specification elements were not being included, Issue #673

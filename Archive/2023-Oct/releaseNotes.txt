@@ -1,0 +1,47 @@
+Release notes for: October 2023 Release
+
+	Product: U_Google_Chrome
+		-[Feature]: Automate rule SV-241787r720329, Web Bluetooth API must be disabled., Issue #680
+		-[Feature]: Automate rule SV-221565r754421, The default search provider URL must be set to perform encrypted searches., Issue #677
+
+	Product: U_MS_Edge
+		-[Feature]: Automate rule SV-235726r879587, The default search provider must be set to use an encrypted connection., Issue #683
+
+	Product: U_MS_IE11
+		-[Feature]: Automate rule SV-223124r879587, Turn on the auto-complete feature for user names and passwords on forms must be disabled., Issue #690
+		-[Feature]: Automate rule SV-223122r879587, AutoComplete feature for forms must be disallowed., Issue #689
+		-[Feature]: Automate rule SV-223016r879612, Check for publishers certificate revocation must be enforced., Issue #688
+
+	Product: U_MS_IIS_10-0_Server
+		-[Feature]: Update rule SV-218825 for updated manual, U_MS_IIS_10-0_Server_V2R10_STIG_Manual-xccdf.xml, Issue #837
+		-[Feature]: Update rule SV-218805 for updated manual, U_MS_IIS_10-0_Server_V2R10_STIG_Manual-xccdf.xml, Issue #836
+		-[Feature]: Update rule SV-218794 for updated manual, U_MS_IIS_10-0_Server_V2R10_STIG_Manual-xccdf.xml, Issue #835
+
+	Product: U_MS_IIS_10-0_Site
+		-[Feature]: Update rule SV-218752 for updated manual, U_MS_IIS_10-0_Site_V2R9_STIG_Manual-xccdf.xml, Issue #839
+		-[Feature]: Update rule SV-218750 for updated manual, U_MS_IIS_10-0_Site_V2R9_STIG_Manual-xccdf.xml, Issue #838
+
+	Product: U_MS_IIS_8-5_Server
+		-[Feature]: Add rule SV-258446 for updated manual, U_MS_IIS_8-5_Server_V2R7_STIG_Manual-xccdf.xml, Issue #833
+
+	Product: U_MS_IIS_8-5_Site
+		-[Feature]: Add rule SV-258445 for updated manual, U_MS_IIS_8-5_Site_V2R9_STIG_Manual-xccdf.xml, Issue #834
+
+	Product: U_MS_Office_365_ProPlus
+		-[Feature]: Update rule SV-223417 for updated manual, U_MS_Office_365_ProPlus_V2R11_STIG_Manual-xccdf.xml, Issue #832
+		-[Feature]: Update rule SV-223393 for updated manual, U_MS_Office_365_ProPlus_V2R11_STIG_Manual-xccdf.xml, Issue #831
+		-[Feature]: Update rule SV-223392 for updated manual, U_MS_Office_365_ProPlus_V2R11_STIG_Manual-xccdf.xml, Issue #830
+		-[Feature]: Update rule SV-223377 for updated manual, U_MS_Office_365_ProPlus_V2R11_STIG_Manual-xccdf.xml, Issue #829
+		-[Feature]: Update rule SV-223376 for updated manual, U_MS_Office_365_ProPlus_V2R11_STIG_Manual-xccdf.xml, Issue #828
+		-[Feature]: Update rule SV-223351 for updated manual, U_MS_Office_365_ProPlus_V2R11_STIG_Manual-xccdf.xml, Issue #827
+		-[Feature]: Update rule SV-223311 for updated manual, U_MS_Office_365_ProPlus_V2R11_STIG_Manual-xccdf.xml, Issue #826
+		-[Feature]: Update rule SV-223282 for updated manual, U_MS_Office_365_ProPlus_V2R11_STIG_Manual-xccdf.xml, Issue #825
+		-[Feature]: Update applicability for Office 365 to include Office 2021 for isolated enclaves, Issue #847
+
+	Product: U_RHEL_7
+		-[Feature]: Update rule SV-250314 for updated manual, U_RHEL_7_V3R13_STIG_Manual-xccdf.xml, Issue #846
+		-[Feature]: Update rule SV-250312 for updated manual, U_RHEL_7_V3R13_STIG_Manual-xccdf.xml, Issue #845
+		-[Feature]: Update rule SV-204501 for updated manual, U_RHEL_7_V3R13_STIG_Manual-xccdf.xml, Issue #844
+		-[Feature]: Update rule SV-204474 for updated manual, U_RHEL_7_STIG_V3R12_Manual-xccdf.xml, Issue #636
+		-[Feature]: Update rule SV-204455 for updated manual, U_RHEL_7_V3R13_STIG_Manual-xccdf.xml, Issue #843
+		-[Feature]: Update rule SV-204444 for updated manual, U_RHEL_7_V3R13_STIG_Manual-xccdf.xml, Issue #842
