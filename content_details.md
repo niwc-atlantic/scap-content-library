@@ -1,5 +1,5 @@
 | Date | Title | STIG Version | Benchmark Version |
-|---|---|---|---|---|---|
+|---|---|---|---|
 | 2025-06-03 | [Adobe Acrobat Reader DC Continuous Track STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Adobe_Acrobat_Reader_DC_Continuous_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV5-signed.zip) | 002.003 | 002.003.5 |
 | 2025-06-03 | [Canonical Ubuntu 18.04 LTS STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_CAN_Ubuntu_18-04_V2R12_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip) | 002.012 | 002.012.8 |
 | 2025-06-03 | [Canonical Ubuntu 20.04 LTS STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_CAN_Ubuntu_20-04_LTS_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV10-signed.zip) | 002.003 | 002.003.10 |
