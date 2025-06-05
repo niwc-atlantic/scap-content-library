@@ -1,6 +1,6 @@
 Created: 2025-06-04 15:45:11
 
-| Date | Filename | Benchmark Version | Total Rules | DISA Automated | NIWC Automated | Not Automated | % Automated |
+| Date | Filename | Version | Total Rules | DISA Automated | NIWC Automated | Not Automated | % Automated |
 |---|---|---|---|---|---|---|---|
 | 2025-06-03 | U_Adobe_Acrobat_Reader_DC_Continuous | 002.003.005 | 26 | 22 | 3 | 1 | 96.15 |
 | 2025-06-03 | U_CAN_Ubuntu_18-04 | 002.012.008 | 176 | 112 | 0 | 64 | 63.63 |
