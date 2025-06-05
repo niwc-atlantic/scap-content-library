@@ -15,7 +15,7 @@ Note:  All SCAP 1.4 content in this repository requires a tool capable of runnin
 | 2025-06-03 | [Microsoft OneDrive STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_OneDrive_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV5-signed.zip) | 002.002 | 002.002.5 |
 | 2025-06-03 | [MS SQL Server 2016 Database STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_SQL_Server_2016_Database_V3R2_STIG_SCAP_1-4_Benchmark-enhancedV5-signed.zip) | 3.2 | 3.2.5 |
 | 2025-05-23 | [MS SQL Server 2016 Instance STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_SQL_Server_2016_Instance_V3R4_STIG_SCAP_1-4_Benchmark-enhancedV6-signed.zip) | 3.4 | 3.4.6 |
-| 2025-04-14 | [Windows_Updates](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/Windows_Updates_SCAP_1-4_Benchmark_V1R1-signed.zip) | N/A | 1.1 |
+| 2025-04-14 | [Windows Updates](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/Windows_Updates_SCAP_1-4_Benchmark_V1R1-signed.zip) | N/A | 1.1 |
 
 
 
