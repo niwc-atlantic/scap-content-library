@@ -1,4 +1,4 @@
-Created: 2025-06-04 15:45:11
+**Created: 2025-06-04 15:45:11**
 
 | Date | Filename | Version | Total Rules | DISA Automated | NIWC Automated | Not Automated | % Automated |
 |---|---|---|---|---|---|---|---|
@@ -41,12 +41,12 @@ Created: 2025-06-04 15:45:11
 | 2025-06-03 | U_SOL_11_SPARC | 003.002.010 | 217 | 69 | 0 | 148 | 31.79 |
 | 2025-06-03 | U_SOL_11_X86 | 003.002.010 | 216 | 70 | 0 | 146 | 32.4 |
 
-Total Number of rules: 6099
+**Total Number of rules: 6099**
 
-Total Number of DISA Automated rules: 4094
+**Total Number of DISA Automated rules: 4094**
 
-Total Number of NIWC Automated rules: 455
+**Total Number of NIWC Automated rules: 455**
 
-Total Number of rules not automated: 1550
+**Total Number of rules not automated: 1550**
 
-Pecentage of total rule automated: 74.58
+**Pecentage of total rule automated: 74.58**
