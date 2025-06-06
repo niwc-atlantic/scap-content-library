@@ -61,7 +61,7 @@ Note:  All SCAP 1.4 content in this repository requires a tool capable of runnin
   
   [Consolidated_Bundle_06-04-2025.zip](https://github.com/niwc-atlantic/scap-content-library/blob/db85e6ba9711747b8a584ebb2f9ee56b1f246df4/Current/Consolidated_Bundle-06-04-2025.zip)
   
-  [niwc-content-repository-stats_03-13-2025](https://github.com/niwc-atlantic/scap-content-library/blob/db85e6ba9711747b8a584ebb2f9ee56b1f246df4/benchmark_stats.md)
+  [niwc-content-repository-stats_06-04-2025](https://github.com/niwc-atlantic/scap-content-library/blob/a911ff0d649034e3d66eec10d79a9bfacf1210b2/benchmark_stats.md)
 
   # Sunset SCAP 1.3 Content
 
