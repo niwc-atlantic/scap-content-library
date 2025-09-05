@@ -1,236 +1,305 @@
-## U_CAN_Ubuntu_20-04_LTS
-- Automate issue: SV-238198 displays the Standard Mandatory DOD Notice and Consent Banner
-- Automate: SV-238305 must allocate audit record storage capacity
-- Automate: SV-238306 Verify the audit event multiplexor is configured to offload audit records
-- Automate: SV-238332 Verify that all public directories have the public sticky bit
-- Automate: SV-238335 must implement cryptographic mechanisms to prevent unauthorized  (DAR)
-- Automate: SV-238356 information system clocks at least every 24 hours with a server synchronized
-- Automate: SV-238357 internal system clocks to the authoritative time source when the time difference is greater than one
-- Automate: SV-238360 SV-238360
-- Automate: SV-238367 Uncomplicated Firewall (ufw) to rate-limit impacted network interfaces
-- Automate: SV-238368 Ubuntu 20.04 LTS must implement nonexecutable data to protect its memory
-- Automate: SV-238371 Ubuntu 20.04 LTS must configure AIDE to perform file integrity
-- Automate: SV-238379 LTS must disable the x86 Ctrl-Alt-Delete key sequence if a graphical
-- Automate: SV-252704 must disable all wireless network adapters
-- Automate:SV-238199 Verify Ubuntu 20.04 LTS has a graphical user interface session lock enabled
-- Automate:SV-238214 displays the Standard Mandatory DOD Notice and Consent Banner (sshd)
-
 ## U_CAN_Ubuntu_22-04_LTS
-- [Feature] Automate rule SV-260475r958928
-- [Feature] Automate rule SV-260484r958552
-- [Feature] Automate rule SV-260513r958524
-- [Feature] Automate rule SV-260517r958902
-- [Feature] Automate rule SV-260519r1038944
-- [Feature] Automate rule SV-260520r1044776
-- [Feature] Automate rule SV-260525r958390
-- [Feature] Automate rule SV-260536r958390
-- [Feature] Automate rule SV-260537r958400
-- [Feature] Automate rule SV-260538r958402
-- [Feature] Automate rule SV-260539r991589
-- [Feature] Automate rule SV-260541r958358
-- [Feature] Automate rule SV-260557r958804
-- [Feature] Automate rule SV-260583r958944
-- [Feature] Automate rule SV-260592r958754
-- [Feature] Automate rule SV-260595r958752
-- Add datatype="int" to Ubuntu state for "Ubuntu 22.04 LTS must initiate a graphical session lock after 15 minutes of inactivity.">
-- create platform oval U_CAN_Ubuntu_22-04_LTS-platform_wireless_interface_installed
-- Update Rule SV-260537
-- Update Rule SV-260538
-- Update Rule SV-260539
-- Updated DISA developed rule to run more efficiently: SV-260485r991559_rule 
-- Updated DISA developed rule to run more efficiently: SV-260486r991560_rule 
-- Updated DISA developed rule to run more efficiently: SV-260487r991560_rule 
-- Updated DISA developed rule to run more efficiently: SV-260493r991559_rule 
-- Updated DISA developed rule to run more efficiently: SV-260495r991560_rule 
-- Updated DISA developed rule to run more efficiently: SV-260496r991560_rule 
-- Updated DISA developed rule to run more efficiently: SV-260497r991560_rule 
-- Updated DISA developed rule to run more efficiently: SV-260498r991560_rule 
-- Updated DISA developed rule to run more efficiently: SV-260499r991560_rule 
-- Updated DISA developed rule to run more efficiently: SV-260500r1069099_rule
+- ISSUE 1611 : [Feature] Automate rule SV-260592r958754
+- ISSUE 2008 : Automate Rule SV-274860
+- ISSUE 2006 : Automate Rule SV-274861
+- ISSUE 2005 : Automate Rule SV-274862
+- ISSUE 1798 : Ubuntu 22 improve disa rule_SV-260486r991560
+- ISSUE 2014 : Update Rule SV-260583
+- ISSUE 2013 : Update Rule SV-260592
 
-## U_MOZ_Firefox_Windows
-- [Feature]: Automate rule SV-251547r879614, Firefox must be configured to ask which certificate to present to a website when a certificate is required.
-- [Feature]: Automate rule SV-251548r879587, Firefox must be configured to not automatically check for updated versions of installed search plugins.
-- [Feature]: Automate rule SV-251550r879664, Firefox must be configured to not automatically execute or download MIME types that are not authorized for auto-download.
-- [Feature]: Automate rule SV-251554r879587, Firefox must be configured to prevent JavaScript from moving or resizing windows.
-- [Feature]: Automate rule SV-251555r879587, Firefox must be configured to prevent JavaScript from raising or lowering windows.
-- [Feature]: Automate rule SV-251560r918133, Firefox must have the DOD root certificates installed.
-- [Feature]: Automate rule SV-251569r879587, Firefox Enhanced Tracking Protection must be enabled.
-- [Feature]: Automate rule SV-251570r879587, Firefox extension recommendations must be disabled.
-- [Feature]: Automate rule SV-252908r879587, Pocket must be disabled.
-- [Feature]: Automate rule SV-252909r879587, Firefox Studies must be disabled.
-- Update Rule SV-251547
-- Update Rule SV-251548
-- Update Rule SV-251554
-- Update Rule SV-251555
-- Update Rule SV-251560
-- Update Rule SV-251569
-- Update Rule SV-251570
+## U_Google_Chrome
+- ISSUE 1999 : Automate Rule SV-275780
+- ISSUE 2003 : Automate Rule SV-275781
+- ISSUE 2002 : Automate Rule SV-275782
+- ISSUE 2001 : Automate Rule SV-275783
+- ISSUE 2004 : Automate Rule SV-275784
+- ISSUE 2000 : Automate Rule SV-275785
+- ISSUE 1997 : Remove Rule SV-221592
+- ISSUE 1998 : Remove Rule SV-221593
 
 ## U_MS_DotNet_Framework_4-0
-- [Feature]: Automate rule SV-225224r961038, The Trust Providers Software Publishing State must be set to 0x23C00.
-- [Feature]: Automate rule SV-225225r961038, Developer certificates used with the .NET Publisher Membership Condition must be approved by the ISSO.
-- [Feature]: Automate rule SV-225226r961041, Encryption keys used for the .NET Strong Name Membership Condition must be protected.
-- [Feature]: Automate rule SV-225227r960936, CAS and policy configuration files must be backed up.
-- [Feature]: Automate rule SV-225228r1043178, Remoting Services HTTP channels must utilize authentication and encryption.
-- [Feature]: Automate rule SV-225229r961863, .Net Framework versions installed on the system must be supported.
-- [Feature]: Automate rule SV-225231r961038, .NET must be configured to validate strong names on full-trust assemblies.
-- [Feature]: Automate rule SV-225232r1050651, .Net applications that invoke NetFx40_LegacySecurityPolicy must apply previous versions of .NET STIG guidance.
-- [Feature]: Automate rule SV-225233r961608, Trust must be established prior to enabling the loading of remote code in .Net 4.
-- [Feature]: Automate rule SV-225234r961863, .NET default proxy settings must be reviewed and approved.
-- [Feature]: Automate rule SV-225236r961608, Software utilizing .Net 4.0 must be identified and relevant access controls configured.
-- [Feature]: Automate rule SV-225237r1043178, Remoting Services TCP channels must utilize authentication and encryption.
-
-## U_MS_Edge
-- Update Edge Proxy settings to not mandate a space between {"ProxyMode": and "system" or "direct" etc..
+- ISSUE 2047 : Update Rule SV-225229
 
 ## U_MS_IIS_10-0_Server
-- Update Rule SV-218805
-- Update Rule SV-218807
-- Update Rule SV-218814
-- Update Rule SV-218821
-- Update Rule SV-218825
+- ISSUE 2021 : Remove Rule SV-218787
+- ISSUE 2073 : Update metadata and redesign benchmark to use OVAL Singles for IIS Server
+- ISSUE 2023 : Update Rule SV-218798
+- ISSUE 2218 : Update Rule SV-218821 to remove \SSL 2.0\Server\Enabled
+- ISSUE 2022 : Update Rule SV-218827
 
 ## U_MS_IIS_10-0_Site
-- Update Rule SV-218758
+- ISSUE 2222 : Add WSUS Platform Exception for Manual Check Rule SV-218782
+- ISSUE 2015 : Remove Rule SV-218746
+- ISSUE 2072 : Update metadata and redesign benchmark to use OVAL Singles for IIS Site
+- ISSUE 2016 : Update Rule SV-218743
+- ISSUE 2020 : Update Rule SV-218749
+- ISSUE 2019 : Update Rule SV-218752
+- ISSUE 2017 : Update Rule SV-218768
+- ISSUE 2018 : Update Rule SV-218770
+
+## U_MS_OneDrive
+- ISSUE 663 : Automate rule SV-230562
+- ISSUE 2048 : Automate Rule SV-275978
+
+## U_MS_SQL_Server_2016_Database
+- ISSUE 2226 : Fix SQL context from 'instance' to 'database on SV-213921
+- ISSUE 2236 : Fixed query issues with SV-213909
+- ISSUE 2253 : SV-213902 - sqlext_test illegally references shellcommand_object and shellcommand_state
+- ISSUE 2252 : SV-213903 - sqlext_test illegally references variable_object and variable_state
+- ISSUE 2255 : SV-213906 - Two SQL queries exist inside a single sqlext_test
+- ISSUE 2254 : SV-213923 - Two SQL queries exist inside a single sqlext_test
+- ISSUE 2110 : Update applicability from 2016 -> 2022 to just 2016 -> 2019
+- ISSUE 2223 : Update SV-213902 by adding powershell test to verify logins are not computer accounts
+- ISSUE 2219 : Update SV-213902 to perform OVAL 5.12 powershell lookup on accounts ending with $
+- ISSUE 2230 : Update SV-213926 to only require 'user' database to be encrypted
+- ISSUE 2238 : Updated SV-213900 to be performed against all database
+- ISSUE 2240 : Updated SV-213903 to verify that any documented temporal table is found, and allow for more temporal than documented
+- ISSUE 2231 : Updated SV-213910 to exclude 'tempdb' from recovery/backup requirements
+- ISSUE 2239 : Updated SV-213911 to verify OS password complexity requirements are in place
+- ISSUE 2234 : Updated SV-251040 to only require 'user' databases be encrypted
+- ISSUE 2235 : Updated test for SV-213904
+
+## U_MS_SQL_Server_2016_Instance
+- ISSUE 2225 : Fix incorrect query with SV-213960
+- ISSUE 2227 : Redesign query for SV-213965 to accurately gather the required data
+- ISSUE 2248 : SV-213935 - sqlext_test illegally references shellcommand_object and shellcommand_state
+- ISSUE 2250 : SV-213936 - sqlext_test illegally references variable_object and variable_state
+- ISSUE 2111 : Update applicability from 2016 -> 2022 to just 2016 -> 2019
+- ISSUE 2066 : Update Rule SV-213964
+- ISSUE 2232 : Update SV-213935 to verify logins are not computer accounts
+- ISSUE 2113 : Update SV-213952 to only search for SQL 2016 -> 2019 installations, excluding SQL 2022
+- ISSUE 2112 : Update SV-213955 to only search for SQL 2016 -> 2019 installations, excluding SQL 2022
+- ISSUE 2229 : Update SV-213966 to have a case insensitive equals
+- ISSUE 2224 : Update SV-213972 to allow for only default/system databases to pass
+- ISSUE 2228 : Update test for SV-213955 for improved accuracy
+- ISSUE 2241 : Updated SV-213936 to verify all required audit actions are present, and allow for more auditing actions than required
+- ISSUE 2233 : Updated SV-271269 to verify logins are not computer accounts
+- ISSUE 2237 : Updated tests in SV-213934
+
+## U_MS_SQL_Server_2022_Database
+- ISSUE 2114 : [Feature]: Automate rule SV-271118, SQL Server must integrate with an organization-level authentication/access mechanism providing account management and automation for all users, groups, roles, and any other principals.
+- ISSUE 2116 : [Feature]: Automate rule SV-271121, SQL Server must protect against a user falsely repudiating by using system-versioned tables (Temporal Tables).
+- ISSUE 2117 : [Feature]: Automate rule SV-271122, SQL Server must protect against a user falsely repudiating by ensuring databases are not in a trust relationship.
+- ISSUE 2118 : [Feature]: Automate rule SV-271124, SQL Server must allow only the information system security manager (ISSM) (or individuals or roles appointed by the ISSM) to select which auditable events are to be audited.
+- ISSUE 2119 : [Feature]: Automate rule SV-271143, SQL Server must limit privileges to change software modules, to include stored procedures, functions, and triggers, and links to software external to SQL Server.
+- ISSUE 2120 : [Feature]: Automate rule SV-271146, Database objects (including but not limited to tables, indexes, storage, stored procedures, functions, triggers, links to software external to SQL Server, etc.) must be owned by database/DBMS principals authorized fo…
+- ISSUE 2121 : [Feature]: Automate rule SV-271147, The role(s)/group(s) used to modify database structure (including but not limited to tables, indexes, storage, etc.) and logic modules (stored procedures, functions, triggers, links to software external to SQL Server…
+- ISSUE 2122 : [Feature]: Automate rule SV-271168, In the event of a system failure, hardware loss or disk failure, SQL Server must be able to restore necessary databases with least disruption to mission processes.
+- ISSUE 2123 : [Feature]: Automate rule SV-271169, The Database Master Key encryption password must meet DOD password complexity requirements.
+- ISSUE 2124 : [Feature]: Automate rule SV-271170, The Database Master Key must be encrypted by the Service Master Key, where a Database Master Key is required and another encryption method has not been specified.
+- ISSUE 2131 : [Feature]: Automate rule SV-271186, SQL Server must enforce discretionary access control (DAC) policies, as defined by the data owner, over defined subjects and objects.
+- ISSUE 2132 : [Feature]: Automate rule SV-271188, Execution of stored procedures and functions that use execute as must be restricted to necessary cases only.
+- ISSUE 2133 : [Feature]: Automate rule SV-271195, SQL Server must enforce access restrictions associated with changes to the configuration of the database(s).
+- ISSUE 2134 : [Feature]: Automate rule SV-271199, SQL Server must use NSA-approved cryptography to protect classified information in accordance with the data owner’s requirements.
+- ISSUE 2135 : [Feature]: Automate rule SV-271201, SQL Server must implement cryptographic mechanisms to prevent unauthorized modification or disclosure of organization-defined information at rest (to include, at a minimum, PII and classified information) on organiza…
+- ISSUE 2251 : SV-274453 - sqlext_test illegally references shellcommand_object and shellcommand_state
+
+## U_MS_SQL_Server_2022_Instance
+- ISSUE 2138 : [Feature]: Automate rule SV-271265, SQL Server must integrate with an organization-level authentication/access mechanism providing account management and automation for all users, groups, roles, and any other principals.
+- ISSUE 2140 : [Feature]: Automate rule SV-271267, SQL Server must protect against a user falsely repudiating by ensuring only clearly unique Active Directory user accounts can connect to the instance.
+- ISSUE 2141 : [Feature]: Automate rule SV-271268, SQL Server must protect against a user falsely repudiating by ensuring the NT AUTHORITY SYSTEM account is not used for administration.
+- ISSUE 2142 : [Feature]: Automate rule SV-271269, SQL Server must protect against a user falsely repudiating by ensuring all accounts are individual, unique, and not shared.
+- ISSUE 2143 : [Feature]: Automate rule SV-271270, SQL Server must be configured to generate audit records for DOD-defined auditable events within all DBMS/database components.
+- ISSUE 2145 : [Feature]: Automate rule SV-271272, SQL Server must generate audit records when attempts to access privileges, categorized information, and security objects occur.
+- ISSUE 2146 : [Feature]: Automate rule SV-271273, SQL Server must initiate session auditing upon startup.
+- ISSUE 2149 : [Feature]: Automate rule SV-271283, SQL Server must protect its audit configuration from authorized and unauthorized access and modification.
+- ISSUE 2152 : [Feature]: Automate rule SV-271286, SQL Server software installation account must be restricted to authorized users.
+- ISSUE 2154 : [Feature]: Automate rule SV-271290, Default demonstration and sample databases, database objects, and applications must be removed.
+- ISSUE 2155 : [Feature]: Automate rule SV-271291, Unused database components, DBMS software, and database objects must be removed.
+- ISSUE 2156 : [Feature]: Automate rule SV-271292, The SQL Server Replication Xps feature must be disabled unless specifically required and approved.
+- ISSUE 2157 : [Feature]: Automate rule SV-271293, The SQL Server External Scripts Enabled feature must be disabled, unless specifically required and approved.
+- ISSUE 2158 : [Feature]: Automate rule SV-271295, The remote Data Archive feature must be disabled unless specifically required and approved.
+- ISSUE 2159 : [Feature]: Automate rule SV-271296, The "Allow Polybase Export" feature must be disabled, unless specifically required and approved.
+- ISSUE 2160 : [Feature]: Automate rule SV-271297, The "Hadoop Connectivity" feature must be disabled unless specifically required and approved.
+- ISSUE 2161 : [Feature]: Automate rule SV-271298, The "Remote Access" feature must be disabled unless specifically required and approved.
+- ISSUE 2162 : [Feature]: Automate rule SV-271299, Access to linked servers must be disabled or restricted, unless specifically required and approved.
+- ISSUE 2163 : [Feature]: Automate rule SV-271300, Access to nonstandard, extended stored procedures must be disabled or restricted, unless specifically required and approved.
+- ISSUE 2164 : [Feature]: Automate rule SV-271301, Access to common language runtime (CLR) code must be disabled or restricted unless specifically required and approved.
+- ISSUE 2165 : [Feature]: Automate rule SV-271302, Access to xp_cmdshell must be disabled unless specifically required and approved.
+- ISSUE 2168 : [Feature]: Automate rule SV-271305, SQL Server must uniquely identify and authenticate users (or processes acting on behalf of organizational users).
+- ISSUE 2169 : [Feature]: Automate rule SV-271306, Contained databases must use Windows principals.
+- ISSUE 2170 : [Feature]: Automate rule SV-271307, If DBMS authentication using passwords is employed, SQL Server must enforce the DOD standards for password complexity and lifetime.
+- ISSUE 2171 : [Feature]: Automate rule SV-271309, If passwords are used for authentication, SQL Server must transmit only encrypted representations of passwords.
+- ISSUE 2172 : [Feature]: Automate rule SV-271310, Confidentiality of information during transmission must be controlled through the use of an approved TLS version.
+- ISSUE 2173 : [Feature]: Automate rule SV-271313, When using command-line tools such as SQLCMD in a mixed-mode authentication environment, users must use a logon method that does not expose the password.
+- ISSUE 2174 : [Feature]: Automate rule SV-271314, SQL Server must use NIST FIPS 140-2 or 140-3 validated cryptographic operations for encryption, hashing, and signing.
+- ISSUE 2177 : [Feature]: Automate rule SV-271324, SQL Server must protect the confidentiality and integrity of all information at rest.
+- ISSUE 2179 : [Feature]: Automate rule SV-271328, SQL Server must prevent unauthorized and unintended information transfer via shared system resources.
+- ISSUE 2185 : [Feature]: Automate rule SV-271342, Use of credentials and proxies must be restricted to necessary cases only.
+- ISSUE 2190 : [Feature]: Automate rule SV-271349, Windows must enforce access restrictions associated with changes to the configuration of the SQL Server instance.
+- ISSUE 2191 : [Feature]: Automate rule SV-271350, SQL Server must enforce access restrictions associated with changes to the configuration of the instance.
+- ISSUE 2192 : [Feature]: Automate rule SV-271351, SQL Server must produce audit records when attempts to modify SQL Server configuration and privileges occur within the database(s).
+- ISSUE 2194 : [Feature]: Automate rule SV-271359, SQL Server must maintain a separate execution domain for each executing process.
+- ISSUE 2198 : [Feature]: Automate rule SV-271370, SQL Server must generate audit records when successful and unsuccessful attempts to modify or delete security objects occur.
+- ISSUE 2199 : [Feature]: Automate rule SV-271375, SQL Server must generate audit records when successful and unsuccessful logons or connection attempts occur.
+- ISSUE 2202 : [Feature]: Automate rule SV-271387, The SQL Server Browser service must be disabled unless specifically required and approved.
+- ISSUE 2204 : [Feature]: Automate rule SV-271389, SQL Server must configure Customer Feedback and Error Reporting.
+- ISSUE 2206 : [Feature]: Automate rule SV-274444, The SQL Server default account [sa] must be disabled.
+- ISSUE 2207 : [Feature]: Automate rule SV-274445, The SQL Server default account [sa] must have its name changed.
+- ISSUE 2208 : [Feature]: Automate rule SV-274446, Execution of startup stored procedures must be restricted to necessary cases only.
+- ISSUE 2209 : [Feature]: Automate rule SV-274447, The SQL Server Mirroring endpoint must use AES encryption.
+- ISSUE 2210 : [Feature]: Automate rule SV-274448, The SQL Server Service Broker endpoint must use AES encryption.
+- ISSUE 2211 : [Feature]: Automate rule SV-274449, SQL Server execute permissions to access the registry must be revoked unless specifically required and approved.
+- ISSUE 2212 : [Feature]: Automate rule SV-274450, Filestream must be disabled unless specifically required and approved.
+- ISSUE 2213 : [Feature]: Automate rule SV-274451, The Ole Automation Procedures feature must be disabled unless specifically required and approved.
+- ISSUE 2214 : [Feature]: Automate rule SV-274452, The SQL Server User Options feature must be disabled unless specifically required and approved.
+- ISSUE 2215 : [Feature]: Automate rule SV-274453, SQL Server must protect against a user falsely repudiating by ensuring that only clearly unique Active Directory user accounts can connect to the database.
+- ISSUE 2249 : SV-271269 - sqlext_test illegally references shellcommand_object and shellcommand_state
 
 ## U_MS_Windows_10
-- [Feature]: Automate rule SV-220922, The Windows dialog box title for the legal banner must be configured.
-- [Feature]: Automate rule SV-220699, Windows 10 systems must have Unified Extensible Firmware Interface (UEFI) firmware and be configured to run in UEFI mode, not Legacy BIOS.
-- [Feature]: Automate rule SV-220709, Alternate operating systems must not be permitted on the same system.
-- [Feature]: Automate rule SV-220733, Orphaned security identifiers (SIDs) must be removed from user rights on Windows 10.
-- [Feature]: Automate rule SV-220736, The system must notify the user when a Bluetooth device attempts to connect.
-- [Feature]: Automate rule SV-220792, Camera access from the lock screen must be disabled.
-- [Feature]: Automate rule SV-220793, Windows 10 must cover or disable the built-in or attached camera when not in use.
-- [Feature]: Automate rule SV-252903, Virtualization-based protection of code integrity must be enabled.
-- [Feature]: Automate rule SV-220723, Software certificate installation files must be removed from Windows 10.
-- [Feature]: Automate rule SV-220734, Bluetooth must be turned off unless approved by the organization.
+- ISSUE 1450 : [Feature]: Add rule SV-268319 for updated manual, U_MS_Windows_10_V3R2_STIG_Manual-xccdf.xml
+- ISSUE 438 : [Feature]: Automate rule SV-220707r793194, The Windows 10 system must use an anti-virus program.
+- ISSUE 409 : [Feature]: Automate rule SV-220717r851965, Permissions for system files and directories must conform to minimum requirements.
+- ISSUE 2109 : Automate Bluetooth Rule V-220735
+- ISSUE 2098 : Automate SV-220907
+- ISSUE 2108 : Bluetooth rule V-220734 needs to be updated to utilize command getmac instead of registry key
 
 ## U_MS_Windows_11
-- [Feature]: Automate rule SV-253446, The Windows message title for the legal notice must be configured.
-- [Feature]: Automate rule SV-253256, Windows 11 systems must have Unified Extensible Firmware Interface (UEFI) firmware and be configured to run in UEFI mode, not Legacy BIOS.
-- [Feature]: Automate rule SV-253266, The system must be configured to use FIPS-compliant algorithms for encryption, hashing, and signing.
-- [Feature]: Automate rule SV-253280, Software certificate installation files must be removed from Windows 11.
-- [Feature]: Automate rule SV-253290, Orphaned security identifiers (SIDs) must be removed from user rights on Windows 11.
-- [Feature]: Automate rule SV-253296, The Windows 11 time service must synchronize with an appropriate DOD time source.
-- [Feature]: Automate rule SV-253350, Camera access from the lock screen must be disabled.
-- [Feature]: Automate rule SV-253370, Credential Guard must be running on Windows 11 domain-joined systems.
-- [Feature]: Automate rule SV-253371, Virtualization-based protection of code integrity must be enabled.
-- [Feature]: Automate rule SV-253291, Bluetooth must be turned off unless approved by the organization
-- [Feature]: Automate rule SV-253293, The system must notify the user when a Bluetooth device attempts to connect.
-- [Bug]: Fix rule SV-253351, Update registry path and add camera installation exception.
+- ISSUE 347 : [Feature]: Automate rule SV-253264r828876, The Windows 11 system must use an antivirus program.
+- ISSUE 324 : [Feature]: Automate rule SV-253274r840169, Permissions for system files and directories must conform to minimum requirements.
+- ISSUE 511 : [Feature]: Automate rule SV-253281r828927, Windows 11 must have a host-based firewall installed and enabled.
+- ISSUE 2095 : Automate RULE-ID:	 SV-268318
+- ISSUE 2107 : Automate SV-253292 - Disable Bluetooth
+- ISSUE 2099 : Automate SV-253431
+- ISSUE 2106 : Bluetooth rule SV-253291 needs to be updated, the registry key check doesn't appear valid, update to utilize getmac cmd
+- ISSUE 2032 : Update Rule SV-253351
 
 ## U_MS_Windows_Server_2016
-- [Feature]: Automate rule SV-224820, Passwords for the built-in Administrator account must be changed at least every 60 days.
-- [Feature]: Automate rule SV-224832, Permissions for the system drive root directory (usually C:\) must conform to minimum requirements.
-- [Feature]: Automate rule SV-224833, Permissions for program file directories must conform to minimum requirements.
-- [Feature]: Automate rule SV-224834, Permissions for the Windows installation directory must conform to minimum requirements.
-- [Feature]: Automate rule SV-224863, Orphaned security identifiers (SIDs) must be removed from user rights on Windows 2016.
-- [Feature]: Automate rule SV-224986, Windows Server 2016 must be configured to audit Account Management - Computer Account Management successes.
-- [Feature]: Automate rule SV-224994, Active Directory user accounts, including administrators, must be configured to require the use of a Common Access Card (CAC), Personal Identity Verification (PIV)-compliant hardware token, or Alternate Logon Tok
-- [Feature]: Automate rule SV-225006, The password for the krbtgt account on a domain must be reset at least every 180 days.
-- [Feature]: Automate rule SV-225037, The Windows dialog box title for the legal banner must be configured with the appropriate text.
-- [Feature]: Automate rule SV-225012, Windows Server 2016 must be running Credential Guard on domain-joined member servers.
-- [Feature]: Automate rule SV-224994, Windows Server 2016 AD user accounts 2FA setting
-- [Feature]: Update rules related to FTP to be N/A if FTP is not installed
+- ISSUE 446 : [Feature]: Automate rule SV-224842r569186, Software certificate installation files must be removed from Windows Server 2016.
+- ISSUE 451 : [Feature]: Automate rule SV-224861r569186, FTP servers must be configured to prevent access to the system drive.
+- ISSUE 452 : [Feature]: Automate rule SV-224862 The time service must synchronize with an appropriate DoD time source.
+- ISSUE 1811 : Automate  V-224829 The Windows Server 2016 system must use an anti-virus program.
+- ISSUE 2101 : Automate SV-224835
+- ISSUE 2090 : Rule SV-224832 needs to be updated to allow for order of permissions to be random
+- ISSUE 2092 : Rule SV-224833 needs to be updated to allow for order of permissions to be random
+- ISSUE 2091 : Rule SV-224834 needs to be updated to allow for order of permissions to be random
+- ISSUE 2105 : SV-224827 Needs to be updated because Windows 2016 Get-Tpm doesn't return TpmEnabled
 
 ## U_MS_Windows_Server_2019
-- [Feature]: Automate rule SV-205632, Windows Server 2019 title for legal banner dialog box must be configured with the appropriate text.
-- [Feature]: Automate rule SV-205734, Windows Server 2019 permissions for the system drive root directory (usually C:\) must conform to minimum requirements.
-- [Feature]: Automate rule SV-205735, Windows Server 2019 permissions for program file directories must conform to minimum requirements.
-- [Feature]: Automate rule SV-205736, Windows Server 2019 permissions for the Windows installation directory must conform to minimum requirements.
-- [Feature]: Automate rule SV-205855, Windows Server 2019 must have orphaned security identifiers (SIDs) removed from user rights.
-- [Feature]: Automate rule SV-205877, The password for the krbtgt account on a domain must be reset at least every 180 days.
-- [Feature]: Automate rule SV-205907, Windows Server 2019 must be running Credential Guard on domain-joined member servers.
-- [Feature]: Automate rule SV-205701, Windows Server 2019 AD user accounts 2FA setting
-- [Feature]: Update rules related to FTP to be N/A if FTP is not installed
-- Fix DISA SCAP content for Allow Log On Locally to call correct API
-- Fix DISA Userrights for Increase Scheduling Priority to use correct userright api
+- ISSUE 394 : [Feature]: Automate rule SV-205852r569188, Windows Server 2019 must have software certificate installation files removed.
+- ISSUE 1906 : Add Feature V-205854
+- ISSUE 1736 : Automate Rule SV-271428
+- ISSUE 1735 : Automate Rule SV-271429
+- ISSUE 2102 : Automate SV-205737
+- ISSUE 1812 : Automate V-205850 Windows Server 2019 must use an anti-virus program.
+- ISSUE 2087 : Rule SV-205734 needs to be updated to allow for order of permissions to be random
+- ISSUE 2088 : Rule SV-205735 needs to be updated to allow for order of permissions to be random
+- ISSUE 2089 : Rule SV-205736 needs to be updated to allow for order of permissions to be random
+- ISSUE 2104 : SV-205848 Needs to be updated because Windows 2019 Get-Tpm doesn't return TpmEnabled
+- ISSUE 2046 : Update Rule SV-271429
 
 ## U_MS_Windows_Server_2022
-- [Feature]: Automate rule SV-254251, Windows Server 2022 permissions for the system drive root directory (usually C:\) must conform to minimum requirements.
-- [Feature]: Automate rule SV-254252, Windows Server 2022 permissions for program file directories must conform to minimum requirements.
-- [Feature]: Automate rule SV-254253, Windows Server 2022 permissions for the Windows installation directory must conform to minimum requirements.
-- [Feature]: Automate rule SV-254260, Windows Server 2022 nonsystem-created file shares must limit access to groups that require it.
-- [Feature]: Automate rule SV-254282, Windows Server 2022 must have orphaned security identifiers (SIDs) removed from user rights.
-- [Feature]: Automate rule SV-254427, The password for the krbtgt account on a domain must be reset at least every 180 days.
-- [Feature]: Automate rule SV-254441, Windows Server 2022 must be running Credential Guard on domain-joined member servers.
-- [Feature]: Automate rule SV-254458, Windows Server 2022 title for legal banner dialog box must be configured with the appropriate text.
-- [Feature]: Automate rule SV-254415, Windows Server 2022 AD user accounts 2FA setting
-- [Feature]: Update rules related to FTP to be N/A if FTP is not installed
-- Fix DISA SCAP content for Allow Log On Locally to call correct API
-- Fix DISA SCAP content for Increase Scheduling Priority to use the correct API
+- ISSUE 360 : [Feature]: Automate rule SV-254261r848599, Windows Server 2022 must have software certificate installation files removed.
+- ISSUE 364 : [Feature]: Automate rule SV-254280r848656, Windows Server 2022 FTP servers must be configured to prevent access to the system drive.
+- ISSUE 374 : [Feature]: Automate rule SV-254396r849004, Windows Server 2022 data files owned by users must be on a different logical partition from the directory server data files.
+- ISSUE 1739 : Automate Rule SV-271426
+- ISSUE 1738 : Automate Rule SV-271427
+- ISSUE 2100 : Automate SV-254254
+- ISSUE 2080 : Rule SV-254251 needs to be updated to allow for order of permissions to be random
+- ISSUE 2085 : Rule SV-254252 needs to be updated to allow for order of permissions to be random
+- ISSUE 2086 : Rule SV-254253 needs to be updated to allow for order of permissions to be random
+
+## U_MS_Windows_Server_DNS
+- ISSUE 1814 : [Feature]: Automate rule SV-259334,  The Windows DNS Server must restrict incoming dynamic update requests to known clients.
+- ISSUE 1815 : [Feature]: Automate rule SV-259335, The Windows DNS Server must be configured to record who added/modified/deleted DNS zone information.
+- ISSUE 1817 : [Feature]: Automate rule SV-259337, The Windows DNS Server log must be enabled.
+- ISSUE 1830 : [Feature]: Automate rule SV-259338, The "Manage auditing and security log" user right must be assigned only to authorized personnel.
+- ISSUE 1819 : [Feature]: Automate rule SV-259339,  The validity period for the Resource Record Signatures (RRSIGs) covering the Delegation Signer (DS) Resource Record (RR) for a zone's delegated children must be no less than two days and no more than one week.
+- ISSUE 1821 : [Feature]: Automate rule SV-259341, The Windows DNS Server must prohibit recursion on authoritative name servers for which forwarders have not been configured for external queries.
+- ISSUE 1832 : [Feature]: Automate rule SV-259344, The Windows DNS Server must implement cryptographic mechanisms to detect changes to information during transmission.
+- ISSUE 1833 : [Feature]: Automate rule SV-259345, The validity period for the Resource Record Signatures (RRSIGs) covering a zone's DNSKEY RRSet must be no less than two days and no more than one week.
+- ISSUE 1834 : [Feature]: Automate rule SV-259346, NSEC3 must be used for all internal DNS zones.
+- ISSUE 1838 : [Feature]: Automate rule SV-259350, The Windows DNS Server must be configured to enable DNSSEC Resource Records (RRs).
+- ISSUE 1839 : [Feature]: Automate rule SV-259351, The digital signature algorithm used for DNSSEC-enabled zones must be FIPS-compatible.
+- ISSUE 1848 : [Feature]: Automate rule SV-259360, Nonroutable IPv6 link-local scope addresses must not be configured in any zone.
+- ISSUE 1851 : [Feature]: Automate rule SV-259364, The secondary Windows DNS name servers must cryptographically authenticate zone transfers from primary name servers.
+- ISSUE 1853 : [Feature]: Automate rule SV-259366, The Windows DNS Server must provide its identity with returned DNS information by enabling DNSSEC and TSIG/SIG(0).
+- ISSUE 1854 : [Feature]: Automate rule SV-259367, The Windows DNS Server must be configured to enforce authorized access to the corresponding private key.
+- ISSUE 1855 : [Feature]: Automate rule SV-259368, The Windows DNS Server key file must be owned by the account under which the Windows DNS Server service is run.
+- ISSUE 1856 : [Feature]: Automate rule SV-259369, The Windows DNS Server permissions must be set so the key file can only be read or modified by the account that runs the name server software.
+- ISSUE 1860 : [Feature]: Automate rule SV-259373, The Windows DNS Server must include data origin with authoritative data the system returns in response to external name/address resolution queries.
+- ISSUE 1861 : [Feature]: Automate rule SV-259374, The Windows DNS Server's IP address must be statically defined and configured locally on the server.
+- ISSUE 1862 : [Feature]: Automate rule SV-259375, The Windows DNS Server must return data information in response to internal name/address resolution queries.
+- ISSUE 1863 : [Feature]: Automate rule SV-259376, The Windows DNS Server must use DNSSEC data within queries to confirm data origin to DNS resolvers.
+- ISSUE 1864 : [Feature]: Automate rule SV-259377, WINS lookups must be disabled on the Windows DNS Server.
+- ISSUE 1865 : [Feature]: Automate rule SV-259378, The Windows DNS Server must use DNSSEC data within queries to confirm data integrity to DNS resolvers.
+- ISSUE 1866 : [Feature]: Automate rule SV-259379, The Windows DNS Server must be configured with the Delegation Signer (DS) Resource Records (RR) carrying the signature for the RR that contains the public key of the child zone.
+- ISSUE 1867 : [Feature]: Automate rule SV-259380, The Windows DNS Server must enforce approved authorizations between DNS servers using digital signatures in the Resource Record Set (RRSet).
+- ISSUE 1868 : [Feature]: Automate rule SV-259381, The Name Resolution Policy Table (NRPT) must be configured in Group Policy to enforce clients to request DNSSEC validation for a domain.
+- ISSUE 1871 : [Feature]: Automate rule SV-259384, Automatic Update of Trust Anchors must be enabled on key rollover.
+- ISSUE 1872 : [Feature]: Automate rule SV-259385, The Windows DNS secondary servers must request data origin authentication verification from the primary server when requesting name/address resolution.
+- ISSUE 1873 : [Feature]: Automate rule SV-259386, The Windows DNS secondary server must request data integrity verification from the primary server when requesting name/address resolution.
+- ISSUE 1874 : [Feature]: Automate rule SV-259387, The Windows DNS secondary server must validate data integrity verification on the name/address resolution responses received from primary name servers.
+- ISSUE 1875 : [Feature]: Automate rule SV-259388, The Windows DNS secondary server must validate data origin verification authentication on the name/address resolution responses received from primary name servers.
+- ISSUE 1877 : [Feature]: Automate rule SV-259390, The Windows DNS Server must protect the authenticity of dynamic updates via transaction signing.
+- ISSUE 1878 : [Feature]: Automate rule SV-259391, The Windows DNS Server must protect the authenticity of query responses via DNSSEC.
+- ISSUE 1882 : [Feature]: Automate rule SV-259395, The Windows DNS Server must restrict individuals from using it for launching denial-of-service (DoS) attacks against other information systems.
+- ISSUE 1884 : [Feature]: Automate rule SV-259397, The Windows DNS Server must protect the integrity of transmitted information.
+- ISSUE 1885 : [Feature]: Automate rule SV-259398, The Windows DNS Server must maintain the integrity of information during preparation for transmission.
+- ISSUE 1886 : [Feature]: Automate rule SV-259399, The Windows DNS Server must maintain the integrity of information during reception.
+- ISSUE 1829 : [Feature]: Automate rule SV-259400, The Windows DNS Server must implement NIST FIPS-validated cryptography for provisioning digital signatures, generating cryptographic hashes, and protecting unclassified information requiring confidentiality.
+- ISSUE 1824 : [Feature]: Automate rule SV-259403, The DNS Name Server software must be configured to refuse queries for its version information.
+- ISSUE 1891 : [Feature]: Automate rule SV-259406, The Windows DNS Server must verify the correct operation of security functions upon startup and/or restart, upon command by a user with privileged access, and/or every 30 days.
+- ISSUE 1897 : [Feature]: Automate rule SV-259412, In the event of a system failure, the Windows DNS Server must preserve any information necessary to determine cause of failure and any information necessary to return to operations with least disruption to mission pr…
+- ISSUE 1902 : [Feature]: Automate rule SV-259417, Windows DNS response rate limiting (RRL) must be enabled.
 
 ## U_Oracle_Linux_8
-- Automate Rule SV-248528
-- Automate Rule SV-248529
-- Automate Rule SV-248551
-- Automate Rule SV-248560
-- Automate Rule SV-248589
-- Automate Rule SV-248636
-- Automate Rule SV-248637
-- Automate Rule SV-248641
-- Automate Rule SV-248641
-- Automate Rule SV-248658
-- Automate Rule SV-248659
-- Automate Rule SV-248810
-- Automate Rule SV-252660
-- Automate Rule SV-255898
-- Updated DISA developed rule to run more efficiently: SV-248567r991560_rule 
-- Updated DISA developed rule to run more efficiently: SV-248568r991560_rule 
-- Updated DISA developed rule to run more efficiently: SV-248569r991560_rule 
-- Updated DISA developed rule to run more efficiently: SV-248570r991560_rule 
-- Updated DISA developed rule to run more efficiently: SV-248571r991560_rule 
-- Updated DISA developed rule to run more efficiently: SV-248572r991560_rule 
-- Updated DISA developed rule to run more efficiently: SV-252651r991560_rule 
-- Updated DISA developed rule to run more efficiently: SV-252652r991560_rule 
-- Updated DISA developed rule to run more efficiently: SV-252653r991560_rule 
-
-## U_RHEL_7
-- [Feature]: Update rule SV-204476 for updated manual, U_RHEL_7_STIG_V3R12_Manual-xccdf.xml
-- [Feature]: Update rule SV-204574 for updated manual, U_RHEL_7_STIG_V3R12_Manual-xccdf.xml
+- ISSUE 1749 : Automate Rule SV-248590
+- ISSUE 1747 : Automate Rule SV-248591
+- ISSUE 1748 : Automate Rule SV-248592
+- ISSUE 2076 : Automate Rule SV-248646
+- ISSUE 2077 : Automate Rule SV-248647
+- ISSUE 2103 : Automate Rule SV-248667 - configure the use of the pam_faillock.so module in the /etc/pam.d/system-auth file
+- ISSUE 2039 : Automate Rule SV-248671
+- ISSUE 1745 : Automate Rule SV-248803
+- ISSUE 1744 : Automate Rule SV-248804
+- ISSUE 1746 : Automate Rule SV-248826
+- ISSUE 2075 : Automate Rule SV-252654
+- ISSUE 2079 : Automate Rule SV-256979
+- ISSUE 2094 : grep kernelopts= \b* matches null string many times in regex; marked by <-- HERE in m/^kernelopts=[^#]*pti=on\b* <-- HERE / at bin/System/System_SCAP.pm line 10420.
+- ISSUE 1752 : Update Rule SV-248573
 
 ## U_RHEL_8
-- [Bug]: V-230339 - False negative caused by failure to distinguish between RHEL 8.1 and RHEL 8.10
-- [Feature]: Add rule SV-268322 for updated manual, U_RHEL_8_V2R1_STIG_Manual-xccdf.xml
-- [Feature]: Automate rule SV-230251r877394, The RHEL 8 SSH server must be configured to use only Message Authentication Codes (MACs) employing FIPS 140-2 validated cryptographic hash algorithms.
-- [Feature]: Automate rule SV-230254r877394, The RHEL 8 operating system must implement DoD-approved encryption in the OpenSSL package.
-- [Feature]: Automate rule SV-230256r877394, The RHEL 8 operating system must implement DoD-approved TLS encryption in the GnuTLS package.
-- [Feature]: Automate rule SV-230274r858741, RHEL 8 must implement certificate status checking for multifactor authentication.
-- [Feature]: Automate rule SV-230275r854030, RHEL 8 must accept Personal Identity Verification (PIV) credentials.
-- [Feature]: Automate rule SV-230322r880717, All RHEL 8 local interactive user home directories must be group-owned by the home directory owner’s primary group.
-- [Feature]: Automate rule SV-230323r627750, All RHEL 8 local interactive user home directories defined in the /etc/passwd file must exist.
-- [Feature]: Automate rule SV-230355r858743, RHEL 8 must map the authenticated identity to the user or group account for PKI-based authentication.
-- [Feature]: Automate rule SV-230372r627750, RHEL 8 must implement smart card logon for multifactor authentication for access to interactive accounts.
-- [Feature]: Automate rule SV-230384r858732, RHEL 8 must set the umask value to 077 for all local interactive user accounts.
-- [Feature]: Automate rule SV-230387r743996, Cron logging must be implemented in RHEL 8.
-- [Feature]: Automate rule SV-230466r627750, Successful/unsuccessful modifications to the faillock log file in RHEL 8 must generate an audit record.
-- [Feature]: Automate rule SV-230481r877390, RHEL 8 must encrypt the transfer of audit records off-loaded onto a different system or media from the system being audited.
-- [Feature]: Automate rule SV-244531r743842, All RHEL 8 local interactive user home directory files must have mode 0750 or less permissive.
-- [Feature]: Automate rule SV-244533r743848, RHEL 8 must configure the use of the pam_faillock.so module in the /etc/pam.d/system-auth file.
-- [Feature]: Automate rule SV-251711r833385, RHEL 8 must specify the default "include" directory for the /etc/sudoers file.
-- [Feature]: Update rule SV-230224 for updated manual, U_RHEL_8_V1R11_STIG_Manual-xccdf.xml
-- [Feature]: Update rule SV-230225 for updated manual, U_RHEL_8_V1R14_STIG_Manual-xccdf.xml
-- [Feature]: Update rule SV-230285 for updated manual, U_RHEL_8_V1R12_STIG_Manual-xccdf.xml
-- [Feature]: Update rule SV-230479 for updated manual, U_RHEL_8_V1R11_STIG_Manual-xccdf.xml
-- Updated DISA developed rule to run more efficiently: SV-230257r1017077_rule 
-- Updated DISA developed rule to run more efficiently: SV-230258r1017078_rule
-- Updated DISA developed rule to run more efficiently: SV-230259r1017079_rule 
-- Updated DISA developed rule to run more efficiently: SV-230260r1017080_rule 
-- Updated DISA developed rule to run more efficiently: SV-230261r1069326_rule 
-- Updated DISA developed rule to run more efficiently: SV-230262r1017082_rule 
-- Updated DISA developed rule to run more efficiently: SV-251707r1017360_rule 
-- Updated DISA developed rule to run more efficiently: SV-251708r1017362_rule 
-- Updated DISA developed rule to run more efficiently: SV-251709r1017364_rule 
+- ISSUE 1437 : [Bug]: RHEL 8 Rule V-230470 produces incorrect results depending usbguard-daemon.conf entry
+- ISSUE 1100 : [Feature]: Add platform-specification for OS Version 8.4 or later with FIPS enabled in the kernel.
+- ISSUE 281 : [Feature]: Automate rule SV-230326r627750, All RHEL 8 local files and directories must have a valid owner.
+- ISSUE 305 : [Feature]: Automate rule SV-230479r877390, The RHEL 8 audit records must be off-loaded onto a different system or storage media from the system being audited.
+- ISSUE 315 : [Feature]: Automate rule SV-244519r743806, RHEL 8 must display a banner before granting local or remote access to the system via a graphical user logon.
+- ISSUE 248 : [Feature]: Automate rule SV-251710r880730, The RHEL 8 operating system must use a file integrity tool to verify correct operation of all security functions.
+- ISSUE 1464 : [Feature]: Update rule SV-230470 for updated manual, U_RHEL_8_V2R1_STIG_Manual-xccdf.xml
+- ISSUE 1753 : Automate Rule SV-230223
+- ISSUE 1759 : Automate Rule SV-230277
+- ISSUE 1762 : Automate Rule SV-230278
+- ISSUE 1757 : Automate Rule SV-230279
+- ISSUE 2034 : Automate Rule SV-230347
+- ISSUE 1755 : Automate Rule SV-230468
+- ISSUE 1754 : Automate Rule SV-230469
+- ISSUE 1756 : Automate Rule SV-230491
+- ISSUE 1758 : Automate Rule SV-272482
+- ISSUE 1760 : Automate Rule SV-272483
+- ISSUE 2033 : Automate Rule SV-274877
+- ISSUE 1766 : Automate Update Rule SV-230327
+- ISSUE 1769 : Automate/Update Rule SV-230326
+- ISSUE 1768 : Automate/Update Rule SV-256974
+- ISSUE 1764 : Update Rule SV-244538
 
 ## U_RHEL_9
-- Updated DISA developed rule to run more efficiently: SV-257882r991560_rule 
-- Updated DISA developed rule to run more efficiently: SV-257883r991560_rule 
-- Updated DISA developed rule to run more efficiently: SV-257884r991560_rule 
-- Updated DISA developed rule to run more efficiently: SV-257918r1044977_rule 
-- Updated DISA developed rule to run more efficiently: SV-257919r1044979_rule 
-- Updated DISA developed rule to run more efficiently: SV-257920r1069385_rule 
-- Updated DISA developed rule to run more efficiently: SV-257921r1069387_rule 
-- Updated DISA developed rule to run more efficiently: SV-257922r1044988_rule 
-- Updated DISA developed rule to run more efficiently: SV-257923r1044991_rule
+- ISSUE 1617 : [Feature] Automate rule SV-257817r958928
+- ISSUE 1619 : [Feature] Automate rule SV-257823r1051231
+- ISSUE 1626 : [Feature] Automate rule SV-257930r991589
+- ISSUE 1627 : [Feature] Automate rule SV-257931r991589
+- ISSUE 1633 : [Feature] Automate rule SV-258016r958804
+- ISSUE 1636 : [Feature] Automate rule SV-258031r1045114
+- ISSUE 1637 : [Feature] Automate rule SV-258038r1045128
+- ISSUE 1647 : [Feature] Automate rule SV-258095r1045189
+- ISSUE 1657 : [Feature] Automate rule SV-258174r958424
+- ISSUE 1658 : [Feature] Automate rule SV-258241r1051259
+- ISSUE 1661 : [Feature] Automate rule SV-270176r1044967
+- ISSUE 2093 : Automate rule SV-257888
+- ISSUE 2038 : Automate Rule SV-258021
+- ISSUE 2096 : Build a Not Applicable Check for SeLinux Installed and enforcing for Rule 258080.
+- ISSUE 2097 : Create a platform spec check for virtual machines.
+
+## U_SLES_15
+- ISSUE 2049 : Automate Rule SV-274879
 
