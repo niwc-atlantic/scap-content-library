@@ -2,13 +2,13 @@
 <content-repository style="0.1">
   <repository-id>niwc-stig-repo</repository-id>
   <repository-publisher>NIWC</repository-publisher>
-  <last-updated>2025-09-16T09:56:35</last-updated>
+  <last-updated>2025-09-16T15:56:46</last-updated>
   <license>Open</license>
   <contents>
     <scap-content>
-      <content-id>U_Adobe_Acrobat_Reader_DC_Continuous_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Adobe_Acrobat_Reader_DC_Continuous_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.xml</location>
-      <checksum style="SHA512">06fe37558c89933c5d470149ee683f7cd0154c55816eb837a1a40b713b500768aebf0f2d2141e2df76b58495ee20e1dfd597d8c6b49e7ef759e6977dbf654448</checksum>
+      <content-id>U_Adobe_Acrobat_Reader_DC_Continuous_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Adobe_Acrobat_Reader_DC_Continuous_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.zip</location>
+      <checksum style="SHA512">c419e2d84366b566328cdbbd759f62ec909987808862058cda3567376635b1218fbc1387a49c2927613e0e832682d43b35daa29b0cea7cfe362fdf01fb6a48df</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_Adobe_Acrobat_Reader_DC_Continuous_Track_STIG</benchmark-id>
@@ -30,9 +30,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_Apple_macOS_13_V1R5_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_13_V1R5_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.xml</location>
-      <checksum style="SHA512">dccfc998730d237f1ce69e393284d8aa2cf9db69c9fd84deb1711a3299f1859f05c16a950de267a18b76de19d26d40270374e5d95d364f6322f1f0f99d4b1da8</checksum>
+      <content-id>U_Apple_macOS_13_V1R5_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_13_V1R5_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.zip</location>
+      <checksum style="SHA512">39045bf9b26d423fff430427fd5babd8c8f794f9146c9b0aae2a8f1fa8895e709c5600f28cb7f4d758598dcb4b5796e0121ba8255cd8f19a631b64b72837f5c1</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_gov.nist.mscp.content_benchmark_Apple_macOS_13_STIG</benchmark-id>
@@ -54,9 +54,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_Apple_macOS_14_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_14_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.xml</location>
-      <checksum style="SHA512">bad4d270a6863abdf46992b9324ea13172d0a008eac844c214e653df80715a97705dbc74dba55716a25652b1881fb15fd6e830a0d40913aac6220c823bd30c15</checksum>
+      <content-id>U_Apple_macOS_14_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_14_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.zip</location>
+      <checksum style="SHA512">7b5ef6288823b8f8dfce6925698034f02386973d3fa86196889f2bf016827de64ad4362503f7be4deceb1c4c3d1be9db45aebb40071e57f3f0c0fc18d828e3d0</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_gov.nist.mscp.content_benchmark_Apple_macOS_14_STIG</benchmark-id>
@@ -78,9 +78,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_Apple_macOS_15_V1R4_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_15_V1R4_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.xml</location>
-      <checksum style="SHA512">a6d75f2e8cb89db9686093981eaa7319a15b471fbf8e374d415a17bb5f2bb1f39eaed2c767c350f72ea793cb5f29f1867235a6fb992e0cc1edc516c2ebefb0f1</checksum>
+      <content-id>U_Apple_macOS_15_V1R4_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_15_V1R4_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.zip</location>
+      <checksum style="SHA512">a37399099b902f4a89928112bfa06e23c16ab08ad1d8d0b3c7295518583648d6bedd31926680efc3ea5e64266db17835e879e3c75461fb9968c52e03d2ae041f</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_gov.nist.mscp.content_benchmark_Apple_macOS_15_STIG</benchmark-id>
@@ -102,9 +102,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_CAN_Ubuntu_18-04_V2R12_STIG_SCAP_1-4_Benchmark-enhancedV10-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_CAN_Ubuntu_18-04_V2R12_STIG_SCAP_1-4_Benchmark-enhancedV10-signed.xml</location>
-      <checksum style="SHA512">39fbb43d07f3fb5e3d00bc0080035700937588feb7c06c580a19bbfa17a2801a99301b6c9ea99a74812aa0289f636e9d9802f8d300f609a3b5514e5a0a399cff</checksum>
+      <content-id>U_CAN_Ubuntu_18-04_V2R12_STIG_SCAP_1-4_Benchmark-enhancedV10-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_CAN_Ubuntu_18-04_V2R12_STIG_SCAP_1-4_Benchmark-enhancedV10-signed.zip</location>
+      <checksum style="SHA512">3cc11b9f9cdec8131886df61c8ebb985134d4cb47eebe17a37ffbdb1d6a1ca9be470f81c9ed3e98ab1284abe83b5fb8924fc72b60460e0693b5adc458f0ed927</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_CAN_Ubuntu_18-04_STIG</benchmark-id>
@@ -126,9 +126,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_CAN_Ubuntu_20-04_LTS_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_CAN_Ubuntu_20-04_LTS_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.xml</location>
-      <checksum style="SHA512">ffa0d93e1938b7458f615e39801d3018615c6bb3158b719071e001029c07cd871b840b13baf7057cd2986310d37c36af06d0ac2843216de96d3f43dc4f277399</checksum>
+      <content-id>U_CAN_Ubuntu_20-04_LTS_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_CAN_Ubuntu_20-04_LTS_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.zip</location>
+      <checksum style="SHA512">449ed26588910a1f5c486926ec06ca2cc1e5b8132f6f0ab5f7bb57dcf44e8f8afa7c660d654d4db5cb0932a512ce152f270a20d1261a3b1cf54427ecb7a3264b</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_Canonical_Ubuntu_20-04_LTS_STIG</benchmark-id>
@@ -150,9 +150,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_CAN_Ubuntu_22-04_LTS_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV4-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_CAN_Ubuntu_22-04_LTS_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV4-signed.xml</location>
-      <checksum style="SHA512">67b7bd25b896fed1c2af51e42123f73e8c1be785288117ec9162c971cd2a837ac2859018f3ffb3c7714b2b1f851b6024822839b8476797d6b3ef5a879da41f7d</checksum>
+      <content-id>U_CAN_Ubuntu_22-04_LTS_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV4-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_CAN_Ubuntu_22-04_LTS_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV4-signed.zip</location>
+      <checksum style="SHA512">b0f247fb7cb0177468f1f16ad2576827589fdee470e54af8c1ae8e0b4e392e9201e2efca5368998bdb3f471c844fb9cd06a71771288ec92b29a5e70134d40b0e</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_CAN_Ubuntu_22-04_LTS_STIG</benchmark-id>
@@ -174,9 +174,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_CAN_Ubuntu_24-04_LTS_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV1-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_CAN_Ubuntu_24-04_LTS_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV1-signed.xml</location>
-      <checksum style="SHA512">101708ed3996116b5cd14f8aa85a2ed7dc36dacc0608cf77bfe35411b894444d5617bdc03cc7a0c260cca8a0d86412cdee16f906936c3d288a1aa2e4c29db32c</checksum>
+      <content-id>U_CAN_Ubuntu_24-04_LTS_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV1-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_CAN_Ubuntu_24-04_LTS_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV1-signed.zip</location>
+      <checksum style="SHA512">ebedbacedb8d39d8f67bdb5c8c2581dd524701580cc8eaa27b45bc0b8b90e27078076440a5b3d7b11cc8b693f445667cc505686eeea4adf93c16e8c9baded332</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_CAN_Ubuntu_24-04_STIG</benchmark-id>
@@ -198,9 +198,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_Cisco_IOS-XE_Router_NDM_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Cisco_IOS-XE_Router_NDM_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.xml</location>
-      <checksum style="SHA512">4c962a4512af45e0d02dfc74934ea25922e8aecde66a1b0c327e0b193c258407d817da457d3cc86c02a210f53673c538ce8242c6088377de24d763373b731fea</checksum>
+      <content-id>U_Cisco_IOS-XE_Router_NDM_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Cisco_IOS-XE_Router_NDM_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.zip</location>
+      <checksum style="SHA512">f831e5be80217896516806c41311bffbb69867343c4e3fc9055c9dd2b339964892fadf06250407298aa681c320f9e9c5f48a76ae6e52aa1337f96a9fe1fadd06</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_Cisco_IOS-XE_Router_NDM_STIG</benchmark-id>
@@ -222,9 +222,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_Cisco_IOS-XE_Router_RTR_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Cisco_IOS-XE_Router_RTR_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.xml</location>
-      <checksum style="SHA512">c265b79f1dfca46d5379572e6f5a277cd5549cedcface769ca8fe4d11e1188e9e976fac1649133b4a89e0e92466013e04a73768505b7555c78525ffbf5058404</checksum>
+      <content-id>U_Cisco_IOS-XE_Router_RTR_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Cisco_IOS-XE_Router_RTR_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.zip</location>
+      <checksum style="SHA512">4f6726335e1cb3ca3249628637d15442ae481a12cc473ff38118b7027d852bc2b81e96bf70242d722009d061b31deff2a26ac6c845c0be62323328d0a451b8bd</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_Cisco_IOS-XE_Router_RTR_STIG</benchmark-id>
@@ -246,9 +246,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_Google_Chrome_V2R11_STIG_SCAP_1-4_Benchmark-enhancedV11-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Google_Chrome_V2R11_STIG_SCAP_1-4_Benchmark-enhancedV11-signed.xml</location>
-      <checksum style="SHA512">d534af105d06d9090dc23729e029f8a6402494af25c867814151a40fb6eda22100b9310f26bb5e26e5062596aee82e7ef4aafd83264b64f940a98006eaea4834</checksum>
+      <content-id>U_Google_Chrome_V2R11_STIG_SCAP_1-4_Benchmark-enhancedV11-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Google_Chrome_V2R11_STIG_SCAP_1-4_Benchmark-enhancedV11-signed.zip</location>
+      <checksum style="SHA512">91a352fb7c5f9c53776c1a17ea1ef8a707838a49bb2e717b6d44fd4c2aaf963f2365fdf9c0fbec95ef8ad8c31e030514b32c79f2e36d3df5adc562738824753a</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_Google_Chrome_Current_Windows</benchmark-id>
@@ -270,9 +270,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_Kubernetes_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Kubernetes_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.xml</location>
-      <checksum style="SHA512">ed561b3392138e7a4170bd5d8451b22f0cfdd245f271c90004c3585dd5179f9df2537ee161d0a1041578b09cff334d6b508ad0d5fff3000cebaba369734cab67</checksum>
+      <content-id>U_Kubernetes_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Kubernetes_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.zip</location>
+      <checksum style="SHA512">e4d128f907db8d425b9601cfd7db86cc0558811346d745e80f8177c2279f8bb1756617fe1787841004e0be9628b834a54765233b80c58cf0429454053f8f8769</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_Kubernetes_STIG</benchmark-id>
@@ -294,9 +294,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MOZ_Firefox_Linux_V6R5_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MOZ_Firefox_Linux_V6R5_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.xml</location>
-      <checksum style="SHA512">c25470000501926cd3bf0c70881dacd097b2e9545f3e1098ca291ca9eb15e70f73a4d35354482bcb144332ec56fe402a63b1b2ca6d1d0466bbd93eba064695a5</checksum>
+      <content-id>U_MOZ_Firefox_Linux_V6R5_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MOZ_Firefox_Linux_V6R5_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.zip</location>
+      <checksum style="SHA512">2ca0520ed13bce5d5e52fd7873d4b9e506526971c242f5c904a2109c0d9754eb12dd5d455aa951dfd3bd85d6e243d756691ec454f9bb1f7e9c234350add7dd2f</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_MOZ_Firefox_Linux</benchmark-id>
@@ -318,9 +318,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MOZ_Firefox_Windows_V6R6_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MOZ_Firefox_Windows_V6R6_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.xml</location>
-      <checksum style="SHA512">fcda9dad8d56c1ef1b63f9c5a3b4c6fc4694d23baef59a21907226a77ce47d9bd50fa90d295e8743019594b5193ff8d6bb4c30e706b36bb8171e9a9a3b7cabeb</checksum>
+      <content-id>U_MOZ_Firefox_Windows_V6R6_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MOZ_Firefox_Windows_V6R6_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip</location>
+      <checksum style="SHA512">bc07cb154b2fa536cad0c7942e615989708339c00fc1e54932428cff2d8c06580d5a20d329163547420f31d1689ec6b744026c07c9d43b874c16276e958a77d6</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_MOZ_Firefox_Windows</benchmark-id>
@@ -342,9 +342,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_Defender_Antivirus_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV9-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Defender_Antivirus_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV9-signed.xml</location>
-      <checksum style="SHA512">87099c9de0b3a5594cb444bfdd90c7dfb40c9832e87a0ec02eb263ccc0bb48fabde733565fd36e18c856b0e79606710e877d54f07f0902b6b635eb20a333b2d6</checksum>
+      <content-id>U_MS_Defender_Antivirus_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV9-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Defender_Antivirus_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV9-signed.zip</location>
+      <checksum style="SHA512">4329f489ccaf3d8e9437daa17d4827670457cc2a45af0c8ff88d6479f3a41b10864b0666a94633772e824c5e44fcbb437ce66a86b05323665cc6cf6c4cf5ab1f</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_MS_Defender_Antivirus</benchmark-id>
@@ -366,9 +366,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_DotNet_Framework_4-0_V2R7_STIG_SCAP_1-4_Benchmark-enhancedV9-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_DotNet_Framework_4-0_V2R7_STIG_SCAP_1-4_Benchmark-enhancedV9-signed.xml</location>
-      <checksum style="SHA512">d3c660d96c52b9e2961e54331ae6b1c41d6c6e15efcb8410ba1d6c8cebbc92a98ef4b3a0d8cef9c759588bac81c2f97828eef84e5157ae90b2d5d83e0e77d94b</checksum>
+      <content-id>U_MS_DotNet_Framework_4-0_V2R7_STIG_SCAP_1-4_Benchmark-enhancedV9-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_DotNet_Framework_4-0_V2R7_STIG_SCAP_1-4_Benchmark-enhancedV9-signed.zip</location>
+      <checksum style="SHA512">ce6052a4684f1944666371aeaa45364f911c8e32a9f7ff4ede286901bbeeb94e9258e839ca65f697032861bdfd3eed7e675ba3ba42f814416d529bf916e9c92f</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_MS_Dot_Net_Framework</benchmark-id>
@@ -390,9 +390,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_Edge_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV10-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Edge_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV10-signed.xml</location>
-      <checksum style="SHA512">3f63d4f968c70547f4a823b240e2a7dc935a81238ea6f5c580fdbe0131e8ee5f5c2e0473c10e5a57d00f5383a6c8cbd239c2671bfd01c0db2231ae0202edff42</checksum>
+      <content-id>U_MS_Edge_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV10-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Edge_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV10-signed.zip</location>
+      <checksum style="SHA512">0347ce0341b35343c7f0fae66a29248ef63d83ee4ac33372940e18cc6b0cea5629251b5c9e8c68acbdadc3cafbe0ac6c80e3df15564772609b80a25a631057bc</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_MS_Edge_STIG</benchmark-id>
@@ -414,9 +414,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_IE11_V2R7_STIG_SCAP_1-4_Benchmark-enhancedV11-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_IE11_V2R7_STIG_SCAP_1-4_Benchmark-enhancedV11-signed.xml</location>
-      <checksum style="SHA512">8f8e16d05b9e90f538bc1e85c764f429b789cd40bcb0e7d081589a058d79706bec5f2ae42925fae04e88d0351408b69e01f1d4b97bbdfef0b47f57fb9cb0193a</checksum>
+      <content-id>U_MS_IE11_V2R7_STIG_SCAP_1-4_Benchmark-enhancedV11-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_IE11_V2R7_STIG_SCAP_1-4_Benchmark-enhancedV11-signed.zip</location>
+      <checksum style="SHA512">362b3f141f8e7e1c4689a4a567f6c67d54a685e7454f3ac06756ae2c88b43f51f30119964bf858604bc6b030e93b3c94901f343ee9db531ccd8681c83e751261</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_IE_11_STIG</benchmark-id>
@@ -438,9 +438,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_IIS_10-0_Server_V3R4_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_IIS_10-0_Server_V3R4_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.xml</location>
-      <checksum style="SHA512">3da775f5bae97626420dd1ea3bbc581fe6acdfa14dcb2953b0f68f64ffab3d535c7b7eff09c3788e7bad2a4fc45e05c2b3808f70bc4ff5ea7e8c55fd57938849</checksum>
+      <content-id>U_MS_IIS_10-0_Server_V3R4_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_IIS_10-0_Server_V3R4_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.zip</location>
+      <checksum style="SHA512">eb44097ea843bacf64ae6ff364637b5d7b81f1e4f37a30ef59595bdb7001e504df3a46445c43d3818170806afb6e5e1b10dfaa229ab06202cf413ad3b95e5eae</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_navy.navwar.niwcatlantic.scc_benchmark_IIS_10-0_Server_STIG</benchmark-id>
@@ -462,9 +462,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_IIS_10-0_Site_V2R12_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_IIS_10-0_Site_V2R12_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.xml</location>
-      <checksum style="SHA512">fa1e787d8a9dff4eef21a7a0968f05230a6431470565c423a41a79dba07ccff9ef0fb2bde98adc7a10233fb75c7cb64d0e3094f3c3be66e65983741ed1875e5c</checksum>
+      <content-id>U_MS_IIS_10-0_Site_V2R12_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_IIS_10-0_Site_V2R12_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.zip</location>
+      <checksum style="SHA512">d2cf061256d4360950af649cd1c695e523054b87f65ae6008433277f4d1cf904dd4da053b35dae001c1df378e3c68d9ff2ea6adc5b5f029301dfdea11f24dda6</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_navy.navwar.niwcatlantic.scc_benchmark_IIS_10-0_Site_STIG</benchmark-id>
@@ -486,9 +486,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_IIS_8-5_Server_V2R7_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_IIS_8-5_Server_V2R7_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.xml</location>
-      <checksum style="SHA512">67785a9b07eb271149130a0efa39633fada560f364ca6bfb6b65f61da51fef1480592f7a2c554e5ce1418bce385be65fdc3f913a38f5af425557651930239caa</checksum>
+      <content-id>U_MS_IIS_8-5_Server_V2R7_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_IIS_8-5_Server_V2R7_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip</location>
+      <checksum style="SHA512">4f273dc63f516a8727688335f344b35f54b616e37f20ec9b5530a9cae8a77ff708c73d35639f6e8014ad0d458421294847a46347f016a3d420ecfc9188afc0b3</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_navy.navwar.niwcatlantic.scc_benchmark_IIS_8-5_Server_STIG</benchmark-id>
@@ -510,9 +510,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_IIS_8-5_Site_V2R9_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_IIS_8-5_Site_V2R9_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.xml</location>
-      <checksum style="SHA512">7ec06ae04f3d9b1091a5177ca85e1f1152112ad43ed6cc1fa4f06d53839259337b96ca173cf946b021b8c0ff4f429ef5e77dcca4a75fa27b934ca2fa8791e0b1</checksum>
+      <content-id>U_MS_IIS_8-5_Site_V2R9_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_IIS_8-5_Site_V2R9_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip</location>
+      <checksum style="SHA512">c41f8116e16f2b80a8b79dc19ba8582de06b267fec0ba35eb785a67ff706e3db031cfcc37eae1badd193a4900d00379d8fee243861eb619c4969d2ee863b86b2</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_navy.navwar.niwcatlantic.scc_benchmark_IIS_8-5_Site_STIG</benchmark-id>
@@ -534,9 +534,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_Office_365_ProPlus_V3R5_STIG_SCAP_1-4_Benchmark-enhancedV5-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Office_365_ProPlus_V3R5_STIG_SCAP_1-4_Benchmark-enhancedV5-signed.xml</location>
-      <checksum style="SHA512">0f64f76988111ca87c1ca34f6ed80c0f02b54535082256109c23613530d69b6f37fea00f2fc35384a106158bc6b814c6ed8fc456c3a80bbe8de2ea2ed750b9a8</checksum>
+      <content-id>U_MS_Office_365_ProPlus_V3R5_STIG_SCAP_1-4_Benchmark-enhancedV5-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Office_365_ProPlus_V3R5_STIG_SCAP_1-4_Benchmark-enhancedV5-signed.zip</location>
+      <checksum style="SHA512">1c702b1de34414729087c01c5ebe8f28b56c9ed5bee5d47de42e56ed8d32756336e98d1e05568a7193d4dc4eee9e1acae7e5b55f72a8e227d0b5906065c90406</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_MS_Office_365_ProPlus_STIG</benchmark-id>
@@ -558,9 +558,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_OneDrive_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_OneDrive_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.xml</location>
-      <checksum style="SHA512">a12a889bbefa21dbca03c8bf01eb186d557f5dd0ab16355a35e87e4c917f8fc7f18230bb8d17483569867fae31d6dca952aa9fac9c068e1ea27dc3680eb8648f</checksum>
+      <content-id>U_MS_OneDrive_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_OneDrive_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.zip</location>
+      <checksum style="SHA512">eb114effbe6bc02ebcb7f3eddbb013a7dc6ce34d24e1fe5d6575e9ef14867063869c65b1b9771929098e685f92408ea382bfc62738f38b92045d0cd71d940fcf</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_navy.navwar.niwcatlantic.scc_benchmark_Microsoft_OneDrive_STIG</benchmark-id>
@@ -582,9 +582,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_SQL_Server_2016_Database_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_SQL_Server_2016_Database_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.xml</location>
-      <checksum style="SHA512">aebe8e02a6a4b060c9142b42ad77e571435e62ca00b681e6b8a80437f13299fc2642b463685fa52fedc73a12549cee03a9f197fb76d68022b535d80ae54e54cb</checksum>
+      <content-id>U_MS_SQL_Server_2016_Database_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_SQL_Server_2016_Database_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.zip</location>
+      <checksum style="SHA512">fdef2fcded8fdf88a3df9f041edb771e9327a3ac7935f82ce8376b96c40c035182fc0dc939801c1ea1e2dce96ab6e66104a904366d20560d8a0a1291bd3a3bc6</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_navy.navwar.niwcatlantic.scc_benchmark_MS_SQL_Server_2016_Database_STIG</benchmark-id>
@@ -606,9 +606,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_SQL_Server_2016_Instance_V3R5_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_SQL_Server_2016_Instance_V3R5_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.xml</location>
-      <checksum style="SHA512">90afc20cdc9621655ee03e68c4d5453f2689432f155dd3452a772e8495fe39a9f9fd5bf81fc601493291094eae61fa175db84ab5c45b7bedb16eecc96491a6ff</checksum>
+      <content-id>U_MS_SQL_Server_2016_Instance_V3R5_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_SQL_Server_2016_Instance_V3R5_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip</location>
+      <checksum style="SHA512">064fa7c81e827dbf8543ea1749888c4c8dc8f53d037f402a2f50c0643946f6473248400ef5a3a2c82aff758906c587df70a9d428bb04bc6c02c807a00f5fc841</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_navy.navwar.niwcatlantic.scc_benchmark_MS_SQL_Server_2016_Instance_STIG</benchmark-id>
@@ -630,9 +630,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_SQL_Server_2022_Database_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_SQL_Server_2022_Database_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.xml</location>
-      <checksum style="SHA512">e4f24d8f1faa3e7dd5febcdb907021d6b2622c121827972b50c79406aa21adacdce58ce04e7444a91e5863f5f77bc78d14ccdef8847e62db22987398dc470bd3</checksum>
+      <content-id>U_MS_SQL_Server_2022_Database_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_SQL_Server_2022_Database_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.zip</location>
+      <checksum style="SHA512">dae8b85f4601c030687d8d356aa6032d75bdf62b8f5c97a5c3f08b279eba04ce68039c380edd3f6cd29f7a115570974cd36f02b8b90ad6f4be98fe1329aa0fd1</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_navy.navwar.niwcatlantic.scc_benchmark_MS_SQL_Server_2022_Database_STIG</benchmark-id>
@@ -654,9 +654,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_SQL_Server_2022_Instance_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_SQL_Server_2022_Instance_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.xml</location>
-      <checksum style="SHA512">4af0f191d9e72a68f164465b36e4910318ea63a31292be7d106196336d5154b58f6877b99f748c39adcffee0a812103da07d87c575430da9acf7b2764a095d4e</checksum>
+      <content-id>U_MS_SQL_Server_2022_Instance_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_SQL_Server_2022_Instance_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.zip</location>
+      <checksum style="SHA512">1aecc9a0563d26a2493883d0d21abf2e46a489700356594e65804829d689b265364e5ff9836ecf4c9eb020fecbe9e7345ccb8aa074202bca25040317d42bd94d</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_navy.navwar.niwcatlantic.scc_benchmark_MS_SQL_Server_2022_Instance_STIG</benchmark-id>
@@ -678,9 +678,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_Windows_10_V3R5_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_10_V3R5_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.xml</location>
-      <checksum style="SHA512">2e6e202fa77161ca0c1ef2d47ec59ba6061817140808efbfadb12253b394e804373fc1aaad65af89d590e3a09b56a619f8b6bd10e32e6b8094348c7c03fbe409</checksum>
+      <content-id>U_MS_Windows_10_V3R5_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_10_V3R5_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.zip</location>
+      <checksum style="SHA512">548c7a82b868484e92bce639a57aba701a24cf13c3f1610d2cf3d294bd81160b23c3f1d4d46c6f208352d7b70978af7aa542664dbdea5de13576d9f497873a36</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_MS_Windows_10_STIG</benchmark-id>
@@ -702,9 +702,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_Windows_11_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_11_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.xml</location>
-      <checksum style="SHA512">f80cfb36d03f92abb5157715675afd08d74133fa279d68ce1fc3be948341848c2ca5fcf2316a63995a1b873a6ba88809ac86dec27c5177e2f11e6b371e81635c</checksum>
+      <content-id>U_MS_Windows_11_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_11_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.zip</location>
+      <checksum style="SHA512">7f5de54846662ab131ec65d2bf5aa4cbce7b3881720f6ad1dc8282e22dbb42647457a6c4802ac780fb4c91b8abee436171127db6c187501723f9db5af9043c05</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_Microsoft_Windows_11_STIG</benchmark-id>
@@ -726,9 +726,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_Windows_2012_and_2012_R2_DC_V3R6_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_2012_and_2012_R2_DC_V3R6_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.xml</location>
-      <checksum style="SHA512">80cdf05b2e5995787f849a7fac93ae364a2cc7fd64a006ea3b6e1702eb42734b13d61b8d83c86c39b1e2a2aa47ed69ca313bb0c878a83f92140825b613eaaf2f</checksum>
+      <content-id>U_MS_Windows_2012_and_2012_R2_DC_V3R6_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_2012_and_2012_R2_DC_V3R6_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip</location>
+      <checksum style="SHA512">ecb93155fc3ffe36549f3a4a1f890847f81b06308664504e244f22b12120b77f7426a094888967d1da1faa2ab466c9d3627fb1d8160199a4f82a4c6abf9ec68a</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_Windows_2012_DC_STIG</benchmark-id>
@@ -753,9 +753,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_Windows_2012_and_2012_R2_MS_V3R6_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_2012_and_2012_R2_MS_V3R6_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.xml</location>
-      <checksum style="SHA512">bb12ceb052b46a71c11f0d1d5ee31cb14d867f8101d39c51a9f88ee84b72106723326ff28752b169ec8954d6485a31a9778da3a0d660ca32f7ae12c5f8211cca</checksum>
+      <content-id>U_MS_Windows_2012_and_2012_R2_MS_V3R6_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_2012_and_2012_R2_MS_V3R6_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip</location>
+      <checksum style="SHA512">61561a15a495675483aaf98f977068cf3fbf6bb03444ac05412b799d25bbc9ba4624cbad1175f2ca445a1342d4334317b019db59f31e8178a8965b702153296d</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_Windows_2012_MS_STIG</benchmark-id>
@@ -780,9 +780,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_Windows_Defender_Firewall_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_Defender_Firewall_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.xml</location>
-      <checksum style="SHA512">8282227c147701dd8f91ad9ede9c093f0ee63d4d1fc16dd5e496be27e8a273fe5ac426fb78d3b634e3445a5565e43e995326044c78140ec2ddc25fce27f6a2b3</checksum>
+      <content-id>U_MS_Windows_Defender_Firewall_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_Defender_Firewall_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip</location>
+      <checksum style="SHA512">1f98b51b4cf60af86aa718abcd4e00352c781841d554489b137fd463954b670b91b63450d43dbf6ce314cded87f30161c3b92c692f4c6b41a342a2bc6f24a74c</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_Windows_Firewall_with_Advanced_Security</benchmark-id>
@@ -804,9 +804,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_Windows_Server_2016_V2R8_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_Server_2016_V2R8_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.xml</location>
-      <checksum style="SHA512">b8bd8de77e8474fa31822469fb4b72f7747e2bccac09b6b226883902f0040128f706e64fffb5dfcf19a3e5e600ab62f7b97e492377f7d5e1cf1843979ea202d0</checksum>
+      <content-id>U_MS_Windows_Server_2016_V2R8_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_Server_2016_V2R8_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.zip</location>
+      <checksum style="SHA512">261e6bb27f39c2d15f95628baa9d5ae80fd4e5cf249e8bd6d684bc34febe0170d46a476163b264fd50bb1096fefc12d3ce5ba3064aea7d91deee03758d6f7eef</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_Windows_Server_2016_STIG</benchmark-id>
@@ -828,9 +828,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_Windows_Server_2019_V3R5_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_Server_2019_V3R5_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.xml</location>
-      <checksum style="SHA512">065eebeca99b9ff91b4272bb615cde105017c4e348dad0d2617dbaa021cf6d173a57d32702e606d340b384fe4bcf974ba1cf8b19fcd36be60ea44d4438672b44</checksum>
+      <content-id>U_MS_Windows_Server_2019_V3R5_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_Server_2019_V3R5_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.zip</location>
+      <checksum style="SHA512">6832b0e27d7a69644f0e368a1c88083a44a1256b18e5fb82e019e891c685c4436ea581aeddb6d16935772ed669137186604d4d6ddd32475cadecbb4fbbb9c59f</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_Windows_Server_2019_STIG</benchmark-id>
@@ -852,9 +852,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_Windows_Server_2022_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_Server_2022_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.xml</location>
-      <checksum style="SHA512">bb444df69f3aa1fe617f7cf6dde2ebdadd6c063db2f2de2ff368a609be1df48f9527ba636b944a31ededbf959332bea3d6c1b99273784364ff80ddd7c72d84c2</checksum>
+      <content-id>U_MS_Windows_Server_2022_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_Server_2022_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.zip</location>
+      <checksum style="SHA512">8cb60f8be96bbcc5c2e7afb81ca4c166b547645ec811959dfa6c467a9ad20e1eae258d739ed2fffa62879e19bf2e32bc3650f4fc8e608c2b5a61a92327c2d9a6</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_MS_Windows_Server_2022_STIG</benchmark-id>
@@ -876,9 +876,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MS_Windows_Server_DNS_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_Server_DNS_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.xml</location>
-      <checksum style="SHA512">b179e29e53eb6b6aed40d48a582357763eb8d5612efe1124fc5a536766fb65713e88e69fede918c43ae7befee66e0b4444e2be6150e8c0cb7a40968cbc16c8ce</checksum>
+      <content-id>U_MS_Windows_Server_DNS_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MS_Windows_Server_DNS_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.zip</location>
+      <checksum style="SHA512">f278584730ebcff3d666b97e2cca8379ad967e887092f66889146b8fb1c0714285096ec3b6055f89f34946790d769b5adba3eb59a960a95eac1b6b5998462d9d</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_navy.navwar.niwcatlantic.scc_benchmark_MS_Windows_Server_2022_DNS_STIG</benchmark-id>
@@ -900,9 +900,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_Oracle_Linux_7_V3R1_STIG_SCAP_1-4_Benchmark-enhancedV10-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Oracle_Linux_7_V3R1_STIG_SCAP_1-4_Benchmark-enhancedV10-signed.xml</location>
-      <checksum style="SHA512">aba249f07c01e0116784b5699aaf598fc1bd03ffe3a58c621897e9cf6083ab79053098fdad9dc7cb26b727fc42acd40dc5cfcbc6f290701c25447a35e024b8ba</checksum>
+      <content-id>U_Oracle_Linux_7_V3R1_STIG_SCAP_1-4_Benchmark-enhancedV10-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Oracle_Linux_7_V3R1_STIG_SCAP_1-4_Benchmark-enhancedV10-signed.zip</location>
+      <checksum style="SHA512">d5678ca94c8832b4ac4c41d5f558d07b630ddbd1104021a4abb47f8639599c8db9f9898575c6f7f365acf5317c31df2171381757023c3ecc3d940cf30c99f76e</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_Oracle_Linux_7_STIG</benchmark-id>
@@ -924,9 +924,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_Oracle_Linux_8_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Oracle_Linux_8_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.xml</location>
-      <checksum style="SHA512">84d7002b52e15f5c2fd2abbb9a7aa353689450d6db241f350d5a61a4699027a1493c23fa7c1772e725abc4a3c112b2a74f0effdc60d4e868144151e9d40454d1</checksum>
+      <content-id>U_Oracle_Linux_8_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Oracle_Linux_8_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.zip</location>
+      <checksum style="SHA512">82c2b4f75e0b13291249050471ff4a1294d38798fa7157c802c3be166119617b5f4edd82508d27d313abce4022f82e2a52fa8971acf7a5938c8f080ab6ddb30b</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_Oracle_Linux_8_STIG</benchmark-id>
@@ -948,9 +948,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_RHEL_7_V3R15_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_RHEL_7_V3R15_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.xml</location>
-      <checksum style="SHA512">9c354482a3a3529905bad97864f216bac854fbc08c8ae15ad6b7e30a59a784f647bc3f5b926e76d79e53991b859f164fe739c9daec5185614ff66a06d8a8b472</checksum>
+      <content-id>U_RHEL_7_V3R15_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_RHEL_7_V3R15_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.zip</location>
+      <checksum style="SHA512">ea2121213743e3f662e5c2211efa985cbd9ea84c2192acdaacd935db4624b061f81001aecc941768b976a7afdb1529ba8649345828c2dd670c480a38b77ad008</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_RHEL_7_STIG</benchmark-id>
@@ -972,9 +972,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_RHEL_8_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV16-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_RHEL_8_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV16-signed.xml</location>
-      <checksum style="SHA512">2120918b14b5bd4f84e9afc6b703def7430324bf6c73337ed6305a68de43cd3306b50a39390d8228d4ac57456b5b45ce55ec9c0dd903c724bcdd1de2dd8e5d36</checksum>
+      <content-id>U_RHEL_8_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV16-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_RHEL_8_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV16-signed.zip</location>
+      <checksum style="SHA512">b1e23bcfb5a936c610e59bef36d78db73be0660c026b8e5989db5aca6dbc4babd9e37b780967caff08275bc017d55f8d717287178985985e0a61e3382147f721</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_RHEL_8_STIG</benchmark-id>
@@ -996,9 +996,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_RHEL_9_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_RHEL_9_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.xml</location>
-      <checksum style="SHA512">3440f231678ed2f2c24b69d9102dce3ab3da7416ce23c4071bab82a3a085f942033fb57129b547f48ff8ef0a3dcf49a8b52fbb00b00357b31098e1c022397383</checksum>
+      <content-id>U_RHEL_9_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_RHEL_9_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.zip</location>
+      <checksum style="SHA512">2ae97012c8f6d75ad66fdccf3bafab69f45fc752d793254f928c06551283e2d4fd845dbb6e7ccc85aaf007856039168c9b7a8d0c3a23deb3310b378509125635</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_RHEL_9_STIG</benchmark-id>
@@ -1020,9 +1020,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_SLES_12_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV11-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_SLES_12_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV11-signed.xml</location>
-      <checksum style="SHA512">d819de03efb2736b28f8d8370c4bdd202fb70cf119ce156dabdd0519bb925f558af9e40b89910ca19a691786dbe693fb6f32ec6cbe2f02ec681a8a81a71b3914</checksum>
+      <content-id>U_SLES_12_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV11-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_SLES_12_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV11-signed.zip</location>
+      <checksum style="SHA512">39a48560dae76839780f791781357a0bbbe603b13bf5408deb96285a234f81a1e84ad657076e4dcbd2a541a8ddbd83a154b58bd14175aa239b3db2dbdbfa5cbb</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_SLES_12_STIG</benchmark-id>
@@ -1044,9 +1044,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_SLES_15_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_SLES_15_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.xml</location>
-      <checksum style="SHA512">5eb0ee5c2e6ddec7051e4bd8ba5bc82aec01996784d4f5d2410eabfef517ec9f9bc32d5d997d5108b8962c6e8bffb118db9f4cceb462cb956bafedd3302fd4ec</checksum>
+      <content-id>U_SLES_15_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_SLES_15_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV13-signed.zip</location>
+      <checksum style="SHA512">4e17111072e7ede0a031d7e35b0fd06d719097a4bb4753fdaed50d22ad0341aa8c31fb48d837e443054776cbf64a2d3f31ff210fe4279037285d052bb7bf7bde</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_SLES_15_STIG</benchmark-id>
@@ -1068,9 +1068,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_SOL_11_SPARC_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_SOL_11_SPARC_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.xml</location>
-      <checksum style="SHA512">0bd646c951dd1f153d9d989f07d0a7cc2c18baad32d3e1e863a55eb03637b7c842a22e69878082bdaee7d68c3ea3ae8f3bbc876fe4c4600f961428293a2bc4af</checksum>
+      <content-id>U_SOL_11_SPARC_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_SOL_11_SPARC_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.zip</location>
+      <checksum style="SHA512">daa492c81e19d9a5f972b24d8fee032a284ad523e7226867941d81505dacb581c5c0dda6a959c47865774063391a043ba9531100cfc97a2ed1d079056ac995e1</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_Solaris_11_SPARC_STIG</benchmark-id>
@@ -1092,9 +1092,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_SOL_11_X86_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_SOL_11_X86_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.xml</location>
-      <checksum style="SHA512">f6f8f3b88d180f4e09a71189adfc7301d16ff1b7328cde8464c0a17a384bf76854f6f621b6ac4989f26a8f8bb26b4538a812fa424c6463d4c9883120d425646f</checksum>
+      <content-id>U_SOL_11_X86_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_SOL_11_X86_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.zip</location>
+      <checksum style="SHA512">951e57f94a9360dd9e29a57a44b85fcfe00d85c12c4d9e8fccb5ed1a4b2357a850cfcdf8fe9db946c03725056b59a637d9e312cb2da131299b28b0f2e1fe8104</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_Solaris_11_X86_STIG</benchmark-id>
@@ -1116,9 +1116,9 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_TOSS_4_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.xml</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_TOSS_4_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.xml</location>
-      <checksum style="SHA512">5ce356258793968386c121d63e1d6f9bddf6cb2e3d1582459900bb561c0a57ae5bbdde48c72f8c1a9dd48c59184d6e10ad0262758827be5ef938ae56629c9a43</checksum>
+      <content-id>U_TOSS_4_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_TOSS_4_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV2-signed.zip</location>
+      <checksum style="SHA512">d6477566ebf9eb62cf41bb59f885465d07745c758f95c66e136d9f184a94575405f048729268f4e1df4b70dd27b3f8b299d717b357e8bd4ad3a38cd1f7156336</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_TOSS_4_STIG</benchmark-id>
