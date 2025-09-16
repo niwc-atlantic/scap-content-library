@@ -1,3 +1,18 @@
+## U_CAN_Ubuntu_18-04
+- ISSUE 2982 : [Feature]: Automate rule SV-219162, The Ubuntu operating system audit event multiplexor must be configured to off-load audit logs onto a different system or storage media from the system being audited.
+- ISSUE 2984 : [Feature]: Automate rule SV-219167, The Ubuntu operating system must display the Standard Mandatory DoD Notice and Consent Banner before granting local access to the system via a graphical user logon.
+- ISSUE 2987 : [Feature]: Automate rule SV-219170, The Ubuntu operating system must display the Standard Mandatory DoD Notice and Consent Banner before granting any publically accessible connection to the system.
+- ISSUE 2991 : [Feature]: Automate rule SV-219187, The Ubuntu operating system must set a sticky bit on all public directories to prevent unauthorized and unintended information transferred via shared system resources.
+- ISSUE 2995 : [Feature]: Automate rule SV-219211, The Ubuntu Operating system must disable the x86 Ctrl-Alt-Delete key sequence if a graphical user interface is installed.
+- ISSUE 3005 : [Feature]: Automate rule SV-219237, The Ubuntu operating system must allocate audit record storage capacity to store at least one weeks worth of audit records, when audit records are not immediately sent to a central audit record storage facility.
+- ISSUE 3006 : [Feature]: Automate rule SV-219302, The Ubuntu operating system must retain a users session lock until that user reestablishes access using established identification and authentication procedures.
+- ISSUE 3014 : [Feature]: Automate rule SV-219323, The Ubuntu operating system must be configured to use AppArmor.
+- ISSUE 3020 : [Feature]: Automate rule SV-219331, The Ubuntu operating system must, for networked systems, compare internal information system clocks at least every 24 hours with a server which is synchronized to one of the redundant United States Naval Observatory …
+- ISSUE 3021 : [Feature]: Automate rule SV-219332, The Ubuntu operating system must synchronize internal information system clocks to the authoritative time source when the time difference is greater than one second.
+- ISSUE 3028 : [Feature]: Automate rule SV-219340, The Ubuntu operating system must configure the uncomplicated firewall to rate-limit impacted network interfaces.
+- ISSUE 3029 : [Feature]: Automate rule SV-219341, The Ubuntu operating system must implement non-executable data to protect its memory from unauthorized code execution.
+- ISSUE 3037 : [Feature]: Automate rule SV-252703, The Ubuntu operating system must disable all wireless network adapters.
+
 ## U_CAN_Ubuntu_22-04_LTS
 - ISSUE 1611 : [Feature] Automate rule SV-260592r958754
 - ISSUE 2008 : Automate Rule SV-274860
@@ -6,6 +21,22 @@
 - ISSUE 1798 : Ubuntu 22 improve disa rule_SV-260486r991560
 - ISSUE 2014 : Update Rule SV-260583
 - ISSUE 2013 : Update Rule SV-260592
+- ISSUE 3041 : Update Ubuntu SV-270750 check to not fail if exit_status is not equal to 0 due to expected oddities with a global find command
+
+## U_CAN_Ubuntu_24-04_LTS
+- ISSUE 2655 : [Feature]: Automate rule SV-270650, Ubuntu 24.04 LTS must configure AIDE to preform file integrity checking on the file system.
+- ISSUE 2657 : [Feature]: Automate rule SV-270658, Ubuntu 24.04 LTS audit event multiplexor must be configured to offload audit logs onto a different system or storage media from the system being audited.
+- ISSUE 2658 : [Feature]: Automate rule SV-270678, Ubuntu 24.04 LTS must initiate a graphical session lock after 10 minutes of inactivity.
+- ISSUE 2661 : [Feature]: Automate rule SV-270691, Ubuntu 24.04 LTS must display the Standard Mandatory DOD Notice and Consent Banner before granting access to via an SSH logon.
+- ISSUE 2662 : [Feature]: Automate rule SV-270693, Ubuntu 24.04 LTS must display the Standard Mandatory DOD Notice and Consent Banner before granting local access to the system via a graphical user logon.
+- ISSUE 2664 : [Feature]: Automate rule SV-270711, Ubuntu 24.04 LTS must disable the x86 Ctrl-Alt-Delete key sequence if a graphical user interface is installed.
+- ISSUE 2670 : [Feature]: Automate rule SV-270750, Ubuntu 24.04 LTS must set a sticky bit on all public directories to prevent unauthorized and unintended information transferred via shared system resources.
+- ISSUE 2671 : [Feature]: Automate rule SV-270751, Ubuntu 24.04 LTS must compare internal information system clocks at least every 24 hours with an authoritative time server.
+- ISSUE 2672 : [Feature]: Automate rule SV-270752, Ubuntu 24.04 LTS must synchronize internal information system clocks to the authoritative time source when the time difference is greater than one second.
+- ISSUE 2673 : [Feature]: Automate rule SV-270754, Ubuntu 24.04 LTS must configure the uncomplicated firewall to rate-limit impacted network interfaces.
+- ISSUE 2674 : [Feature]: Automate rule SV-270755, Ubuntu 24.04 LTS must disable all wireless network adapters.
+- ISSUE 2675 : [Feature]: Automate rule SV-270771, Ubuntu 24.04 LTS must implement nonexecutable data to protect its memory from unauthorized code execution.
+- ISSUE 2676 : [Feature]: Automate rule SV-270816, Ubuntu 24.04 LTS must allocate audit record storage capacity to store at least one week's worth of audit records, when audit records are not immediately sent to a central audit record storage facility.
 
 ## U_Google_Chrome
 - ISSUE 1999 : Automate Rule SV-275780
@@ -19,6 +50,7 @@
 
 ## U_MS_DotNet_Framework_4-0
 - ISSUE 2047 : Update Rule SV-225229
+- ISSUE 3045 : Update SV-225225 to be manual because publisher info not displayed in caspol.exe -m -lg results
 
 ## U_MS_IIS_10-0_Server
 - ISSUE 2021 : Remove Rule SV-218787
@@ -40,6 +72,7 @@
 ## U_MS_OneDrive
 - ISSUE 663 : Automate rule SV-230562
 - ISSUE 2048 : Automate Rule SV-275978
+- ISSUE 3046 : Rule SV-215530 - Has been removed from DISA Policy
 
 ## U_MS_SQL_Server_2016_Database
 - ISSUE 2226 : Fix SQL context from 'instance' to 'database on SV-213921
@@ -153,6 +186,9 @@
 - ISSUE 2109 : Automate Bluetooth Rule V-220735
 - ISSUE 2098 : Automate SV-220907
 - ISSUE 2108 : Bluetooth rule V-220734 needs to be updated to utilize command getmac instead of registry key
+- ISSUE 2261 : Fix SV-268319 check to pass if any gpo's are enabled, not mandating all be enabled
+- ISSUE 2264 : Update SV-220707 to correctly check for Trellix/McAfee and Symantec Product state
+- ISSUE 2266 : Update SV-220793 to be Manual
 
 ## U_MS_Windows_11
 - ISSUE 347 : [Feature]: Automate rule SV-253264r828876, The Windows 11 system must use an antivirus program.
@@ -162,7 +198,9 @@
 - ISSUE 2107 : Automate SV-253292 - Disable Bluetooth
 - ISSUE 2099 : Automate SV-253431
 - ISSUE 2106 : Bluetooth rule SV-253291 needs to be updated, the registry key check doesn't appear valid, update to utilize getmac cmd
-- ISSUE 2032 : Update Rule SV-253351
+- ISSUE 2262 : Fix SV-268318 check to pass if any gpo's are enabled, not mandating all be enabled
+- ISSUE 2032 : Make Rule SV-253351 a manual check
+- ISSUE 2263 : Update SV-253264 to correctly check for Trellix/McAfee and Symantec Product state
 
 ## U_MS_Windows_Server_2016
 - ISSUE 446 : [Feature]: Automate rule SV-224842r569186, Software certificate installation files must be removed from Windows Server 2016.
@@ -256,12 +294,11 @@
 - ISSUE 1746 : Automate Rule SV-248826
 - ISSUE 2075 : Automate Rule SV-252654
 - ISSUE 2079 : Automate Rule SV-256979
-- ISSUE 2094 : grep kernelopts= \b* matches null string many times in regex; marked by <-- HERE in m/^kernelopts=[^#]*pti=on\b* <-- HERE / at bin/System/System_SCAP.pm line 10420.
+- ISSUE 2094 : RULE 248826 - grep kernelopts= \b* matches null string many times in regex; marked by <-- HERE in m/^kernelopts=[^#]*pti=on\b* <-- HERE / at bin/System/System_SCAP.pm line 10420.
 - ISSUE 1752 : Update Rule SV-248573
 
 ## U_RHEL_8
 - ISSUE 1437 : [Bug]: RHEL 8 Rule V-230470 produces incorrect results depending usbguard-daemon.conf entry
-- ISSUE 1100 : [Feature]: Add platform-specification for OS Version 8.4 or later with FIPS enabled in the kernel.
 - ISSUE 281 : [Feature]: Automate rule SV-230326r627750, All RHEL 8 local files and directories must have a valid owner.
 - ISSUE 305 : [Feature]: Automate rule SV-230479r877390, The RHEL 8 audit records must be off-loaded onto a different system or storage media from the system being audited.
 - ISSUE 315 : [Feature]: Automate rule SV-244519r743806, RHEL 8 must display a banner before granting local or remote access to the system via a graphical user logon.
@@ -291,6 +328,7 @@
 - ISSUE 1633 : [Feature] Automate rule SV-258016r958804
 - ISSUE 1636 : [Feature] Automate rule SV-258031r1045114
 - ISSUE 1637 : [Feature] Automate rule SV-258038r1045128
+- ISSUE 1646 : [Feature] Automate rule SV-258080r1045162
 - ISSUE 1647 : [Feature] Automate rule SV-258095r1045189
 - ISSUE 1657 : [Feature] Automate rule SV-258174r958424
 - ISSUE 1658 : [Feature] Automate rule SV-258241r1051259
