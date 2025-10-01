@@ -25,7 +25,6 @@ A command-line utility for digitally signing XML files (single file or directory
 - [Development](#development)
 - [Security Notes](#security-notes)
 - [License](#license)
-- [Project Naming Ideas](#project-naming-ideas)
 
 ---
 
@@ -257,18 +256,6 @@ p11xs/
 Public domain under **Title 17 U.S.C. § 105** with the following notice copied from the script header:
 
 > The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.
-
----
-
-## Project Naming Ideas
-
-Acronym-friendly names you can use for this tool/repo:
-
-- **P11XS** — *PKCS#11 XML Signer*  
-- **GADGET** — *Generalized API for Digital-signature Generation & Tokenization*  
-- **TRIDENT** — *Token-backed RSA/XAdES Digital-sig ENgine for XML*  
-- **ANCHOR** — *Advanced Non-repudiation with Cryptographic Hardware for Organized Records*  
-- **SEAL** — *Smart-card Electronic Assertion for XML*
 
 ---
 
