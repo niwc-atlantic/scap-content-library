@@ -1,0 +1,4 @@
+lxml
+PyKCS11
+cryptography
+signxml
