@@ -8,7 +8,7 @@ Note:  All SCAP 1.4 content in this repository requires a tool capable of runnin
 
   # Consolidated Bundle and Repository Stats
   
-  [Consolidated_Bundle_12-17-2025.zip](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/Consolidated_Bundle_11-25-2025.zip)
+  [Consolidated_Bundle_12-17-2025.zip](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/Consolidated_Bundle_12-17-2025.zip)
   
   [niwc-content-repository-stats_12-17-2025](https://github.com/niwc-atlantic/scap-content-library/blob/main/benchmark_stats.md)
 
