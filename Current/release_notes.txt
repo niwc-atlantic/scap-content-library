@@ -1,9 +1,28 @@
+## U_Apple_macOS_26
+- ISSUE 3693 : Create macOS 26 (Tahoe) SCAP benchmark with collaboration with NIST
+
 ## U_CAN_Ubuntu_18-04
+- ISSUE 3053 : [Feature] Automate rule SV-219212, The Ubuntu 18 Operating system must disable the x86 Ctrl-Alt-Delete key sequence.
+- ISSUE 2979 : [Feature]: Automate rule SV-219153, The Ubuntu operating system audit event multiplexor must be configured to off-load audit logs onto a different system in real time, if the system is interconnected.
+- ISSUE 2982 : [Feature]: Automate rule SV-219162, The Ubuntu operating system audit event multiplexor must be configured to off-load audit logs onto a different system or storage media from the system being audited.
 - ISSUE 2991 : [Feature]: Automate rule SV-219187, The Ubuntu operating system must set a sticky bit on all public directories to prevent unauthorized and unintended information transferred via shared system resources.
+- ISSUE 2995 : [Feature]: Automate rule SV-219211, The Ubuntu Operating system must disable the x86 Ctrl-Alt-Delete key sequence if a graphical user interface is installed.
 - ISSUE 3005 : [Feature]: Automate rule SV-219237, The Ubuntu operating system must allocate audit record storage capacity to store at least one weeks worth of audit records, when audit records are not immediately sent to a central audit record storage facility.
 - ISSUE 3006 : [Feature]: Automate rule SV-219302, The Ubuntu operating system must retain a users session lock until that user reestablishes access using established identification and authentication procedures.
+- ISSUE 3012 : [Feature]: Automate rule SV-219321, The Ubuntu operating system must only allow the use of DoD PKI-established certificate authorities for verification of the establishment of protected sessions.
 - ISSUE 3014 : [Feature]: Automate rule SV-219323, The Ubuntu operating system must be configured to use AppArmor.
+- ISSUE 3020 : [Feature]: Automate rule SV-219331, The Ubuntu operating system must, for networked systems, compare internal information system clocks at least every 24 hours with a server which is synchronized to one of the redundant United States Naval Observatory  
+- ISSUE 3021 : [Feature]: Automate rule SV-219332, The Ubuntu operating system must synchronize internal information system clocks to the authoritative time source when the time difference is greater than one second.
 - ISSUE 3029 : [Feature]: Automate rule SV-219341, The Ubuntu operating system must implement non-executable data to protect its memory from unauthorized code execution.
+- ISSUE 3035 : [Feature]: Automate rule SV-237770, All local interactive user home directories must be group-owned by the home directory owners primary group.
+- ISSUE 3037 : [Feature]: Automate rule SV-252703, The Ubuntu operating system must disable all wireless network adapters.
+- ISSUE 3038 : [Feature]: Automate rule SV-255906, The Ubuntu operating system SSH server must be configured to use only FIPS-validated key exchange algorithms.
+- ISSUE 3039 : [Feature]: Automate rule SV-255907, The Ubuntu operating system must restrict access to the kernel message buffer.
+- ISSUE 3180 : Automate rule SV-219153 (U_CAN_Ubuntu_18)
+- ISSUE 3215 : Automate rule SV-237770 (U_CAN_Ubuntu_18)
+- ISSUE 3240 : Automate rule SV-255906 (U_CAN_Ubuntu_18)
+- ISSUE 3234 : Automate rule SV-255907 (U_CAN_Ubuntu_18)
+- ISSUE 3178 : Automate Rule: SV-219321 Ubuntu18  must use DOD PKI-established certificate authorities (CAs) for verification of the establishment of protected sessions.
 
 ## U_CAN_Ubuntu_20-04_LTS
 - ISSUE 3054 : [Feature] Automate rule SV-238380, The Ubuntu 20 operating system must disable the x86 Ctrl-Alt-Delete key sequence.
@@ -29,14 +48,19 @@
 - ISSUE 3381 : Automate rule SV-274869 (U_CAN_Ubuntu_20-04_LTS)
 - ISSUE 1678 : Automate: SV-238335 must implement cryptographic mechanisms to prevent unauthorized  (DAR)
 - ISSUE 1673 : Automate:SV-238214 displays the Standard Mandatory DOD Notice and Consent Banner (sshd)
+- ISSUE 3496 : Disable aide check Rule SV-260583, SV-238371, SV-270650 STIG states it can be Not Applicable if other products are used
+- ISSUE 3500 : Disable NIWC developed Rule SV-238344, replaced by DISA automation.
 
 ## U_CAN_Ubuntu_22-04_LTS
 - ISSUE 3055 : [Feature] Automate rule SV-260469, Ubuntu 22.04 LTS must disable the x86 Ctrl-Alt-Delete key sequence.
 - ISSUE 2012 : Automate Rule SV-274866
+- ISSUE 3496 : Disable aide check Rule SV-260583, SV-238371, SV-270650 STIG states it can be Not Applicable if other products are used
 
 ## U_CAN_Ubuntu_24-04_LTS
 - ISSUE 2662 : [Feature]: Automate rule SV-270693, Ubuntu 24.04 LTS must display the Standard Mandatory DOD Notice and Consent Banner before granting local access to the system via a graphical user logon.
 - ISSUE 2663 : [Feature]: Automate rule SV-270694, Ubuntu 24.04 LTS must be configured to enforce the acknowledgement of the Standard Mandatory DOD Notice and Consent Banner for all SSH connections.
+- ISSUE 3496 : Disable aide check Rule SV-260583, SV-238371, SV-270650 STIG states it can be Not Applicable if other products are used
+- ISSUE 3723 : Remove platform applicability from V-270650 - Ubuntu 24.04 LTS must configure AIDE to perform file integrity checking on the file system.
 
 ## U_Cisco_IOS-XE_Router_NDM
 - ISSUE 702 : [Feature]: Automate rule SV-215807r879511, The Cisco router must be configured to limit the number of concurrent management sessions to an organization-defined number.
@@ -58,6 +82,7 @@
 - ISSUE 715 : [Feature]: Automate rule SV-220139r879887, The Cisco router must be configured to send log data to a syslog server for the purpose of forwarding alerts to the administrators and the ISSO.
 
 ## U_Cisco_IOS-XE_Switch_NDM
+- ISSUE 3066 : [Feature]: Automate rule SV-220518, The Cisco switch must be configured to limit the number of concurrent management sessions to an organization-defined number.
 - ISSUE 3067 : [Feature]: Automate rule SV-220519, The Cisco switch must be configured to automatically audit account creation.
 - ISSUE 3068 : [Feature]: Automate rule SV-220520, The Cisco switch must be configured to automatically audit account modification.
 - ISSUE 3069 : [Feature]: Automate rule SV-220521, The Cisco switch must be configured to automatically audit account disabling actions.
@@ -136,6 +161,7 @@
 - ISSUE 3317 : [Feature]: Automate rule SV-220136, The Cisco router must be configured to send log data to at least two syslog servers for the purpose of forwarding alerts to the administrators and the ISSO.
 
 ## U_Cisco_IOS_Switch_NDM
+- ISSUE 3319 : [Feature]: Automate rule SV-220570, The Cisco switch must be configured to limit the number of concurrent management sessions to an organization-defined number.
 - ISSUE 3320 : [Feature]: Automate rule SV-220571, The Cisco switch must be configured to automatically audit account creation.
 - ISSUE 3321 : [Feature]: Automate rule SV-220572, The Cisco switch must be configured to automatically audit account modification.
 - ISSUE 3322 : [Feature]: Automate rule SV-220573, The Cisco switch must be configured to automatically audit account disabling actions.
@@ -173,29 +199,54 @@
 - ISSUE 3358 : [Feature]: Automate rule SV-220618, The Cisco switch must be configured to support organizational requirements to conduct backups of the configuration when changes occur.
 - ISSUE 3360 : [Feature]: Automate rule SV-220620, The Cisco switch must be configured to send log data to at least two central log servers for the purpose of forwarding alerts to the administrators and the information system security officer (ISSO).
 
+## U_MS_Defender_Antivirus
+- ISSUE 3695 : Create NIWC enhanced content based on DISA STIG V2R6
+
 ## U_MS_IIS_10-0_Server
 - ISSUE 2256 : Add platform applicability for Indexing is enabled for V-218809
 - ISSUE 1103 : Add Platform exception to manual check SV-218812
 - ISSUE 1808 : Automate SV-218814 -  IIS 10.0 web server system files must conform to minimum file permission requirements.
+- ISSUE 3627 : Remove Rule SV-241788
 - ISSUE 3409 : Update automation of rule SV-218801 to search all drives for .java and .jpp files
+
+## U_MS_IIS_10-0_Site
+- ISSUE 3628 : Automate Rule SV-278953
+
+## U_MS_Office_365_ProPlus
+- ISSUE 3607 : Automate Rule SV-278355
+- ISSUE 3606 : Automate Rule SV-278356
+- ISSUE 3604 : Automate Rule SV-278357
+- ISSUE 3608 : Automate Rule SV-278358
+- ISSUE 3605 : Automate Rule SV-278359
+
+## U_MS_SQL_Server_2022_Instance
+- ISSUE 3640 : Update Rule SV-271268
 
 ## U_MS_Windows_10
 - ISSUE 411 : [Feature]: Automate rule SV-220724r569187, A host-based firewall must be installed and enabled on the system.
 - ISSUE 432 : [Feature]: Automate rule SV-220952r890444, Passwords for enabled local Administrator accounts must be changed at least every 60 days.
+- ISSUE 3516 : Automate Rule SV-278924
+- ISSUE 3515 : Automate Rule SV-278925
+- ISSUE 3517 : Update Rule SV-268315
+- ISSUE 3518 : Update Rule SV-268319
 
 ## U_MS_Windows_11
 - ISSUE 1557 : [Feature]: Automate SV-253476 - Passwords for enabled local Administrator accounts must be changed at least every 60 days.
+- ISSUE 3528 : Automate Rule SV-278932
+- ISSUE 3527 : Automate Rule SV-278933
+- ISSUE 3529 : Update Rule SV-268317
+- ISSUE 3530 : Update Rule SV-268318
 
 ## U_MS_Windows_2012_and_2012_R2_DC
-- ISSUE 3379 : [Feature] Automate rule SV-226271, Override DISA’s disabled Guest check for better efficiency on large domain controllers
-- ISSUE 3377 : [Feature] Automate rule SV-226273, Override DISA’s renamed Administrator check for better efficiency on large domain controllers
-- ISSUE 3378 : [Feature] Automate rule SV-226274, Override DISA’s renamed Guest check for better efficiency on large domain controllers
+- ISSUE 3379 : [Feature] Automate rule SV-226271, Override DISA s disabled Guest check for better efficiency on large domain controllers
+- ISSUE 3377 : [Feature] Automate rule SV-226273, Override DISA s renamed Administrator check for better efficiency on large domain controllers
+- ISSUE 3378 : [Feature] Automate rule SV-226274, Override DISA s renamed Guest check for better efficiency on large domain controllers
 
 ## U_MS_Windows_Server_2016
 - ISSUE 3049 : [Feature] Automate rule SV-224979 The directory service must be configured to terminate LDAP-based network connections to the directory server after 5 minutes of inactivity.
-- ISSUE 3367 : [Feature] Automate rule SV-225024, Override DISA’s disabled Guest check for better efficiency on large domain controllers
-- ISSUE 3365 : [Feature] Automate rule SV-225026, Override DISA’s renamed Administrator check for better efficiency on large domain controllers
-- ISSUE 3366 : [Feature] Automate rule SV-225027, Override DISA’s renamed Guest check for better efficiency on large domain controllers
+- ISSUE 3367 : [Feature] Automate rule SV-225024, Override DISA s disabled Guest check for better efficiency on large domain controllers
+- ISSUE 3365 : [Feature] Automate rule SV-225026, Override DISA s renamed Administrator check for better efficiency on large domain controllers
+- ISSUE 3366 : [Feature] Automate rule SV-225027, Override DISA s renamed Guest check for better efficiency on large domain controllers
 - ISSUE 461 : [Feature]: Automate rule SV-224975r569186, Data files owned by users must be on a different logical partition from the directory server data files.
 - ISSUE 3145 : Automate Rule SV-224823 Manually managed application account passwords must be at least 14 characters in length.
 - ISSUE 3112 : Automate rule SV-224971 Windows Server Active Directory SYSVOL directory must have the proper access control permissions.
@@ -205,14 +256,17 @@
 - ISSUE 3222 : Update SV-224839 to limit the number of failed accounts to a maximum of 100
 
 ## U_MS_Windows_Server_2019
-- ISSUE 3370 : [Feature] Automate rule SV-205709, Override DISA’s disabled Guest check for better efficiency on large domain controllers
+- ISSUE 3370 : [Feature] Automate rule SV-205709, Override DISA s disabled Guest check for better efficiency on large domain controllers
 - ISSUE 3048 : [Feature] Automate rule SV-205726 Windows Server 2019 directory service must be configured to terminate LDAP-based network connections to the directory server after five minutes of inactivity.
-- ISSUE 3368 : [Feature] Automate rule SV-205909, Override DISA’s renamed Administrator check for better efficiency on large domain controllers
-- ISSUE 3369 : [Feature] Automate rule SV-205910, Override DISA’s renamed Guest check for better efficiency on large domain controllers
+- ISSUE 3368 : [Feature] Automate rule SV-205909, Override DISA s renamed Administrator check for better efficiency on large domain controllers
+- ISSUE 3369 : [Feature] Automate rule SV-205910, Override DISA s renamed Guest check for better efficiency on large domain controllers
+- ISSUE 1456 : [Feature]: Automate rule SV-205657 Windows Server passwords for the built-in Administrator account must be changed at least every 60 days
 - ISSUE 3362 : [Feature]: Automate rule SV-205723, Windows Server 2019 data files owned by users must be on a different logical partition from the directory server data files.
 - ISSUE 386 : [Feature]: Automate rule SV-205737r877392, Windows Server 2019 default permissions for the HKEY_LOCAL_MACHINE registry hive must be maintained.
 - ISSUE 3144 : Automate Rule SV-205661 Manually managed application account passwords must be at least 14 characters in length.
 - ISSUE 3111 : Automate rule SV-205740 Windows Server Active Directory SYSVOL directory must have the proper access control permissions.
+- ISSUE 3610 : Automate Rule SV-278940
+- ISSUE 3609 : Automate Rule SV-278941
 - ISSUE 2260 : Automate SV-205645 Windows Server 2019 domain controllers must have a PKI server certificate.
 - ISSUE 3194 : Fix check for SV-205658 to be more efficient and accurate on domain controllers
 - ISSUE 3223 : Update SV-205658 to limit the maximum number of failed accounts to 100
@@ -221,14 +275,16 @@
 
 ## U_MS_Windows_Server_2022
 - ISSUE 3050 : [Feature] Automate rule SV-254400 Windows Server 2022 directory service must be configured to terminate LDAP-based network connections to the directory server after five minutes of inactivity.
-- ISSUE 3373 : [Feature] Automate rule SV-254445, Override DISA’s disabled Guest check for better efficiency on large domain controllers
-- ISSUE 3371 : [Feature] Automate rule SV-254447, Override DISA’s renamed Administrator check for better efficiency on large domain controllers
-- ISSUE 3372 : [Feature] Automate rule SV-254448, Override DISA’s renamed Guest check for better efficiency on large domain controllers
+- ISSUE 3373 : [Feature] Automate rule SV-254445, Override DISA s disabled Guest check for better efficiency on large domain controllers
+- ISSUE 3371 : [Feature] Automate rule SV-254447, Override DISA s renamed Administrator check for better efficiency on large domain controllers
+- ISSUE 3372 : [Feature] Automate rule SV-254448, Override DISA s renamed Guest check for better efficiency on large domain controllers
 - ISSUE 358 : [Feature]: Automate rule SV-254239 Windows Server 2022 passwords for the built-in Administrator account must be changed at least every 60 days.
 - ISSUE 355 : [Feature]: Automate rule SV-254254r877392, Windows Server 2022 default permissions for the HKEY_LOCAL_MACHINE registry hive must be maintained.
 - ISSUE 373 : [Feature]: Automate rule SV-254392 Windows Server 2022 Active Directory SYSVOL directory must have the proper access control permissions.
 - ISSUE 374 : [Feature]: Automate rule SV-254396r849004, Windows Server 2022 data files owned by users must be on a different logical partition from the directory server data files.
 - ISSUE 3143 : Automate Rule SV-254242 Manually managed application account passwords must be at least 14 characters in length.
+- ISSUE 3618 : Automate Rule SV-278948
+- ISSUE 3619 : Automate Rule SV-278949
 - ISSUE 2257 : Automate SV-254412 Windows Server 2022 domain controllers must have a PKI server certificate.
 - ISSUE 3195 : Fix issues with SV-254258 to be more efficient and accurate on domain controllers
 - ISSUE 3227 : Update SV-254257 to limit the maximum number of failed accounts to 100
@@ -240,15 +296,38 @@
 - ISSUE 3384 : Disable 'aide --check' rule due to duration to complete command SV-251701, SV-252654, SV-251705, SV-251710, SV-255916, SV-255922, SV-274024, SV-271496
 
 ## U_Oracle_Linux_8
+- ISSUE 3058 : [Feature] Automate rule SV-248869, The x86 Ctrl-Alt-Delete key sequence must be disabled on OL 8.
+- ISSUE 3202 : Automate rule SV-248526 (U_Oracle_Linux_8)
+- ISSUE 3232 : Automate rule SV-248668 (U_Oracle_Linux_8)
 - ISSUE 3203 : Automate rule SV-248811 (U_Oracle_Linux_8)
+- ISSUE 3541 : Automate Rule SV-248827
+- ISSUE 3263 : Automate rule SV-252655 (U_Oracle_Linux_8)
 - ISSUE 2040 : Automate Rule SV-274876
+- ISSUE 3433 : Automate SV-248531
+- ISSUE 3686 : Automate SV-248561
+- ISSUE 3436 : Automate SV-248672
+- ISSUE 3439 : Automate SV-248680
 - ISSUE 3384 : Disable 'aide --check' rule due to duration to complete command SV-251701, SV-252654, SV-251705, SV-251710, SV-255916, SV-255922, SV-274024, SV-271496
 
 ## U_Oracle_Linux_9
+- ISSUE 3059 : [Feature] Automate rule SV-271752, OL 9 must be configured so that the x86 Ctrl-Alt-Delete key sequence is disabled.
+- ISSUE 3134 : Automate rule  SV-271787 (U_Oracle_Linux_9)
+- ISSUE 3270 : Automate rule SV-271485 (U_Oracle_Linux_9)
+- ISSUE 3219 : Automate rule SV-271496 (U_Oracle_Linux_9)
+- ISSUE 3169 : Automate rule SV-271596 (U_Oracle_Linux_9)
 - ISSUE 3174 : Automate rule SV-271779 (U_Oracle_Linux_9)
 - ISSUE 3158 : Automate rule SV-271780 (U_Oracle_Linux_9)
+- ISSUE 3272 : Automate rule SV-271824 (U_Oracle_Linux_9)
+- ISSUE 3274 : Automate rule SV-271825 (U_Oracle_Linux_9)
 - ISSUE 3205 : Automate rule SV-271837 (U_Oracle_Linux_9)
+- ISSUE 3233 : Automate rule SV-271838 (U_Oracle_Linux_9)
+- ISSUE 3434 : Automate SV-271604
+- ISSUE 3437 : Automate SV-271673
+- ISSUE 3440 : Automate SV-271674
+- ISSUE 3717 : Automate V-271481
+- ISSUE 3694 : Create NIWC Enhanced SCAP benchmark for Oracle Linux 9, based on DISA's SCAP benchmark
 - ISSUE 3384 : Disable 'aide --check' rule due to duration to complete command SV-251701, SV-252654, SV-251705, SV-251710, SV-255916, SV-255922, SV-274024, SV-271496
+- ISSUE 3634 : Update Rule SV-271457
 
 ## U_RHEL_7
 - ISSUE 3384 : Disable 'aide --check' rule due to duration to complete command SV-251701, SV-252654, SV-251705, SV-251710, SV-255916, SV-255922, SV-274024, SV-271496
@@ -259,6 +338,7 @@
 - ISSUE 302 : [Feature]: Automate rule SV-230229
 - ISSUE 304 : [Feature]: Automate rule SV-230476r877391, RHEL 8 must allocate audit record storage capacity to store at least one week of audit records, when audit records are not immediately sent to a central audit record storage facility.
 - ISSUE 3228 : Automate rule SV-230476 (U_RHEL_8)
+- ISSUE 3545 : Automate Rule SV-230492
 - ISSUE 3265 : Automate rule SV-251711 (U_RHEL_8)
 - ISSUE 3441 : Automate SV-230352
 - ISSUE 3438 : Automate SV-244535
@@ -270,10 +350,16 @@
 - ISSUE 3062 : [Feature] Automate rule SV-257785, The x86 Ctrl-Alt-Delete key sequence must be disabled on RHEL 9.
 - ISSUE 1625 : [Feature] Automate rule SV-257929r958524
 - ISSUE 1634 : [Feature] Automate rule SV-258025r958402
+- ISSUE 3564 : Automate Rule SV-257830
 - ISSUE 3175 : Automate rule SV-257929 (U_RHEL_9)
+- ISSUE 3563 : Automate Rule SV-258230
 - ISSUE 2035 : Automate Rule SV-274878
 - ISSUE 2036 : Automate Rule SV-275779
+- ISSUE 3561 : Remove NIWC Automated Rule SV-270176, replaced by DISA's automation
+- ISSUE 3553 : Remove Rule SV-274878, no longer in STIG Manual
+- ISSUE 3555 : Remove Rule SV-275779, no longer in STIG Manual
 - ISSUE 3043 : Update RHEL9 benchmark to be applicable to Rocky Linux 9 and Alma Linux 9
+- ISSUE 3593 : Update Rule SV-257999
 
 ## U_SLES_12
 - ISSUE 3229 : Automate rule SV-217192 (U_SLES_12)
@@ -332,7 +418,7 @@
 - ISSUE 2750 : [Feature]: Automate rule SV-216380, The system must disable network routing unless required.
 - ISSUE 2752 : [Feature]: Automate rule SV-216387, The boundary protection system (firewall) must be configured to deny network traffic by default and must allow network traffic by exception (i.e., deny all, permit by exception).
 - ISSUE 2753 : [Feature]: Automate rule SV-216394, The system must prevent local applications from generating source-routed packets.
-- ISSUE 2760 : [Feature]: Automate rule SV-216402, The operating system must use mechanisms for authentication to a cryptographic module meeting the requirements of applicable federal laws, Executive orders, directives, policies, regulations, standards, and guidance …
+- ISSUE 2760 : [Feature]: Automate rule SV-216402, The operating system must use mechanisms for authentication to a cryptographic module meeting the requirements of applicable federal laws, Executive orders, directives, policies, regulations, standards, and guidance  
 - ISSUE 2769 : [Feature]: Automate rule SV-216426, Duplicate User IDs (UIDs) must not exist for users within the organization.
 - ISSUE 2770 : [Feature]: Automate rule SV-216427, Duplicate UIDs must not exist for multiple non-organizational users.
 - ISSUE 2771 : [Feature]: Automate rule SV-216428, Duplicate Group IDs (GIDs) must not exist for multiple groups.
@@ -354,6 +440,8 @@
 - ISSUE 2815 : [Feature]: Automate rule SV-219975, The operating system must employ FIPS-validate or NSA-approved cryptography to implement digital signatures.
 - ISSUE 2824 : [Feature]: Automate rule SV-219984, The operating system must protect the integrity of transmitted information.
 - ISSUE 2830 : [Feature]: Automate rule SV-233300, The sshd server must bind the X11 forwarding server to the loopback address.
+- ISSUE 3139 : Automate rule  SV-216434 (U_SOL_11_SPARC)
+- ISSUE 3137 : Automate rule  SV-216436 (U_SOL_11_SPARC)
 
 ## U_SOL_11_X86
 - ISSUE 2831 : [Feature]: Automate rule SV-216023, The audit system must be configured to audit file deletions.
@@ -405,12 +493,13 @@
 - ISSUE 2899 : [Feature]: Automate rule SV-216157, The system must prevent local applications from generating source-routed packets.
 - ISSUE 2900 : [Feature]: Automate rule SV-216158, The operating system must display the DoD approved system use notification message or banner before granting access to the system for general system logons.
 - ISSUE 2901 : [Feature]: Automate rule SV-216159, The operating system must display the DoD approved system use notification message or banner for SSH connections.
-- ISSUE 2906 : [Feature]: Automate rule SV-216165, The operating system must use mechanisms for authentication to a cryptographic module meeting the requirements of applicable federal laws, Executive orders, directives, policies, regulations, standards, and guidance …
+- ISSUE 2906 : [Feature]: Automate rule SV-216165, The operating system must use mechanisms for authentication to a cryptographic module meeting the requirements of applicable federal laws, Executive orders, directives, policies, regulations, standards, and guidance  
 - ISSUE 2915 : [Feature]: Automate rule SV-216189, Duplicate User IDs (UIDs) must not exist for users within the organization.
 - ISSUE 2916 : [Feature]: Automate rule SV-216190, Duplicate UIDs must not exist for multiple non-organizational users.
 - ISSUE 2917 : [Feature]: Automate rule SV-216191, Duplicate Group IDs (GIDs) must not exist for multiple groups.
 - ISSUE 2918 : [Feature]: Automate rule SV-216193, Duplicate user names must not exist.
 - ISSUE 2919 : [Feature]: Automate rule SV-216194, Duplicate group names must not exist.
+- ISSUE 2922 : [Feature]: Automate rule SV-216199, The operating system must have no unowned files.
 - ISSUE 2923 : [Feature]: Automate rule SV-216200, The operating system must have no files with extended attributes.
 - ISSUE 2926 : [Feature]: Automate rule SV-216207, Address Space Layout Randomization (ASLR) must be enabled.
 - ISSUE 2927 : [Feature]: Automate rule SV-216208, Process core dumps must be disabled unless needed.
@@ -426,8 +515,13 @@
 - ISSUE 2961 : [Feature]: Automate rule SV-220003, The operating system must employ FIPS-validate or NSA-approved cryptography to implement digital signatures.
 - ISSUE 2970 : [Feature]: Automate rule SV-220012, The operating system must protect the integrity of transmitted information.
 - ISSUE 2976 : [Feature]: Automate rule SV-233301, The sshd server must bind the X11 forwarding server to the loopback address.
+- ISSUE 3140 : Automate rule  SV-216197 (U_SOL_11_x86)
+- ISSUE 3138 : Automate rule  SV-216199 (U_SOL_11_x86)
 
 ## U_TOSS_4
+- ISSUE 3065 : [Feature] Automate rule SV-253109, The x86 Ctrl-Alt-Delete key sequence must be disabled on TOSS.
+- ISSUE 3211 : Automate rule SV-252961 (U_TOSS_4)
 - ISSUE 3231 : Automate rule SV-253031 (U_TOSS_4)
 - ISSUE 3192 : Automate rule SV-253093 (U_TOSS_4)
+- ISSUE 3435 : Automate SV-252912
 

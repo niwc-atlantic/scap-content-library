@@ -1,0 +1,527 @@
+## U_Apple_macOS_26
+- ISSUE 3693 : Create macOS 26 (Tahoe) SCAP benchmark with collaboration with NIST
+
+## U_CAN_Ubuntu_18-04
+- ISSUE 3053 : [Feature] Automate rule SV-219212, The Ubuntu 18 Operating system must disable the x86 Ctrl-Alt-Delete key sequence.
+- ISSUE 2979 : [Feature]: Automate rule SV-219153, The Ubuntu operating system audit event multiplexor must be configured to off-load audit logs onto a different system in real time, if the system is interconnected.
+- ISSUE 2982 : [Feature]: Automate rule SV-219162, The Ubuntu operating system audit event multiplexor must be configured to off-load audit logs onto a different system or storage media from the system being audited.
+- ISSUE 2991 : [Feature]: Automate rule SV-219187, The Ubuntu operating system must set a sticky bit on all public directories to prevent unauthorized and unintended information transferred via shared system resources.
+- ISSUE 2995 : [Feature]: Automate rule SV-219211, The Ubuntu Operating system must disable the x86 Ctrl-Alt-Delete key sequence if a graphical user interface is installed.
+- ISSUE 3005 : [Feature]: Automate rule SV-219237, The Ubuntu operating system must allocate audit record storage capacity to store at least one weeks worth of audit records, when audit records are not immediately sent to a central audit record storage facility.
+- ISSUE 3006 : [Feature]: Automate rule SV-219302, The Ubuntu operating system must retain a users session lock until that user reestablishes access using established identification and authentication procedures.
+- ISSUE 3012 : [Feature]: Automate rule SV-219321, The Ubuntu operating system must only allow the use of DoD PKI-established certificate authorities for verification of the establishment of protected sessions.
+- ISSUE 3014 : [Feature]: Automate rule SV-219323, The Ubuntu operating system must be configured to use AppArmor.
+- ISSUE 3020 : [Feature]: Automate rule SV-219331, The Ubuntu operating system must, for networked systems, compare internal information system clocks at least every 24 hours with a server which is synchronized to one of the redundant United States Naval Observatory  
+- ISSUE 3021 : [Feature]: Automate rule SV-219332, The Ubuntu operating system must synchronize internal information system clocks to the authoritative time source when the time difference is greater than one second.
+- ISSUE 3029 : [Feature]: Automate rule SV-219341, The Ubuntu operating system must implement non-executable data to protect its memory from unauthorized code execution.
+- ISSUE 3035 : [Feature]: Automate rule SV-237770, All local interactive user home directories must be group-owned by the home directory owners primary group.
+- ISSUE 3037 : [Feature]: Automate rule SV-252703, The Ubuntu operating system must disable all wireless network adapters.
+- ISSUE 3038 : [Feature]: Automate rule SV-255906, The Ubuntu operating system SSH server must be configured to use only FIPS-validated key exchange algorithms.
+- ISSUE 3039 : [Feature]: Automate rule SV-255907, The Ubuntu operating system must restrict access to the kernel message buffer.
+- ISSUE 3180 : Automate rule SV-219153 (U_CAN_Ubuntu_18)
+- ISSUE 3215 : Automate rule SV-237770 (U_CAN_Ubuntu_18)
+- ISSUE 3240 : Automate rule SV-255906 (U_CAN_Ubuntu_18)
+- ISSUE 3234 : Automate rule SV-255907 (U_CAN_Ubuntu_18)
+- ISSUE 3178 : Automate Rule: SV-219321 Ubuntu18  must use DOD PKI-established certificate authorities (CAs) for verification of the establishment of protected sessions.
+
+## U_CAN_Ubuntu_20-04_LTS
+- ISSUE 3054 : [Feature] Automate rule SV-238380, The Ubuntu 20 operating system must disable the x86 Ctrl-Alt-Delete key sequence.
+- ISSUE 1692 : Automate issue: SV-238198 The Ubuntu operating system must display the Standard Mandatory DOD Notice and Consent Banner before granting local access to the system via a graphical user logon
+- ISSUE 3136 : Automate rule  SV-238350 (U_CAN_Ubuntu_20)
+- ISSUE 3135 : Automate rule  SV-238352 (U_CAN_Ubuntu_20)
+- ISSUE 3181 : Automate rule SV-238344 (U_CAN_Ubuntu_20)
+- ISSUE 3155 : Automate rule SV-238345 (U_CAN_Ubuntu_20-04_LTS)
+- ISSUE 3156 : Automate rule SV-238346 (U_CAN_Ubuntu_20-04_LTS)
+- ISSUE 3191 : Automate rule SV-238347 (U_CAN_Ubuntu_20)
+- ISSUE 3184 : Automate rule SV-238348 (U_CAN_Ubuntu_20)
+- ISSUE 3176 : Automate rule SV-238349 (U_CAN_Ubuntu_20)
+- ISSUE 3185 : Automate rule SV-238351 (U_CAN_Ubuntu_20)
+- ISSUE 3179 : Automate rule SV-238364, Ubuntu 20must use DOD PKI-established certificate authorities (CAs) for verification of the establishment of protected sessions.
+- ISSUE 3182 : Automate rule SV-238377 (U_CAN_Ubuntu_20)
+- ISSUE 3190 : Automate rule SV-238378 (U_CAN_Ubuntu_20)
+- ISSUE 3244 : Automate rule SV-255912 (U_CAN_Ubuntu_20)
+- ISSUE 3235 : Automate rule SV-255913 (U_CAN_Ubuntu_20)
+- ISSUE 2025 : Automate Rule SV-274852
+- ISSUE 2029 : Automate Rule SV-274858
+- ISSUE 2030 : Automate Rule SV-274859
+- ISSUE 3189 : Automate rule SV-274859 (U_CAN_Ubuntu_20)
+- ISSUE 3381 : Automate rule SV-274869 (U_CAN_Ubuntu_20-04_LTS)
+- ISSUE 1678 : Automate: SV-238335 must implement cryptographic mechanisms to prevent unauthorized  (DAR)
+- ISSUE 1673 : Automate:SV-238214 displays the Standard Mandatory DOD Notice and Consent Banner (sshd)
+- ISSUE 3496 : Disable aide check Rule SV-260583, SV-238371, SV-270650 STIG states it can be Not Applicable if other products are used
+- ISSUE 3500 : Disable NIWC developed Rule SV-238344, replaced by DISA automation.
+
+## U_CAN_Ubuntu_22-04_LTS
+- ISSUE 3055 : [Feature] Automate rule SV-260469, Ubuntu 22.04 LTS must disable the x86 Ctrl-Alt-Delete key sequence.
+- ISSUE 2012 : Automate Rule SV-274866
+- ISSUE 3496 : Disable aide check Rule SV-260583, SV-238371, SV-270650 STIG states it can be Not Applicable if other products are used
+
+## U_CAN_Ubuntu_24-04_LTS
+- ISSUE 2662 : [Feature]: Automate rule SV-270693, Ubuntu 24.04 LTS must display the Standard Mandatory DOD Notice and Consent Banner before granting local access to the system via a graphical user logon.
+- ISSUE 2663 : [Feature]: Automate rule SV-270694, Ubuntu 24.04 LTS must be configured to enforce the acknowledgement of the Standard Mandatory DOD Notice and Consent Banner for all SSH connections.
+- ISSUE 3496 : Disable aide check Rule SV-260583, SV-238371, SV-270650 STIG states it can be Not Applicable if other products are used
+- ISSUE 3723 : Remove platform applicability from V-270650 - Ubuntu 24.04 LTS must configure AIDE to perform file integrity checking on the file system.
+
+## U_Cisco_IOS-XE_Router_NDM
+- ISSUE 702 : [Feature]: Automate rule SV-215807r879511, The Cisco router must be configured to limit the number of concurrent management sessions to an organization-defined number.
+- ISSUE 713 : [Feature]: Automate rule SV-215812r879533, The Cisco router must be configured to enforce approved authorizations for controlling the flow of management information within the device based on control policies.
+- ISSUE 717 : [Feature]: Automate rule SV-215814r879547, The Cisco router must be configured to display the Standard Mandatory DoD Notice and Consent Banner before granting access to the device.
+- ISSUE 719 : [Feature]: Automate rule SV-215824r879589, The Cisco router must be configured with only one local account to be used as the account of last resort in the event the authentication server is unavailable.
+- ISSUE 720 : [Feature]: Automate rule SV-215826r879601, The Cisco router must be configured to enforce a minimum 15-character password length.
+- ISSUE 721 : [Feature]: Automate rule SV-215827r879603, The Cisco router must be configured to enforce password complexity by requiring that at least one upper-case character be used.
+- ISSUE 722 : [Feature]: Automate rule SV-215828r879604, The Cisco router must be configured to enforce password complexity by requiring that at least one lower-case character be used.
+- ISSUE 723 : [Feature]: Automate rule SV-215829r879605, The Cisco router must be configured to enforce password complexity by requiring that at least one numeric character be used.
+- ISSUE 703 : [Feature]: Automate rule SV-215830r879606, The Cisco router must be configured to enforce password complexity by requiring that at least one special character be used.
+- ISSUE 704 : [Feature]: Automate rule SV-215831r879607, The Cisco router must be configured to require that when a password is changed, the characters are changed in at least eight of the positions within the password.
+- ISSUE 705 : [Feature]: Automate rule SV-215833r879622, The Cisco router must be configured to terminate all network connections associated with device management after 10 minutes of inactivity.
+- ISSUE 706 : [Feature]: Automate rule SV-215836r879730, The Cisco router must be configured to allocate audit record storage capacity in accordance with organization-defined audit record storage requirements.
+- ISSUE 707 : [Feature]: Automate rule SV-215837r879733, The Cisco router must be configured to generate an alert for all audit failure events.
+- ISSUE 710 : [Feature]: Automate rule SV-215843r879768, The Cisco router must be configured to authenticate Network Time Protocol (NTP) sources using authentication that is cryptographically based.
+- ISSUE 711 : [Feature]: Automate rule SV-215854 The Cisco router must be configured to use at least two  authentication servers for the purpose of authenticating users prior to granting administrative access.
+- ISSUE 712 : [Feature]: Automate rule SV-215855r879887, The Cisco router must be configured to back up the configuration when changes occur.
+- ISSUE 715 : [Feature]: Automate rule SV-220139r879887, The Cisco router must be configured to send log data to a syslog server for the purpose of forwarding alerts to the administrators and the ISSO.
+
+## U_Cisco_IOS-XE_Switch_NDM
+- ISSUE 3066 : [Feature]: Automate rule SV-220518, The Cisco switch must be configured to limit the number of concurrent management sessions to an organization-defined number.
+- ISSUE 3067 : [Feature]: Automate rule SV-220519, The Cisco switch must be configured to automatically audit account creation.
+- ISSUE 3068 : [Feature]: Automate rule SV-220520, The Cisco switch must be configured to automatically audit account modification.
+- ISSUE 3069 : [Feature]: Automate rule SV-220521, The Cisco switch must be configured to automatically audit account disabling actions.
+- ISSUE 3070 : [Feature]: Automate rule SV-220522, The Cisco switch must be configured to automatically audit account removal actions.
+- ISSUE 3071 : [Feature]: Automate rule SV-220523, The Cisco switch must be configured to enforce approved authorizations for controlling the flow of management information within the device based on control policies.
+- ISSUE 3072 : [Feature]: Automate rule SV-220524, The Cisco switch must be configured to enforce the limit of three consecutive invalid logon attempts, after which time it must lock out the user account from accessing the device for 15 minutes.
+- ISSUE 3073 : [Feature]: Automate rule SV-220525, The Cisco switch must be configured to display the Standard Mandatory DoD Notice and Consent Banner before granting access to the device.
+- ISSUE 3074 : [Feature]: Automate rule SV-220526, The Cisco device must be configured to audit all administrator activity.
+- ISSUE 3075 : [Feature]: Automate rule SV-220528, The Cisco switch must produce audit records containing information to establish when (date and time) the events occurred.
+- ISSUE 3077 : [Feature]: Automate rule SV-220530, The Cisco switch must be configured to generate audit records containing the full-text recording of privileged commands.
+- ISSUE 3078 : [Feature]: Automate rule SV-220531, The Cisco switch must be configured to protect audit information from unauthorized modification.
+- ISSUE 3079 : [Feature]: Automate rule SV-220532, The Cisco switch must be configured to protect audit information from unauthorized deletion.
+- ISSUE 3080 : [Feature]: Automate rule SV-220533, The Cisco switch must be configured to limit privileges to change the software resident within software libraries.
+- ISSUE 3081 : [Feature]: Automate rule SV-220534, The Cisco switch must be configured to prohibit the use of all unnecessary and nonsecure functions and services.
+- ISSUE 3082 : [Feature]: Automate rule SV-220535, The Cisco switch must be configured with only one local account to be used as the account of last resort in the event the authentication server is unavailable.
+- ISSUE 3083 : [Feature]: Automate rule SV-220537, The Cisco switch must be configured to enforce a minimum 15-character password length.
+- ISSUE 3084 : [Feature]: Automate rule SV-220538, The Cisco switch must be configured to enforce password complexity by requiring that at least one uppercase character be used.
+- ISSUE 3085 : [Feature]: Automate rule SV-220539, The Cisco switch must be configured to enforce password complexity by requiring that at least one lowercase character be used.
+- ISSUE 3086 : [Feature]: Automate rule SV-220540, The Cisco switch must be configured to enforce password complexity by requiring that at least one numeric character be used.
+- ISSUE 3087 : [Feature]: Automate rule SV-220541, The Cisco switch must be configured to enforce password complexity by requiring that at least one special character be used.
+- ISSUE 3088 : [Feature]: Automate rule SV-220542, The Cisco switch must be configured to require that when a password is changed, the characters are changed in at least eight of the positions within the password.
+- ISSUE 3089 : [Feature]: Automate rule SV-220543, The Cisco switch must only store cryptographic representations of passwords.
+- ISSUE 3090 : [Feature]: Automate rule SV-220544, The Cisco switch must be configured to terminate all network connections associated with device management after five minutes of inactivity.
+- ISSUE 3091 : [Feature]: Automate rule SV-220545, The Cisco switch must be configured to automatically audit account enabling actions.
+- ISSUE 3092 : [Feature]: Automate rule SV-220547, The Cisco switch must be configured to allocate audit record storage capacity in accordance with organization-defined audit record storage requirements.
+- ISSUE 3093 : [Feature]: Automate rule SV-220548, The Cisco switch must be configured to generate an alert for all audit failure events.
+- ISSUE 3094 : [Feature]: Automate rule SV-220549, The Cisco switch must be configured to synchronize its clock with the primary and secondary time sources using redundant authoritative time sources.
+- ISSUE 3095 : [Feature]: Automate rule SV-220552, The Cisco switch must be configured to authenticate SNMP messages using a FIPS-validated Keyed-Hash Message Authentication Code (HMAC).
+- ISSUE 3097 : [Feature]: Automate rule SV-220554, The Cisco switch must be configured to authenticate Network Time Protocol (NTP) sources using authentication that is cryptographically based.
+- ISSUE 3098 : [Feature]: Automate rule SV-220555, The Cisco switch must be configured to use FIPS-validated Keyed-Hash Message Authentication Code (HMAC) to protect the integrity of remote maintenance sessions.
+- ISSUE 3099 : [Feature]: Automate rule SV-220556, The Cisco switch must be configured to implement cryptographic mechanisms to protect the confidentiality of remote maintenance sessions.
+- ISSUE 3100 : [Feature]: Automate rule SV-220559, The Cisco switch must be configured to generate log records when administrator privileges are deleted.
+- ISSUE 3101 : [Feature]: Automate rule SV-220560, The Cisco switch must be configured to generate audit records when successful/unsuccessful logon attempts occur.
+- ISSUE 3102 : [Feature]: Automate rule SV-220561, The Cisco switch must be configured to generate log records for privileged activities.
+- ISSUE 3103 : [Feature]: Automate rule SV-220565, The Cisco switch must be configured to use at least two authentication servers for the purpose of authenticating users prior to granting administrative access.
+- ISSUE 3104 : [Feature]: Automate rule SV-220566, The Cisco switch must be configured to support organizational requirements to conduct backups of the configuration when changes occur.
+- ISSUE 3106 : [Feature]: Automate rule SV-220568, The Cisco switch must be configured to send log data to at least two central log servers for the purpose of forwarding alerts to the administrators and the information system security officer (ISSO).
+
+## U_Cisco_IOS_Router_NDM
+- ISSUE 3276 : [Feature]: Automate rule SV-215662, The Cisco router must be configured to limit the number of concurrent management sessions to an organization-defined number.
+- ISSUE 3277 : [Feature]: Automate rule SV-215663, The Cisco router must be configured to automatically audit account creation.
+- ISSUE 3278 : [Feature]: Automate rule SV-215664, The Cisco router must be configured to automatically audit account modification.
+- ISSUE 3279 : [Feature]: Automate rule SV-215665, The Cisco router must be configured to automatically audit account disabling actions.
+- ISSUE 3280 : [Feature]: Automate rule SV-215666, The Cisco router must be configured to automatically audit account removal actions.
+- ISSUE 3281 : [Feature]: Automate rule SV-215667, The Cisco router must be configured to enforce approved authorizations for controlling the flow of management information within the device based on control policies.
+- ISSUE 3282 : [Feature]: Automate rule SV-215668, The Cisco router must be configured to enforce the limit of three consecutive invalid logon attempts, after which time it must lock out the user account from accessing the device for 15 minutes.
+- ISSUE 3283 : [Feature]: Automate rule SV-215669, The Cisco router must be configured to display the Standard Mandatory DoD Notice and Consent Banner before granting access to the device.
+- ISSUE 3284 : [Feature]: Automate rule SV-215670, The Cisco device must be configured to audit all administrator activity.
+- ISSUE 3285 : [Feature]: Automate rule SV-215672, The Cisco router must produce audit records containing information to establish when (date and time) the events occurred.
+- ISSUE 3287 : [Feature]: Automate rule SV-215674, The Cisco router must be configured to generate audit records containing the full-text recording of privileged commands.
+- ISSUE 3288 : [Feature]: Automate rule SV-215675, The Cisco router must be configured to protect audit information from unauthorized modification.
+- ISSUE 3289 : [Feature]: Automate rule SV-215676, The Cisco router must be configured to protect audit information from unauthorized deletion.
+- ISSUE 3290 : [Feature]: Automate rule SV-215677, The Cisco router must be configured to limit privileges to change the software resident within software libraries.
+- ISSUE 3291 : [Feature]: Automate rule SV-215678, The Cisco router must be configured to prohibit the use of all unnecessary and nonsecure functions and services.
+- ISSUE 3292 : [Feature]: Automate rule SV-215679, The Cisco router must be configured with only one local account to be used as the account of last resort in the event the authentication server is unavailable.
+- ISSUE 3293 : [Feature]: Automate rule SV-215681, The Cisco router must be configured to enforce a minimum 15-character password length.
+- ISSUE 3294 : [Feature]: Automate rule SV-215682, The Cisco router must be configured to enforce password complexity by requiring that at least one uppercase character be used.
+- ISSUE 3295 : [Feature]: Automate rule SV-215683, The Cisco router must be configured to enforce password complexity by requiring that at least one lowercase character be used.
+- ISSUE 3296 : [Feature]: Automate rule SV-215684, The Cisco router must be configured to enforce password complexity by requiring that at least one numeric character be used.
+- ISSUE 3297 : [Feature]: Automate rule SV-215685, The Cisco router must be configured to enforce password complexity by requiring that at least one special character be used.
+- ISSUE 3298 : [Feature]: Automate rule SV-215686, The Cisco router must be configured to require that when a password is changed, the characters are changed in at least eight of the positions within the password.
+- ISSUE 3299 : [Feature]: Automate rule SV-215687, The Cisco router must only store cryptographic representations of passwords.
+- ISSUE 3300 : [Feature]: Automate rule SV-215688, The Cisco router must be configured to terminate all network connections associated with device management after five minutes of inactivity.
+- ISSUE 3301 : [Feature]: Automate rule SV-215689, The Cisco router must be configured to automatically audit account enabling actions.
+- ISSUE 3302 : [Feature]: Automate rule SV-215691, The Cisco router must be configured to allocate audit record storage capacity in accordance with organization-defined audit record storage requirements.
+- ISSUE 3303 : [Feature]: Automate rule SV-215692, The Cisco router must be configured to generate an alert for all audit failure events.
+- ISSUE 3304 : [Feature]: Automate rule SV-215693, The Cisco router must be configured to synchronize its clock with the primary and secondary time sources using redundant authoritative time sources.
+- ISSUE 3307 : [Feature]: Automate rule SV-215698, The Cisco router must be configured to authenticate Network Time Protocol (NTP) sources using authentication that is cryptographically based.
+- ISSUE 3308 : [Feature]: Automate rule SV-215699, The Cisco router must be configured to use FIPS-validated Keyed-Hash Message Authentication Code (HMAC) to protect the integrity of remote maintenance sessions.
+- ISSUE 3309 : [Feature]: Automate rule SV-215700, The Cisco router must be configured to implement cryptographic mechanisms to protect the confidentiality of remote maintenance sessions.
+- ISSUE 3311 : [Feature]: Automate rule SV-215703, The Cisco router must be configured to generate log records when administrator privileges are deleted.
+- ISSUE 3312 : [Feature]: Automate rule SV-215704, The Cisco router must be configured to generate audit records when successful/unsuccessful logon attempts occur.
+- ISSUE 3313 : [Feature]: Automate rule SV-215705, The Cisco router must be configured to generate log records for privileged activities.
+- ISSUE 3314 : [Feature]: Automate rule SV-215709, The Cisco router must be configured to use at least two authentication servers for the purpose of authenticating users prior to granting administrative access.
+- ISSUE 3315 : [Feature]: Automate rule SV-215710, The Cisco router must be configured to back up the configuration when changes occur.
+- ISSUE 3317 : [Feature]: Automate rule SV-220136, The Cisco router must be configured to send log data to at least two syslog servers for the purpose of forwarding alerts to the administrators and the ISSO.
+
+## U_Cisco_IOS_Switch_NDM
+- ISSUE 3319 : [Feature]: Automate rule SV-220570, The Cisco switch must be configured to limit the number of concurrent management sessions to an organization-defined number.
+- ISSUE 3320 : [Feature]: Automate rule SV-220571, The Cisco switch must be configured to automatically audit account creation.
+- ISSUE 3321 : [Feature]: Automate rule SV-220572, The Cisco switch must be configured to automatically audit account modification.
+- ISSUE 3322 : [Feature]: Automate rule SV-220573, The Cisco switch must be configured to automatically audit account disabling actions.
+- ISSUE 3323 : [Feature]: Automate rule SV-220574, The Cisco switch must be configured to automatically audit account removal actions.
+- ISSUE 3324 : [Feature]: Automate rule SV-220575, The Cisco switch must be configured to enforce approved authorizations for controlling the flow of management information within the device based on control policies.
+- ISSUE 3325 : [Feature]: Automate rule SV-220576, The Cisco switch must be configured to enforce the limit of three consecutive invalid logon attempts, after which time it must lock out the user account from accessing the device for 15 minutes.
+- ISSUE 3326 : [Feature]: Automate rule SV-220577, The Cisco switch must be configured to display the Standard Mandatory DoD Notice and Consent Banner before granting access to the device.
+- ISSUE 3327 : [Feature]: Automate rule SV-220578, The Cisco device must be configured to audit all administrator activity.
+- ISSUE 3328 : [Feature]: Automate rule SV-220580, The Cisco switch must produce audit records containing information to establish when (date and time) the events occurred.
+- ISSUE 3330 : [Feature]: Automate rule SV-220582, The Cisco switch must be configured to generate audit records containing the full-text recording of privileged commands.
+- ISSUE 3331 : [Feature]: Automate rule SV-220583, The Cisco switch must be configured to protect audit information from unauthorized modification.
+- ISSUE 3332 : [Feature]: Automate rule SV-220584, The Cisco switch must be configured to protect audit information from unauthorized deletion.
+- ISSUE 3333 : [Feature]: Automate rule SV-220585, The Cisco switch must be configured to limit privileges to change the software resident within software libraries.
+- ISSUE 3334 : [Feature]: Automate rule SV-220586, The Cisco switch must be configured to prohibit the use of all unnecessary and non-secure functions and services.
+- ISSUE 3335 : [Feature]: Automate rule SV-220587, The Cisco switch must be configured with only one local account to be used as the account of last resort in the event the authentication server is unavailable.
+- ISSUE 3336 : [Feature]: Automate rule SV-220589, The Cisco switch must be configured to enforce a minimum 15-character password length.
+- ISSUE 3337 : [Feature]: Automate rule SV-220590, The Cisco switch must be configured to enforce password complexity by requiring that at least one uppercase character be used.
+- ISSUE 3338 : [Feature]: Automate rule SV-220591, The Cisco switch must be configured to enforce password complexity by requiring that at least one lowercase character be used.
+- ISSUE 3339 : [Feature]: Automate rule SV-220592, The Cisco switch must be configured to enforce password complexity by requiring that at least one numeric character be used.
+- ISSUE 3340 : [Feature]: Automate rule SV-220593, The Cisco switch must be configured to enforce password complexity by requiring that at least one special character be used.
+- ISSUE 3341 : [Feature]: Automate rule SV-220594, The Cisco switch must be configured to require that when a password is changed, the characters are changed in at least eight of the positions within the password.
+- ISSUE 3342 : [Feature]: Automate rule SV-220595, The Cisco switch must only store cryptographic representations of passwords.
+- ISSUE 3343 : [Feature]: Automate rule SV-220596, The Cisco switch must be configured to terminate all network connections associated with device management after five minutes of inactivity.
+- ISSUE 3344 : [Feature]: Automate rule SV-220597, The Cisco switch must be configured to automatically audit account enabling actions.
+- ISSUE 3345 : [Feature]: Automate rule SV-220599, The Cisco switch must be configured to allocate audit record storage capacity in accordance with organization-defined audit record storage requirements.
+- ISSUE 3346 : [Feature]: Automate rule SV-220600, The Cisco switch must be configured to generate an alert for all audit failure events.
+- ISSUE 3347 : [Feature]: Automate rule SV-220601, The Cisco switch must be configured to synchronize its clock with the primary and secondary time sources using redundant authoritative time sources.
+- ISSUE 3350 : [Feature]: Automate rule SV-220606, The Cisco switch must be configured to authenticate Network Time Protocol (NTP) sources using authentication that is cryptographically based.
+- ISSUE 3351 : [Feature]: Automate rule SV-220607, The Cisco switch must be configured to use FIPS-validated Keyed-Hash Message Authentication Code (HMAC) to protect the integrity of remote maintenance sessions.
+- ISSUE 3352 : [Feature]: Automate rule SV-220608, The Cisco switch must be configured to implement cryptographic mechanisms to protect the confidentiality of remote maintenance sessions.
+- ISSUE 3354 : [Feature]: Automate rule SV-220611, The Cisco switch must be configured to generate log records when administrator privileges are deleted.
+- ISSUE 3355 : [Feature]: Automate rule SV-220612, The Cisco switch must be configured to generate audit records when successful/unsuccessful logon attempts occur.
+- ISSUE 3356 : [Feature]: Automate rule SV-220613, The Cisco switch must be configured to generate log records for privileged activities.
+- ISSUE 3357 : [Feature]: Automate rule SV-220617, The Cisco switch must be configured to use at least two authentication servers to authenticate users prior to granting administrative access.
+- ISSUE 3358 : [Feature]: Automate rule SV-220618, The Cisco switch must be configured to support organizational requirements to conduct backups of the configuration when changes occur.
+- ISSUE 3360 : [Feature]: Automate rule SV-220620, The Cisco switch must be configured to send log data to at least two central log servers for the purpose of forwarding alerts to the administrators and the information system security officer (ISSO).
+
+## U_MS_Defender_Antivirus
+- ISSUE 3695 : Create NIWC enhanced content based on DISA STIG V2R6
+
+## U_MS_IIS_10-0_Server
+- ISSUE 2256 : Add platform applicability for Indexing is enabled for V-218809
+- ISSUE 1103 : Add Platform exception to manual check SV-218812
+- ISSUE 1808 : Automate SV-218814 -  IIS 10.0 web server system files must conform to minimum file permission requirements.
+- ISSUE 3627 : Remove Rule SV-241788
+- ISSUE 3409 : Update automation of rule SV-218801 to search all drives for .java and .jpp files
+
+## U_MS_IIS_10-0_Site
+- ISSUE 3628 : Automate Rule SV-278953
+
+## U_MS_Office_365_ProPlus
+- ISSUE 3607 : Automate Rule SV-278355
+- ISSUE 3606 : Automate Rule SV-278356
+- ISSUE 3604 : Automate Rule SV-278357
+- ISSUE 3608 : Automate Rule SV-278358
+- ISSUE 3605 : Automate Rule SV-278359
+
+## U_MS_SQL_Server_2022_Instance
+- ISSUE 3640 : Update Rule SV-271268
+
+## U_MS_Windows_10
+- ISSUE 411 : [Feature]: Automate rule SV-220724r569187, A host-based firewall must be installed and enabled on the system.
+- ISSUE 432 : [Feature]: Automate rule SV-220952r890444, Passwords for enabled local Administrator accounts must be changed at least every 60 days.
+- ISSUE 3516 : Automate Rule SV-278924
+- ISSUE 3515 : Automate Rule SV-278925
+- ISSUE 3517 : Update Rule SV-268315
+- ISSUE 3518 : Update Rule SV-268319
+
+## U_MS_Windows_11
+- ISSUE 1557 : [Feature]: Automate SV-253476 - Passwords for enabled local Administrator accounts must be changed at least every 60 days.
+- ISSUE 3528 : Automate Rule SV-278932
+- ISSUE 3527 : Automate Rule SV-278933
+- ISSUE 3529 : Update Rule SV-268317
+- ISSUE 3530 : Update Rule SV-268318
+
+## U_MS_Windows_2012_and_2012_R2_DC
+- ISSUE 3379 : [Feature] Automate rule SV-226271, Override DISA s disabled Guest check for better efficiency on large domain controllers
+- ISSUE 3377 : [Feature] Automate rule SV-226273, Override DISA s renamed Administrator check for better efficiency on large domain controllers
+- ISSUE 3378 : [Feature] Automate rule SV-226274, Override DISA s renamed Guest check for better efficiency on large domain controllers
+
+## U_MS_Windows_Server_2016
+- ISSUE 3049 : [Feature] Automate rule SV-224979 The directory service must be configured to terminate LDAP-based network connections to the directory server after 5 minutes of inactivity.
+- ISSUE 3367 : [Feature] Automate rule SV-225024, Override DISA s disabled Guest check for better efficiency on large domain controllers
+- ISSUE 3365 : [Feature] Automate rule SV-225026, Override DISA s renamed Administrator check for better efficiency on large domain controllers
+- ISSUE 3366 : [Feature] Automate rule SV-225027, Override DISA s renamed Guest check for better efficiency on large domain controllers
+- ISSUE 461 : [Feature]: Automate rule SV-224975r569186, Data files owned by users must be on a different logical partition from the directory server data files.
+- ISSUE 3145 : Automate Rule SV-224823 Manually managed application account passwords must be at least 14 characters in length.
+- ISSUE 3112 : Automate rule SV-224971 Windows Server Active Directory SYSVOL directory must have the proper access control permissions.
+- ISSUE 2259 : Automate SV-224991 Windows Server domain controllers must have a PKI server certificate.
+- ISSUE 3196 : Fix SV-224839 to be more efficient and accurate on domain controllers
+- ISSUE 3225 : Update SV-224838 to limit the number of failed accounts reported to a maximum of 100
+- ISSUE 3222 : Update SV-224839 to limit the number of failed accounts to a maximum of 100
+
+## U_MS_Windows_Server_2019
+- ISSUE 3370 : [Feature] Automate rule SV-205709, Override DISA s disabled Guest check for better efficiency on large domain controllers
+- ISSUE 3048 : [Feature] Automate rule SV-205726 Windows Server 2019 directory service must be configured to terminate LDAP-based network connections to the directory server after five minutes of inactivity.
+- ISSUE 3368 : [Feature] Automate rule SV-205909, Override DISA s renamed Administrator check for better efficiency on large domain controllers
+- ISSUE 3369 : [Feature] Automate rule SV-205910, Override DISA s renamed Guest check for better efficiency on large domain controllers
+- ISSUE 1456 : [Feature]: Automate rule SV-205657 Windows Server passwords for the built-in Administrator account must be changed at least every 60 days
+- ISSUE 3362 : [Feature]: Automate rule SV-205723, Windows Server 2019 data files owned by users must be on a different logical partition from the directory server data files.
+- ISSUE 386 : [Feature]: Automate rule SV-205737r877392, Windows Server 2019 default permissions for the HKEY_LOCAL_MACHINE registry hive must be maintained.
+- ISSUE 3144 : Automate Rule SV-205661 Manually managed application account passwords must be at least 14 characters in length.
+- ISSUE 3111 : Automate rule SV-205740 Windows Server Active Directory SYSVOL directory must have the proper access control permissions.
+- ISSUE 3610 : Automate Rule SV-278940
+- ISSUE 3609 : Automate Rule SV-278941
+- ISSUE 2260 : Automate SV-205645 Windows Server 2019 domain controllers must have a PKI server certificate.
+- ISSUE 3194 : Fix check for SV-205658 to be more efficient and accurate on domain controllers
+- ISSUE 3223 : Update SV-205658 to limit the maximum number of failed accounts to 100
+- ISSUE 3226 : Update SV-205700 to limit the maximum number of failed accounts reported to 100
+- ISSUE 3220 : Update SV-205701 to limit the number of failed users reported to a maximum of 100
+
+## U_MS_Windows_Server_2022
+- ISSUE 3050 : [Feature] Automate rule SV-254400 Windows Server 2022 directory service must be configured to terminate LDAP-based network connections to the directory server after five minutes of inactivity.
+- ISSUE 3373 : [Feature] Automate rule SV-254445, Override DISA s disabled Guest check for better efficiency on large domain controllers
+- ISSUE 3371 : [Feature] Automate rule SV-254447, Override DISA s renamed Administrator check for better efficiency on large domain controllers
+- ISSUE 3372 : [Feature] Automate rule SV-254448, Override DISA s renamed Guest check for better efficiency on large domain controllers
+- ISSUE 358 : [Feature]: Automate rule SV-254239 Windows Server 2022 passwords for the built-in Administrator account must be changed at least every 60 days.
+- ISSUE 355 : [Feature]: Automate rule SV-254254r877392, Windows Server 2022 default permissions for the HKEY_LOCAL_MACHINE registry hive must be maintained.
+- ISSUE 373 : [Feature]: Automate rule SV-254392 Windows Server 2022 Active Directory SYSVOL directory must have the proper access control permissions.
+- ISSUE 374 : [Feature]: Automate rule SV-254396r849004, Windows Server 2022 data files owned by users must be on a different logical partition from the directory server data files.
+- ISSUE 3143 : Automate Rule SV-254242 Manually managed application account passwords must be at least 14 characters in length.
+- ISSUE 3618 : Automate Rule SV-278948
+- ISSUE 3619 : Automate Rule SV-278949
+- ISSUE 2257 : Automate SV-254412 Windows Server 2022 domain controllers must have a PKI server certificate.
+- ISSUE 3195 : Fix issues with SV-254258 to be more efficient and accurate on domain controllers
+- ISSUE 3227 : Update SV-254257 to limit the maximum number of failed accounts to 100
+- ISSUE 3224 : Update SV-254258 to limit the maximum number of failed users reported to 100
+- ISSUE 3221 : Update SV-254415 to limit the number of failed users reported to a maximum of 100
+
+## U_Oracle_Linux_7
+- ISSUE 2050 : Automate Rule SV-274875
+- ISSUE 3384 : Disable 'aide --check' rule due to duration to complete command SV-251701, SV-252654, SV-251705, SV-251710, SV-255916, SV-255922, SV-274024, SV-271496
+
+## U_Oracle_Linux_8
+- ISSUE 3058 : [Feature] Automate rule SV-248869, The x86 Ctrl-Alt-Delete key sequence must be disabled on OL 8.
+- ISSUE 3202 : Automate rule SV-248526 (U_Oracle_Linux_8)
+- ISSUE 3232 : Automate rule SV-248668 (U_Oracle_Linux_8)
+- ISSUE 3203 : Automate rule SV-248811 (U_Oracle_Linux_8)
+- ISSUE 3541 : Automate Rule SV-248827
+- ISSUE 3263 : Automate rule SV-252655 (U_Oracle_Linux_8)
+- ISSUE 2040 : Automate Rule SV-274876
+- ISSUE 3433 : Automate SV-248531
+- ISSUE 3686 : Automate SV-248561
+- ISSUE 3436 : Automate SV-248672
+- ISSUE 3439 : Automate SV-248680
+- ISSUE 3384 : Disable 'aide --check' rule due to duration to complete command SV-251701, SV-252654, SV-251705, SV-251710, SV-255916, SV-255922, SV-274024, SV-271496
+
+## U_Oracle_Linux_9
+- ISSUE 3059 : [Feature] Automate rule SV-271752, OL 9 must be configured so that the x86 Ctrl-Alt-Delete key sequence is disabled.
+- ISSUE 3134 : Automate rule  SV-271787 (U_Oracle_Linux_9)
+- ISSUE 3270 : Automate rule SV-271485 (U_Oracle_Linux_9)
+- ISSUE 3219 : Automate rule SV-271496 (U_Oracle_Linux_9)
+- ISSUE 3169 : Automate rule SV-271596 (U_Oracle_Linux_9)
+- ISSUE 3174 : Automate rule SV-271779 (U_Oracle_Linux_9)
+- ISSUE 3158 : Automate rule SV-271780 (U_Oracle_Linux_9)
+- ISSUE 3272 : Automate rule SV-271824 (U_Oracle_Linux_9)
+- ISSUE 3274 : Automate rule SV-271825 (U_Oracle_Linux_9)
+- ISSUE 3205 : Automate rule SV-271837 (U_Oracle_Linux_9)
+- ISSUE 3233 : Automate rule SV-271838 (U_Oracle_Linux_9)
+- ISSUE 3434 : Automate SV-271604
+- ISSUE 3437 : Automate SV-271673
+- ISSUE 3440 : Automate SV-271674
+- ISSUE 3717 : Automate V-271481
+- ISSUE 3694 : Create NIWC Enhanced SCAP benchmark for Oracle Linux 9, based on DISA's SCAP benchmark
+- ISSUE 3384 : Disable 'aide --check' rule due to duration to complete command SV-251701, SV-252654, SV-251705, SV-251710, SV-255916, SV-255922, SV-274024, SV-271496
+- ISSUE 3634 : Update Rule SV-271457
+
+## U_RHEL_7
+- ISSUE 3384 : Disable 'aide --check' rule due to duration to complete command SV-251701, SV-252654, SV-251705, SV-251710, SV-255916, SV-255922, SV-274024, SV-271496
+- ISSUE 3444 : Update RHEL 7 benchmark to be applicable to CentOS 7
+
+## U_RHEL_8
+- ISSUE 3061 : [Feature] Automate rule SV-230529, The x86 Ctrl-Alt-Delete key sequence must be disabled on RHEL 8.
+- ISSUE 302 : [Feature]: Automate rule SV-230229
+- ISSUE 304 : [Feature]: Automate rule SV-230476r877391, RHEL 8 must allocate audit record storage capacity to store at least one week of audit records, when audit records are not immediately sent to a central audit record storage facility.
+- ISSUE 3228 : Automate rule SV-230476 (U_RHEL_8)
+- ISSUE 3545 : Automate Rule SV-230492
+- ISSUE 3265 : Automate rule SV-251711 (U_RHEL_8)
+- ISSUE 3441 : Automate SV-230352
+- ISSUE 3438 : Automate SV-244535
+- ISSUE 3384 : Disable 'aide --check' rule due to duration to complete command SV-251701, SV-252654, SV-251705, SV-251710, SV-255916, SV-255922, SV-274024, SV-271496
+- ISSUE 3210 : Fix platform applicability to RHEL 8 SV-230285, should have negate = true to make applicablity < 8.4 or FIPS disabled
+- ISSUE 3042 : Update RHEL 8 benchmark to be applicable to Rocky Linux 8, AlmaLinux 8
+
+## U_RHEL_9
+- ISSUE 3062 : [Feature] Automate rule SV-257785, The x86 Ctrl-Alt-Delete key sequence must be disabled on RHEL 9.
+- ISSUE 1625 : [Feature] Automate rule SV-257929r958524
+- ISSUE 1634 : [Feature] Automate rule SV-258025r958402
+- ISSUE 3564 : Automate Rule SV-257830
+- ISSUE 3175 : Automate rule SV-257929 (U_RHEL_9)
+- ISSUE 3563 : Automate Rule SV-258230
+- ISSUE 2035 : Automate Rule SV-274878
+- ISSUE 2036 : Automate Rule SV-275779
+- ISSUE 3561 : Remove NIWC Automated Rule SV-270176, replaced by DISA's automation
+- ISSUE 3553 : Remove Rule SV-274878, no longer in STIG Manual
+- ISSUE 3555 : Remove Rule SV-275779, no longer in STIG Manual
+- ISSUE 3043 : Update RHEL9 benchmark to be applicable to Rocky Linux 9 and Alma Linux 9
+- ISSUE 3593 : Update Rule SV-257999
+
+## U_SLES_12
+- ISSUE 3229 : Automate rule SV-217192 (U_SLES_12)
+- ISSUE 3384 : Disable 'aide --check' rule due to duration to complete command SV-251701, SV-252654, SV-251705, SV-251710, SV-255916, SV-255922, SV-274024, SV-271496
+
+## U_SLES_15
+- ISSUE 3230 : Automate rule SV-234965 (U_SLES_15)
+- ISSUE 3384 : Disable 'aide --check' rule due to duration to complete command SV-251701, SV-252654, SV-251705, SV-251710, SV-255916, SV-255922, SV-274024, SV-271496
+- ISSUE 3449 : Update SLES 15 benchmark to be applicable to openSUSE 15 Leap
+
+## U_SOL_11_SPARC
+- ISSUE 2683 : [Feature]: Automate rule SV-216258, The audit system must be configured to audit file deletions.
+- ISSUE 2684 : [Feature]: Automate rule SV-216259, The audit system must be configured to audit account creation.
+- ISSUE 2685 : [Feature]: Automate rule SV-216260, The audit system must be configured to audit account modification.
+- ISSUE 2686 : [Feature]: Automate rule SV-216261, The operating system must automatically audit account disabling actions.
+- ISSUE 2687 : [Feature]: Automate rule SV-216262, The operating system must automatically audit account termination.
+- ISSUE 2688 : [Feature]: Automate rule SV-216263, The operating system must ensure unauthorized, security-relevant configuration changes detected are tracked.
+- ISSUE 2689 : [Feature]: Automate rule SV-216264, The audit system must be configured to audit all administrative, privileged, and security actions.
+- ISSUE 2690 : [Feature]: Automate rule SV-216265, The audit system must be configured to audit login, logout, and session initiation.
+- ISSUE 2691 : [Feature]: Automate rule SV-216268, The audit system must be configured to audit failed attempts to access files and programs.
+- ISSUE 2694 : [Feature]: Automate rule SV-216276, The operating system must shut down by default upon audit failure (unless availability is an overriding concern).
+- ISSUE 2696 : [Feature]: Automate rule SV-216280, The System packages must be up to date with the most recent vendor updates and security fixes.
+- ISSUE 2697 : [Feature]: Automate rule SV-216282, The operating system must protect audit tools from unauthorized access.
+- ISSUE 2698 : [Feature]: Automate rule SV-216283, The operating system must protect audit tools from unauthorized modification.
+- ISSUE 2699 : [Feature]: Automate rule SV-216284, The operating system must protect audit tools from unauthorized deletion.
+- ISSUE 2700 : [Feature]: Automate rule SV-216285, System packages must be configured with the vendor-provided files, permissions, and ownerships.
+- ISSUE 2701 : [Feature]: Automate rule SV-216286, The finger daemon package must not be installed.
+- ISSUE 2702 : [Feature]: Automate rule SV-216287, The legacy remote network access utilities daemons must not be installed.
+- ISSUE 2703 : [Feature]: Automate rule SV-216288, The NIS package must not be installed.
+- ISSUE 2704 : [Feature]: Automate rule SV-216289, The pidgin IM client package must not be installed.
+- ISSUE 2705 : [Feature]: Automate rule SV-216290, The FTP daemon must not be installed unless required.
+- ISSUE 2706 : [Feature]: Automate rule SV-216291, The TFTP service daemon must not be installed unless required.
+- ISSUE 2707 : [Feature]: Automate rule SV-216292, The telnet service daemon must not be installed unless required.
+- ISSUE 2708 : [Feature]: Automate rule SV-216293, The UUCP service daemon must not be installed unless required.
+- ISSUE 2709 : [Feature]: Automate rule SV-216294, The rpcbind service must be configured for local only services unless organizationally defined.
+- ISSUE 2710 : [Feature]: Automate rule SV-216295, The VNC server package must not be installed unless required.
+- ISSUE 2712 : [Feature]: Automate rule SV-216300, All run control scripts must have no extended ACLs.
+- ISSUE 2713 : [Feature]: Automate rule SV-216302, Run control scripts library search paths must contain only authorized paths.
+- ISSUE 2714 : [Feature]: Automate rule SV-216303, Run control scripts lists of preloaded libraries must contain only authorized paths.
+- ISSUE 2724 : [Feature]: Automate rule SV-216316, Generic Security Services (GSS) must be disabled.
+- ISSUE 2726 : [Feature]: Automate rule SV-216318, TCP Wrappers must be enabled and configured per site policy to only allow access by approved hosts and services.
+- ISSUE 2727 : [Feature]: Automate rule SV-216321, User passwords must be changed at least every 60 days.
+- ISSUE 2729 : [Feature]: Automate rule SV-216323, The operating system must enforce minimum password lifetime restrictions.
+- ISSUE 2738 : [Feature]: Automate rule SV-216368, The system must disable directed broadcast packet forwarding.
+- ISSUE 2739 : [Feature]: Automate rule SV-216369, The system must not respond to ICMP timestamp requests.
+- ISSUE 2740 : [Feature]: Automate rule SV-216370, The system must not respond to ICMP broadcast timestamp requests.
+- ISSUE 2741 : [Feature]: Automate rule SV-216371, The system must not respond to ICMP broadcast netmask requests.
+- ISSUE 2742 : [Feature]: Automate rule SV-216372, The system must not respond to broadcast ICMP echo requests.
+- ISSUE 2743 : [Feature]: Automate rule SV-216373, The system must not respond to multicast echo requests.
+- ISSUE 2744 : [Feature]: Automate rule SV-216374, The system must ignore ICMP redirect messages.
+- ISSUE 2745 : [Feature]: Automate rule SV-216375, The system must set strict multihoming.
+- ISSUE 2746 : [Feature]: Automate rule SV-216376, The system must disable ICMP redirect messages.
+- ISSUE 2747 : [Feature]: Automate rule SV-216377, The system must disable TCP reverse IP source routing.
+- ISSUE 2748 : [Feature]: Automate rule SV-216378, The system must set maximum number of half-open TCP connections to 4096.
+- ISSUE 2749 : [Feature]: Automate rule SV-216379, The system must set maximum number of incoming connections to 1024.
+- ISSUE 2750 : [Feature]: Automate rule SV-216380, The system must disable network routing unless required.
+- ISSUE 2752 : [Feature]: Automate rule SV-216387, The boundary protection system (firewall) must be configured to deny network traffic by default and must allow network traffic by exception (i.e., deny all, permit by exception).
+- ISSUE 2753 : [Feature]: Automate rule SV-216394, The system must prevent local applications from generating source-routed packets.
+- ISSUE 2760 : [Feature]: Automate rule SV-216402, The operating system must use mechanisms for authentication to a cryptographic module meeting the requirements of applicable federal laws, Executive orders, directives, policies, regulations, standards, and guidance  
+- ISSUE 2769 : [Feature]: Automate rule SV-216426, Duplicate User IDs (UIDs) must not exist for users within the organization.
+- ISSUE 2770 : [Feature]: Automate rule SV-216427, Duplicate UIDs must not exist for multiple non-organizational users.
+- ISSUE 2771 : [Feature]: Automate rule SV-216428, Duplicate Group IDs (GIDs) must not exist for multiple groups.
+- ISSUE 2772 : [Feature]: Automate rule SV-216430, Duplicate user names must not exist.
+- ISSUE 2773 : [Feature]: Automate rule SV-216431, Duplicate group names must not exist.
+- ISSUE 2777 : [Feature]: Automate rule SV-216437, The operating system must have no files with extended attributes.
+- ISSUE 2780 : [Feature]: Automate rule SV-216444, Address Space Layout Randomization (ASLR) must be enabled.
+- ISSUE 2781 : [Feature]: Automate rule SV-216445, Process core dumps must be disabled unless needed.
+- ISSUE 2782 : [Feature]: Automate rule SV-216446, The system must be configured to store any process core dumps in a specific, centralized directory.
+- ISSUE 2786 : [Feature]: Automate rule SV-216450, Kernel core dumps must be disabled unless needed.
+- ISSUE 2790 : [Feature]: Automate rule SV-216454, The system must require passwords to change the boot device settings. (SPARC)
+- ISSUE 2804 : [Feature]: Automate rule SV-216474, The /etc/zones directory, and its contents, must have the vendor default owner, group, and permissions.
+- ISSUE 2806 : [Feature]: Automate rule SV-216477, The audit system must identify in which zone an event occurred.
+- ISSUE 2807 : [Feature]: Automate rule SV-216478, The audit system must maintain a central audit trail for all zones.
+- ISSUE 2808 : [Feature]: Automate rule SV-219963, The audit system must be configured to audit all discretionary access control permission modifications.
+- ISSUE 2809 : [Feature]: Automate rule SV-219964, The audit system must be configured to audit the loading and unloading of dynamic kernel modules.
+- ISSUE 2811 : [Feature]: Automate rule SV-219968, The operating system must configure auditing to reduce the likelihood of storage capacity being exceeded.
+- ISSUE 2812 : [Feature]: Automate rule SV-219969, The system must verify that package updates are digitally signed.
+- ISSUE 2815 : [Feature]: Automate rule SV-219975, The operating system must employ FIPS-validate or NSA-approved cryptography to implement digital signatures.
+- ISSUE 2824 : [Feature]: Automate rule SV-219984, The operating system must protect the integrity of transmitted information.
+- ISSUE 2830 : [Feature]: Automate rule SV-233300, The sshd server must bind the X11 forwarding server to the loopback address.
+- ISSUE 3139 : Automate rule  SV-216434 (U_SOL_11_SPARC)
+- ISSUE 3137 : Automate rule  SV-216436 (U_SOL_11_SPARC)
+
+## U_SOL_11_X86
+- ISSUE 2831 : [Feature]: Automate rule SV-216023, The audit system must be configured to audit file deletions.
+- ISSUE 2832 : [Feature]: Automate rule SV-216024, The audit system must be configured to audit account creation.
+- ISSUE 2833 : [Feature]: Automate rule SV-216025, The audit system must be configured to audit account modification.
+- ISSUE 2834 : [Feature]: Automate rule SV-216026, The operating system must automatically audit account disabling actions.
+- ISSUE 2835 : [Feature]: Automate rule SV-216027, The operating system must automatically audit account termination.
+- ISSUE 2836 : [Feature]: Automate rule SV-216028, The operating system must ensure unauthorized, security-relevant configuration changes detected are tracked.
+- ISSUE 2837 : [Feature]: Automate rule SV-216029, The audit system must be configured to audit all administrative, privileged, and security actions.
+- ISSUE 2838 : [Feature]: Automate rule SV-216030, The audit system must be configured to audit login, logout, and session initiation.
+- ISSUE 2839 : [Feature]: Automate rule SV-216033, The audit system must be configured to audit failed attempts to access files and programs.
+- ISSUE 2842 : [Feature]: Automate rule SV-216041, The operating system must shut down by default upon audit failure (unless availability is an overriding concern).
+- ISSUE 2844 : [Feature]: Automate rule SV-216045, The System packages must be up to date with the most recent vendor updates and security fixes.
+- ISSUE 2845 : [Feature]: Automate rule SV-216047, The operating system must protect audit tools from unauthorized access.
+- ISSUE 2846 : [Feature]: Automate rule SV-216048, The operating system must protect audit tools from unauthorized modification.
+- ISSUE 2847 : [Feature]: Automate rule SV-216049, The operating system must protect audit tools from unauthorized deletion.
+- ISSUE 2848 : [Feature]: Automate rule SV-216050, System packages must be configured with the vendor-provided files, permissions, and ownerships.
+- ISSUE 2849 : [Feature]: Automate rule SV-216051, The finger daemon package must not be installed.
+- ISSUE 2850 : [Feature]: Automate rule SV-216052, The legacy remote network access utilities daemons must not be installed.
+- ISSUE 2851 : [Feature]: Automate rule SV-216053, The NIS package must not be installed.
+- ISSUE 2852 : [Feature]: Automate rule SV-216054, The pidgin IM client package must not be installed.
+- ISSUE 2853 : [Feature]: Automate rule SV-216055, The FTP daemon must not be installed unless required.
+- ISSUE 2854 : [Feature]: Automate rule SV-216056, The TFTP service daemon must not be installed unless required.
+- ISSUE 2855 : [Feature]: Automate rule SV-216057, The telnet service daemon must not be installed unless required.
+- ISSUE 2856 : [Feature]: Automate rule SV-216058, The UUCP service daemon must not be installed unless required.
+- ISSUE 2857 : [Feature]: Automate rule SV-216059, The rpcbind service must be configured for local only services unless organizationally defined.
+- ISSUE 2858 : [Feature]: Automate rule SV-216060, The VNC server package must not be installed unless required.
+- ISSUE 2860 : [Feature]: Automate rule SV-216065, All run control scripts must have no extended ACLs.
+- ISSUE 2861 : [Feature]: Automate rule SV-216067, Run control scripts library search paths must contain only authorized paths.
+- ISSUE 2862 : [Feature]: Automate rule SV-216068, Run control scripts lists of preloaded libraries must contain only authorized paths.
+- ISSUE 2872 : [Feature]: Automate rule SV-216081, Generic Security Services (GSS) must be disabled.
+- ISSUE 2874 : [Feature]: Automate rule SV-216083, TCP Wrappers must be enabled and configured per site policy to only allow access by approved hosts and services.
+- ISSUE 2875 : [Feature]: Automate rule SV-216086, User passwords must be changed at least every 60 days.
+- ISSUE 2877 : [Feature]: Automate rule SV-216088, The operating system must enforce minimum password lifetime restrictions.
+- ISSUE 2884 : [Feature]: Automate rule SV-216131, The system must disable directed broadcast packet forwarding.
+- ISSUE 2885 : [Feature]: Automate rule SV-216132, The system must not respond to ICMP timestamp requests.
+- ISSUE 2886 : [Feature]: Automate rule SV-216133, The system must not respond to ICMP broadcast timestamp requests.
+- ISSUE 2887 : [Feature]: Automate rule SV-216134, The system must not respond to ICMP broadcast netmask requests.
+- ISSUE 2888 : [Feature]: Automate rule SV-216135, The system must not respond to broadcast ICMP echo requests.
+- ISSUE 2889 : [Feature]: Automate rule SV-216136, The system must not respond to multicast echo requests.
+- ISSUE 2890 : [Feature]: Automate rule SV-216137, The system must ignore ICMP redirect messages.
+- ISSUE 2891 : [Feature]: Automate rule SV-216138, The system must set strict multihoming.
+- ISSUE 2892 : [Feature]: Automate rule SV-216139, The system must disable ICMP redirect messages.
+- ISSUE 2893 : [Feature]: Automate rule SV-216140, The system must disable TCP reverse IP source routing.
+- ISSUE 2894 : [Feature]: Automate rule SV-216141, The system must set maximum number of half-open TCP connections to 4096.
+- ISSUE 2895 : [Feature]: Automate rule SV-216142, The system must set maximum number of incoming connections to 1024.
+- ISSUE 2896 : [Feature]: Automate rule SV-216143, The system must disable network routing unless required.
+- ISSUE 2898 : [Feature]: Automate rule SV-216150, The boundary protection system (firewall) must be configured to deny network traffic by default and must allow network traffic by exception (i.e., deny all, permit by exception).
+- ISSUE 2899 : [Feature]: Automate rule SV-216157, The system must prevent local applications from generating source-routed packets.
+- ISSUE 2900 : [Feature]: Automate rule SV-216158, The operating system must display the DoD approved system use notification message or banner before granting access to the system for general system logons.
+- ISSUE 2901 : [Feature]: Automate rule SV-216159, The operating system must display the DoD approved system use notification message or banner for SSH connections.
+- ISSUE 2906 : [Feature]: Automate rule SV-216165, The operating system must use mechanisms for authentication to a cryptographic module meeting the requirements of applicable federal laws, Executive orders, directives, policies, regulations, standards, and guidance  
+- ISSUE 2915 : [Feature]: Automate rule SV-216189, Duplicate User IDs (UIDs) must not exist for users within the organization.
+- ISSUE 2916 : [Feature]: Automate rule SV-216190, Duplicate UIDs must not exist for multiple non-organizational users.
+- ISSUE 2917 : [Feature]: Automate rule SV-216191, Duplicate Group IDs (GIDs) must not exist for multiple groups.
+- ISSUE 2918 : [Feature]: Automate rule SV-216193, Duplicate user names must not exist.
+- ISSUE 2919 : [Feature]: Automate rule SV-216194, Duplicate group names must not exist.
+- ISSUE 2922 : [Feature]: Automate rule SV-216199, The operating system must have no unowned files.
+- ISSUE 2923 : [Feature]: Automate rule SV-216200, The operating system must have no files with extended attributes.
+- ISSUE 2926 : [Feature]: Automate rule SV-216207, Address Space Layout Randomization (ASLR) must be enabled.
+- ISSUE 2927 : [Feature]: Automate rule SV-216208, Process core dumps must be disabled unless needed.
+- ISSUE 2928 : [Feature]: Automate rule SV-216209, The system must be configured to store any process core dumps in a specific, centralized directory.
+- ISSUE 2932 : [Feature]: Automate rule SV-216213, Kernel core dumps must be disabled unless needed.
+- ISSUE 2950 : [Feature]: Automate rule SV-216238, The /etc/zones directory, and its contents, must have the vendor default owner, group, and permissions.
+- ISSUE 2952 : [Feature]: Automate rule SV-216241, The audit system must identify in which zone an event occurred.
+- ISSUE 2953 : [Feature]: Automate rule SV-216242, The audit system must maintain a central audit trail for all zones.
+- ISSUE 2954 : [Feature]: Automate rule SV-219991, The audit system must be configured to audit all discretionary access control permission modifications.
+- ISSUE 2955 : [Feature]: Automate rule SV-219992, The audit system must be configured to audit the loading and unloading of dynamic kernel modules.
+- ISSUE 2957 : [Feature]: Automate rule SV-219996, The operating system must configure auditing to reduce the likelihood of storage capacity being exceeded.
+- ISSUE 2958 : [Feature]: Automate rule SV-219997, The system must verify that package updates are digitally signed.
+- ISSUE 2961 : [Feature]: Automate rule SV-220003, The operating system must employ FIPS-validate or NSA-approved cryptography to implement digital signatures.
+- ISSUE 2970 : [Feature]: Automate rule SV-220012, The operating system must protect the integrity of transmitted information.
+- ISSUE 2976 : [Feature]: Automate rule SV-233301, The sshd server must bind the X11 forwarding server to the loopback address.
+- ISSUE 3140 : Automate rule  SV-216197 (U_SOL_11_x86)
+- ISSUE 3138 : Automate rule  SV-216199 (U_SOL_11_x86)
+
+## U_TOSS_4
+- ISSUE 3065 : [Feature] Automate rule SV-253109, The x86 Ctrl-Alt-Delete key sequence must be disabled on TOSS.
+- ISSUE 3211 : Automate rule SV-252961 (U_TOSS_4)
+- ISSUE 3231 : Automate rule SV-253031 (U_TOSS_4)
+- ISSUE 3192 : Automate rule SV-253093 (U_TOSS_4)
+- ISSUE 3435 : Automate SV-252912
+
