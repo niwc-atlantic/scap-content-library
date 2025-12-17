@@ -55,11 +55,12 @@ Created: 2025-12-16 13:16:43
 | 2025-12-16 | U_SOL_11_X86_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV14 | 216 | 70 | 0 | 72 | 74 | 65.74 |
 | 2025-12-16 | U_TOSS_4_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV4 | 226 | 175 | 0 | 11 | 40 | 82.3 |
 
-
 Total Rules         : 8051
+
 Total Automated     : 6585
 - DISA Automated    : 4878
 - NIST Automated    : 568
 - NIWC Automated    : 1139
-Not Automated       : 1466
+- Not Automated     : 1466
+
 Pecentage Automated : 81.79
