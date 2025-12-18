@@ -708,7 +708,7 @@ if __name__ == "__main__":
 
     configure_logging(args.debug, args.log_file)
 
-    logging.debug("input_path: " + args.input_path)
+    logging.debug("input_path: " + str(args.input_path))
 
     signer = Signer(
         pkcs11_module=args.pkcs11_module,
