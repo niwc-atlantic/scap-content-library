@@ -390,17 +390,17 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_MOZ_Firefox_Linux_V6R5_STIG_SCAP_1-4_Benchmark-enhancedV10-signed.zip</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MOZ_Firefox_Linux_V6R5_STIG_SCAP_1-4_Benchmark-enhancedV10-signed.zip</location>
-      <checksum style="SHA512">1536823c071cd235ada770e32b4a7ee5265d52984af947be7bacfac079dbffe1d7fd282a7efd942238473d16191e11b5efe88190ba8e3f151d47a9a57b6423f0</checksum>
+      <content-id>U_MOZ_Firefox_Linux_V6R5_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_MOZ_Firefox_Linux_V6R5_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.zip</location>
+      <checksum style="SHA512">569a7f67db14e938f619fffe4c4c14bf22530c5d73d7cee55a68958e67bab2d271972450b32d36811c4e4ce3f4f1e0ca32b30a6315831e92e785a644c42f6308</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_MOZ_Firefox_Linux</benchmark-id>
           <title>Mozilla Firefox for Linux STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
-          <version>006.005.010</version>
+          <version>006.005.007</version>
           <style/>
           <status>accepted</status>
-          <status-date>2025-12-19</status-date>
+          <status-date>2025-09-16</status-date>
           <creator>DISA</creator>
           <publisher>DISA+NIWC</publisher>
           <contributor>DISA</contributor>
