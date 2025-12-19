@@ -1,7 +1,7 @@
 Created: 2025-12-19 07:09:20
 
 | Date | Filename | Total Rules | DISA Auto. | NIST Auto. | NIWC Auto. | Manual | % Automated |
-|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|
 | 2025-12-19 | U_Adobe_Acrobat_Reader_DC_Continuous_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV10 | 26 | 22 | 0 | 3 | 1 | 96.15 |
 | 2025-12-19 | U_Apple_macOS_13_V1R5_STIG_SCAP_1-4_Benchmark-enhancedV5 | 113 | 0 | 102 | 0 | 11 | 90.26 |
 | 2025-12-19 | U_Apple_macOS_14_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV5 | 156 | 0 | 152 | 0 | 4 | 97.43 |
