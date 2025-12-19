@@ -11,7 +11,7 @@
 - ISSUE 3006 : [Feature]: Automate rule SV-219302, The Ubuntu operating system must retain a users session lock until that user reestablishes access using established identification and authentication procedures.
 - ISSUE 3012 : [Feature]: Automate rule SV-219321, The Ubuntu operating system must only allow the use of DoD PKI-established certificate authorities for verification of the establishment of protected sessions.
 - ISSUE 3014 : [Feature]: Automate rule SV-219323, The Ubuntu operating system must be configured to use AppArmor.
-- ISSUE 3020 : [Feature]: Automate rule SV-219331, The Ubuntu operating system must, for networked systems, compare internal information system clocks at least every 24 hours with a server which is synchronized to one of the redundant United States Naval Observatory  
+- ISSUE 3020 : [Feature]: Automate rule SV-219331, The Ubuntu operating system must, for networked systems, compare internal information system clocks at least every 24 hours with a server which is synchronized to one of the redundant United States Naval Observatory …
 - ISSUE 3021 : [Feature]: Automate rule SV-219332, The Ubuntu operating system must synchronize internal information system clocks to the authoritative time source when the time difference is greater than one second.
 - ISSUE 3029 : [Feature]: Automate rule SV-219341, The Ubuntu operating system must implement non-executable data to protect its memory from unauthorized code execution.
 - ISSUE 3035 : [Feature]: Automate rule SV-237770, All local interactive user home directories must be group-owned by the home directory owners primary group.
@@ -242,15 +242,15 @@
 - ISSUE 3530 : Update Rule SV-268318
 
 ## U_MS_Windows_2012_and_2012_R2_DC
-- ISSUE 3379 : [Feature] Automate rule SV-226271, Override DISA s disabled Guest check for better efficiency on large domain controllers
-- ISSUE 3377 : [Feature] Automate rule SV-226273, Override DISA s renamed Administrator check for better efficiency on large domain controllers
-- ISSUE 3378 : [Feature] Automate rule SV-226274, Override DISA s renamed Guest check for better efficiency on large domain controllers
+- ISSUE 3379 : [Feature] Automate rule SV-226271, Override DISA’s disabled Guest check for better efficiency on large domain controllers
+- ISSUE 3377 : [Feature] Automate rule SV-226273, Override DISA’s renamed Administrator check for better efficiency on large domain controllers
+- ISSUE 3378 : [Feature] Automate rule SV-226274, Override DISA’s renamed Guest check for better efficiency on large domain controllers
 
 ## U_MS_Windows_Server_2016
 - ISSUE 3049 : [Feature] Automate rule SV-224979 The directory service must be configured to terminate LDAP-based network connections to the directory server after 5 minutes of inactivity.
-- ISSUE 3367 : [Feature] Automate rule SV-225024, Override DISA s disabled Guest check for better efficiency on large domain controllers
-- ISSUE 3365 : [Feature] Automate rule SV-225026, Override DISA s renamed Administrator check for better efficiency on large domain controllers
-- ISSUE 3366 : [Feature] Automate rule SV-225027, Override DISA s renamed Guest check for better efficiency on large domain controllers
+- ISSUE 3367 : [Feature] Automate rule SV-225024, Override DISA’s disabled Guest check for better efficiency on large domain controllers
+- ISSUE 3365 : [Feature] Automate rule SV-225026, Override DISA’s renamed Administrator check for better efficiency on large domain controllers
+- ISSUE 3366 : [Feature] Automate rule SV-225027, Override DISA’s renamed Guest check for better efficiency on large domain controllers
 - ISSUE 461 : [Feature]: Automate rule SV-224975r569186, Data files owned by users must be on a different logical partition from the directory server data files.
 - ISSUE 3145 : Automate Rule SV-224823 Manually managed application account passwords must be at least 14 characters in length.
 - ISSUE 3112 : Automate rule SV-224971 Windows Server Active Directory SYSVOL directory must have the proper access control permissions.
@@ -260,10 +260,10 @@
 - ISSUE 3222 : Update SV-224839 to limit the number of failed accounts to a maximum of 100
 
 ## U_MS_Windows_Server_2019
-- ISSUE 3370 : [Feature] Automate rule SV-205709, Override DISA s disabled Guest check for better efficiency on large domain controllers
+- ISSUE 3370 : [Feature] Automate rule SV-205709, Override DISA’s disabled Guest check for better efficiency on large domain controllers
 - ISSUE 3048 : [Feature] Automate rule SV-205726 Windows Server 2019 directory service must be configured to terminate LDAP-based network connections to the directory server after five minutes of inactivity.
-- ISSUE 3368 : [Feature] Automate rule SV-205909, Override DISA s renamed Administrator check for better efficiency on large domain controllers
-- ISSUE 3369 : [Feature] Automate rule SV-205910, Override DISA s renamed Guest check for better efficiency on large domain controllers
+- ISSUE 3368 : [Feature] Automate rule SV-205909, Override DISA’s renamed Administrator check for better efficiency on large domain controllers
+- ISSUE 3369 : [Feature] Automate rule SV-205910, Override DISA’s renamed Guest check for better efficiency on large domain controllers
 - ISSUE 1456 : [Feature]: Automate rule SV-205657 Windows Server passwords for the built-in Administrator account must be changed at least every 60 days
 - ISSUE 3362 : [Feature]: Automate rule SV-205723, Windows Server 2019 data files owned by users must be on a different logical partition from the directory server data files.
 - ISSUE 386 : [Feature]: Automate rule SV-205737r877392, Windows Server 2019 default permissions for the HKEY_LOCAL_MACHINE registry hive must be maintained.
@@ -279,9 +279,9 @@
 
 ## U_MS_Windows_Server_2022
 - ISSUE 3050 : [Feature] Automate rule SV-254400 Windows Server 2022 directory service must be configured to terminate LDAP-based network connections to the directory server after five minutes of inactivity.
-- ISSUE 3373 : [Feature] Automate rule SV-254445, Override DISA s disabled Guest check for better efficiency on large domain controllers
-- ISSUE 3371 : [Feature] Automate rule SV-254447, Override DISA s renamed Administrator check for better efficiency on large domain controllers
-- ISSUE 3372 : [Feature] Automate rule SV-254448, Override DISA s renamed Guest check for better efficiency on large domain controllers
+- ISSUE 3373 : [Feature] Automate rule SV-254445, Override DISA’s disabled Guest check for better efficiency on large domain controllers
+- ISSUE 3371 : [Feature] Automate rule SV-254447, Override DISA’s renamed Administrator check for better efficiency on large domain controllers
+- ISSUE 3372 : [Feature] Automate rule SV-254448, Override DISA’s renamed Guest check for better efficiency on large domain controllers
 - ISSUE 358 : [Feature]: Automate rule SV-254239 Windows Server 2022 passwords for the built-in Administrator account must be changed at least every 60 days.
 - ISSUE 355 : [Feature]: Automate rule SV-254254r877392, Windows Server 2022 default permissions for the HKEY_LOCAL_MACHINE registry hive must be maintained.
 - ISSUE 373 : [Feature]: Automate rule SV-254392 Windows Server 2022 Active Directory SYSVOL directory must have the proper access control permissions.
@@ -297,9 +297,9 @@
 
 ## U_MS_Windows_Server_2025
 - ISSUE 3051 : [Feature] Automate rule SV-278147 Windows Server 2025 directory service must be configured to terminate LDAP-based network connections to the directory server after five minutes of inactivity.
-- ISSUE 3376 : [Feature] Automate rule SV-278195, Override DISA s disabled Guest check for better efficiency on large domain controllers
-- ISSUE 3374 : [Feature] Automate rule SV-278197, Override DISA s renamed Administrator check for better efficiency on large domain controllers
-- ISSUE 3375 : [Feature] Automate rule SV-278198, Override DISA s renamed Guest check for better efficiency on large domain controllers
+- ISSUE 3376 : [Feature] Automate rule SV-278195, Override DISA’s disabled Guest check for better efficiency on large domain controllers
+- ISSUE 3374 : [Feature] Automate rule SV-278197, Override DISA’s renamed Administrator check for better efficiency on large domain controllers
+- ISSUE 3375 : [Feature] Automate rule SV-278198, Override DISA’s renamed Guest check for better efficiency on large domain controllers
 - ISSUE 3364 : [Feature]: Automate rule SV-278143, Windows Server data files owned by users must be on a different logical partition from the directory server data files.
 - ISSUE 3142 : Automate Rule SV-277989 Manually managed application account passwords must be at least 14 characters in length.
 - ISSUE 3159 : Automate rule SV-278029 (U_MS_Windows_Server_2025)
@@ -441,7 +441,7 @@
 - ISSUE 2750 : [Feature]: Automate rule SV-216380, The system must disable network routing unless required.
 - ISSUE 2752 : [Feature]: Automate rule SV-216387, The boundary protection system (firewall) must be configured to deny network traffic by default and must allow network traffic by exception (i.e., deny all, permit by exception).
 - ISSUE 2753 : [Feature]: Automate rule SV-216394, The system must prevent local applications from generating source-routed packets.
-- ISSUE 2760 : [Feature]: Automate rule SV-216402, The operating system must use mechanisms for authentication to a cryptographic module meeting the requirements of applicable federal laws, Executive orders, directives, policies, regulations, standards, and guidance  
+- ISSUE 2760 : [Feature]: Automate rule SV-216402, The operating system must use mechanisms for authentication to a cryptographic module meeting the requirements of applicable federal laws, Executive orders, directives, policies, regulations, standards, and guidance …
 - ISSUE 2769 : [Feature]: Automate rule SV-216426, Duplicate User IDs (UIDs) must not exist for users within the organization.
 - ISSUE 2770 : [Feature]: Automate rule SV-216427, Duplicate UIDs must not exist for multiple non-organizational users.
 - ISSUE 2771 : [Feature]: Automate rule SV-216428, Duplicate Group IDs (GIDs) must not exist for multiple groups.
@@ -516,7 +516,7 @@
 - ISSUE 2899 : [Feature]: Automate rule SV-216157, The system must prevent local applications from generating source-routed packets.
 - ISSUE 2900 : [Feature]: Automate rule SV-216158, The operating system must display the DoD approved system use notification message or banner before granting access to the system for general system logons.
 - ISSUE 2901 : [Feature]: Automate rule SV-216159, The operating system must display the DoD approved system use notification message or banner for SSH connections.
-- ISSUE 2906 : [Feature]: Automate rule SV-216165, The operating system must use mechanisms for authentication to a cryptographic module meeting the requirements of applicable federal laws, Executive orders, directives, policies, regulations, standards, and guidance  
+- ISSUE 2906 : [Feature]: Automate rule SV-216165, The operating system must use mechanisms for authentication to a cryptographic module meeting the requirements of applicable federal laws, Executive orders, directives, policies, regulations, standards, and guidance …
 - ISSUE 2915 : [Feature]: Automate rule SV-216189, Duplicate User IDs (UIDs) must not exist for users within the organization.
 - ISSUE 2916 : [Feature]: Automate rule SV-216190, Duplicate UIDs must not exist for multiple non-organizational users.
 - ISSUE 2917 : [Feature]: Automate rule SV-216191, Duplicate Group IDs (GIDs) must not exist for multiple groups.
