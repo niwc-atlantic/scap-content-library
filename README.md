@@ -4,7 +4,7 @@ Note:  All SCAP 1.4 content in this repository requires a tool capable of runnin
 
   # 2026 Quarter 1 Release (02/12/2026)
   
-  The current content release is based on DISA's Q1 2026 STIG's and SCAP benchmarks, and is also bundled with SCC 5.13.  [Release Notes](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/release_notes.txt)
+  The current content release is based on DISA's Q1 2026 STIG's and SCAP benchmarks, and is also bundled with SCC 5.14.  [Release Notes](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/release_notes.txt)
 
   # Consolidated Bundle and Repository Stats
   
