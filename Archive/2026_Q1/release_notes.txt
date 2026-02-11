@@ -1,0 +1,234 @@
+## U_Apple_macOS_15
+- ISSUE 4027 : Update to the latest DISA STIG manual and/or benchmark for U_Apple_macOS_15
+
+## U_CAN_Ubuntu_18-04_LTS
+- ISSUE 4176 : Improve efficiency on sticky bit directory permission check
+
+## U_CAN_Ubuntu_20-04_LTS
+- ISSUE 4176 : Improve efficiency on sticky bit directory permission check
+
+## U_CAN_Ubuntu_22-04_LTS
+- ISSUE 4176 : Improve efficiency on sticky bit directory permission check
+- ISSUE 4028 : Update to the latest DISA STIG manual and/or benchmark for U_CAN_Ubuntu_22-04_LTS
+
+## U_CAN_Ubuntu_24-04_LTS
+- ISSUE 2671 : [Feature]: Automate rule SV-270751, Ubuntu 24.04 LTS must compare internal information system clocks at least every 24 hours with an authoritative time server.
+- ISSUE 2681 : [Feature]: Automate rule SV-274872, Ubuntu 24.04 LTS must prevent a user from overriding the disabling of the graphical user interface autorun function.
+- ISSUE 4176 : Improve efficiency on sticky bit directory permission check
+- ISSUE 4029 : Update to the latest DISA STIG manual and/or benchmark for U_CAN_Ubuntu_24-04_LTS
+
+## U_Cisco_IOS-XE_Router_NDM
+- ISSUE 4070 : Update Rule SV-215854 (U_Cisco_IOS-XE_Router_NDM)
+- ISSUE 4154 : Update SV-215843 and SV-220554 to verify ntp authentication is hmac-sha2-256
+- ISSUE 4032 : Update to the latest DISA STIG manual and/or benchmark for U_Cisco_IOS-XE_Router_NDM
+
+## U_Cisco_IOS-XE_Switch_NDM
+- ISSUE 4071 : Update Rule SV-220565 (U_Cisco_IOS-XE_Switch_NDM)
+- ISSUE 4154 : Update SV-215843 and SV-220554 to verify ntp authentication is hmac-sha2-256
+- ISSUE 4033 : Update to the latest DISA STIG manual and/or benchmark for U_Cisco_IOS-XE_Switch_NDM
+
+## U_Cisco_IOS_Router_NDM
+- ISSUE 4066 : Update Rule SV-215698 (U_Cisco_IOS_Router_NDM)
+- ISSUE 4067 : Update Rule SV-215709 (U_Cisco_IOS_Router_NDM)
+- ISSUE 4030 : Update to the latest DISA STIG manual and/or benchmark for U_Cisco_IOS_Router_NDM
+
+## U_Cisco_IOS_Switch_NDM
+- ISSUE 4069 : Update Rule SV-220606 (U_Cisco_IOS_Switch_NDM)
+- ISSUE 4068 : Update Rule SV-220617 (U_Cisco_IOS_Switch_NDM)
+- ISSUE 4031 : Update to the latest DISA STIG manual and/or benchmark for U_Cisco_IOS_Switch_NDM
+
+## U_Kubernetes
+- ISSUE 4034 : Update to the latest DISA STIG manual and/or benchmark for U_Kubernetes
+
+## U_MOZ_Firefox_Linux
+- ISSUE 4035 : Update to the latest DISA STIG manual and/or benchmark for U_MOZ_Firefox_Linux
+
+## U_MOZ_Firefox_Windows
+- ISSUE 4036 : Update to the latest DISA STIG manual and/or benchmark for U_MOZ_Firefox_Windows
+
+## U_MS_Defender_Antivirus
+- ISSUE 4037 : Update to the latest DISA STIG manual and/or benchmark for U_MS_Defender_Antivirus
+
+## U_MS_DotNet_Framework_4-0
+- ISSUE 3787 : Update SV-225234 to exclude files in the WinSxS directory
+
+## U_MS_Edge
+- ISSUE 4038 : Update to the latest DISA STIG manual and/or benchmark for U_MS_Edge
+
+## U_MS_IE11
+- ISSUE 4039 : Update to the latest DISA STIG manual and/or benchmark for U_MS_IE11
+
+## U_MS_IIS_10-0_Server
+- ISSUE 4077 : Update Rule SV-218788 (U_MS_IIS_10-0_Server)
+- ISSUE 4076 : Update Rule SV-218789 (U_MS_IIS_10-0_Server)
+- ISSUE 4040 : Update to the latest DISA STIG manual and/or benchmark for U_MS_IIS_10-0_Server
+
+## U_MS_IIS_10-0_Site
+- ISSUE 4078 : Remove Rule SV-218735 (U_MS_IIS_10-0_Site)
+- ISSUE 4079 : Update Rule SV-218754 (U_MS_IIS_10-0_Site)
+- ISSUE 4082 : Update Rule SV-218758 (U_MS_IIS_10-0_Site)
+- ISSUE 4041 : Update to the latest DISA STIG manual and benchmark for U_MS_IIS_10-0_Site (V2R14)
+
+## U_MS_Office_365_ProPlus
+- ISSUE 4042 : Update to the latest DISA STIG manual (V3R4) and/or benchmark for U_MS_Office_365_ProPlus (V3R7)
+
+## U_MS_SQL_Server_2016_Database
+- ISSUE 4089 : Remove Rule SV-213906 (U_MS_SQL_Server_2016_Database)
+- ISSUE 4087 : Remove Rule SV-213923 (U_MS_SQL_Server_2016_Database)
+- ISSUE 4088 : Remove Rule SV-213927 (U_MS_SQL_Server_2016_Database)
+- ISSUE 4090 : Update Rule SV-213907 (U_MS_SQL_Server_2016_Database)
+- ISSUE 4091 : Update Rule SV-213922 (U_MS_SQL_Server_2016_Database)
+- ISSUE 4043 : Update to the latest DISA STIG manual and benchmark for U_MS_SQL_Server_2016_Database (V3R4)
+
+## U_MS_SQL_Server_2016_Instance
+- ISSUE 4099 : Remove Rule SV-213963 (U_MS_SQL_Server_2016_Instance)
+- ISSUE 4102 : Remove Rule SV-213971 (U_MS_SQL_Server_2016_Instance)
+- ISSUE 4098 : Remove Rule SV-213995 (U_MS_SQL_Server_2016_Instance)
+- ISSUE 4094 : Remove Rule SV-213998 (U_MS_SQL_Server_2016_Instance)
+- ISSUE 4095 : Remove Rule SV-214006 (U_MS_SQL_Server_2016_Instance)
+- ISSUE 4092 : Remove Rule SV-214010 (U_MS_SQL_Server_2016_Instance)
+- ISSUE 4096 : Remove Rule SV-214012 (U_MS_SQL_Server_2016_Instance)
+- ISSUE 4093 : Remove Rule SV-214015 (U_MS_SQL_Server_2016_Instance)
+- ISSUE 4100 : Remove Rule SV-214016 (U_MS_SQL_Server_2016_Instance)
+- ISSUE 4104 : Remove Rule SV-214017 (U_MS_SQL_Server_2016_Instance)
+- ISSUE 4101 : Remove Rule SV-214018 (U_MS_SQL_Server_2016_Instance)
+- ISSUE 4103 : Remove Rule SV-214020 (U_MS_SQL_Server_2016_Instance)
+- ISSUE 4105 : Remove Rule SV-214022 (U_MS_SQL_Server_2016_Instance)
+- ISSUE 4106 : Remove Rule SV-214023 (U_MS_SQL_Server_2016_Instance)
+- ISSUE 4097 : Remove Rule SV-214024 (U_MS_SQL_Server_2016_Instance)
+- ISSUE 4107 : Update Rule SV-213989 (U_MS_SQL_Server_2016_Instance)
+- ISSUE 4044 : Update to the latest DISA STIG manual and benchmark for U_MS_SQL_Server_2016_Instance (V3R6)
+
+## U_MS_SQL_Server_2022_Database
+- ISSUE 4110 : Update Rule SV-271143 (U_MS_SQL_Server_2022_Database)
+- ISSUE 4111 : Update Rule SV-271188 (U_MS_SQL_Server_2022_Database)
+- ISSUE 4045 : Update to the latest DISA STIG manual and benchmark for U_MS_SQL_Server_2022_Database (V1R2)
+
+## U_MS_SQL_Server_2022_Instance
+- ISSUE 4112 : Update Rule SV-271351 (U_MS_SQL_Server_2022_Instance)
+- ISSUE 4046 : Update to the latest DISA STIG manual and benchmark for U_MS_SQL_Server_2022_Instance (V1R3)
+
+## U_MS_Windows_10
+- ISSUE 3839 : Redesign file permission checks for easier understanding of failures SV-224833, SV-205735, SV-254252, SV-224832, SV-205734, SV-254251, SV-224971, SV-205740, SV-205736 , SV-224834, SV-254253, SV-254392, SV-253274, SV-220717
+- ISSUE 4114 : Remove Rule SV-220735 (U_MS_Windows_10)
+- ISSUE 3837 : Update check method for SV-253257, SV-205857, SV-224864, SV-254284, SV-278032, SV-220700
+- ISSUE 4116 : Update Rule SV-220734 (U_MS_Windows_10)
+- ISSUE 4047 : Update to the latest DISA STIG manual (V3R6) and benchmark for U_MS_Windows_10 (V3R7)
+
+## U_MS_Windows_11
+- ISSUE 4118 : Automate Rule SV-279688 (U_MS_Windows_11)
+- ISSUE 4199 : Disable NIWC Rule SV-278932 (U_MS_Windows_11), now automated by DISA
+- ISSUE 4200 : Disable NIWC Rule SV-278933 (U_MS_Windows_11), now automated by DISA
+- ISSUE 4201 : Disable NIWC Rule SV-279688 (U_MS_Windows_11), now automated by DISA
+- ISSUE 3839 : Redesign file permission checks for easier understanding of failures SV-224833, SV-205735, SV-254252, SV-224832, SV-205734, SV-254251, SV-224971, SV-205740, SV-205736 , SV-224834, SV-254253, SV-254392, SV-253274, SV-220717
+- ISSUE 4117 : Remove Rule SV-253292 (U_MS_Windows_11)
+- ISSUE 3837 : Update check method for SV-253257, SV-205857, SV-224864, SV-254284, SV-278032, SV-220700
+- ISSUE 4119 : Update Rule SV-253291 (U_MS_Windows_11)
+- ISSUE 4048 : Update to the latest DISA STIG manual and benchmark for U_MS_Windows_11 (V2R6)
+- ISSUE 4202 : Update to the latest DISA STIG manual and/or benchmark for U_MS_Windows_11
+
+## U_MS_Windows_Server_2016
+- ISSUE 3839 : Redesign file permission checks for easier understanding of failures SV-224833, SV-205735, SV-254252, SV-224832, SV-205734, SV-254251, SV-224971, SV-205740, SV-205736 , SV-224834, SV-254253, SV-254392, SV-253274, SV-220717
+- ISSUE 3826 : SV-224862 The Windows Server time service must synchronize with an appropriate DOD time source must be a manual check on Servers
+- ISSUE 3837 : Update check method for SV-253257, SV-205857, SV-224864, SV-254284, SV-278032, SV-220700
+- ISSUE 3835 : Update method for determining UEFI vs Legacy boot in SV-205856
+
+## U_MS_Windows_Server_2019
+- ISSUE 3839 : Redesign file permission checks for easier understanding of failures SV-224833, SV-205735, SV-254252, SV-224832, SV-205734, SV-254251, SV-224971, SV-205740, SV-205736 , SV-224834, SV-254253, SV-254392, SV-253274, SV-220717
+- ISSUE 3827 : SV-205800 The Windows Server time service must synchronize with an appropriate DOD time source must be a manual check on Servers
+- ISSUE 3837 : Update check method for SV-253257, SV-205857, SV-224864, SV-254284, SV-278032, SV-220700
+- ISSUE 3835 : Update method for determining UEFI vs Legacy boot in SV-205856
+- ISSUE 3834 : Update method for obtaining RootDSE in SV-205726
+- ISSUE 3840 : Update method of finding SYSVOL share for SV-205740
+- ISSUE 4124 : Update Rule SV-205657 (U_MS_Windows_Server_2019)
+- ISSUE 4123 : Update Rule SV-205737 (U_MS_Windows_Server_2019)
+- ISSUE 4049 : Update to the latest DISA STIG manual and benchmark for U_MS_Windows_Server_2019 (V3R7)
+
+## U_MS_Windows_Server_2022
+- ISSUE 3839 : Redesign file permission checks for easier understanding of failures SV-224833, SV-205735, SV-254252, SV-224832, SV-205734, SV-254251, SV-224971, SV-205740, SV-205736 , SV-224834, SV-254253, SV-254392, SV-253274, SV-220717
+- ISSUE 3828 : SV-254281 The Windows Server time service must synchronize with an appropriate DOD time source must be a manual check on Servers
+- ISSUE 3837 : Update check method for SV-253257, SV-205857, SV-224864, SV-254284, SV-278032, SV-220700
+- ISSUE 3835 : Update method for determining UEFI vs Legacy boot in SV-205856
+- ISSUE 4128 : Update Rule SV-254239 (U_MS_Windows_Server_2022)
+- ISSUE 4127 : Update Rule SV-254254 (U_MS_Windows_Server_2022)
+- ISSUE 4050 : Update to the latest DISA STIG manual and benchmark for U_MS_Windows_Server_2022 (V2R7)
+
+## U_MS_Windows_Server_2025
+- ISSUE 3839 : Redesign file permission checks for easier understanding of failures SV-224833, SV-205735, SV-254252, SV-224832, SV-205734, SV-254251, SV-224971, SV-205740, SV-205736 , SV-224834, SV-254253, SV-254392, SV-253274, SV-220717
+- ISSUE 3829 : SV-278029 The Windows Server time service must synchronize with an appropriate DOD time source must be a manual check on Servers
+- ISSUE 3837 : Update check method for SV-253257, SV-205857, SV-224864, SV-254284, SV-278032, SV-220700
+
+## U_Oracle_Linux_7
+- ISSUE 4175 : Improve efficiency of SV-221734, SV-248640, SV-204473, SV-244531
+- ISSUE 4051 : Update to the latest DISA STIG manual (V3R5) and/or benchmark for U_Oracle_Linux_7 (V3R3)
+
+## U_Oracle_Linux_8
+- ISSUE 4175 : Improve efficiency of SV-221734, SV-248640, SV-204473, SV-244531
+- ISSUE 4176 : Improve efficiency on sticky bit directory permission check
+- ISSUE 4132 : Update Rule SV-248680 (U_Oracle_Linux_8)
+- ISSUE 4052 : Update to the latest DISA STIG manual and benchmark for U_Oracle_Linux_8 (V2R7)
+
+## U_Oracle_Linux_9
+- ISSUE 4176 : Improve efficiency on sticky bit directory permission check
+- ISSUE 4189 : Override SV-271834 and SV-258048 for faster scans and better scalability on systems with many users.
+- ISSUE 4135 : Update Rule SV-271674 (U_Oracle_Linux_9)
+- ISSUE 4053 : Update to the latest DISA STIG manual (V1R4) and benchmark for U_Oracle_Linux_9 (V1R2)
+
+## U_RHEL_7
+- ISSUE 3060 : [Feature] Automate rule SV-204455, The Red Hat Enterprise Linux operating system must be configured so that the x86 Ctrl-Alt-Delete key sequence is disabled on the command line.
+- ISSUE 3252 : Automate rule SV-204453 (U_RHEL_7)
+- ISSUE 3255 : Automate rule SV-204468 (U_RHEL_7)
+- ISSUE 3260 : Automate rule SV-204473 (U_RHEL_7)
+- ISSUE 3247 : Automate rule SV-204618 (U_RHEL_7)
+- ISSUE 3264 : Automate rule SV-251703 (U_RHEL_7)
+- ISSUE 3172 : Automate rule SV-251705 (U_RHEL_7)
+- ISSUE 3242 : Automate rule SV-255925 (U_RHEL_7)
+- ISSUE 3237 : Automate rule SV-255927 (U_RHEL_7)
+- ISSUE 4175 : Improve efficiency of SV-221734, SV-248640, SV-204473, SV-244531
+
+## U_RHEL_8
+- ISSUE 4140 : Automate Rule SV-279932 (U_RHEL_8)
+- ISSUE 3730 : Fix false positive with SV-230326
+- ISSUE 3732 : Fix false positive with SV-272483
+- ISSUE 4175 : Improve efficiency of SV-221734, SV-248640, SV-204473, SV-244531
+- ISSUE 4176 : Improve efficiency on sticky bit directory permission check
+- ISSUE 4177 : Improve efficiency on SV-230318
+- ISSUE 4178 : Improve efficiency on SV-230319 test
+- ISSUE 4179 : Improve efficiency on SV-230326 by limiting number of failures reported
+- ISSUE 4180 : Improve efficiency on SV-230327 by limiting number of failures reported
+- ISSUE 4136 : Remove Rule SV-230254 (U_RHEL_8)
+- ISSUE 4137 : Remove Rule SV-230256 (U_RHEL_8)
+- ISSUE 4138 : Remove Rule SV-244526 (U_RHEL_8)
+- ISSUE 4139 : Remove Rule SV-255924 (U_RHEL_8)
+- ISSUE 4143 : Update Rule SV-230251 (U_RHEL_8)
+- ISSUE 4148 : Update Rule SV-230252 (U_RHEL_8)
+- ISSUE 4144 : Update Rule SV-230352 (U_RHEL_8)
+- ISSUE 4142 : Update Rule SV-272482 (U_RHEL_8)
+- ISSUE 4054 : Update to the latest DISA STIG manual and benchmark for U_RHEL_8 (V2R6)
+
+## U_RHEL_9
+- ISSUE 1650 : [Feature] Automate rule SV-258131
+- ISSUE 4150 : Automate Rule SV-258017 (U_RHEL_9)
+- ISSUE 4152 : Automate Rule SV-279936 (U_RHEL_9)
+- ISSUE 3729 : Fix false positive with RHEL 9 SV-257819
+- ISSUE 3731 : Fix false positive with SV-257931
+- ISSUE 4176 : Improve efficiency on sticky bit directory permission check
+- ISSUE 4189 : Override SV-271834 and SV-258048 for faster scans and better scalability on systems with many users.
+- ISSUE 4151 : Update Rule SV-258023 (U_RHEL_9)
+- ISSUE 4055 : Update to the latest DISA STIG manual and benchmark for U_RHEL_9 (V2R7)
+
+## U_SLES_12
+- ISSUE 4056 : Update to the latest DISA STIG manual and benchmark for U_SLES_12 (V3R4)
+
+## U_SLES_15
+- ISSUE 4057 : Update to the latest DISA STIG manual (V2R6) and/or benchmark for U_SLES_15 (V2R7)
+
+## U_SOL_11_SPARC
+- ISSUE 4058 : Update to the latest DISA STIG manual and/or benchmark for U_SOL_11_SPARC (V3R4)
+
+## U_SOL_11_X86
+- ISSUE 4059 : Update to the latest DISA STIG manual and benchmark for U_SOL_11_X86 (V3R4)
+
+## U_TOSS_4
+- ISSUE 4061 : Update to the latest DISA STIG manual (4_V2R4) and benchmark for U_TOSS_4 (V2R5)
+
