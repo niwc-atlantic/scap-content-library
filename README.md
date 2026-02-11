@@ -2,7 +2,7 @@ This is the repository of Security Content Automation Protocol (SCAP) benchmarks
 
 Note:  All SCAP 1.4 content in this repository requires a tool capable of running SCAP 1.4 content.  For SCC that requires version 5.11 or later.
 
-  # 2026 Quarter 1 Release (02/12/2026)
+  # 2026 Quarter 1 Release (02/11/2026)
   
   The current content release is based on DISA's Q1 2026 STIG's and SCAP benchmarks, and is also bundled with SCC 5.14.  [Release Notes](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/release_notes.txt)
 
