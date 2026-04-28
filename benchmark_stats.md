@@ -64,9 +64,12 @@ Created: 2026-04-27 14:02:59
 
 
 Total Rules         : 8206
+
 Total Automated     : 6651
 - DISA Automated    : 4942
 - NIST Automated    : 568
 - NIWC Automated    : 1141
+
 Not Automated       : 1555
+
 Pecentage Automated : 81.05
