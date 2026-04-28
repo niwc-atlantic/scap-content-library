@@ -1,0 +1,336 @@
+## U_Active_Directory_Domain
+- ISSUE 3792 : [Feature]: Automate rule SV-243470, Delegation of privileged accounts must be prohibited.
+- ISSUE 3797 : [Feature]: Automate rule SV-243476, All accounts, privileged and unprivileged, that require smart cards must have the underlying NT hash rotated at least every 60 days.
+- ISSUE 3799 : [Feature]: Automate rule SV-243478, Domain-joined systems (excluding domain controllers) must not be configured for unconstrained delegation.
+- ISSUE 3801 : [Feature]: Automate rule SV-243480, The domain functional level must be at a Windows Server version still supported by Microsoft.
+- ISSUE 3807 : [Feature]: Automate rule SV-243486, The Anonymous Logon and Everyone groups must not be members of the Pre-Windows 2000 Compatible Access group.
+- ISSUE 3818 : [Feature]: Automate rule SV-243497, Inter-site replication must be enabled and configured to occur at least daily.
+- ISSUE 3823 : [Feature]: Automate rule SV-269097, Windows Server domain controllers must have Kerberos logging enabled with servers hosting Active Directory Certificate Services (AD CS).
+- ISSUE 3788 : [Feature]: Implement informational data gathering for rule SV-243466, Membership to the Enterprise Admins group must be restricted to accounts used only to manage the Active Directory Forest.
+- ISSUE 3789 : [Feature]: Implement informational data gathering for rule SV-243467, Membership to the Domain Admins group must be restricted to accounts used only to manage the Active Directory domain and domain controllers.
+- ISSUE 3795 : [Feature]: Implement informational data gathering for rule SV-243473, Separate domain accounts must be used to manage public facing servers from any domain accounts used to manage internal servers.
+- ISSUE 3802 : [Feature]: Implement informational data gathering for rule SV-243481, Access to need-to-know information must be restricted to an authorized community of interest.
+- ISSUE 3803 : [Feature]: Implement informational data gathering for rule SV-243482, Interconnections between DoD directory services of different classification levels must use a cross-domain solution that is approved for use with inter-classification trusts.
+- ISSUE 3804 : [Feature]: Implement informational data gathering for rule SV-243483, A controlled interface must have interconnections among DoD information systems operating between DoD and non-DoD systems or networks.
+- ISSUE 3808 : [Feature]: Implement informational data gathering for rule SV-243487, Membership in the Group Policy Creator Owners and Incoming Forest Trust Builders groups must be limited.
+- ISSUE 3815 : [Feature]: Implement informational data gathering for rule SV-243494, Each cross-directory authentication configuration must be documented.
+- ISSUE 3822 : [Feature]: Implement informational data gathering for rule SV-243501, The impact of CPCON changes on the cross-directory authentication configuration must be considered and procedures documented.
+- ISSUE 3810 : Add platform exception for manual check rule SV-243489, Read-only Domain Controller (RODC) architecture and configuration must comply with directory services requirements.
+- ISSUE 3798 : Implement informational data gathering for rule SV-243477, User accounts with domain level administrative privileges must be members of the Protected Users group in domains with a domain functional level of Windows 2012 R2 or higher.
+- ISSUE 4731 : Update to the latest DISA STIG manual and/or benchmark for U_Active_Directory_Domain
+- ISSUE 4026 : Update to the latest DISA STIG manual and/or benchmark for U_Active_Directory_Domain
+
+## U_Active_Directory_Forest
+- ISSUE 3879 : [Feature]: Automate rule SV-243503, Anonymous Access to AD forest data above the rootDSE level must be disabled.
+- ISSUE 3882 : [Feature]: Automate rule SV-243506, Update access to the directory schema must be restricted to appropriate accounts.
+- ISSUE 3878 : [Feature]: Implement informational data gathering for rule SV-243502, Membership to the Schema Admins group must be limited.
+- ISSUE 3880 : [Feature]: Implement informational data gathering for rule SV-243504, The Windows Time Service on the forest root PDC Emulator must be configured to acquire its time from an external time source.
+
+## U_Adobe_Acrobat_Pro_DC_Continuous
+- ISSUE 4336 : Add support for U_Adobe_Acrobat_Pro_DC_Continuous_V2R1_STIG
+
+## U_Apache_Server_2-4_UNIX_Server
+- ISSUE 3885 : [Feature]: Automate rule SV-214228, The Apache web server must limit the number of allowed simultaneous session requests.
+- ISSUE 3886 : [Feature]: Automate rule SV-214229, The Apache web server must perform server-side session management.
+- ISSUE 3887 : [Feature]: Automate rule SV-214230, The Apache web server must use cryptography to protect the integrity of remote sessions.
+- ISSUE 3888 : [Feature]: Automate rule SV-214231, The Apache web server must have system logging enabled.
+- ISSUE 3889 : [Feature]: Automate rule SV-214232, The Apache web server must generate, at a minimum, log records for system startup and shutdown, system access, and system authentication events.
+- ISSUE 3896 : [Feature]: Automate rule SV-214239, The Apache web server must not perform user management for hosted applications.
+- ISSUE 3898 : [Feature]: Automate rule SV-214241, The Apache web server must not be a proxy server.
+- ISSUE 3900 : [Feature]: Automate rule SV-214243, The Apache web server must have resource mappings set to disable the serving of certain file types.
+- ISSUE 3902 : [Feature]: Automate rule SV-214245, The Apache web server must have Web Distributed Authoring (WebDAV) disabled.
+- ISSUE 3903 : [Feature]: Automate rule SV-214246, The Apache web server must be configured to use a specified IP address and port.
+- ISSUE 3907 : [Feature]: Automate rule SV-214250, The Apache web server must invalidate session identifiers upon hosted application user logout or other session termination.
+- ISSUE 3908 : [Feature]: Automate rule SV-214251, Cookies exchanged between the Apache web server and client, such as session cookies, must have security settings that disallow cookie access outside the originating Apache web server and hosted application.
+- ISSUE 3909 : [Feature]: Automate rule SV-214252, The Apache web server must generate a session ID long enough that it cannot be guessed through brute force.
+- ISSUE 3910 : [Feature]: Automate rule SV-214253, The Apache web server must generate a session ID using as much of the character set as possible to reduce the risk of brute force.
+- ISSUE 3912 : [Feature]: Automate rule SV-214255, The Apache web server must be tuned to handle the operational requirements of the hosted application.
+- ISSUE 3913 : [Feature]: Automate rule SV-214256, Warning and error messages displayed to clients must be modified to minimize the identity of the Apache web server, patches, loaded modules, and directory paths.
+- ISSUE 3914 : [Feature]: Automate rule SV-214257, Debugging and trace information used to diagnose the Apache web server must be disabled.
+- ISSUE 3915 : [Feature]: Automate rule SV-214258, The Apache web server must set an inactive timeout for sessions.
+- ISSUE 3922 : [Feature]: Automate rule SV-214265, The Apache web server must generate log records that can be mapped to Coordinated Universal Time (UTC) or Greenwich Mean Time (GMT) which are stamped at a minimum granularity of one second.
+- ISSUE 3925 : [Feature]: Automate rule SV-214268, Cookies exchanged between the Apache web server and the client, such as session cookies, must have cookie properties set to prohibit client-side scripts from reading the cookie data.
+- ISSUE 3926 : [Feature]: Automate rule SV-214269, The Apache web server must remove all export ciphers to protect the confidentiality and integrity of transmitted information.
+- ISSUE 3929 : [Feature]: Automate rule SV-214272, The Apache web server must be configured in accordance with the security configuration settings based on DoD security configuration or implementation guidance, including STIGs, NSA configuration guides, CTOs, and DTMs.
+- ISSUE 3930 : [Feature]: Automate rule SV-214273, The Apache web server software must be a vendor-supported version.
+
+## U_Apache_Server_2-4_UNIX_Site
+- ISSUE 4209 : [Feature]: Automate rule SV-214277, The Apache web server must perform server-side session management.
+- ISSUE 4210 : [Feature]: Automate rule SV-214278, The Apache web server must use encryption strength in accordance with the categorization of data hosted by the Apache web server when remote connections are provided.
+- ISSUE 4211 : [Feature]: Automate rule SV-214279, The Apache web server must produce log records containing sufficient information to establish what type of events occurred.
+- ISSUE 4213 : [Feature]: Automate rule SV-214281, The Apache web server must have Multipurpose Internet Mail Extensions (MIME) that invoke operating system shell programs disabled.
+- ISSUE 4215 : [Feature]: Automate rule SV-214283, The Apache web server must have resource mappings set to disable the serving of certain file types.
+- ISSUE 4223 : [Feature]: Automate rule SV-214291, The Apache web server must be tuned to handle the operational requirements of the hosted application.
+- ISSUE 4224 : [Feature]: Automate rule SV-214292, The Apache web server must display a default hosted application web page, not a directory listing, when a requested web page cannot be found.
+- ISSUE 4225 : [Feature]: Automate rule SV-214293, Warning and error messages displayed to clients must be modified to minimize the identity of the Apache web server, patches, loaded modules, and directory paths.
+- ISSUE 4226 : [Feature]: Automate rule SV-214294, Debugging and trace information used to diagnose the Apache web server must be disabled.
+- ISSUE 4227 : [Feature]: Automate rule SV-214295, The Apache web server must set an absolute timeout for sessions.
+- ISSUE 4228 : [Feature]: Automate rule SV-214296, The Apache web server must set an inactive timeout for sessions.
+- ISSUE 4232 : [Feature]: Automate rule SV-214300, The Apache web server must only accept client certificates issued by DOD PKI or DoD-approved PKI Certification Authorities (CAs).
+- ISSUE 4233 : [Feature]: Automate rule SV-214301, The Apache web server cookies, such as session cookies, sent to the client using SSL/TLS must not be compressed.
+- ISSUE 4234 : [Feature]: Automate rule SV-214303, Cookies exchanged between the Apache web server and the client, such as session cookies, must have cookie properties set to force the encryption of cookies.
+- ISSUE 4235 : [Feature]: Automate rule SV-214304, The Apache web server must be configured in accordance with the security configuration settings based on DoD security configuration or implementation guidance, including STIGs, NSA configuration guides, CTOs, and DTMs.
+
+## U_Apache_Server_2-4_Windows_Server
+- ISSUE 3733 : [Feature]: Automate rule SV-214306, The Apache web server must limit the number of allowed simultaneous session requests.
+- ISSUE 3734 : [Feature]: Automate rule SV-214307, The Apache web server must perform server-side session management.
+- ISSUE 3735 : [Feature]: Automate rule SV-214308, The Apache web server must use encryption strength in accordance with the categorization of data hosted by the Apache web server when remote connections are provided.
+- ISSUE 3736 : [Feature]: Automate rule SV-214309, System logging must be enabled.
+- ISSUE 3737 : [Feature]: Automate rule SV-214310, The Apache web server must generate, at a minimum, log records for system startup and shutdown, system access, and system authentication events.
+- ISSUE 3738 : [Feature]: Automate rule SV-214311, The Apache web server must produce log records containing sufficient information to establish what type of events occurred.
+- ISSUE 3746 : [Feature]: Automate rule SV-214320, The Apache web server must not be a proxy server.
+- ISSUE 3749 : [Feature]: Automate rule SV-214323, The Apache web server must have resource mappings set to disable the serving of certain file types.
+- ISSUE 3751 : [Feature]: Automate rule SV-214325, The Apache web server must have Web Distributed Authoring (WebDAV) disabled.
+- ISSUE 3752 : [Feature]: Automate rule SV-214326, The Apache web server must be configured to use a specified IP address and port.
+- ISSUE 3753 : [Feature]: Automate rule SV-214327, The Apache web server must encrypt passwords during transmission.
+- ISSUE 3754 : [Feature]: Automate rule SV-214328, The Apache web server must perform RFC 5280-compliant certification path validation.
+- ISSUE 3757 : [Feature]: Automate rule SV-214331, The Apache web server must invalidate session identifiers upon hosted application user logout or other session termination.
+- ISSUE 3759 : [Feature]: Automate rule SV-214333, The Apache web server must accept only system-generated session identifiers.
+- ISSUE 3760 : [Feature]: Automate rule SV-214334, The Apache web server must generate unique session identifiers that cannot be reliably reproduced.
+- ISSUE 3761 : [Feature]: Automate rule SV-214335, The Apache web server must generate unique session identifiers with definable entropy.
+- ISSUE 3764 : [Feature]: Automate rule SV-214338, The Apache web server must restrict the ability of users to launch denial-of-service (DoS) attacks against other information systems or networks.
+- ISSUE 3765 : [Feature]: Automate rule SV-214339, Warning and error messages displayed to clients must be modified to minimize the identity of the Apache web server, patches, loaded modules, and directory paths.
+- ISSUE 3766 : [Feature]: Automate rule SV-214340, Debugging and trace information used to diagnose the Apache web server must be disabled.
+- ISSUE 3767 : [Feature]: Automate rule SV-214341, The Apache web server must set an absolute timeout for sessions.
+- ISSUE 3768 : [Feature]: Automate rule SV-214342, The Apache web server must set an inactive timeout for completing the TLS handshake
+- ISSUE 3772 : [Feature]: Automate rule SV-214346, An Apache web server that is part of a web server cluster must route all remote management through a centrally managed access control point.
+- ISSUE 3777 : [Feature]: Automate rule SV-214351, The Apache web server must generate log records that can be mapped to Coordinated Universal Time (UTC) or Greenwich Mean Time (GMT) with a minimum granularity of one second.
+- ISSUE 3778 : [Feature]: Automate rule SV-214352, The Apache web server must only accept client certificates issued by DoD PKI or DoD-approved PKI Certification Authorities (CAs).
+- ISSUE 3780 : [Feature]: Automate rule SV-214354, The Apache web server must be tuned to handle the operational requirements of the hosted application.
+- ISSUE 3781 : [Feature]: Automate rule SV-214355, The Apache web server cookies, such as session cookies, sent to the client using SSL/TLS must not be compressed.
+- ISSUE 3784 : [Feature]: Automate rule SV-214358, The Apache web server must be configured in accordance with the security configuration settings based on DoD security configuration or implementation guidance, including STIGs, NSA configuration guides, CTOs, and DTMs.
+- ISSUE 3785 : [Feature]: Automate rule SV-214359, The Apache web server software must be a vendor-supported version.
+- ISSUE 4745 : Update Rule SV-214308 (U_Apache_Server_2-4_Windows_Server)
+- ISSUE 4747 : Update Rule SV-214328 (U_Apache_Server_2-4_Windows_Server)
+- ISSUE 4748 : Update Rule SV-214335 (U_Apache_Server_2-4_Windows_Server)
+- ISSUE 4749 : Update Rule SV-214338 (U_Apache_Server_2-4_Windows_Server)
+- ISSUE 4750 : Update to the latest DISA STIG manual and/or benchmark for U_Apache_Server_2-4_Windows_Server
+
+## U_Apache_Server_2-4_Windows_Site
+- ISSUE 3841 : [Feature]: Automate rule SV-214362, The Apache web server must limit the number of allowed simultaneous session requests.
+- ISSUE 3842 : [Feature]: Automate rule SV-214363, The Apache web server must perform server-side session management.
+- ISSUE 3843 : [Feature]: Automate rule SV-214364, The Apache web server must produce log records containing sufficient information to establish what type of events occurred.
+- ISSUE 3845 : [Feature]: Automate rule SV-214366, The Apache web server must have resource mappings set to disable the serving of certain file types.
+- ISSUE 3847 : [Feature]: Automate rule SV-214368, Users and scripts running on behalf of users must be contained to the document root or home directory tree of the Apache web server.
+- ISSUE 3848 : [Feature]: Automate rule SV-214369, The Apache web server must be configured to use a specified IP address and port.
+- ISSUE 3854 : [Feature]: Automate rule SV-214375, The Apache web server must invalidate session identifiers upon hosted application user logout or other session termination.
+- ISSUE 3856 : [Feature]: Automate rule SV-214377, The Apache web server must accept only system-generated session identifiers.
+- ISSUE 3857 : [Feature]: Automate rule SV-214378, The Apache web server must generate unique session identifiers that cannot be reliably reproduced.
+- ISSUE 3858 : [Feature]: Automate rule SV-214379, The Apache web server must generate a session ID using as much of the character set as possible to reduce the risk of brute force.
+- ISSUE 3860 : [Feature]: Automate rule SV-214381, The Apache web server must be configured to provide clustering.
+- ISSUE 3862 : [Feature]: Automate rule SV-214383, The Apache web server must display a default hosted application web page, not a directory listing, when a requested web page cannot be found.
+- ISSUE 3863 : [Feature]: Automate rule SV-214384, Warning and error messages displayed to clients must be modified to minimize the identity of the Apache web server, patches, loaded modules, and directory paths.
+- ISSUE 3864 : [Feature]: Automate rule SV-214385, Debugging and trace information used to diagnose the Apache web server must be disabled.
+- ISSUE 3865 : [Feature]: Automate rule SV-214386, The Apache web server must set an absolute timeout for sessions.
+- ISSUE 3866 : [Feature]: Automate rule SV-214387, The Apache web server must set an inactive timeout for completing the TLS handshake.
+- ISSUE 3869 : [Feature]: Automate rule SV-214390, The Apache web server must prohibit or restrict the use of nonsecure or unnecessary ports, protocols, modules, and/or services.
+- ISSUE 3870 : [Feature]: Automate rule SV-214391, The Apache web server must only accept client certificates issued by DoD PKI or DoD-approved PKI Certification Authorities (CAs).
+- ISSUE 3871 : [Feature]: Automate rule SV-214392, The Apache web server must be tuned to handle the operational requirements of the hosted application.
+- ISSUE 3872 : [Feature]: Automate rule SV-214393, The Apache web server cookies, such as session cookies, sent to the client using SSL/TLS must not be compressed.
+- ISSUE 3873 : [Feature]: Automate rule SV-214394, Cookies exchanged between the Apache web server and the client, such as session cookies, must have cookie properties set to prohibit client-side scripts from reading the cookie data.
+- ISSUE 3874 : [Feature]: Automate rule SV-214395, Cookies exchanged between the Apache web server and the client, such as session cookies, must have cookie properties set to force the encryption of cookies.
+- ISSUE 3875 : [Feature]: Automate rule SV-214396, An Apache web server must maintain the confidentiality of controlled information during transmission through the use of an approved TLS version.
+- ISSUE 3876 : [Feature]: Automate rule SV-214397, The Apache web server must be configured in accordance with the security configuration settings based on DoD security configuration or implementation guidance, including STIGs, NSA configuration guides, CTOs, and DTMs.
+- ISSUE 4904 : Update SV-214383 to search for index.html by both dereferences variable and by full path lookup from DocumentRoot directive
+- ISSUE 4772 : Update to the latest DISA STIG manual and/or benchmark for U_Apache_Server_2-4_Windows_Site
+
+## U_Apache_Tomcat_Application_Server_9
+- ISSUE 4773 : Update to the latest DISA STIG manual and/or benchmark for U_Apache_Tomcat_Application_Server_9
+
+## U_Apple_macOS_15
+- ISSUE 4775 : Update to the latest DISA STIG manual and/or benchmark for U_Apple_macOS_15
+
+## U_Apple_macOS_26
+- ISSUE 4779 : Update to the latest DISA STIG manual and/or benchmark for U_Apple_macOS_26
+
+## U_CAN_Ubuntu_18-04_LTS
+- ISSUE 4338 : Update /var/log/audit free space check to recognize units other than GB.  SV-219237, SV-238305, SV-260595, SV-270816, SV-248811, SV-230476, SV-217192, SV-234965, SV-253031
+- ISSUE 4906 : Update Rule SV-219211  Ubuntu 18 SV- 219211 (clone of #4783)
+
+## U_CAN_Ubuntu_20-04_LTS
+- ISSUE 4205 : Automate SV-238303 on U_CAN_Ubuntu_20-04_LTS
+- ISSUE 4338 : Update /var/log/audit free space check to recognize units other than GB.  SV-219237, SV-238305, SV-260595, SV-270816, SV-248811, SV-230476, SV-217192, SV-234965, SV-253031
+
+## U_CAN_Ubuntu_22-04_LTS
+- ISSUE 2010 : Automate Rule SV-274864
+- ISSUE 4338 : Update /var/log/audit free space check to recognize units other than GB.  SV-219237, SV-238305, SV-260595, SV-270816, SV-248811, SV-230476, SV-217192, SV-234965, SV-253031
+- ISSUE 4780 : Update Rule SV-260525 (U_CAN_Ubuntu_22-04_LTS)
+- ISSUE 4781 : Update Rule SV-260539 (U_CAN_Ubuntu_22-04_LTS)
+- ISSUE 4782 : Update to the latest DISA STIG manual and/or benchmark for U_CAN_Ubuntu_22-04_LTS
+
+## U_CAN_Ubuntu_24-04_LTS
+- ISSUE 4338 : Update /var/log/audit free space check to recognize units other than GB.  SV-219237, SV-238305, SV-260595, SV-270816, SV-248811, SV-230476, SV-217192, SV-234965, SV-253031
+- ISSUE 4783 : Update Rule SV-270711 (U_CAN_Ubuntu_24-04_LTS)
+- ISSUE 4784 : Update to the latest DISA STIG manual and/or benchmark for U_CAN_Ubuntu_24-04_LTS
+
+## U_Cisco_IOS-XE_Router_NDM
+- ISSUE 4785 : Update Rule SV-215807 (U_Cisco_IOS-XE_Router_NDM)
+- ISSUE 4786 : Update to the latest DISA STIG manual and/or benchmark for U_Cisco_IOS-XE_Router_NDM
+
+## U_Cisco_IOS-XE_Router_RTR
+- ISSUE 4787 : Update to the latest DISA STIG manual and/or benchmark for U_Cisco_IOS-XE_Router_RTR
+
+## U_Cisco_IOS-XE_Switch_NDM
+- ISSUE 4909 : Improve accuracy of SV-220518 verifying session-limit is applied to all VTY ports
+- ISSUE 4797 : Update Rule SV-220565 (U_Cisco_IOS-XE_Switch_NDM)
+- ISSUE 4798 : Update Rule SV-220566 (U_Cisco_IOS-XE_Switch_NDM)
+- ISSUE 4799 : Update to the latest DISA STIG manual and/or benchmark for U_Cisco_IOS-XE_Switch_NDM
+
+## U_Cisco_IOS_Router_NDM
+- ISSUE 4800 : Update Rule SV-215662 (U_Cisco_IOS_Router_NDM)
+- ISSUE 4810 : Update to the latest DISA STIG manual and/or benchmark for U_Cisco_IOS_Router_NDM
+
+## U_Cisco_IOS_Switch_NDM
+- ISSUE 4908 : Improve accuracy of SV-220570 to ensure all VTY's have session-limit defined
+- ISSUE 4820 : Update to the latest DISA STIG manual and/or benchmark for U_Cisco_IOS_Switch_NDM
+
+## U_Kubernetes
+- ISSUE 4821 : Update to the latest DISA STIG manual and/or benchmark for U_Kubernetes
+
+## U_MS_Defender_Antivirus
+- ISSUE 4822 : Update to the latest DISA STIG manual and/or benchmark for U_MS_Defender_Antivirus
+
+## U_MS_DotNet_Framework_4-0
+- ISSUE 4824 : Update to the latest DISA STIG manual and/or benchmark for U_MS_DotNet_Framework_4-0
+
+## U_MS_Edge
+- ISSUE 4825 : Update to the latest DISA STIG manual and/or benchmark for U_MS_Edge
+
+## U_MS_IE11
+- ISSUE 4826 : Automate Rule SV-252910 (U_MS_IE11)
+- ISSUE 4827 : Update to the latest DISA STIG manual and/or benchmark for U_MS_IE11
+
+## U_MS_IIS_10-0_Server
+- ISSUE 4830 : Update to the latest DISA STIG manual and/or benchmark for U_MS_IIS_10-0_Server
+
+## U_MS_IIS_10-0_Site
+- ISSUE 4831 : Implement informational data gathering for rule SV-283673 (U_MS_IIS_10-0_Site)
+- ISSUE 4832 : Update Rule SV-218762 (U_MS_IIS_10-0_Site)
+- ISSUE 4834 : Update Rule SV-278953 (U_MS_IIS_10-0_Site)
+- ISSUE 4835 : Update to the latest DISA STIG manual and/or benchmark for U_MS_IIS_10-0_Site
+
+## U_MS_Office_365_ProPlus
+- ISSUE 4836 : Update to the latest DISA STIG manual and/or benchmark for U_MS_Office_365_ProPlus
+
+## U_MS_SQL_Server_2016_Database
+- ISSUE 4837 : Update Rule SV-213926 (U_MS_SQL_Server_2016_Database)
+- ISSUE 4838 : Update to the latest DISA STIG manual and/or benchmark for U_MS_SQL_Server_2016_Database
+
+## U_MS_SQL_Server_2016_Instance
+- ISSUE 4839 : Update to the latest DISA STIG manual and/or benchmark for U_MS_SQL_Server_2016_Instance
+
+## U_MS_SQL_Server_2022_Database
+- ISSUE 4840 : Automate Rule SV-283667 (U_MS_SQL_Server_2022_Database)
+- ISSUE 4245 : Fix hybrid content state for test SV-271195 to correctly compare user provided data against database_name returned from query
+- ISSUE 4841 : Update Rule SV-271201 (U_MS_SQL_Server_2022_Database)
+- ISSUE 4842 : Update to the latest DISA STIG manual and/or benchmark for U_MS_SQL_Server_2022_Database
+
+## U_MS_SQL_Server_2022_Instance
+- ISSUE 4845 : Update to the latest DISA STIG manual and/or benchmark for U_MS_SQL_Server_2022_Instance
+
+## U_MS_Windows_11
+- ISSUE 4854 : Update to the latest DISA STIG manual and/or benchmark for U_MS_Windows_11
+
+## U_MS_Windows_Server_2016
+- ISSUE 4903 : Rules SV-254400, SV-205726, SV-224979, SV-278147 report "Failed state entity existence check" on systems in child domains and RODC
+
+## U_MS_Windows_Server_2019
+- ISSUE 4903 : Rules SV-254400, SV-205726, SV-224979, SV-278147 report "Failed state entity existence check" on systems in child domains and RODC
+- ISSUE 4860 : Update to the latest DISA STIG manual and/or benchmark for U_MS_Windows_Server_2019
+
+## U_MS_Windows_Server_2022
+- ISSUE 4903 : Rules SV-254400, SV-205726, SV-224979, SV-278147 report "Failed state entity existence check" on systems in child domains and RODC
+- ISSUE 4866 : Update to the latest DISA STIG manual and/or benchmark for U_MS_Windows_Server_2022
+
+## U_MS_Windows_Server_2025
+- ISSUE 4903 : Rules SV-254400, SV-205726, SV-224979, SV-278147 report "Failed state entity existence check" on systems in child domains and RODC
+
+## U_MS_Windows_Server_DNS
+- ISSUE 4868 : Update Rule SV-259367 (U_MS_Windows_Server_DNS)
+- ISSUE 4869 : Update to the latest DISA STIG manual and/or benchmark for U_MS_Windows_Server_DNS
+
+## U_Oracle_Linux_7
+- ISSUE 3057 : [Feature] Automate rule SV-221717, The Oracle Linux operating system must be configured so that the x86 Ctrl-Alt-Delete key sequence is disabled on the command line.
+- ISSUE 3165 : Automate rule SV-221655 (U_Oracle_Linux_7)
+- ISSUE 3163 : Automate rule SV-221656 (U_Oracle_Linux_7)
+- ISSUE 3539 : Automate Rule SV-221704
+- ISSUE 3251 : Automate rule SV-221716 (U_Oracle_Linux_7)
+- ISSUE 3254 : Automate rule SV-221729 (U_Oracle_Linux_7)
+- ISSUE 3258 : Automate rule SV-221734 (U_Oracle_Linux_7)
+- ISSUE 3246 : Automate rule SV-221882 (U_Oracle_Linux_7)
+- ISSUE 3262 : Automate rule SV-251699 (U_Oracle_Linux_7)
+- ISSUE 3171 : Automate rule SV-251701 (U_Oracle_Linux_7)
+- ISSUE 3241 : Automate rule SV-255899 (U_Oracle_Linux_7)
+- ISSUE 3236 : Automate rule SV-255901 (U_Oracle_Linux_7)
+- ISSUE 3173 : Automate rule SV-256977 (U_Oracle_Linux_7)
+- ISSUE 4129 : Update Rule SV-221704 (U_Oracle_Linux_7)
+
+## U_Oracle_Linux_8
+- ISSUE 3259 : Automate rule SV-248640 (U_Oracle_Linux_8)
+- ISSUE 4877 : Automate Rule SV-283458 (U_Oracle_Linux_8)
+- ISSUE 4237 : Modify regex in object pattern element for RHEL8(230226), Oracle Linux 7(221655), and Oracle Linux 8(248528) to be more flexible with gnome banner text messages.
+- ISSUE 4338 : Update /var/log/audit free space check to recognize units other than GB.  SV-219237, SV-238305, SV-260595, SV-270816, SV-248811, SV-230476, SV-217192, SV-234965, SV-253031
+- ISSUE 4907 : Update rule SV-230475r880722, RHEL 8 to perform more thoruough check of aide.conf reporting requirements
+- ISSUE 4879 : Update to the latest DISA STIG manual and/or benchmark for U_Oracle_Linux_8
+
+## U_Oracle_Linux_9
+- ISSUE 3164 : Automate rule SV-271455 (U_Oracle_Linux_9)
+- ISSUE 4881 : Update to the latest DISA STIG manual and/or benchmark for U_Oracle_Linux_9
+
+## U_RHEL_7
+- ISSUE 4237 : Modify regex in object pattern element for RHEL8(230226), Oracle Linux 7(221655), and Oracle Linux 8(248528) to be more flexible with gnome banner text messages.
+
+## U_RHEL_8
+- ISSUE 3261 : Automate rule SV-244531 (U_RHEL_8)
+- ISSUE 4237 : Modify regex in object pattern element for RHEL8(230226), Oracle Linux 7(221655), and Oracle Linux 8(248528) to be more flexible with gnome banner text messages.
+- ISSUE 4910 : Modify RHEL 8 SV-230252 - update the object/pattern regex to avoid catching ending single quotes.
+- ISSUE 4338 : Update /var/log/audit free space check to recognize units other than GB.  SV-219237, SV-238305, SV-260595, SV-270816, SV-248811, SV-230476, SV-217192, SV-234965, SV-253031
+- ISSUE 4146 : Update Rule SV-230223 (U_RHEL_8)
+- ISSUE 4907 : Update rule SV-230475r880722, RHEL 8 to perform more thoruough check of aide.conf reporting requirements
+- ISSUE 4884 : Update to the latest DISA STIG manual and/or benchmark for U_RHEL_8
+
+## U_RHEL_9
+- ISSUE 3167 : Automate rule SV-257779 (U_RHEL_9)
+- ISSUE 4886 : Update to the latest DISA STIG manual and/or benchmark for U_RHEL_9
+
+## U_SLES_12
+- ISSUE 3063 : [Feature] Automate rule SV-217159, The SUSE operating system must disable the x86 Ctrl-Alt-Delete key sequence.
+- ISSUE 3256 : Automate rule SV-217173 (U_SLES_12)
+- ISSUE 3248 : Automate rule SV-217297 (U_SLES_12)
+- ISSUE 3243 : Automate rule SV-255914 (U_SLES_12)
+- ISSUE 3238 : Automate rule SV-255915 (U_SLES_12)
+- ISSUE 3216 : Automate rule SV-255916 (U_SLES_12)
+- ISSUE 3442 : Automate SV-217109
+- ISSUE 4338 : Update /var/log/audit free space check to recognize units other than GB.  SV-219237, SV-238305, SV-260595, SV-270816, SV-248811, SV-230476, SV-217192, SV-234965, SV-253031
+- ISSUE 4890 : Update to the latest DISA STIG manual and/or benchmark for U_SLES_12
+
+## U_SLES_15
+- ISSUE 3064 : [Feature] Automate rule SV-234988, The SUSE operating system must disable the x86 Ctrl-Alt-Delete key sequence.
+- ISSUE 3257 : Automate rule SV-234993 (U_SLES_15)
+- ISSUE 3249 : Automate rule SV-235027 (U_SLES_15)
+- ISSUE 3245 : Automate rule SV-255920 (U_SLES_15)
+- ISSUE 3217 : Automate rule SV-255922 (U_SLES_15)
+- ISSUE 2049 : Automate Rule SV-274879
+- ISSUE 3443 : Automate SV-234812
+- ISSUE 4338 : Update /var/log/audit free space check to recognize units other than GB.  SV-219237, SV-238305, SV-260595, SV-270816, SV-248811, SV-230476, SV-217192, SV-234965, SV-253031
+- ISSUE 4891 : Update Rule SV-234993 (U_SLES_15)
+- ISSUE 4894 : Update to the latest DISA STIG manual and/or benchmark for U_SLES_15
+
+## U_SOL_11_SPARC
+- ISSUE 4896 : Update to the latest DISA STIG manual and/or benchmark for U_SOL_11_SPARC
+
+## U_SOL_11_X86
+- ISSUE 4897 : Update Rule SV-216158 (U_SOL_11_X86)
+- ISSUE 4899 : Update to the latest DISA STIG manual and/or benchmark for U_SOL_11_X86
+
+## U_TOSS_4
+- ISSUE 3199 : Automate rule SV-252911 (U_TOSS_4)
+- ISSUE 3253 : Automate rule SV-252920 (U_TOSS_4)
+- ISSUE 3197 : Automate rule SV-252928 (U_TOSS_4)
+- ISSUE 3214 : Automate rule SV-253023 (U_TOSS_4)
+- ISSUE 3250 : Automate rule SV-253135 (U_TOSS_4)
+- ISSUE 4338 : Update /var/log/audit free space check to recognize units other than GB.  SV-219237, SV-238305, SV-260595, SV-270816, SV-248811, SV-230476, SV-217192, SV-234965, SV-253031
+- ISSUE 4907 : Update rule SV-230475r880722, RHEL 8 to perform more thoruough check of aide.conf reporting requirements
+- ISSUE 4153 : Update Rule SV-252949 (U_TOSS_4)
+- ISSUE 4902 : Update to the latest DISA STIG manual and/or benchmark for U_TOSS_4
+
