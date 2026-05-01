@@ -2,7 +2,7 @@ This is the repository of Security Content Automation Protocol (SCAP) benchmarks
 
 Note:  All SCAP 1.4 content in this repository requires a tool capable of running SCAP 1.4 content.  For SCC that requires version 5.11 or later.
 
-  # 2026 Quarter 2 Release (04/28/2026)
+  # 2026 Quarter 2 Release (05/01/2026)
   
   The current content release is based on DISA's Q2 2026 STIG's and SCAP benchmarks, and will be bundled with the upcoming SCC 5.14.1.  [Release Notes](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/release_notes.txt)
 
@@ -46,7 +46,7 @@ Note:  All SCAP 1.4 content in this repository requires a tool capable of runnin
 | Date    | Title        |   STIG Version | Benchmark Version |
 | -------- | ----------- | ----------- | -------- |
 | 2026-04-27 | [Adobe Acrobat Professional DC Continuous Track STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Adobe_Acrobat_Pro_DC_Continuous_V2R1_STIG_SCAP_1-4_Benchmark-enhancedV1-signed.zip) | 002.001 | 002.001.1 |
-| 2026-02-09 | [Adobe Acrobat Reader DC Continuous Track STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Adobe_Acrobat_Reader_DC_Continuous_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV11-signed.zip) | 002.004 | 002.004.11 |
+| 2026-05-01 | [Adobe Acrobat Reader DC Continuous Track STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Adobe_Acrobat_Reader_DC_Continuous_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.zip) | 002.004 | 002.004.12 |
 | 2026-04-27 | [Canonical Ubuntu 18.04 LTS STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_CAN_Ubuntu_18-04_LTS_V2R12_STIG_SCAP_1-4_Benchmark-enhancedV15-signed.zip) | 002.012 | 002.012.15 |
 | 2026-04-27 | [Canonical Ubuntu 20.04 LTS STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_CAN_Ubuntu_20-04_LTS_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV17-signed.zip) | 002.005 | 002.005.17 |
 | 2026-04-27 | [Canonical Ubuntu 22.04 LTS STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_CAN_Ubuntu_22-04_LTS_V2R6_STIG_SCAP_1-4_Benchmark-enhancedV9-signed.zip) | 002.006 | 002.006.9 |

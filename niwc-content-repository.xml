@@ -78,17 +78,17 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_Adobe_Acrobat_Reader_DC_Continuous_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV11-signed.zip</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Adobe_Acrobat_Reader_DC_Continuous_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV11-signed.zip</location>
-      <checksum style="SHA512">e695b501bf18ce16600aa99225930d3a146baaf405e1850b1108a85a93c20002e600be0a016c29201ed774f8c3aa5bfaece2a6a8b7056465b1281c23b1cecfa4</checksum>
+      <content-id>U_Adobe_Acrobat_Reader_DC_Continuous_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Adobe_Acrobat_Reader_DC_Continuous_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV12-signed.zip</location>
+      <checksum style="SHA512">b54465b72e547b452b55d83a03fea27f8d1e1a62c9392d1df6fd66b00f4cebea67d7ddba93b6fa8027ac7fb52f191950068e6a8c6cd5963320922b0fee2395a5</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_mil.disa.stig_benchmark_Adobe_Acrobat_Reader_DC_Continuous_Track_STIG</benchmark-id>
           <title>Adobe Acrobat Reader DC Continuous Track STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
-          <version>002.004.011</version>
-          <style/>
+          <version>002.004.012</version>
+          <style>SCAP_1.4</style>
           <status>accepted</status>
-          <status-date>2026-02-09</status-date>
+          <status-date>2026-05-01</status-date>
           <creator>DISA</creator>
           <publisher>DISA+NIWC</publisher>
           <contributor>DISA</contributor>

@@ -29,6 +29,9 @@
 ## U_Adobe_Acrobat_Pro_DC_Continuous
 - ISSUE 4336 : Add support for U_Adobe_Acrobat_Pro_DC_Continuous_V2R1_STIG
 
+## U_Adobe_Acrobat_Reader_DC_Continuous
+- ISSUE 5051 : Override DISA's CPE-OVAL to correctly identify Continous Track
+
 ## U_Apache_Server_2-4_UNIX_Server
 - ISSUE 3885 : [Feature]: Automate rule SV-214228, The Apache web server must limit the number of allowed simultaneous session requests.
 - ISSUE 3886 : [Feature]: Automate rule SV-214229, The Apache web server must perform server-side session management.

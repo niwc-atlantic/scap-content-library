@@ -5,7 +5,7 @@ Created: 2026-04-27 14:02:59
 | 2026-04-27 | U_Active_Directory_Domain_V3R6_STIG_SCAP_1-4_Benchmark-enhancedV1 | 36 | 0 | 0 | 17 | 19 | 47.22 |
 | 2026-04-27 | U_Active_Directory_Forest_V3R2_STIG_SCAP_1-4_Benchmark-enhancedV1 | 7 | 0 | 0 | 4 | 3 | 57.14 |
 | 2026-04-27 | U_Adobe_Acrobat_Pro_DC_Continuous_V2R1_STIG_SCAP_1-4_Benchmark-enhancedV1 | 23 | 22 | 0 | 0 | 1 | 95.65 |
-| 2026-02-09 | U_Adobe_Acrobat_Reader_DC_Continuous_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV11 | 26 | 22 | 0 | 3 | 1 | 96.15 |
+| 2026-05-01 | U_Adobe_Acrobat_Reader_DC_Continuous_V2R4_STIG_SCAP_1-4_Benchmark-enhancedV12 | 26 | 22 | 0 | 3 | 1 | 96.15 |
 | 2026-04-27 | U_Apache_Server_2-4_UNIX_Server_V3R2_STIG_SCAP_1-4_Benchmark-enhancedV1 | 47 | 0 | 0 | 23 | 24 | 48.93 |
 | 2026-04-27 | U_Apache_Server_2-4_UNIX_Site_V2R6_STIG_SCAP_1-4_Benchmark-enhancedV1 | 27 | 0 | 0 | 15 | 12 | 55.55 |
 | 2026-04-27 | U_Apache_Server_2-4_Windows_Server_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV1 | 49 | 0 | 0 | 23 | 26 | 46.93 |
