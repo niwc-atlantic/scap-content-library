@@ -1,5 +1,15 @@
 Created: 2026-04-27 14:02:59
 
+
+Total Automated     : 6651
+- DISA Automated (SCAP 1.3)    : 4942
+- NIST Automated (SCAP 1.4 )   : 568
+- NIWC Automated (SCAP 1.4)    : 1141
+
+Total Rules         : 8206
+- Not Automated       : 1555
+- Pecentage Automated : 81.05
+
 | Date | Filename | Total Rules | DISA Auto. | NIST Auto. | NIWC Auto. | Manual | % Automated |
 |---|---|---|---|---|---|---|---|
 | 2026-04-27 | U_Active_Directory_Domain_V3R6_STIG_SCAP_1-4_Benchmark-enhancedV1 | 36 | 0 | 0 | 17 | 19 | 47.22 |
@@ -61,15 +71,3 @@ Created: 2026-04-27 14:02:59
 | 2026-04-27 | U_SOL_11_SPARC_V3R4_STIG_SCAP_1-4_Benchmark-enhancedV17 | 217 | 69 | 0 | 71 | 77 | 64.51 |
 | 2026-04-27 | U_SOL_11_X86_V3R4_STIG_SCAP_1-4_Benchmark-enhancedV17 | 216 | 70 | 0 | 72 | 74 | 65.74 |
 | 2026-04-27 | U_TOSS_4_V2R6_STIG_SCAP_1-4_Benchmark-enhancedV7 | 226 | 185 | 0 | 9 | 32 | 85.84 |
-
-
-Total Rules         : 8206
-
-Total Automated     : 6651
-- DISA Automated (SCAP 1.3)    : 4942
-- NIST Automated (SCAP 1.4 )   : 568
-- NIWC Automated (SCAP 1.4)    : 1141
-
-Not Automated       : 1555
-
-Pecentage Automated : 81.05
