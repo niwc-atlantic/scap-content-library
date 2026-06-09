@@ -66,9 +66,9 @@ Created: 2026-04-27 14:02:59
 Total Rules         : 8206
 
 Total Automated     : 6651
-- DISA Automated    : 4942
-- NIST Automated    : 568
-- NIWC Automated    : 1141
+- DISA Automated (SCAP 1.3)    : 4942
+- NIST Automated (SCAP 1.4 )   : 568
+- NIWC Automated (SCAP 1.4)    : 1141
 
 Not Automated       : 1555
 
