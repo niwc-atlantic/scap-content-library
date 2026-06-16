@@ -14,7 +14,7 @@ Updated: 2026-04-27 14:02:59
 
  
 | Date | Filename | Total Rules | DISA Auto. | NIST Auto. | NIWC Auto. | Manual | % Automated |
-|------------|---|---|---|---|---|---|---|
+ ----------- | ----------- | ----------- | -------- | -------- | ----------- | ----------- | -------- |
 | 2026-04-27 | U_Active_Directory_Domain_V3R6_STIG_SCAP_1-4_Benchmark-enhancedV1 | 36 | 0 | 0 | 17 | 19 | 47.22 |
 | 2026-04-27 | U_Active_Directory_Forest_V3R2_STIG_SCAP_1-4_Benchmark-enhancedV1 | 7 | 0 | 0 | 4 | 3 | 57.14 |
 | 2026-04-27 | U_Adobe_Acrobat_Pro_DC_Continuous_V2R1_STIG_SCAP_1-4_Benchmark-enhancedV1 | 23 | 22 | 0 | 0 | 1 | 95.65 |
