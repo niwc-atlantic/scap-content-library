@@ -10,6 +10,8 @@ Total Rules         : 8206
 - Not Automated       : 1555
 - Pecentage Automated : 81.05
 
+Percentage increase from DISA SCAP 1.3 to NIWC SCAP 1.4  :  25%
+
 | Date | Filename | Total Rules | DISA Auto. | NIST Auto. | NIWC Auto. | Manual | % Automated |
 |---|---|---|---|---|---|---|---|
 | 2026-04-27 | U_Active_Directory_Domain_V3R6_STIG_SCAP_1-4_Benchmark-enhancedV1 | 36 | 0 | 0 | 17 | 19 | 47.22 |
