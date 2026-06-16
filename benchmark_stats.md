@@ -1,19 +1,21 @@
-Created: 2026-04-27 14:02:59
+# NIWC Atlantic SCAP Content Repository Stats
+Updated: 2026-04-27 14:02:59
 
-
-Total Automated     : 6651
+## Total Rules         : 8206
+## Automated     : 6651
 - DISA Automated (SCAP 1.3)    : 4942
 - NIST Automated (SCAP 1.4 )   : 568
 - NIWC Automated (SCAP 1.4)    : 1141
 
-Total Rules         : 8206
 - Not Automated       : 1555
 - Pecentage Automated : 81.05
 
-Percentage increase from DISA SCAP 1.3 to NIWC SCAP 1.4  :  25%
+## Automation increase from DISA SCAP 1.3 to NIWC SCAP 1.4 :  25%
 
+<div style="overflow-x: auto; display: block;">
+  
 | Date | Filename | Total Rules | DISA Auto. | NIST Auto. | NIWC Auto. | Manual | % Automated |
-|---|---|---|---|---|---|---|---|
+|------------|---|---|---|---|---|---|---|
 | 2026-04-27 | U_Active_Directory_Domain_V3R6_STIG_SCAP_1-4_Benchmark-enhancedV1 | 36 | 0 | 0 | 17 | 19 | 47.22 |
 | 2026-04-27 | U_Active_Directory_Forest_V3R2_STIG_SCAP_1-4_Benchmark-enhancedV1 | 7 | 0 | 0 | 4 | 3 | 57.14 |
 | 2026-04-27 | U_Adobe_Acrobat_Pro_DC_Continuous_V2R1_STIG_SCAP_1-4_Benchmark-enhancedV1 | 23 | 22 | 0 | 0 | 1 | 95.65 |
@@ -73,3 +75,7 @@ Percentage increase from DISA SCAP 1.3 to NIWC SCAP 1.4  :  25%
 | 2026-04-27 | U_SOL_11_SPARC_V3R4_STIG_SCAP_1-4_Benchmark-enhancedV17 | 217 | 69 | 0 | 71 | 77 | 64.51 |
 | 2026-04-27 | U_SOL_11_X86_V3R4_STIG_SCAP_1-4_Benchmark-enhancedV17 | 216 | 70 | 0 | 72 | 74 | 65.74 |
 | 2026-04-27 | U_TOSS_4_V2R6_STIG_SCAP_1-4_Benchmark-enhancedV7 | 226 | 185 | 0 | 9 | 32 | 85.84 |
+
+</div>
+
+For more information on the SCAP Compliance Checker:  https://www.niwcatlantic.navy.mil/Technology/SCAP/
