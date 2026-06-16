@@ -12,8 +12,7 @@ Updated: 2026-04-27 14:02:59
 
 ## Automation increase from DISA SCAP 1.3 to NIWC SCAP 1.4 :  25%
 
-<div style="overflow-x: auto; display: block;">
-  
+ 
 | Date | Filename | Total Rules | DISA Auto. | NIST Auto. | NIWC Auto. | Manual | % Automated |
 |------------|---|---|---|---|---|---|---|
 | 2026-04-27 | U_Active_Directory_Domain_V3R6_STIG_SCAP_1-4_Benchmark-enhancedV1 | 36 | 0 | 0 | 17 | 19 | 47.22 |
@@ -75,7 +74,5 @@ Updated: 2026-04-27 14:02:59
 | 2026-04-27 | U_SOL_11_SPARC_V3R4_STIG_SCAP_1-4_Benchmark-enhancedV17 | 217 | 69 | 0 | 71 | 77 | 64.51 |
 | 2026-04-27 | U_SOL_11_X86_V3R4_STIG_SCAP_1-4_Benchmark-enhancedV17 | 216 | 70 | 0 | 72 | 74 | 65.74 |
 | 2026-04-27 | U_TOSS_4_V2R6_STIG_SCAP_1-4_Benchmark-enhancedV7 | 226 | 185 | 0 | 9 | 32 | 85.84 |
-
-</div>
 
 For more information on the SCAP Compliance Checker:  https://www.niwcatlantic.navy.mil/Technology/SCAP/
