@@ -1,6 +1,6 @@
 This is the repository of Security Content Automation Protocol (SCAP) benchmarks, designed to function in the SCAP Compliance Checker (SCC) https://www.niwcatlantic.navy.mil/Technology/SCAP/
 
-Note:  All SCAP 1.4 content in this repository requires a tool capable of running SCAP 1.4 content.  For SCC that requires version 5.11 or later.
+Note:  All SCAP 1.4 content in this repository requires a tool capable of running SCAP 1.4 content.  For SCC that requires version 5.15 or later.
 
   # 2026 Quarter 3 Release (09/01/2026)
   
