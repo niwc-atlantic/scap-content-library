@@ -222,30 +222,6 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_Apache_Tomcat_Application_Server_9_V3R4_STIG_SCAP_1-4_Benchmark-enhancedV1-signed.zip</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apache_Tomcat_Application_Server_9_V3R4_STIG_SCAP_1-4_Benchmark-enhancedV1-signed.zip</location>
-      <checksum style="SHA512">91b0d0109895e8f67eb3a634217cf37d48a7759920240e70745f5ce8b48fd0c08f3738684c51380dc560157b41e5ceefa2af23e3cbf82796a304e61cc3e886c4</checksum>
-      <benchmarks>
-        <benchmark>
-          <benchmark-id>xccdf_navy.navwar.niwcatlantic.scc_benchmark_Tomcat_Application_Server_9_STIG</benchmark-id>
-          <title>Apache Tomcat Application Server 9 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
-          <version>001.001.001.001</version>
-          <style>SCAP_1.4</style>
-          <status>accepted</status>
-          <status-date>2026-08-26</status-date>
-          <creator>NIWC</creator>
-          <publisher>NIWC</publisher>
-          <contributor>NIWC</contributor>
-          <source>STIG.DOD.MIL</source>
-        </benchmark>
-      </benchmarks>
-      <platforms>
-        <platform>
-          <platform-id style="cpe">cpe:/a:unix:apache.tomcat</platform-id>
-        </platform>
-      </platforms>
-    </scap-content>
-    <scap-content>
       <content-id>U_Apple_macOS_13_V1R5_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.zip</content-id>
       <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_13_V1R5_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.zip</location>
       <checksum style="SHA512">c012c63bd859e35b81290ab3d6fb0d2f731838ae9befbbf7b73c0ae298582be76ab0a081dfac17c3a38ffa42444f729c33aecb29704f9c23e6d637e94792f1fc</checksum>
