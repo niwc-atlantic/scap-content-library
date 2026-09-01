@@ -1,0 +1,329 @@
+## U_Amazon_Linux_2023
+- ISSUE 5135 : Add support for Amazon Linux 2023 based on DISA's V1R1 benchmark
+- ISSUE 3188 : Automate rule SV-274164 (U_Amazon_Linux_2023)
+- ISSUE 3432 : Automate SV-274063
+
+## U_Apache_Server_2-4_UNIX_Server
+- ISSUE 3923 : [Feature]: Automate rule SV-214266, The Apache web server must prohibit or restrict the use of nonsecure or unnecessary ports, protocols, modules, and/or services.
+- ISSUE 5542 : Update Rule SV-214230 (U_Apache_Server_2-4_UNIX_Server)
+
+## U_CAN_Ubuntu_18-04_LTS
+- ISSUE 3178 : Automate Rule: SV-219321 Ubuntu18  must use DOD PKI-established certificate authorities (CAs) for verification of the establishment of protected sessions.
+
+## U_CAN_Ubuntu_22-04_LTS
+- ISSUE 5557 : Update Rule SV-260538 (U_CAN_Ubuntu_22-04_LTS)
+
+## U_Cisco_IOS-XE_Router_NDM
+- ISSUE 5134 : Fix regular expression in SV-215854, SV-220565, SV-215709, SV-220617 to allow for lines of data between address and key lines
+
+## U_Cisco_IOS-XE_Switch_NDM
+- ISSUE 5134 : Fix regular expression in SV-215854, SV-220565, SV-215709, SV-220617 to allow for lines of data between address and key lines
+
+## U_Cisco_IOS_Router_NDM
+- ISSUE 5134 : Fix regular expression in SV-215854, SV-220565, SV-215709, SV-220617 to allow for lines of data between address and key lines
+- ISSUE 5570 : Update Rule SV-215670 (U_Cisco_IOS_Router_NDM)
+- ISSUE 5571 : Update Rule SV-215709 (U_Cisco_IOS_Router_NDM)
+
+## U_Cisco_IOS_Switch_NDM
+- ISSUE 5134 : Fix regular expression in SV-215854, SV-220565, SV-215709, SV-220617 to allow for lines of data between address and key lines
+- ISSUE 5581 : Update Rule SV-220578 (U_Cisco_IOS_Switch_NDM)
+- ISSUE 5583 : Update Rule SV-220617 (U_Cisco_IOS_Switch_NDM)
+
+## U_F5_NGINX
+- ISSUE 4247 : [Feature]: Automate rule SV-278380, NGINX must limit the number of concurrent sessions to an organization-defined number for all accounts and/or account types.
+- ISSUE 4248 : [Feature]: Automate rule SV-278381, NGINX must use TLS 1.2, at a minimum, to protect data confidentiality using remote access.
+- ISSUE 4249 : [Feature]: Automate rule SV-278382, The NGINX service account must be configured to not have shell access.
+- ISSUE 4250 : [Feature]: Automate rule SV-278383, The NGINX service account must be configured to not have admin group access.
+- ISSUE 4252 : [Feature]: Automate rule SV-278385, NGINX must provide audit records for DOD-defined auditable events.
+- ISSUE 4253 : [Feature]: Automate rule SV-278386, NGINX must allow only the information system security manager (ISSM) (or individuals or roles appointed by the ISSM) to select which auditable events are to be audited.
+- ISSUE 4254 : [Feature]: Automate rule SV-278387, NGINX must prevent the execution of unapproved modules.
+- ISSUE 4255 : [Feature]: Automate rule SV-278388, NGINX must protect audit information from unauthorized access.
+- ISSUE 4256 : [Feature]: Automate rule SV-278389, NGINX must be configured to prohibit or restrict using ports, protocols, and/or services.
+- ISSUE 4258 : [Feature]: Automate rule SV-278391, NGINX must be configured to use a Certificate Revocation List (CRL) for certificate path validation and revocation. (Online Certificate Status Protocol [OCSP] is the preferred configuration.)
+- ISSUE 4259 : [Feature]: Automate rule SV-278392, NGINX, when using PKI-based authentication, must enforce authorized access to the corresponding private key.
+- ISSUE 4260 : [Feature]: Automate rule SV-278393, NGINX must identify prohibited mobile code.
+- ISSUE 4261 : [Feature]: Automate rule SV-278394, NGINX must restrict the ability of individuals to launch denial-of-service (DoS) attacks against other information systems.
+- ISSUE 4262 : [Feature]: Automate rule SV-278395, NGINX must generate error messages that provide information necessary for corrective actions without revealing information that could be exploited by adversaries.
+- ISSUE 4263 : [Feature]: Automate rule SV-278396, NGINX must off-load audit records to a central log server.
+- ISSUE 4264 : [Feature]: Automate rule SV-278397, NGINX must restrict access to configuration files.
+- ISSUE 4266 : [Feature]: Automate rule SV-278399, NGINX must be configured to require SSL sessions to reauthenticate no longer than 15 minutes.
+- ISSUE 4267 : [Feature]: Automate rule SV-278400, NGINX must accept Personal Identity Verification (PIV) credentials.
+- ISSUE 4268 : [Feature]: Automate rule SV-278401, NGINX must be configured to expire cached authenticators after an organization-defined time period.
+- ISSUE 4271 : [Feature]: Automate rule SV-278404, NGINX must protect against denial-of-service (DoS) attacks.
+- ISSUE 4272 : [Feature]: Automate rule SV-278405, NGINX must be configured to use FIPS-approved algorithms to protect the confidentiality and integrity of transmitted information.
+- ISSUE 4274 : [Feature]: Automate rule SV-278407, NGINX must be configured to use a FIPS-validated cryptographic module for confidentiality and integrity.
+- ISSUE 4275 : [Feature]: Automate rule SV-278408, The NGINX service account must be configured to lock changes to the password.
+- ISSUE 4246 : Add support for F5 NGINX STIG V1 R1
+
+## U_MS_Defender_Antivirus
+- ISSUE 5592 : Automate Rule SV-278658 (U_MS_Defender_Antivirus)
+
+## U_MS_DotNet_Framework_4-0
+- ISSUE 5595 : Automate Rule SV-284958 (U_MS_DotNet_Framework_4-0)
+
+## U_MS_Exchange_2019_Edge_Server
+- ISSUE 4917 : [Feature]: Automate rule SV-259577, SchUseStrongCrypto must be enabled.
+- ISSUE 4918 : [Feature]: Automate rule SV-259578, Exchange servers must use approved DOD certificates.
+- ISSUE 4919 : [Feature]: Automate rule SV-259579, Exchange must have accepted domains configured.
+- ISSUE 4920 : [Feature]: Automate rule SV-259580, Exchange external Receive connectors must be domain secure-enabled.
+- ISSUE 4921 : [Feature]: Automate rule SV-259581, The Exchange email diagnostic log level must be set to the lowest level.
+- ISSUE 4922 : [Feature]: Automate rule SV-259582, Exchange connectivity logging must be enabled.
+- ISSUE 4923 : [Feature]: Automate rule SV-259583, Exchange message tracking logging must be enabled.
+- ISSUE 4929 : [Feature]: Automate rule SV-259589, Exchange local machine policy must require signed scripts.
+- ISSUE 4930 : [Feature]: Automate rule SV-259590, Exchange must not send customer experience reports to Microsoft.
+- ISSUE 4931 : [Feature]: Automate rule SV-259591, Exchange Send Fatal Errors to Microsoft must be disabled.
+- ISSUE 4932 : [Feature]: Automate rule SV-259592, Exchange queue database must reside on a dedicated partition.
+- ISSUE 4933 : [Feature]: Automate rule SV-259593, Exchange internet-facing send connectors must specify a Smart Host.
+- ISSUE 4934 : [Feature]: Automate rule SV-259594, Exchange internal send connectors must use domain security (mutual authentication Transport Layer Security).
+- ISSUE 4935 : [Feature]: Automate rule SV-259595, Exchange internet-facing receive connectors must offer Transport Layer Security (TLS) before using basic authentication.
+- ISSUE 4937 : [Feature]: Automate rule SV-259597, Exchange Outbound Connection Timeout must be 10 minutes or less.
+- ISSUE 4938 : [Feature]: Automate rule SV-259598, Exchange Outbound Connection limit per Domain Count must be controlled.
+- ISSUE 4939 : [Feature]: Automate rule SV-259599, Exchange receive connector maximum hop count must be 60.
+- ISSUE 4940 : [Feature]: Automate rule SV-259600, Exchange receive connectors must control the number of recipients per message.
+- ISSUE 4941 : [Feature]: Automate rule SV-259601, Exchange send connector connections count must be limited.
+- ISSUE 4943 : [Feature]: Automate rule SV-259603, Exchange send connectors delivery retries must be controlled.
+- ISSUE 4944 : [Feature]: Automate rule SV-259604, Exchange receive connectors must be clearly named.
+- ISSUE 4945 : [Feature]: Automate rule SV-259605, Exchange receive connectors must control the number of recipients chunked on a single message.
+- ISSUE 4946 : [Feature]: Automate rule SV-259606, The Exchange internet receive connector connections count must be set to default.
+- ISSUE 4949 : [Feature]: Automate rule SV-259609, Exchange messages with a blank sender field must be rejected.
+- ISSUE 4950 : [Feature]: Automate rule SV-259610, Exchange messages with a blank sender field must be filtered.
+- ISSUE 4951 : [Feature]: Automate rule SV-259611, Exchange filtered messages must be archived.
+- ISSUE 4952 : [Feature]: Automate rule SV-259612, The Exchange sender filter must block unaccepted domains.
+- ISSUE 4953 : [Feature]: Automate rule SV-259613, Exchange nonexistent recipients must not be blocked.
+- ISSUE 4954 : [Feature]: Automate rule SV-259614, The Exchange Sender Reputation filter must be enabled.
+- ISSUE 4955 : [Feature]: Automate rule SV-259615, The Exchange Sender Reputation filter must identify the spam block level.
+- ISSUE 4956 : [Feature]: Automate rule SV-259616, Exchange Attachment filtering must remove undesirable attachments by file type.
+- ISSUE 4957 : [Feature]: Automate rule SV-259617, The Exchange Spam Evaluation filter must be enabled.
+- ISSUE 4958 : [Feature]: Automate rule SV-259618, The Exchange Block List service provider must be identified.
+- ISSUE 4959 : [Feature]: Automate rule SV-259619, Exchange messages with a malformed From address must be rejected.
+- ISSUE 4960 : [Feature]: Automate rule SV-259620, The Exchange Recipient filter must be enabled.
+- ISSUE 4961 : [Feature]: Automate rule SV-259621, The Exchange tarpitting interval must be set.
+- ISSUE 4962 : [Feature]: Automate rule SV-259622, Exchange internal Receive connectors must not allow anonymous connections.
+- ISSUE 4963 : [Feature]: Automate rule SV-259623, Exchange Simple Mail Transfer Protocol (SMTP) IP Allow List entries must be empty.
+- ISSUE 4964 : [Feature]: Automate rule SV-259624, The Exchange Simple Mail Transfer Protocol (SMTP) IP Allow List Connection filter must be enabled.
+- ISSUE 4965 : [Feature]: Automate rule SV-259625, The Exchange Simple Mail Transfer Protocol (SMTP) Sender filter must be enabled.
+- ISSUE 4966 : [Feature]: Automate rule SV-259626, Exchange must have anti-spam filtering installed.
+- ISSUE 4967 : [Feature]: Automate rule SV-259627, Exchange must have anti-spam filtering enabled.
+- ISSUE 4969 : [Feature]: Automate rule SV-259629, Exchange Sender Identification Framework must be enabled.
+- ISSUE 4970 : [Feature]: Automate rule SV-259630, Exchange must limit the Receive connector timeout.
+- ISSUE 4974 : [Feature]: Automate rule SV-259634, The Exchange local machine policy must require signed scripts.
+- ISSUE 4975 : [Feature]: Automate rule SV-259635, Exchange services must be documented, and unnecessary services must be removed or disabled.
+- ISSUE 4976 : [Feature]: Automate rule SV-259636, The Exchange Edge server must point to a trusted list of DNS servers for external and internal resolution.
+- ISSUE 4977 : [Feature]: Automate rule SV-259637, Exchange software must be installed on a separate partition from the OS.
+- ISSUE 4978 : [Feature]: Automate rule SV-259638, The Exchange SMTP automated banner response must not reveal server details.
+- ISSUE 4979 : [Feature]: Automate rule SV-259639, Exchange internal Send connectors must use an authentication level.
+- ISSUE 4981 : [Feature]: Automate rule SV-259641, Exchange internal Receive connectors must require encryption.
+- ISSUE 4982 : [Feature]: Automate rule SV-259642, Exchange internal Send connectors must require encryption.
+- ISSUE 4942 : [Feature]: Implement informational data gathering for rule SV-259602, Exchange message size restrictions must be controlled on Send connectors.
+- ISSUE 4947 : [Feature]: Implement informational data gathering for rule SV-259607, Exchange Message size restrictions must be controlled on receive connectors.
+- ISSUE 4984 : [Feature]: Implement informational data gathering for rule SV-259644, Exchange must have the most current, approved Cumulative Update (CU) installed.
+- ISSUE 4914 : Create SCAP Benchmark for U_MS_Exchange_2019_Edge_Server_STIG_V2R2
+
+## U_MS_Exchange_2019_Mailbox_Server
+- ISSUE 4985 : [Feature]: Automate rule SV-259645, Exchange must use encryption for RPC client access.
+- ISSUE 4986 : [Feature]: Automate rule SV-259646, Exchange must use encryption for Outlook Web App (OWA) access.
+- ISSUE 4987 : [Feature]: Automate rule SV-259647, Exchange must have forms-based authentication enabled.
+- ISSUE 4988 : [Feature]: Automate rule SV-259648, Exchange must have administrator audit logging enabled.
+- ISSUE 4989 : [Feature]: Automate rule SV-259649, Exchange servers must use approved DOD certificates.
+- ISSUE 4990 : [Feature]: Automate rule SV-259650, Exchange must have authenticated access set to integrated Windows authentication only.
+- ISSUE 4991 : [Feature]: Automate rule SV-259651, Exchange auto-forwarding email to remote domains must be disabled or restricted.
+- ISSUE 4992 : [Feature]: Automate rule SV-259652, Exchange connectivity logging must be enabled.
+- ISSUE 4993 : [Feature]: Automate rule SV-259653, The Exchange email diagnostic log level must be set to the lowest level.
+- ISSUE 4994 : [Feature]: Automate rule SV-259654, Exchange audit record parameters must be set.
+- ISSUE 4995 : [Feature]: Automate rule SV-259655, The RBAC role for audit log management must be defined and restricted.
+- ISSUE 4996 : [Feature]: Automate rule SV-259656, Exchange email subject line logging must be disabled.
+- ISSUE 4997 : [Feature]: Automate rule SV-259657, Exchange message tracking logging must be enabled.
+- ISSUE 4998 : [Feature]: Automate rule SV-259658, Exchange circular logging must be disabled.
+- ISSUE 5004 : [Feature]: Automate rule SV-259664, Exchange local machine policy must require signed scripts.
+- ISSUE 5005 : [Feature]: Automate rule SV-259665, Exchange Send Fatal Errors to Microsoft must be disabled.
+- ISSUE 5006 : [Feature]: Automate rule SV-259666, Exchange must not send customer experience reports to Microsoft.
+- ISSUE 5007 : [Feature]: Automate rule SV-259667, The Exchange Internet Message Access Protocol 4 (IMAP4) service must be disabled.
+- ISSUE 5008 : [Feature]: Automate rule SV-259668, The Exchange Post Office Protocol 3 (POP3) service must be disabled.
+- ISSUE 5010 : [Feature]: Automate rule SV-259670, Exchange internet-facing send connectors must specify a smart host.
+- ISSUE 5011 : [Feature]: Automate rule SV-259671, Exchange mailboxes must be retained until backups are complete.
+- ISSUE 5014 : [Feature]: Automate rule SV-259674, Exchange mailbox stores must mount at startup.
+- ISSUE 5015 : [Feature]: Automate rule SV-259675, Exchange mail quota settings must not restrict receiving mail.
+- ISSUE 5018 : [Feature]: Automate rule SV-259678, The Exchange Receive Connector Maximum Hop Count must be 60.
+- ISSUE 5019 : [Feature]: Automate rule SV-259679, The Exchange send connector connections count must be limited.
+- ISSUE 5021 : [Feature]: Automate rule SV-259682, The Exchange global inbound message size must be controlled.
+- ISSUE 5022 : [Feature]: Automate rule SV-259683, The Exchange global outbound message size must be controlled.
+- ISSUE 5023 : [Feature]: Automate rule SV-259684, The Exchange Outbound Connection Limit per Domain Count must be controlled.
+- ISSUE 5024 : [Feature]: Automate rule SV-259685, The Exchange Outbound Connection Timeout must be 10 minutes or less.
+- ISSUE 5026 : [Feature]: Automate rule SV-259687, Exchange internal receive connectors must not allow anonymous connections.
+- ISSUE 5027 : [Feature]: Automate rule SV-259688, Exchange external/internet-bound automated response messages must be disabled.
+- ISSUE 5028 : [Feature]: Automate rule SV-259689, Exchange must have anti-spam filtering installed.
+- ISSUE 5029 : [Feature]: Automate rule SV-259690, Exchange must have anti-spam filtering enabled.
+- ISSUE 5030 : [Feature]: Automate rule SV-259691, Exchange must have anti-spam filtering configured.
+- ISSUE 5031 : [Feature]: Automate rule SV-259692, Exchange must not send automated replies to remote domains.
+- ISSUE 5032 : [Feature]: Automate rule SV-259693, The Exchange Global Recipient Count Limit must be set.
+- ISSUE 5033 : [Feature]: Automate rule SV-259694, Exchange antimalware agent must be enabled and configured.
+- ISSUE 5034 : [Feature]: Automate rule SV-259695, The Exchange malware scanning agent must be configured for automatic updates.
+- ISSUE 5035 : [Feature]: Automate rule SV-259697, The Exchange receive connector timeout must be limited.
+- ISSUE 5041 : [Feature]: Automate rule SV-259703, Exchange Outlook Anywhere clients must use NTLM authentication to access email.
+- ISSUE 5042 : [Feature]: Automate rule SV-259704, The Exchange email application must not share a partition with another application.
+- ISSUE 5043 : [Feature]: Automate rule SV-259705, Exchange must not send delivery reports to remote domains.
+- ISSUE 5044 : [Feature]: Automate rule SV-259706, Exchange must not send nondelivery reports to remote domains.
+- ISSUE 5045 : [Feature]: Automate rule SV-259707, The Exchange SMTP automated banner response must not reveal server details.
+- ISSUE 5046 : [Feature]: Automate rule SV-259708, Exchange internal send connectors must use an authentication level.
+- ISSUE 5048 : [Feature]: Automate rule SV-259710, The application must protect the confidentiality and integrity of transmitted information.
+- ISSUE 5050 : [Feature]: Automate rule SV-259712, Exchange must be configured in accordance with the security configuration settings based on DOD security configuration or implementation guidance, including STIGs, NSA configuration guides, CTOs, and DTMs.
+- ISSUE 5016 : [Feature]: Implement informational data gathering for rule SV-259676, Exchange mail quota settings must not restrict sending mail.
+- ISSUE 5017 : [Feature]: Implement informational data gathering for rule SV-259677, Exchange Message size restrictions must be controlled on Receive connectors.
+- ISSUE 5020 : [Feature]: Implement informational data gathering for rule SV-259681, Exchange message size restrictions must be controlled on send connectors.
+- ISSUE 5049 : [Feature]: Implement informational data gathering for rule SV-259711, Exchange must have the most current, approved Cumulative Update installed.
+- ISSUE 4915 : Create SCAP Benchamark for U_MS_Exchange_2019_Mailbox_Server_STIG_V2R3
+
+## U_MS_IIS_10-0_Server
+- ISSUE 5052 : Manual Check SV-218802 needs Platform Exception for MS Exchange Installation
+- ISSUE 5053 : Manual Check SV-218803 needs Platform Exception for MS Exchange Installation
+- ISSUE 5146 : Rule SV-218814 Inetpub permission check fails for more restrictive settings and findings for failed settings to users are confusing
+- ISSUE 5136 : SV-218827 should report pass If the version of Windows Server does not natively support HSTS
+
+## U_MS_IIS_10-0_Site
+- ISSUE 5145 : Rule SV-218767 Add Platform Exception to Manual Check - If the server being reviewed is hosting WSUS, this is not applicable.
+- ISSUE 5143 : Rule SV-218770 Add Platform Exception - If the server being reviewed is hosting SharePoint, this is not applicable.
+- ISSUE 5144 : Rule SV-218770 Add Platform Exception - If the server being reviewed is hosting WSUS, this is not applicable.
+- ISSUE 5599 : Update Rule SV-218748 (U_MS_IIS_10-0_Site)
+- ISSUE 5601 : Update Rule SV-218756 (U_MS_IIS_10-0_Site)
+
+## U_MS_Windows_10
+- ISSUE 5690 : Rule SV-220723, Update check on Windows 10 to exclude Adobe.Preflight.p12 and Oracle Wallet Manager files from requirement
+
+## U_MS_Windows_11
+- ISSUE 5689 : Rule SV-253280, Update check on Windows 11 to exclude Adobe.Preflight.p12 and Oracle Wallet Manager files from requirement
+- ISSUE 5603 : Update Rule SV-253255 (U_MS_Windows_11)
+- ISSUE 5835 : Update Rule SV-253296 (U_MS_Windows_11)
+- ISSUE 5837 : Update to DISA STIG benchmark V2R10 for U_MS_Windows_11
+- ISSUE 5836 : Update to DISA STIG manual V2R9 for U_MS_Windows_11
+
+## U_MS_Windows_2012_and_2012_R2_DC
+- ISSUE 5729 : [Feature] Automate rule SV-226072, Domain created Active Directory Group Policy objects must have proper access control permissions.
+- ISSUE 5725 : [Feature] Automate rule SV-226073, Domain created Active Directory Domain Controllers Organizational Unit (OU) objects must have proper access control permissions.
+- ISSUE 5718 : [Feature] Automate rule SV-226074, Domain created Active Directory Organizational Unit (OU) objects must have proper access control permissions.
+- ISSUE 5733 : [Feature] Automate rule SV-226082, Active Directory directory data (outside the root DSE) of a nonpublic directory must be configured to prevent anonymous access.
+- ISSUE 5737 : [Feature] Automate rule SV-226128, Active Directory Group Policy objects must be configured with proper audit settings.
+- ISSUE 5741 : [Feature] Automate rule SV-226129, Active Directory Domain object must be configured with proper audit settings.
+- ISSUE 5745 : [Feature] Automate rule SV-226130, Active Directory Infrastructure object must be configured with proper audit settings.
+- ISSUE 5749 : [Feature] Automate rule SV-226131, Active Directory Domain Controllers Organizational Unit (OU) objects must be configured with proper audit settings.
+- ISSUE 5753 : [Feature] Automate rule SV-226132, Active Directory AdminSDHolder object must be configured with proper audit settings.
+- ISSUE 5757 : [Feature] Automate rule SV-226133, Active Directory RID Manager$ object must be configured with proper audit settings.
+
+## U_MS_Windows_Server_2016
+- ISSUE 5728 : [Feature] Automate rule SV-224972, Domain-created Active Directory Group Policy objects must have proper access control permissions.
+- ISSUE 5724 : [Feature] Automate rule SV-224973, Domain-created Active Directory Domain Controllers Organizational Unit (OU) objects must have proper access control permissions.
+- ISSUE 5721 : [Feature] Automate rule SV-224974, Domain-created Active Directory Organizational Unit (OU) objects must have proper access control permissions.
+- ISSUE 5732 : [Feature] Automate rule SV-224978, Active Directory directory data (outside the root DSE) of a nonpublic directory must be configured to prevent anonymous access.
+- ISSUE 5736 : [Feature] Automate rule SV-224980, Active Directory Group Policy objects must be configured with proper audit settings.
+- ISSUE 5740 : [Feature] Automate rule SV-224981, Active Directory Domain object must be configured with proper audit settings.
+- ISSUE 5744 : [Feature] Automate rule SV-224982, Active Directory Infrastructure object must be configured with proper audit settings.
+- ISSUE 5748 : [Feature] Automate rule SV-224983, Active Directory Domain Controllers Organizational Unit (OU) objects must be configured with proper audit settings.
+- ISSUE 5752 : [Feature] Automate rule SV-224984, Active Directory AdminSDHolder object must be configured with proper audit settings.
+- ISSUE 5756 : [Feature] Automate rule SV-224985, Active Directory RID Manager$ object must be configured with proper audit settings.
+
+## U_MS_Windows_Server_2019
+- ISSUE 5727 : [Feature] Automate rule SV-205741, Windows Server 2019 Active Directory Group Policy objects must have the proper access control permissions.
+- ISSUE 5723 : [Feature] Automate rule SV-205742, Windows Server 2019 Active Directory Domain Controllers Organizational Unit (OU) object must have the proper access control permissions.
+- ISSUE 5720 : [Feature] Automate rule SV-205743, Windows Server 2019 organization created Active Directory Organizational Unit (OU) objects must have proper access control permissions.
+- ISSUE 5735 : [Feature] Automate rule SV-205785, Windows Server 2019 Active Directory Group Policy objects must be configured with proper audit settings.
+- ISSUE 5739 : [Feature] Automate rule SV-205786, Windows Server 2019 Active Directory Domain object must be configured with proper audit settings.
+- ISSUE 5743 : [Feature] Automate rule SV-205787, Windows Server 2019 Active Directory Infrastructure object must be configured with proper audit settings.
+- ISSUE 5747 : [Feature] Automate rule SV-205788, Windows Server 2019 Active Directory Domain Controllers Organizational Unit (OU) object must be configured with proper audit settings.
+- ISSUE 5751 : [Feature] Automate rule SV-205789, Windows Server 2019 Active Directory AdminSDHolder object must be configured with proper audit settings.
+- ISSUE 5755 : [Feature] Automate rule SV-205790, Windows Server 2019 Active Directory RID Manager$ object must be configured with proper audit settings.
+- ISSUE 5731 : [Feature] Automate rule SV-205875, Windows Server 2019 directory data (outside the root DSE) of a nonpublic directory must be configured to prevent anonymous access.
+- ISSUE 5798 : Add platform mapping for SV-205787
+
+## U_MS_Windows_Server_2022
+- ISSUE 5706 : Automate SV-254393 (Server 2022)
+- ISSUE 5707 : Automate SV-254394 (Server 2022)
+- ISSUE 5708 : Automate SV-254395 (Server 2022)
+- ISSUE 5705 : Automate SV-254399 (Server 2022)
+- ISSUE 5703 : Automate SV-254401 (Server 2022)
+- ISSUE 5702 : Automate SV-254402 (Server 2022)
+- ISSUE 5701 : Automate SV-254403 (Server 2022)
+- ISSUE 5700 : Automate SV-254404 (Server 2022)
+- ISSUE 5699 : Automate SV-254405 (Server 2022)
+- ISSUE 5698 : Automate SV-254406 on Server 2022
+- ISSUE 5620 : Update Rule SV-254246 (U_MS_Windows_Server_2022)
+- ISSUE 5622 : Update Rule SV-254261 (U_MS_Windows_Server_2022)
+- ISSUE 5839 : Update Rule SV-254458 (U_MS_Windows_Server_2022)
+- ISSUE 5841 : Update to DISA STIG benchmark V2R10 for U_MS_Windows_Server_2022
+- ISSUE 5840 : Update to DISA STIG manual V2R10 for U_MS_Windows_Server_2022
+
+## U_MS_Windows_Server_2025
+- ISSUE 5885 : [Feature] Add Platform Exception for manual rule SV-278145, Server 2025
+- ISSUE 5854 : [Feature] Automate rule SV-277986, Server 2025
+- ISSUE 5861 : [Feature] Automate rule SV-277998, Server 2025
+- ISSUE 5862 : [Feature] Automate rule SV-277999, Server 2025
+- ISSUE 5863 : [Feature] Automate rule SV-278000, Server 2025
+- ISSUE 5864 : [Feature] Automate rule SV-278001, Server 2025
+- ISSUE 5866 : [Feature] Automate rule SV-278004, Server 2025
+- ISSUE 5867 : [Feature] Automate rule SV-278005, Server 2025
+- ISSUE 5870 : [Feature] Automate rule SV-278008, Server 2025
+- ISSUE 5877 : [Feature] Automate rule SV-278027, Server 2025
+- ISSUE 5878 : [Feature] Automate rule SV-278028, Server 2025
+- ISSUE 5879 : [Feature] Automate rule SV-278030, Server 2025
+- ISSUE 5880 : [Feature] Automate rule SV-278031, Server 2025
+- ISSUE 5883 : [Feature] Automate rule SV-278090, Server 2025
+- ISSUE 5726 : [Feature] Automate rule SV-278140, Windows Server 2025 Active Directory Group Policy objects must have the proper access control permissions.
+- ISSUE 5722 : [Feature] Automate rule SV-278141, Windows Server 2025 Active Directory Domain Controllers Organizational Unit (OU) object must have the proper access control permissions.
+- ISSUE 5719 : [Feature] Automate rule SV-278142, Windows Server 2025 organization created Active Directory Organizational Unit (OU) objects must have proper access control permissions.
+- ISSUE 5730 : [Feature] Automate rule SV-278146, Windows Server 2025 directory data (outside the root DSE) of a nonpublic directory must be configured to prevent anonymous access.
+- ISSUE 3051 : [Feature] Automate rule SV-278147 Windows Server 2025 directory service must be configured to terminate LDAP-based network connections to the directory server after five minutes of inactivity.
+- ISSUE 5734 : [Feature] Automate rule SV-278148, Windows Server 2025 Active Directory Group Policy objects must be configured with proper audit settings.
+- ISSUE 5738 : [Feature] Automate rule SV-278149, Windows Server 2025 Active Directory Domain object must be configured with proper audit settings.
+- ISSUE 5742 : [Feature] Automate rule SV-278150, Windows Server 2025 Active Directory Infrastructure object must be configured with proper audit settings.
+- ISSUE 5746 : [Feature] Automate rule SV-278151, Windows Server 2025 Active Directory Domain Controllers Organizational Unit (OU) object must be configured with proper audit settings.
+- ISSUE 5750 : [Feature] Automate rule SV-278152, Windows Server 2025 Active Directory AdminSDHolder object must be configured with proper audit settings.
+- ISSUE 5754 : [Feature] Automate rule SV-278153, Windows Server 2025 Active Directory RID Manager$ object must be configured with proper audit settings.
+- ISSUE 5886 : [Feature] Automate rule SV-278159, Server 2025
+- ISSUE 5887 : [Feature] Automate rule SV-278162, Server 2025
+- ISSUE 5888 : [Feature] Automate rule SV-278176, Server 2025
+- ISSUE 5850 : [Feature] Automate rule SV-278190, Server 2025
+- ISSUE 5889 : [Feature] Automate rule SV-278207, Server 2025
+- ISSUE 5892 : Add platform mapping for SV-278160
+- ISSUE 5884 : Add platform specification for SV-278144, Server 2025
+- ISSUE 5831 : Add support for Windows Server 2025 STIG V1R3
+- ISSUE 3159 : Automate rule SV-278029 (U_MS_Windows_Server_2025)
+- ISSUE 3160 : Automate rule SV-278032 (U_MS_Windows_Server_2025)
+
+## U_MS_Windows_Server_DNS
+- ISSUE 5654 : Update Rule SV-259367 (U_MS_Windows_Server_DNS)
+- ISSUE 5652 : Update Rule SV-259368 (U_MS_Windows_Server_DNS)
+
+## U_Oracle_Linux_7
+- ISSUE 5713 : Automate rule SV-251700 (Oracle Linux 7)
+
+## U_Oracle_Linux_9
+- ISSUE 5830 : [Feature] Automate rule SV-271689
+- ISSUE 5693 : Automate  SV-271844 (Oracle Linux 9)
+- ISSUE 5896 : Automate rule SV-271451 (Oracle Linux 9)
+- ISSUE 5696 : Automate SV-271480 (Oracle Linux 9)
+- ISSUE 5697 : Automate SV-271785 (Oracle Linux 9)
+
+## U_RHEL_8
+- ISSUE 5663 : Update Rule SV-230352 (U_RHEL_8)
+
+## U_RHEL_9
+- ISSUE 1616 : [Feature] Automate rule SV-257789r1044841
+- ISSUE 1659 : [Feature] Automate rule SV-270174r1044831
+- ISSUE 3562 : Automate Rule SV-258027
+- ISSUE 2037 : Automate Rule SV-258134
+- ISSUE 5670 : Update Rule SV-279936 (U_RHEL_9)
+
+## U_SLES_12
+- ISSUE 5714 : Automate rule SV-251720 (SLES 12)
+- ISSUE 5694 : Automate SV-217172 (SUSE 12)
+
+## U_SLES_15
+- ISSUE 5695 : Automate  SV-234992 (SLES 15)
+- ISSUE 5715 : Automate rule SV-251724 (SLES 15)
+- ISSUE 5677 : Update Rule SV-234812 (U_SLES_15)
+
+## U_SOL_11_SPARC
+- ISSUE 2754 : [Feature]: Automate rule SV-216395, The operating system must display the DoD approved system use notification message or banner before granting access to the system for general system logons.
+- ISSUE 2755 : [Feature]: Automate rule SV-216396, The operating system must display the DoD approved system use notification message or banner for SSH connections.
+
+## U_SOL_11_X86
+- ISSUE 5684 : Update Rule SV-219996 (U_SOL_11_X86)
+
