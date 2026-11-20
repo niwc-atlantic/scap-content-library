@@ -2,7 +2,7 @@ This is the repository of Security Content Automation Protocol (SCAP) benchmarks
 
 Note:  All SCAP 1.4 content in this repository requires a tool capable of running SCAP 1.4 content.  For SCC that requires version 5.15 or later.
 
-  # 2026 Quarter 4 Release (11/17/2026)
+  # 2026 Quarter 4 Release (11/20/2026)
   
   The current content release is based on DISA's Q4 2026 STIG's and SCAP benchmarks, and will be bundled with the upcoming SCC 5.16.  [Release Notes](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/release_notes.txt)
 
@@ -10,7 +10,7 @@ Note:  All SCAP 1.4 content in this repository requires a tool capable of runnin
   
   [Consolidated_Bundle_Q4_2026.zip](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/Consolidated_Bundle_Q4_2026.zip)
   
-  [niwc-content-repository-stats_11-17-2026](https://github.com/niwc-atlantic/scap-content-library/blob/main/benchmark_stats.md)
+  [niwc-content-repository-stats_11-20-2026](https://github.com/niwc-atlantic/scap-content-library/blob/main/benchmark_stats.md)
 
 
   # NIWC Atlantic Developed SCAP 1.4 Content
@@ -95,10 +95,10 @@ Note:  All SCAP 1.4 content in this repository requires a tool capable of runnin
 
 | Date    | Title        |   STIG Version | Benchmark Version |
 | -------- | ----------- | ----------- | -------- |
-| 2026-11-17 | [Apple macOS 13 (Ventura) STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_13_V1R5_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip) | 001.005 | 001.005.8 |
-| 2026-11-17 | [Apple macOS 14 (Sonoma) STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_14_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip) | 002.003 | 002.003.8 |
-| 2026-11-17 | [Apple macOS 15 (Sequoia) STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_15_V1R4_STIG_SCAP_1-4_Benchmark-enhancedV9-signed.zip) | 001.004 | 001.004.9 |
-| 2026-11-17 | [Apple macOS 26 (Tahoe) STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_26_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV6-signed.zip) | 001.004 | 001.004.6 |
+| 2026-11-20 | [Apple macOS 13 (Ventura) STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_13_V1R5_STIG_SCAP_1-4_Benchmark-enhancedV9-signed.zip) | 001.005 | 001.005.9 |
+| 2026-11-20 | [Apple macOS 14 (Sonoma) STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_14_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV9-signed.zip) | 002.003 | 002.003.9 |
+| 2026-11-20 | [Apple macOS 15 (Sequoia) STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_15_V1R4_STIG_SCAP_1-4_Benchmark-enhancedV10-signed.zip) | 001.004 | 001.004.10 |
+| 2026-11-20 | [Apple macOS 26 (Tahoe) STIG SCAP Benchmark](https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_26_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.zip) | 001.004 | 001.004.7 |
 
   # Sunset SCAP 1.3 Content
 

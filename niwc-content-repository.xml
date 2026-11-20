@@ -222,17 +222,17 @@
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_Apple_macOS_13_V1R5_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_13_V1R5_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip</location>
-      <checksum style="SHA512">4d734a67f8f32de1201a6f2c7630077285156501f0c5f7a897a4c047550b7a907e7aabb7fea7bf0b0f6199b64bf6e63b6f0f78e35d8f263522ea03c0ac2d8294</checksum>
+      <content-id>U_Apple_macOS_13_V1R5_STIG_SCAP_1-4_Benchmark-enhancedV9-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_13_V1R5_STIG_SCAP_1-4_Benchmark-enhancedV9-signed.zip</location>
+      <checksum style="SHA512">3090c08955b455269994f43b224cbb120c834d9170e5067889aeaa18450e0311b3561c6daa954d5e3d8c2d18a2b4565582b96659bae324cd97160d9f18e73b58</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_gov.nist.mscp.content_benchmark_Apple_macOS_13_STIG</benchmark-id>
           <title>Apple macOS 13 (Ventura) STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
-          <version>001.005.008</version>
+          <version>001.005.009</version>
           <style>SCAP_1.4</style>
           <status>accepted</status>
-          <status-date>2026-11-17</status-date>
+          <status-date>2026-11-20</status-date>
           <creator>NIST</creator>
           <publisher>NIST+NIWC</publisher>
           <contributor>NIST</contributor>
@@ -241,22 +241,22 @@
       </benchmarks>
       <platforms>
         <platform>
-          <platform-id style="cpe">cpe:2.3:o:apple:macos:13.0:*:*:*:*:*:*:*</platform-id>
+          <platform-id style="cpe">cpe:/o:apple:macos:13.0</platform-id>
         </platform>
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_Apple_macOS_14_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_14_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV8-signed.zip</location>
-      <checksum style="SHA512">9069fcaeb7badc97ee244b5d2484363e219a815879290b30c6814fabfc1d08c674c1948ef082cc1aa754decdcc40c0d87d9fb0c9fac1ad84fa1d11b129e2935f</checksum>
+      <content-id>U_Apple_macOS_14_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV9-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_14_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV9-signed.zip</location>
+      <checksum style="SHA512">9bb2966e959f15863e9a56124cec93ffd1c4c40e4aeae6135300ab676a00a40ebdc52945f7fd7818cd0d6705f9dadce2081f3ec160af8c6c3b281d1d15e0ba11</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_gov.nist.mscp.content_benchmark_Apple_macOS_14_STIG</benchmark-id>
           <title>Apple macOS 14 (Sonoma) STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
-          <version>002.003.008</version>
+          <version>002.003.009</version>
           <style>SCAP_1.4</style>
           <status>accepted</status>
-          <status-date>2026-11-17</status-date>
+          <status-date>2026-11-20</status-date>
           <creator>NIST</creator>
           <publisher>NIST+NIWC</publisher>
           <contributor>NIST</contributor>
@@ -265,22 +265,22 @@
       </benchmarks>
       <platforms>
         <platform>
-          <platform-id style="cpe">cpe:2.3:o:apple:macos:14.0:*:*:*:*:*:*:*</platform-id>
+          <platform-id style="cpe">cpe:/o:apple:macos:14.0</platform-id>
         </platform>
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_Apple_macOS_15_V1R4_STIG_SCAP_1-4_Benchmark-enhancedV9-signed.zip</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_15_V1R4_STIG_SCAP_1-4_Benchmark-enhancedV9-signed.zip</location>
-      <checksum style="SHA512">435e06a3a68015feb20ea0742c9ac770e2c6cb2573e38551f17290834f5f4f21b9b1611eade2a7c35918cc9cbb4620d16c458d647bce8edf5fd36cb5c71fb2b7</checksum>
+      <content-id>U_Apple_macOS_15_V1R4_STIG_SCAP_1-4_Benchmark-enhancedV10-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_15_V1R4_STIG_SCAP_1-4_Benchmark-enhancedV10-signed.zip</location>
+      <checksum style="SHA512">68a47371f68b6a454a2703433f5d63403a2de29fde5aba08524a4e0ec7e117246401ccc9b4e59692e35bbe5047640012bd6f4cbe47e25801a5727be0b2d15a26</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_gov.nist.mscp.content_benchmark_Apple_macOS_15_STIG</benchmark-id>
           <title>Apple macOS 15 (Sequoia) STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
-          <version>001.004.009</version>
+          <version>001.004.010</version>
           <style>SCAP_1.4</style>
           <status>accepted</status>
-          <status-date>2026-11-17</status-date>
+          <status-date>2026-11-20</status-date>
           <creator>NIST</creator>
           <publisher>NIST+NIWC</publisher>
           <contributor>NIST</contributor>
@@ -289,22 +289,22 @@
       </benchmarks>
       <platforms>
         <platform>
-          <platform-id style="cpe">cpe:2.3:o:apple:macos:15.0:*:*:*:*:*:*:*</platform-id>
+          <platform-id style="cpe">cpe:/o:apple:macos:15.0</platform-id>
         </platform>
       </platforms>
     </scap-content>
     <scap-content>
-      <content-id>U_Apple_macOS_26_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV6-signed.zip</content-id>
-      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_26_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV6-signed.zip</location>
-      <checksum style="SHA512">49fb585dc009419874f57d21abc1e4cceef971392f9e1da8e39941b1cde3b918f5613701e6d743a025d40a4f818285c7b5b1fb0ada05dc248e34f5aa2b2ad7ef</checksum>
+      <content-id>U_Apple_macOS_26_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.zip</content-id>
+      <location>https://raw.githubusercontent.com/niwc-atlantic/scap-content-library/refs/heads/main/Current/U_Apple_macOS_26_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV7-signed.zip</location>
+      <checksum style="SHA512">272b3d172191832a52af75310adf99f2fb3a7d1c55cb7a723cac985c3e921a2b5b77e075b43c3d452e782cab6431021ec0eda7c4bb8a853a082b70ac2037da7f</checksum>
       <benchmarks>
         <benchmark>
           <benchmark-id>xccdf_gov.nist.mscp.content_benchmark_Apple_macOS_26_STIG</benchmark-id>
           <title>Apple macOS 26 (Tahoe) STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
-          <version>001.004.006</version>
+          <version>001.004.007</version>
           <style>SCAP_1.4</style>
           <status>accepted</status>
-          <status-date>2026-11-17</status-date>
+          <status-date>2026-11-20</status-date>
           <creator>NIST</creator>
           <publisher>NIST+NIWC</publisher>
           <contributor>NIST</contributor>
@@ -313,7 +313,7 @@
       </benchmarks>
       <platforms>
         <platform>
-          <platform-id style="cpe">cpe:2.3:o:apple:macos:26.0:*:*:*:*:*:*:*</platform-id>
+          <platform-id style="cpe">cpe:/o:apple:macos:26.0</platform-id>
         </platform>
       </platforms>
     </scap-content>

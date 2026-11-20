@@ -1,4 +1,4 @@
-# NIWC Atlantic SCAP 1.4 Content Repository Stats (2026-11-17 11:00:04)
+# NIWC Atlantic SCAP 1.4 Content Repository Stats (2026-11-20 08:00:04)
 
 ## SCAP Benchmarks         : 65
 - DISA + NIWC Benchmark    : 39
@@ -25,10 +25,10 @@ Pecentage Automated : 82.76%
 | 2026-11-17 | U_Apache_Server_2-4_UNIX_Site_V2R6_STIG_SCAP_1-4_Benchmark-enhancedV3 | 16 | 0 | 0 | 6 | 10 | 37.5 |
 | 2026-11-17 | U_Apache_Server_2-4_Windows_Server_V3R3_STIG_SCAP_1-4_Benchmark-enhancedV3 | 49 | 0 | 0 | 23 | 26 | 46.93 |
 | 2026-11-17 | U_Apache_Server_2-4_Windows_Site_V2R2_STIG_SCAP_1-4_Benchmark-enhancedV3 | 16 | 0 | 0 | 5 | 11 | 31.25 |
-| 2026-11-17 | U_Apple_macOS_13_V1R5_STIG_SCAP_1-4_Benchmark-enhancedV8 | 113 | 0 | 102 | 0 | 11 | 90.26 |
-| 2026-11-17 | U_Apple_macOS_14_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV8 | 156 | 0 | 152 | 0 | 4 | 97.43 |
-| 2026-11-17 | U_Apple_macOS_15_V1R4_STIG_SCAP_1-4_Benchmark-enhancedV9 | 160 | 0 | 157 | 0 | 3 | 98.12 |
-| 2026-11-17 | U_Apple_macOS_26_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV6 | 160 | 0 | 157 | 0 | 3 | 98.12 |
+| 2026-11-20 | U_Apple_macOS_13_V1R5_STIG_SCAP_1-4_Benchmark-enhancedV9 | 113 | 0 | 102 | 0 | 11 | 90.26 |
+| 2026-11-20 | U_Apple_macOS_14_V2R3_STIG_SCAP_1-4_Benchmark-enhancedV9 | 156 | 0 | 152 | 0 | 4 | 97.43 |
+| 2026-11-20 | U_Apple_macOS_15_V1R4_STIG_SCAP_1-4_Benchmark-enhancedV10 | 160 | 0 | 157 | 0 | 3 | 98.12 |
+| 2026-11-20 | U_Apple_macOS_26_V1R1_STIG_SCAP_1-4_Benchmark-enhancedV7 | 160 | 0 | 157 | 0 | 3 | 98.12 |
 | 2026-11-17 | U_CAN_Ubuntu_18-04_LTS_V2R12_STIG_SCAP_1-4_Benchmark-enhancedV17 | 176 | 112 | 0 | 17 | 47 | 73.29 |
 | 2026-11-17 | U_CAN_Ubuntu_20-04_LTS_V2R5_STIG_SCAP_1-4_Benchmark-enhancedV19 | 173 | 111 | 0 | 28 | 34 | 80.34 |
 | 2026-11-17 | U_CAN_Ubuntu_22-04_LTS_V2R8_STIG_SCAP_1-4_Benchmark-enhancedV11 | 191 | 150 | 0 | 29 | 12 | 93.71 |
